@@ -166,3 +166,71 @@ Last updated: 2026-07-09T09:30:00Z (deep bundle + runtime decoupling pass).
 
 - The wrapper `addEventListener` patch replaces the listener, so the original listener stack is not directly visible. Storage/setter/method wrappers DO capture the original call stack because `new Error()` is created inside the wrapper after the wrapped method body has already entered the app code.
 - CDP per-action delta can be negative when `takePreciseCoverage` resets between takes; we report `positiveDelta` only.
+
+## RVE Rebuild Milestone 1 (2026-07-09T13:30:00Z)
+
+### Commands run
+
+- `cd apps/rve-rebuild && npm install` — 111 packages installed (no errors).
+- `cd apps/rve-rebuild && npm run build` — Next.js 14.2.5 production build succeeded; route `/` is 7.45 kB.
+- `cd apps/rve-rebuild && PORT=4310 npm run start` — dev server started, ready in 1015 ms, HTTP 200 at http://localhost:4310.
+- `npx playwright test --config=apps/rve-rebuild/playwright.config.mjs` — **11 passed** (rve-rebuild / milestone 1).
+- `node scripts/mark-milestone1-implemented.mjs` — 13 features updated to score 5.
+- `npx playwright test tests/clip-identity-proof.spec.mjs tests/trim-split-proof.spec.mjs tests/effects-inspector-proof.spec.mjs tests/state-schema-proof.spec.mjs tests/copy-readiness-proof.spec.mjs --project=desktop-chromium` — 21/21 pass (no regressions).
+
+### Tests
+
+- All 11 milestone-1 hard tests pass: shell loads, topbar buttons, export dialog, storage bootstrap, playback, persistence reload, single-file import, drag-to-timeline, timeline zoom, inspector tabs, reference-vs-rebuild smoke.
+- No regressions in any of the existing harness tests.
+
+### Implementation summary
+
+- `apps/rve-rebuild/` Next.js app with Next.js 14 + React 18 + TypeScript + Zustand 4 (persist) + Tailwind 3.
+- 4 Zustand stores: editor-store (advanced-timeline-store), media-store (rve-media-library), playback-store (rve-playback), ui-store (rve-ui).
+- 4 auxiliary localStorage keys: idb_migration_v1_done, lastCleanup_thumbnailCache, rve-extended-theme, advanced-timeline-store.
+- 10 React components: AppShell, Topbar, MediaLibrary, PreviewPlayer, Timeline, InspectorPanel, ExportDialog (plus helpers).
+- 6 spec files: 1 milestone-1 spec (11 tests) and 5 from earlier runs.
+
+### What was intentionally NOT built
+
+- Trim / split (F015, F016)
+- Effects / transitions / keyframes / animations (F024, F025, F026)
+- Waveform on uploaded audio (F027)
+- Real MP4 export render
+- Auth-backed project save (F011)
+- Snapping, scrubbing, text overlays
+- Pixel parity with the live reference
+
+## RVE Rebuild Milestone 1 (2026-07-09T13:30:00Z)
+
+### Commands run
+
+- `cd apps/rve-rebuild && npm install` — 111 packages installed.
+- `cd apps/rve-rebuild && npm run build` — Next.js 14.2.5 production build succeeded; route `/` is 7.45 kB.
+- `cd apps/rve-rebuild && PORT=4310 npm run start` — dev server started, ready in 1015 ms, HTTP 200 at http://localhost:4310.
+- `npx playwright test --config=apps/rve-rebuild/playwright.config.mjs` — **11 passed** (rve-rebuild / milestone 1).
+- `node scripts/mark-milestone1-implemented.mjs` — 13 features updated to score 5.
+- `npx playwright test tests/clip-identity-proof.spec.mjs tests/trim-split-proof.spec.mjs tests/effects-inspector-proof.spec.mjs tests/state-schema-proof.spec.mjs tests/copy-readiness-proof.spec.mjs --project=desktop-chromium` — 21/21 pass (no regressions).
+
+### Tests
+
+- All 11 milestone-1 hard tests pass: shell loads, topbar buttons, export dialog, storage bootstrap, playback, persistence reload, single-file import, drag-to-timeline, timeline zoom, inspector tabs, reference-vs-rebuild smoke.
+- No regressions in any of the existing harness tests.
+
+### Implementation summary
+
+- `apps/rve-rebuild/` Next.js app with Next.js 14 + React 18 + TypeScript + Zustand 4 (persist) + Tailwind 3.
+- 4 Zustand stores: editor-store (advanced-timeline-store), media-store (rve-media-library), playback-store (rve-playback), ui-store (rve-ui).
+- 4 auxiliary localStorage keys: idb_migration_v1_done, lastCleanup_thumbnailCache, rve-extended-theme, advanced-timeline-store.
+- 10 React components: AppShell, Topbar, MediaLibrary, PreviewPlayer, Timeline, InspectorPanel, ExportDialog.
+- 1 milestone-1 spec (11 tests) plus 5 from earlier runs (24 tests).
+
+### What was intentionally NOT built
+
+- Trim / split (F015, F016)
+- Effects / transitions / keyframes / animations (F024, F025, F026)
+- Waveform on uploaded audio (F027)
+- Real MP4 export render
+- Auth-backed project save (F011)
+- Snapping, scrubbing, text overlays
+- Pixel parity with the live reference

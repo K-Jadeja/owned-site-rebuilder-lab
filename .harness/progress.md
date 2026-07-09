@@ -124,3 +124,41 @@ This run: CLIP / TRIM / EXPORT / EFFECTS / STATE SCHEMA PROOF.
 - ✅ Phase 8: 36 hard_proof tests, 17 soft probes.
 - ✅ Phase 9: Reports + paper updated.
 - ⏳ Phase 10: Final full pass (commit + push pending).
+
+## RVE Rebuild Milestone 1 (started 2026-07-09T12:30:00Z)
+
+Branch: `rve-rebuild-milestone-1` (created from `deep-bundle-runtime-decoupling`).
+
+### Goals
+
+1. Create `apps/rve-rebuild/` with Next.js + React + TypeScript + Zustand + Tailwind.
+2. Implement extracted state model (project/track/clip).
+3. Visual shell + import + preview + timeline + export dialog + persistence + inspector.
+4. Hard tests against the rebuilt app.
+5. Move F001/F002/F004/F007/F008/F010/F012/F013/F019/F020/F022/F028/F031 to score 5.
+6. Do NOT build trim/split, effects/keyframes, waveform, real MP4 render, or auth save.
+
+### Phases
+
+- ✅ Phase 0: Read state files, created branch.
+- ⏳ Phase 1: Create apps/rve-rebuild skeleton.
+- ⏳ Phase 2: State model.
+- ⏳ Phase 3: Visual shell components.
+- ⏳ Phase 4: Feature behaviors.
+- ⏳ Phase 5: Tests.
+- ⏳ Phase 6: Copy progress update.
+- ⏳ Phase 7: Architecture docs.
+- ⏳ Phase 8: Build + test commands.
+- ⏳ Phase 9: Commit + push.
+- ⏳ Phase 10: 13-question answer.
+
+### Results (2026-07-09T13:30:00Z)
+
+- ✅ Phase 1: apps/rve-rebuild created (Next.js 14 + React 18 + TS + Zustand 4 + Tailwind 3).
+- ✅ Phase 2: state model implemented (editor-store, media-store, playback-store, ui-store). All 4 reference keys written.
+- ✅ Phase 3: visual shell components (AppShell, Topbar, MediaLibrary, PreviewPlayer, Timeline, InspectorPanel, ExportDialog).
+- ✅ Phase 4: feature behaviors wired (F001/F002/F004/F007/F008/F010/F012/F013/F019/F020/F022/F028/F031).
+- ✅ Phase 5: tests/rve-rebuild-milestone1.spec.mjs — 11 hard tests, all pass.
+- ✅ Phase 6: scripts/mark-milestone1-implemented.mjs — 13 features updated to score 5.
+- ✅ Phase 7: docs/{state-model,milestone-1,known-gaps}.md + README.md.
+- ✅ Phase 8: build OK, dev server starts, all 11 milestone tests pass, no regressions in 21 final-reverse tests.

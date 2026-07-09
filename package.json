@@ -47,7 +47,13 @@
     "test:features": "playwright test tests/feature-parity-plan.spec.mjs",
     "test:deep": "playwright test tests/deep-runtime-proof.spec.mjs tests/single-import-proof.spec.mjs tests/bundle-analysis-proof.spec.mjs",
     "test:correlation": "playwright test tests/code-correlation-proof.spec.mjs tests/action-stack-proof.spec.mjs tests/import-timeline-proof.spec.mjs",
-    "test:final-reverse": "playwright test tests/clip-identity-proof.spec.mjs tests/trim-split-proof.spec.mjs tests/export-end-to-end-proof.spec.mjs tests/effects-inspector-proof.spec.mjs tests/state-schema-proof.spec.mjs tests/copy-readiness-proof.spec.mjs"
+    "test:final-reverse": "playwright test tests/clip-identity-proof.spec.mjs tests/trim-split-proof.spec.mjs tests/export-end-to-end-proof.spec.mjs tests/effects-inspector-proof.spec.mjs tests/state-schema-proof.spec.mjs tests/copy-readiness-proof.spec.mjs",
+    "dev:rve": "next dev apps/rve-rebuild -p 4310",
+    "build:rve": "next build apps/rve-rebuild",
+    "test:rve": "playwright test --config=apps/rve-rebuild/playwright.config.mjs",
+    "test:rve:visual": "playwright test --config=apps/rve-rebuild/playwright.config.mjs -g \"shell loads\"",
+    "rve:m1": "npm run build:rve && npm run test:rve",
+    "mark:m1": "node scripts/mark-milestone1-implemented.mjs"
   },
   "engines": {
     "node": ">=18"

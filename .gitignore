@@ -3,6 +3,10 @@ node_modules/
 test-results/
 playwright-report/
 playwright/.cache/
+# RVE rebuild build artifacts
+apps/rve-rebuild/.next/
+apps/rve-rebuild/test-results/
+apps/rve-rebuild/playwright-report/
 # FreeCut reference clone (re-clone with: git clone --depth 1 https://github.com/walterlow/freecut.git .research/freecut)
 .research/freecut/
 # Session log is local-only

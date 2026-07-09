@@ -189,3 +189,24 @@ Generated: 2026-07-09T09:30:00Z (deep bundle + runtime decoupling pass)
 ## Verification status
 
 See `.harness/verification.md` for the latest run results.
+---
+
+## Milestone 1 (in progress 2026-07-09T13:30:00Z)
+
+Branch: `rve-rebuild-milestone-1`. App: `apps/rve-rebuild/`. Stack: Next.js 14 + React 18 + TS + Zustand 4 (persist) + Tailwind 3.
+
+11 / 11 milestone-1 hard tests pass. 13 features moved from hard_proof / code_correlated → score 5 (implemented_in_rebuild).
+
+What is built:
+- App shell, topbar, preview, media library, timeline, inspector, export dialog, persistence, single-file import, drag-to-timeline, Space playback, zoom in/out/reset.
+
+What is intentionally stubbed or excluded:
+- Trim / split, effects / keyframes, waveform on audio, real MP4 export render, auth save, snapping, scrubbing, text overlays, pixel parity.
+
+How to run:
+```
+cd apps/rve-rebuild && npm install
+PORT=4310 npm run start  # http://localhost:4310
+npm run test:rve
+```
+

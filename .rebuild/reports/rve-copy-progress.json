@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-07-09T12:18:08.096Z",
+  "generatedAt": "2026-07-09T18:18:46.131Z",
   "rows": [
     {
       "id": "F001",
       "title": "F001",
-      "score": 3,
-      "proofLevel": "hard_proof",
+      "score": 5,
+      "proofLevel": "implemented_in_rebuild",
       "canBuildNow": true,
       "risk": "low",
-      "nextAction": "correlate to bundle code"
+      "nextAction": "visual parity in milestone 2"
     },
     {
       "id": "F002",
       "title": "F002",
-      "score": 1,
-      "proofLevel": "surface_observed",
-      "canBuildNow": false,
-      "risk": "medium",
-      "nextAction": "harden with stack trace or behavior assertion"
+      "score": 5,
+      "proofLevel": "implemented_in_rebuild",
+      "canBuildNow": true,
+      "risk": "low",
+      "nextAction": "visual parity in milestone 2"
     },
     {
       "id": "F003",
@@ -31,11 +31,11 @@
     {
       "id": "F004",
       "title": "F004",
-      "score": 3,
-      "proofLevel": "hard_proof",
+      "score": 5,
+      "proofLevel": "implemented_in_rebuild",
       "canBuildNow": true,
       "risk": "low",
-      "nextAction": "correlate to bundle code"
+      "nextAction": "visual parity in milestone 2"
     },
     {
       "id": "F005",
@@ -58,20 +58,20 @@
     {
       "id": "F007",
       "title": "F007",
-      "score": 4,
-      "proofLevel": "code_correlated",
+      "score": 5,
+      "proofLevel": "implemented_in_rebuild",
       "canBuildNow": true,
       "risk": "low",
-      "nextAction": "implement in rebuild"
+      "nextAction": "visual parity in milestone 2"
     },
     {
       "id": "F008",
       "title": "F008",
-      "score": 3,
-      "proofLevel": "hard_proof",
+      "score": 5,
+      "proofLevel": "implemented_in_rebuild",
       "canBuildNow": true,
       "risk": "low",
-      "nextAction": "correlate to bundle code"
+      "nextAction": "visual parity in milestone 2"
     },
     {
       "id": "F009",
@@ -85,11 +85,11 @@
     {
       "id": "F010",
       "title": "F010",
-      "score": 3,
-      "proofLevel": "hard_proof",
+      "score": 5,
+      "proofLevel": "implemented_in_rebuild",
       "canBuildNow": true,
       "risk": "low",
-      "nextAction": "correlate to bundle code"
+      "nextAction": "visual parity in milestone 2"
     },
     {
       "id": "F011",
@@ -103,20 +103,20 @@
     {
       "id": "F012",
       "title": "F012",
-      "score": 1,
-      "proofLevel": "surface_observed",
-      "canBuildNow": false,
-      "risk": "medium",
-      "nextAction": "harden with stack trace or behavior assertion"
+      "score": 5,
+      "proofLevel": "implemented_in_rebuild",
+      "canBuildNow": true,
+      "risk": "low",
+      "nextAction": "visual parity in milestone 2"
     },
     {
       "id": "F013",
       "title": "F013",
-      "score": 3,
-      "proofLevel": "hard_proof",
+      "score": 5,
+      "proofLevel": "implemented_in_rebuild",
       "canBuildNow": true,
       "risk": "low",
-      "nextAction": "correlate to bundle code"
+      "nextAction": "visual parity in milestone 2"
     },
     {
       "id": "F014",
@@ -166,20 +166,20 @@
     {
       "id": "F019",
       "title": "F019",
-      "score": 3,
-      "proofLevel": "hard_proof",
+      "score": 5,
+      "proofLevel": "implemented_in_rebuild",
       "canBuildNow": true,
       "risk": "low",
-      "nextAction": "correlate to bundle code"
+      "nextAction": "visual parity in milestone 2"
     },
     {
       "id": "F020",
       "title": "F020",
-      "score": 4,
-      "proofLevel": "code_correlated",
+      "score": 5,
+      "proofLevel": "implemented_in_rebuild",
       "canBuildNow": true,
       "risk": "low",
-      "nextAction": "implement in rebuild"
+      "nextAction": "visual parity in milestone 2"
     },
     {
       "id": "F021",
@@ -193,11 +193,11 @@
     {
       "id": "F022",
       "title": "F022",
-      "score": 3,
-      "proofLevel": "hard_proof",
+      "score": 5,
+      "proofLevel": "implemented_in_rebuild",
       "canBuildNow": true,
       "risk": "low",
-      "nextAction": "correlate to bundle code"
+      "nextAction": "visual parity in milestone 2"
     },
     {
       "id": "F023",
@@ -247,11 +247,11 @@
     {
       "id": "F028",
       "title": "F028",
-      "score": 3,
-      "proofLevel": "hard_proof",
+      "score": 5,
+      "proofLevel": "implemented_in_rebuild",
       "canBuildNow": true,
       "risk": "low",
-      "nextAction": "correlate to bundle code"
+      "nextAction": "visual parity in milestone 2"
     },
     {
       "id": "F029",
@@ -274,11 +274,11 @@
     {
       "id": "F031",
       "title": "F031",
-      "score": 4,
-      "proofLevel": "code_correlated",
+      "score": 5,
+      "proofLevel": "implemented_in_rebuild",
       "canBuildNow": true,
       "risk": "low",
-      "nextAction": "implement in rebuild"
+      "nextAction": "visual parity in milestone 2"
     },
     {
       "id": "F032",
@@ -309,11 +309,26 @@
     }
   ],
   "totals": {
-    "totalScore": 68,
+    "totalScore": 95,
     "maxScore": 238,
-    "researchProgress": 32.4,
-    "implementationProgress": 0,
+    "researchProgress": 38.2,
+    "implementationProgress": 38.2,
     "parityProgress": 0,
-    "totalCopyProgress": 28.6
-  }
+    "totalCopyProgress": 39.9
+  },
+  "milestone1Implemented": [
+    "F001",
+    "F002",
+    "F004",
+    "F007",
+    "F008",
+    "F010",
+    "F012",
+    "F013",
+    "F019",
+    "F020",
+    "F022",
+    "F028",
+    "F031"
+  ]
 }

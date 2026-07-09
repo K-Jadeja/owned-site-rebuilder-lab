@@ -4,10 +4,10 @@ Generated: 2026-07-09T12:18:08.099Z
 
 ## Overall copy progress
 
-- Research progress: **32.4%** (features at hard_proof or higher)
-- Implementation progress: **0%** (no rebuild yet)
-- Parity progress: **0%** (no rebuilt app to compare)
-- Total copy progress: **28.6%**
+- Research progress: **38.2%** (features at hard_proof or higher)
+- Implementation progress: **38.2%** (13 features implemented in rebuild)
+- Parity progress: **0%** (no visual / feature parity tested against reference)
+- Total copy progress: **39.9%**
 
 ## Copy progress scale
 
