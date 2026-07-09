@@ -1,44 +1,350 @@
 {
   "label": "my-library",
   "err": null,
-  "jsEntries": 4,
-  "jsUsedBytes": 0,
-  "jsTotalBytes": 0,
-  "cssEntries": 2,
-  "cssUsedBytes": 116702,
-  "cssTotalBytes": 128819,
-  "js": [
+  "delta": [
     {
-      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/255-4ecccced1aaa83b0.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 0,
-      "totalBytes": 0
+      "url": "",
+      "usedBytes": 99542,
+      "totalUsedBytes": 99542,
+      "fnCount": 105,
+      "sampleRanges": [
+        {
+          "fnName": "parseAttributeSelector",
+          "startOffset": 51302,
+          "endOffset": 56495,
+          "count": 1
+        },
+        {
+          "fnName": "parseAttributeSelector",
+          "startOffset": 56296,
+          "endOffset": 56316,
+          "count": 0
+        },
+        {
+          "fnName": "parseAttributeSelector",
+          "startOffset": 56336,
+          "endOffset": 56364,
+          "count": 0
+        },
+        {
+          "fnName": "parseAttributeSelector",
+          "startOffset": 56370,
+          "endOffset": 56476,
+          "count": 0
+        },
+        {
+          "fnName": "next",
+          "startOffset": 51432,
+          "endOffset": 51456,
+          "count": 83
+        },
+        {
+          "fnName": "next",
+          "startOffset": 51451,
+          "endOffset": 51456,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "url": "",
+      "usedBytes": 15606,
+      "totalUsedBytes": 15606,
+      "fnCount": 16,
+      "sampleRanges": [
+        {
+          "fnName": "isRegExp",
+          "startOffset": 856,
+          "endOffset": 1027,
+          "count": 8
+        },
+        {
+          "fnName": "isRegExp",
+          "startOffset": 988,
+          "endOffset": 1025,
+          "count": 0
+        },
+        {
+          "fnName": "isDate",
+          "startOffset": 1028,
+          "endOffset": 1193,
+          "count": 8
+        },
+        {
+          "fnName": "isDate",
+          "startOffset": 1154,
+          "endOffset": 1191,
+          "count": 0
+        },
+        {
+          "fnName": "isURL",
+          "startOffset": 1194,
+          "endOffset": 1356,
+          "count": 8
+        },
+        {
+          "fnName": "isURL",
+          "startOffset": 1317,
+          "endOffset": 1354,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "url": "",
+      "usedBytes": 1899,
+      "totalUsedBytes": 1899,
+      "fnCount": 2,
+      "sampleRanges": [
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 815,
+          "count": 1
+        },
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 815,
+          "count": 1
+        },
+        {
+          "fnName": null,
+          "startOffset": 271,
+          "endOffset": 540,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "url": "",
+      "usedBytes": 324,
+      "totalUsedBytes": 324,
+      "fnCount": 2,
+      "sampleRanges": [
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 162,
+          "count": 5
+        },
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 162,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "url": "",
+      "usedBytes": 304,
+      "totalUsedBytes": 304,
+      "fnCount": 2,
+      "sampleRanges": [
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 152,
+          "count": 8
+        },
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 152,
+          "count": 8
+        }
+      ]
+    },
+    {
+      "url": "",
+      "usedBytes": 300,
+      "totalUsedBytes": 300,
+      "fnCount": 2,
+      "sampleRanges": [
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 150,
+          "count": 7
+        },
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 150,
+          "count": 7
+        }
+      ]
+    },
+    {
+      "url": "",
+      "usedBytes": 180,
+      "totalUsedBytes": 180,
+      "fnCount": 3,
+      "sampleRanges": [
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 75,
+          "count": 6
+        },
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 75,
+          "count": 6
+        },
+        {
+          "fnName": null,
+          "startOffset": 44,
+          "endOffset": 74,
+          "count": 6
+        }
+      ]
     },
     {
       "url": "https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 0,
-      "totalBytes": 0
+      "usedBytes": 120,
+      "totalUsedBytes": 31831,
+      "fnCount": 19,
+      "sampleRanges": [
+        {
+          "fnName": "c",
+          "startOffset": 573,
+          "endOffset": 732,
+          "count": 100
+        },
+        {
+          "fnName": "c",
+          "startOffset": 629,
+          "endOffset": 640,
+          "count": 8384
+        },
+        {
+          "fnName": "c",
+          "startOffset": 640,
+          "endOffset": 708,
+          "count": 0
+        },
+        {
+          "fnName": "c",
+          "startOffset": 726,
+          "endOffset": 731,
+          "count": 0
+        },
+        {
+          "fnName": "eW",
+          "startOffset": 8277,
+          "endOffset": 8513,
+          "count": 150
+        },
+        {
+          "fnName": "eW",
+          "startOffset": 8309,
+          "endOffset": 8318,
+          "count": 100
+        }
+      ]
     },
     {
-      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 0,
-      "totalBytes": 0
+      "url": "",
+      "usedBytes": 120,
+      "totalUsedBytes": 120,
+      "fnCount": 2,
+      "sampleRanges": [
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 61,
+          "count": 37
+        },
+        {
+          "fnName": null,
+          "startOffset": 1,
+          "endOffset": 60,
+          "count": 37
+        }
+      ]
     },
     {
-      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 0,
-      "totalBytes": 0
-    }
-  ],
-  "css": [
-    {
-      "url": "https://demo.reactvideoeditor.com/_next/static/css/7496db7969e5bcd2.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 4251,
-      "totalBytes": 8460
+      "url": "",
+      "usedBytes": 108,
+      "totalUsedBytes": 108,
+      "fnCount": 2,
+      "sampleRanges": [
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 54,
+          "count": 1
+        },
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 54,
+          "count": 1
+        }
+      ]
     },
     {
-      "url": "https://demo.reactvideoeditor.com/_next/static/css/8fe5e52289a2a44c.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 112451,
-      "totalBytes": 120359
+      "url": "",
+      "usedBytes": 100,
+      "totalUsedBytes": 100,
+      "fnCount": 2,
+      "sampleRanges": [
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 50,
+          "count": 7
+        },
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 50,
+          "count": 7
+        }
+      ]
+    },
+    {
+      "url": "",
+      "usedBytes": 86,
+      "totalUsedBytes": 86,
+      "fnCount": 2,
+      "sampleRanges": [
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 43,
+          "count": 1
+        },
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 43,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "url": "",
+      "usedBytes": 32,
+      "totalUsedBytes": 32,
+      "fnCount": 2,
+      "sampleRanges": [
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 16,
+          "count": 1
+        },
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 16,
+          "count": 1
+        }
+      ]
     }
   ]
 }

@@ -94,3 +94,31 @@ Last updated: 2026-07-09T09:30:00Z (deep bundle + runtime decoupling pass).
 - ❌ Pixel-parity for the few features where the probe was
   inconclusive (F013 clip drag, F016 trim/split).
 - ❌ feature-perfect parity without a rebuilt app to compare.
+---
+
+## Action → Stack → Bundle → Feature Correlation Pass (2026-07-09T10:25:00Z)
+
+### Commands run
+
+- `npm run probe:stacks` — 6913 events captured with stack traces across 14 actions.
+- `npm run map:stacks` — 150 stack frames mapped into target JS bundles.
+- `npm run coverage:debug` — confirmed Playwright coverage returns 0 bytes; CDP `Profiler.preciseCoverage` works (9.16 MB used bytes).
+- `npm run coverage:cdp` — replaced action coverage with CDP preciseCoverage per action.
+- `npm run correlate:features` — upgraded F007, F020, F031 to `code_correlated`.
+- `npm run react:regions` — 7 regions mapped with component names + handler props.
+- `npm run probe:import-timeline` — 5 strategies tried; first mutation at 03-strategy-drag (PROVEN).
+- `npm run audit:proof` — 36 hard_proof, 17 soft_probe.
+
+### Tests
+
+- `npx playwright test tests/code-correlation-proof.spec.mjs tests/action-stack-proof.spec.mjs tests/import-timeline-proof.spec.mjs --project=desktop-chromium` — **20 passed**.
+- `npx playwright test --project=desktop-chromium` — **52 passed**, 1 flaky (single-import occasionally failed when test ordering interfered).
+
+### Failures
+
+- Single-import test is sensitive to previous test state in the same worker. Hardened with broader mutation checks (storage, bodyText, videoCount, imgCount, interactiveCount).
+
+### Known gaps
+
+- The wrapper `addEventListener` patch replaces the listener, so the original listener stack is not directly visible. Storage/setter/method wrappers DO capture the original call stack because `new Error()` is created inside the wrapper after the wrapped method body has already entered the app code.
+- CDP per-action delta can be negative when `takePreciseCoverage` resets between takes; we report `positiveDelta` only.

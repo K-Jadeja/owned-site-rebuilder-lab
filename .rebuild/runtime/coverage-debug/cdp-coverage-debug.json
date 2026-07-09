@@ -1,0 +1,33 @@
+{
+  "tried": [
+    "Profiler.startPreciseCoverage with detailed+callCount"
+  ],
+  "result": {
+    "entries": 35,
+    "totalBytes": 9165640,
+    "usedBytes": 9165640,
+    "sample": [
+      {
+        "url": "https://demo.reactvideoeditor.com/_next/static/chunks/webpack-08d55afbbfac36e8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+        "totalFns": 37
+      },
+      {
+        "url": "https://demo.reactvideoeditor.com/_next/static/chunks/app/page-6ba9b2f710dee95c.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+        "totalFns": 11
+      },
+      {
+        "url": "https://demo.reactvideoeditor.com/_next/static/chunks/839b68eb-f64514b466814bbd.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+        "totalFns": 82
+      },
+      {
+        "url": "https://demo.reactvideoeditor.com/_next/static/chunks/main-app-f9b5d20365cb8be2.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+        "totalFns": 6
+      },
+      {
+        "url": "https://demo.reactvideoeditor.com/_next/static/chunks/55eb4b32-87960e808445d7a8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+        "totalFns": 531
+      }
+    ]
+  },
+  "error": null
+}

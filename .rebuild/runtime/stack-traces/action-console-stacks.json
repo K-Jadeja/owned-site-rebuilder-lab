@@ -1,0 +1,668 @@
+[
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[useProjectStateFromUrl] No 'projectId' parameter found, using fallback tracks"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:125898",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:127263",
+        "    at o1 (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:88951)",
+        "    at uE (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104843)",
+        "    at ux (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104727)",
+        "    at uE (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104823)",
+        "    at ux (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104727)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "boot"
+    },
+    "t": 1783591914843
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Generating new sprite for key: video-thumbnail-ob4wt1-1-40, interval: 1s, height: 40px"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867280",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "boot"
+    },
+    "t": 1783591915615
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1rfe6ip-1-40, interval: 1s, height: 40px"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867280",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "boot"
+    },
+    "t": 1783591915617
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1udzx29-1-40, interval: 1s, height: 40px"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867280",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "boot"
+    },
+    "t": 1783591915657
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1gqds2q-1-40, interval: 1s, height: 40px"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867280",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "boot"
+    },
+    "t": 1783591915659
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Generating new sprite for key: video-thumbnail-cr1ex8-1-40, interval: 1s, height: 40px"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867280",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "boot"
+    },
+    "t": 1783591915660
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] firstTimestampSec: 0"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at fM (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:865650)",
+        "    at async https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867532",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "boot"
+    },
+    "t": 1783591917276
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Keyframe analysis - Video Duration: 9.08s, Keyframes: (count: 3, interval: 3.040s, rate: 0.33 keyframes/sec), intervalSec: 1s"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at fI (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:863910)",
+        "    at async fM (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:865710)",
+        "    at async https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867532",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "boot"
+    },
+    "t": 1783591917311
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Keyframe rate is much higher than the interval we want to use, falling back to interval-based sampling"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at fI (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:864166)",
+        "    at async fM (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:865710)",
+        "    at async https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867532",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "boot"
+    },
+    "t": 1783591917312
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] firstTimestampSec: 0"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at fM (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:865650)",
+        "    at async https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867532",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "boot"
+    },
+    "t": 1783591918441
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Keyframe analysis - Video Duration: 14.44s, Keyframes: (count: 6, interval: 2.432s, rate: 0.41 keyframes/sec), intervalSec: 1s"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at fI (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:863910)",
+        "    at async fM (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:865710)",
+        "    at async https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867532",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "boot"
+    },
+    "t": 1783591918446
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Keyframe rate is much higher than the interval we want to use, falling back to interval-based sampling"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at fI (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:864166)",
+        "    at async fM (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:865710)",
+        "    at async https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867532",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "boot"
+    },
+    "t": 1783591918446
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] firstTimestampSec: 0"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at fM (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:865650)",
+        "    at async https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867532",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "dark-toggle"
+    },
+    "t": 1783591920818
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Keyframe analysis - Video Duration: 15.02s, Keyframes: (count: 5, interval: 3.003s, rate: 0.33 keyframes/sec), intervalSec: 1s"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at fI (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:863910)",
+        "    at async fM (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:865710)",
+        "    at async https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867532",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "dark-toggle"
+    },
+    "t": 1783591920851
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Keyframe rate is much higher than the interval we want to use, falling back to interval-based sampling"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at fI (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:864166)",
+        "    at async fM (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:865710)",
+        "    at async https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867532",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "dark-toggle"
+    },
+    "t": 1783591920852
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Successfully cached sprite for key: video-thumbnail-1rfe6ip-1-40 firstTimestampSec: 0 dimensions: 284x120 size: 0.01MB tileHeight: 40px totalTiles: 10 interval: 1s"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867668",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "dark-toggle"
+    },
+    "t": 1783591923490
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Completed sprite generation for key: video-thumbnail-1rfe6ip-1-40, tiles: 10, duration: 7874ms"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868096",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "dark-toggle"
+    },
+    "t": 1783591923491
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[onSave] Editor state saved:",
+        "[object Object]"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at onSave (https://demo.reactvideoeditor.com/_next/static/chunks/app/page-6ba9b2f710dee95c.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:1195)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:965596",
+        "    at Object.onSave [as current] (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:625476)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:518532"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "export-dialog"
+    },
+    "t": 1783591924845
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] firstTimestampSec: 0"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at fM (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:865650)",
+        "    at async https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867532",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "export-dialog"
+    },
+    "t": 1783591926214
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Keyframe analysis - Video Duration: 40.96s, Keyframes: (count: 14, interval: 3.040s, rate: 0.33 keyframes/sec), intervalSec: 1s"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at fI (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:863910)",
+        "    at async fM (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:865710)",
+        "    at async https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867532",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "export-dialog"
+    },
+    "t": 1783591926353
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Keyframe rate is much higher than the interval we want to use, falling back to interval-based sampling"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at fI (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:864166)",
+        "    at async fM (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:865710)",
+        "    at async https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867532",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "export-dialog"
+    },
+    "t": 1783591926354
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Successfully cached sprite for key: video-thumbnail-1udzx29-1-40 firstTimestampSec: 0 dimensions: 284x160 size: 0.01MB tileHeight: 40px totalTiles: 15 interval: 1s"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867668",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "export-dialog"
+    },
+    "t": 1783591926921
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Completed sprite generation for key: video-thumbnail-1udzx29-1-40, tiles: 15, duration: 11264ms"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868096",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "export-dialog"
+    },
+    "t": 1783591926921
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] firstTimestampSec: 0"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at fM (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:865650)",
+        "    at async https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867532",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "export-dialog"
+    },
+    "t": 1783591927116
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Keyframe analysis - Video Duration: 33.90s, Keyframes: (count: 14, interval: 2.538s, rate: 0.39 keyframes/sec), intervalSec: 1s"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at fI (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:863910)",
+        "    at async fM (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:865710)",
+        "    at async https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867532",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "export-dialog"
+    },
+    "t": 1783591927202
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Keyframe rate is much higher than the interval we want to use, falling back to interval-based sampling"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at fI (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:864166)",
+        "    at async fM (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:865710)",
+        "    at async https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867532",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "export-dialog"
+    },
+    "t": 1783591927204
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "Theme changed to:",
+        "light"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at onThemeChange (https://demo.reactvideoeditor.com/_next/static/chunks/app/page-6ba9b2f710dee95c.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:870)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:808436",
+        "    at onClick (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:808442)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:84813",
+        "    at i8 (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:135363)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:141449",
+        "    at nz (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:19173)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "playback-space"
+    },
+    "t": 1783591932479
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Successfully cached sprite for key: video-thumbnail-1gqds2q-1-40 firstTimestampSec: 0 dimensions: 284x160 size: 0.01MB tileHeight: 40px totalTiles: 16 interval: 1s"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867668",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "zoom-in"
+    },
+    "t": 1783591943847
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Completed sprite generation for key: video-thumbnail-1gqds2q-1-40, tiles: 16, duration: 28189ms"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868096",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "zoom-in"
+    },
+    "t": 1783591943847
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Successfully cached sprite for key: video-thumbnail-ob4wt1-1-40 firstTimestampSec: 0 dimensions: 426x240 size: 0.02MB tileHeight: 40px totalTiles: 34 interval: 1s"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867668",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "single-file-import"
+    },
+    "t": 1783591952415
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Completed sprite generation for key: video-thumbnail-ob4wt1-1-40, tiles: 34, duration: 36802ms"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868096",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "single-file-import"
+    },
+    "t": 1783591952416
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Successfully cached sprite for key: video-thumbnail-cr1ex8-1-40 firstTimestampSec: 0 dimensions: 532x240 size: 0.03MB tileHeight: 40px totalTiles: 41 interval: 1s"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867668",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "try-add-imported-media-to-timeline"
+    },
+    "t": 1783591959122
+  },
+  {
+    "kind": "console",
+    "data": {
+      "level": "log",
+      "args": [
+        "[ThumbnailCache] Completed sprite generation for key: video-thumbnail-cr1ex8-1-40, tiles: 41, duration: 43463ms"
+      ],
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.console.<computed> [as log] (<anonymous>:231:54)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868096",
+        "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "try-add-imported-media-to-timeline"
+    },
+    "t": 1783591959123
+  }
+]

@@ -1,80 +1,69 @@
 # Method
 
-The work proceeds in five stages:
+The work proceeds in six stages:
 
 ## Stage 1 — Surface capture
 
 `scripts/capture-site.mjs` boots Playwright Chromium across 3 viewports
-(desktop 1440×900, laptop 1280×800, mobile 390×844) and records:
-
-- DOM semantic tree
-- Computed styles + CSS variables
-- Sanitized network requests
-- Storage names (localStorage, sessionStorage, IndexedDB)
-- Bundle URLs (CSS + JS + workers + WASM)
-- Console messages
-- Screenshots (per viewport)
-
-This is the foundation layer. Every later stage builds on it.
+(desktop 1440×900, laptop 1280×800, mobile 390×844) and records DOM,
+styles, network, storage names, bundle URLs, console, and screenshots.
 
 ## Stage 2 — Bundle fetch + index
 
-`scripts/fetch-public-bundles.mjs` downloads the JS/CSS bundles the
-browser already received. Each bundle is SHA-256 fingerprinted and
-recorded in `manifest.json`.
-
-`scripts/scan-target-artifacts.mjs` then runs a secrets scan + license
-provenance pass. On pass, audited bundles are copied to
-`.rebuild/target-source/bundles/` for commit eligibility.
-
-`scripts/deep-bundle-analysis.mjs` parses each bundle with `acorn`,
-extracts string literals, identifiers, object keys, embedded URLs,
-and feature-keyword hits. Output: `bundle-symbol-index.json`,
-`library-fingerprint.json`, `feature-code-clues.json`, etc.
+`scripts/fetch-public-bundles.mjs` downloads the public JS/CSS
+bundles. `scripts/scan-target-artifacts.mjs` runs a secrets scan +
+license provenance pass and promotes audited bundles to
+`.rebuild/target-source/bundles/`. `scripts/deep-bundle-analysis.mjs`
+parses each bundle with `acorn` and extracts strings, identifiers,
+URLs, and feature-keyword hits.
 
 ## Stage 3 — Runtime instrumentation
 
-`scripts/runtime-instrumentation.mjs` uses `page.addInitScript` to
-patch `fetch`, `XMLHttpRequest`, `localStorage`, `sessionStorage`,
-`history.pushState/replaceState`, `indexedDB.open/deleteDatabase`,
-and a long list of DOM events. It then drives 10 safe actions and
-captures before/after snapshots, storage deltas, network deltas,
-event traces, and console messages.
+`scripts/runtime-instrumentation.mjs` patches `fetch`, `XHR`,
+`localStorage`, `sessionStorage`, `history`, `IndexedDB`, and DOM
+events. It captures storage mutations, fetch logs, console messages,
+DOM mutation counts, and event traces.
 
-`scripts/action-coverage-map.mjs` runs the same 10 actions with
-Playwright JS + CSS coverage enabled and produces a per-action top-
-bundle table.
+## Stage 4 — Stack-trace instrumentation
 
-`scripts/react-component-probe.mjs` extracts React component names
-from the production build via `__reactFiber$...` element properties.
+`scripts/action-stack-trace-probe.mjs` installs `page.addInitScript`
+wrappers that capture the call stack at every event handler
+invocation, storage mutation, `URL.createObjectURL`, media play/
+pause, canvas draw, and console call.
 
-## Stage 4 — Feature probes
+`scripts/map-stack-frames-to-bundles.mjs` resolves every captured
+stack frame to a local bundle file under `.rebuild/target-source/
+bundles/`, finds a snippet near the line:col, and extracts nearby
+keywords.
 
-`scripts/deep-probe.mjs` runs 10 feature-level probes (import, drag/
-drop, clip selection, clip move, trim/split, zoom, playback,
-undo/redo, export, persistence-after-reload) with before/after
-screenshots and JSON evidence.
+`scripts/coverage-debug.mjs` + `scripts/action-coverage-cdp.mjs`
+attempt Playwright `page.coverage` and fall back to CDP
+`Profiler.startPreciseCoverage` with `detailed: true, callCount:
+true`. In this environment Playwright coverage returns 0 bytes but
+CDP coverage returns 9.16 MB used bytes across 35 entries.
 
-`scripts/single-file-import-probe.mjs` uploads a SINGLE fixture
-(sample.mp4) into the app's single-file input, the previous-run
-bug being fixed.
+## Stage 5 — Feature probes
 
-`scripts/selector-miner.mjs` mines candidate clip/track/playhead
-selectors from the live DOM.
+`scripts/deep-probe.mjs` runs 10 feature-level probes (import, drag,
+clip selection, etc.) with before/after screenshots. `scripts/
+single-file-import-probe.mjs` uploads a single fixture. `scripts/
+import-timeline-hardening.mjs` tries 5 strategies to add the imported
+media to the timeline. `scripts/react-region-map.mjs` extracts
+React component names + handler props per region.
 
-`scripts/decode-state-stores.mjs` parses localStorage JSON values
-and classifies them (Zustand persist, scalar, etc.).
+## Stage 6 — Correlation engine + hard tests
 
-## Stage 5 — Hard tests
+`scripts/correlate-features-to-code.mjs` scores every feature on
+runtime / stack / bundle-keyword / coverage / test evidence axes and
+upgrades features to `code_correlated` only when all four criteria
+agree.
 
-`tests/feature-parity-plan.spec.mjs` is the surface-level spec.
+`tests/code-correlation-proof.spec.mjs`, `tests/action-stack-proof.spec.mjs`,
+`tests/import-timeline-proof.spec.mjs` are the new hard-proof specs.
 
-`tests/deep-runtime-proof.spec.mjs`, `tests/single-import-proof.spec.mjs`,
-and `tests/bundle-analysis-proof.spec.mjs` are the hard-proof
-specs.
+## Summary
 
-`scripts/audit-proof-quality.mjs` walks every test in the repo and
-classifies it as `hard_proof` or `soft_probe` based on its assertion
-shape.
-
-The output is `.rebuild/reports/test-proof-audit.md`.
+The pipeline is **action → stack → bundle → feature**. We wrap the
+app's APIs, capture stack traces, map those traces to real bundle
+snippets, and decide whether each feature is genuinely
+`code_correlated` rather than just `surface_observed`.

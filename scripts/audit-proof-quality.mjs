@@ -14,6 +14,9 @@ const TEST_FILES = [
   'tests/bundle-analysis-proof.spec.mjs',
   'tests/visual-baseline.spec.mjs',
   'tests/reference-capture.spec.mjs',
+  'tests/code-correlation-proof.spec.mjs',
+  'tests/action-stack-proof.spec.mjs',
+  'tests/import-timeline-proof.spec.mjs',
 ];
 
 const SOFT_MARKERS = [

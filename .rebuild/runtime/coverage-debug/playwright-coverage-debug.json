@@ -1,0 +1,13 @@
+{
+  "tried": [
+    {
+      "flags": {
+        "reportAnonymousScripts": true
+      }
+    },
+    {
+      "error": "Cannot read properties of undefined (reading 'reduce')"
+    }
+  ],
+  "result": null
+}

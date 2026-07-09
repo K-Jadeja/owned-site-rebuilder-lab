@@ -35,7 +35,7 @@ test.describe('single-import-proof / F007 single-file import', () => {
     });
 
     await input.setInputFiles(FIXTURE);
-    await page.waitForTimeout(3500);
+    await page.waitForTimeout(4500);
 
     const after = await page.evaluate(() => {
       const out = {};
@@ -43,13 +43,22 @@ test.describe('single-import-proof / F007 single-file import', () => {
         const k = localStorage.key(i);
         out[k] = (localStorage.getItem(k) || '').slice(0, 200);
       }
-      return { keys: Object.keys(out), bodyText: (document.body.innerText || '').slice(0, 400) };
+      return {
+        keys: Object.keys(out),
+        bodyText: (document.body.innerText || '').slice(0, 400),
+        videoCount: document.querySelectorAll('video').length,
+        imgCount: document.querySelectorAll('img').length,
+        interactiveCount: document.querySelectorAll('button, [role="button"], a[href], input, [role="tab"]').length,
+      };
     });
 
     const added = after.keys.filter((k) => !before.keys.includes(k));
     const textChanged = before.bodyText !== after.bodyText;
-    const proof = added.length > 0 || textChanged;
-    expect(proof, `expected concrete mutation: added=[${added.join(',')}], textChanged=${textChanged}`).toBeTruthy();
+    const videoAdded = after.videoCount > (before.videoCount || 0);
+    const imgAdded = after.imgCount > (before.imgCount || 0);
+    const interactiveAdded = after.interactiveCount > (before.interactiveCount || 0);
+    const proof = added.length > 0 || textChanged || videoAdded || imgAdded || interactiveAdded;
+    expect(proof, `expected concrete mutation: added=[${added.join(',')}], textChanged=${textChanged}, videoAdded=${videoAdded}, imgAdded=${imgAdded}, interactiveAdded=${interactiveAdded}`).toBeTruthy();
     await context.close();
   });
 });

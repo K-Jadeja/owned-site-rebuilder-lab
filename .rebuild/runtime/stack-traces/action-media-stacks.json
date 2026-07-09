@@ -1,0 +1,56 @@
+{
+  "play": [
+    {
+      "kind": "media-play",
+      "data": {
+        "tag": "VIDEO",
+        "currentSrc": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4#t=0,12",
+        "duration": 33.92,
+        "currentTime": 0,
+        "paused": true,
+        "stack": [
+          "Error",
+          "    at stack (<anonymous>:13:18)",
+          "    at HTMLMediaElement.play (<anonymous>:169:18)",
+          "    at r4 (https://demo.reactvideoeditor.com/_next/static/chunks/55eb4b32-87960e808445d7a8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:85428)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/55eb4b32-87960e808445d7a8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:112243",
+          "    at o1 (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:88951)",
+          "    at uE (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104843)",
+          "    at ux (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104727)",
+          "    at uE (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104823)",
+          "    at ux (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104727)",
+          "    at uE (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104888)"
+        ],
+        "url": "https://demo.reactvideoeditor.com/",
+        "action": "playback-space"
+      },
+      "t": 1783591931480
+    }
+  ],
+  "pause": [
+    {
+      "kind": "media-pause",
+      "data": {
+        "tag": "VIDEO",
+        "currentSrc": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4#t=0,12",
+        "currentTime": 0,
+        "stack": [
+          "Error",
+          "    at stack (<anonymous>:13:18)",
+          "    at HTMLMediaElement.pause (<anonymous>:181:18)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/55eb4b32-87960e808445d7a8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:109139",
+          "    at o1 (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:88951)",
+          "    at uE (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104843)",
+          "    at ux (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104727)",
+          "    at uE (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104823)",
+          "    at ux (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104727)",
+          "    at uE (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104888)",
+          "    at ux (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104727)"
+        ],
+        "url": "https://demo.reactvideoeditor.com/",
+        "action": "playback-space"
+      },
+      "t": 1783591932788
+    }
+  ]
+}

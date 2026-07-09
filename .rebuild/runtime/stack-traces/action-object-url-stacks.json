@@ -1,0 +1,111 @@
+[
+  {
+    "kind": "createObjectURL",
+    "data": {
+      "type": "image/webp",
+      "size": 6614,
+      "constructor": "Blob",
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.URL.createObjectURL (<anonymous>:151:50)",
+        "    at fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868603)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "dark-toggle"
+    },
+    "t": 1783591923492
+  },
+  {
+    "kind": "createObjectURL",
+    "data": {
+      "type": "image/webp",
+      "size": 5778,
+      "constructor": "Blob",
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.URL.createObjectURL (<anonymous>:151:50)",
+        "    at fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868603)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "export-dialog"
+    },
+    "t": 1783591926921
+  },
+  {
+    "kind": "createObjectURL",
+    "data": {
+      "type": "image/webp",
+      "size": 11658,
+      "constructor": "Blob",
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.URL.createObjectURL (<anonymous>:151:50)",
+        "    at fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868603)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "zoom-in"
+    },
+    "t": 1783591943847
+  },
+  {
+    "kind": "createObjectURL",
+    "data": {
+      "type": "image/webp",
+      "size": 17550,
+      "constructor": "Blob",
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.URL.createObjectURL (<anonymous>:151:50)",
+        "    at fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868603)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "single-file-import"
+    },
+    "t": 1783591952416
+  },
+  {
+    "kind": "createObjectURL",
+    "data": {
+      "type": "video/mp4",
+      "size": 71178,
+      "constructor": "File",
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.URL.createObjectURL (<anonymous>:151:50)",
+        "    at Object.store (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:13122)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104511",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:699715",
+        "    at i8 (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:135363)",
+        "    at https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:141449",
+        "    at nz (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:19197)",
+        "    at sn (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:136596)",
+        "    at cc (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:163598)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "single-file-import"
+    },
+    "t": 1783591952588
+  },
+  {
+    "kind": "createObjectURL",
+    "data": {
+      "type": "image/webp",
+      "size": 28006,
+      "constructor": "Blob",
+      "stack": [
+        "Error",
+        "    at stack (<anonymous>:13:18)",
+        "    at w.URL.createObjectURL (<anonymous>:151:50)",
+        "    at fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868603)"
+      ],
+      "url": "https://demo.reactvideoeditor.com/",
+      "action": "try-add-imported-media-to-timeline"
+    },
+    "t": 1783591959123
+  }
+]

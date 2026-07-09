@@ -1,54 +1,344 @@
 {
   "label": "playback-space",
   "err": null,
-  "jsEntries": 6,
-  "jsUsedBytes": 0,
-  "jsTotalBytes": 0,
-  "cssEntries": 2,
-  "cssUsedBytes": 116702,
-  "cssTotalBytes": 128819,
-  "js": [
+  "delta": [
     {
-      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/55eb4b32-87960e808445d7a8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 0,
-      "totalBytes": 0
-    },
-    {
-      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/255-4ecccced1aaa83b0.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 0,
-      "totalBytes": 0
-    },
-    {
-      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/app/page-6ba9b2f710dee95c.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 0,
-      "totalBytes": 0
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "usedBytes": 405478,
+      "totalUsedBytes": 405478,
+      "fnCount": 690,
+      "sampleRanges": [
+        {
+          "fnName": "getAssetIdForUrl",
+          "startOffset": 16357,
+          "endOffset": 16436,
+          "count": 10
+        },
+        {
+          "fnName": "getAssetIdForUrl",
+          "startOffset": 16406,
+          "endOffset": 16424,
+          "count": 0
+        },
+        {
+          "fnName": "rh",
+          "startOffset": 35514,
+          "endOffset": 35673,
+          "count": 4
+        },
+        {
+          "fnName": "rh",
+          "startOffset": 35602,
+          "endOffset": 35672,
+          "count": 0
+        },
+        {
+          "fnName": null,
+          "startOffset": 35729,
+          "endOffset": 36841,
+          "count": 2
+        },
+        {
+          "fnName": null,
+          "startOffset": 35768,
+          "endOffset": 35811,
+          "count": 0
+        }
+      ]
     },
     {
       "url": "https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 0,
-      "totalBytes": 0
+      "usedBytes": 262440,
+      "totalUsedBytes": 262440,
+      "fnCount": 235,
+      "sampleRanges": [
+        {
+          "fnName": "c",
+          "startOffset": 573,
+          "endOffset": 732,
+          "count": 4206
+        },
+        {
+          "fnName": "c",
+          "startOffset": 614,
+          "endOffset": 640,
+          "count": 4074
+        },
+        {
+          "fnName": "c",
+          "startOffset": 629,
+          "endOffset": 640,
+          "count": 399386
+        },
+        {
+          "fnName": "c",
+          "startOffset": 640,
+          "endOffset": 708,
+          "count": 132
+        },
+        {
+          "fnName": "c",
+          "startOffset": 652,
+          "endOffset": 699,
+          "count": 9840
+        },
+        {
+          "fnName": "c",
+          "startOffset": 673,
+          "endOffset": 687,
+          "count": 0
+        }
+      ]
     },
     {
       "url": "https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 0,
-      "totalBytes": 0
+      "usedBytes": 229429,
+      "totalUsedBytes": 229429,
+      "fnCount": 759,
+      "sampleRanges": [
+        {
+          "fnName": "A",
+          "startOffset": 98,
+          "endOffset": 103,
+          "count": 8
+        },
+        {
+          "fnName": "s",
+          "startOffset": 321,
+          "endOffset": 651,
+          "count": 16
+        },
+        {
+          "fnName": "s",
+          "startOffset": 361,
+          "endOffset": 432,
+          "count": 136
+        },
+        {
+          "fnName": "s",
+          "startOffset": 418,
+          "endOffset": 431,
+          "count": 72
+        },
+        {
+          "fnName": "s",
+          "startOffset": 553,
+          "endOffset": 642,
+          "count": 0
+        },
+        {
+          "fnName": "u",
+          "startOffset": 805,
+          "endOffset": 872,
+          "count": 40
+        }
+      ]
     },
     {
-      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 0,
-      "totalBytes": 0
-    }
-  ],
-  "css": [
-    {
-      "url": "https://demo.reactvideoeditor.com/_next/static/css/7496db7969e5bcd2.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 4251,
-      "totalBytes": 8460
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/55eb4b32-87960e808445d7a8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "usedBytes": 132776,
+      "totalUsedBytes": 132776,
+      "fnCount": 231,
+      "sampleRanges": [
+        {
+          "fnName": "BO",
+          "startOffset": 101,
+          "endOffset": 107,
+          "count": 38
+        },
+        {
+          "fnName": "Bk",
+          "startOffset": 111,
+          "endOffset": 117,
+          "count": 19
+        },
+        {
+          "fnName": "H1",
+          "startOffset": 171,
+          "endOffset": 176,
+          "count": 38
+        },
+        {
+          "fnName": "HL",
+          "startOffset": 190,
+          "endOffset": 196,
+          "count": 19
+        },
+        {
+          "fnName": "UC",
+          "startOffset": 219,
+          "endOffset": 225,
+          "count": 38
+        },
+        {
+          "fnName": "Xp",
+          "startOffset": 229,
+          "endOffset": 235,
+          "count": 1143
+        }
+      ]
     },
     {
-      "url": "https://demo.reactvideoeditor.com/_next/static/css/8fe5e52289a2a44c.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 112451,
-      "totalBytes": 120359
+      "url": "",
+      "usedBytes": 33443,
+      "totalUsedBytes": 33443,
+      "fnCount": 26,
+      "sampleRanges": [
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 10652,
+          "count": 1
+        },
+        {
+          "fnName": null,
+          "startOffset": 8,
+          "endOffset": 10648,
+          "count": 1
+        },
+        {
+          "fnName": "__commonJS",
+          "startOffset": 78,
+          "endOffset": 405,
+          "count": 0
+        },
+        {
+          "fnName": "__export",
+          "startOffset": 422,
+          "endOffset": 488,
+          "count": 1
+        },
+        {
+          "fnName": "__toESM",
+          "startOffset": 504,
+          "endOffset": 539,
+          "count": 0
+        },
+        {
+          "fnName": "__toCommonJS",
+          "startOffset": 560,
+          "endOffset": 597,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/255-4ecccced1aaa83b0.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "usedBytes": 11643,
+      "totalUsedBytes": 11643,
+      "fnCount": 32,
+      "sampleRanges": [
+        {
+          "fnName": "S",
+          "startOffset": 15769,
+          "endOffset": 15861,
+          "count": 1575
+        },
+        {
+          "fnName": "S",
+          "startOffset": 15844,
+          "endOffset": 15846,
+          "count": 961
+        },
+        {
+          "fnName": "S",
+          "startOffset": 15846,
+          "endOffset": 15851,
+          "count": 614
+        },
+        {
+          "fnName": "A",
+          "startOffset": 15939,
+          "endOffset": 16109,
+          "count": 282
+        },
+        {
+          "fnName": "A",
+          "startOffset": 16010,
+          "endOffset": 16093,
+          "count": 0
+        },
+        {
+          "fnName": null,
+          "startOffset": 16067,
+          "endOffset": 16091,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "url": "",
+      "usedBytes": 142,
+      "totalUsedBytes": 142,
+      "fnCount": 1,
+      "sampleRanges": [
+        {
+          "fnName": "listener",
+          "startOffset": 293346,
+          "endOffset": 293466,
+          "count": 1
+        },
+        {
+          "fnName": "listener",
+          "startOffset": 293437,
+          "endOffset": 293459,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "url": "",
+      "usedBytes": 120,
+      "totalUsedBytes": 120,
+      "fnCount": 2,
+      "sampleRanges": [
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 61,
+          "count": 1
+        },
+        {
+          "fnName": null,
+          "startOffset": 1,
+          "endOffset": 60,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "url": "",
+      "usedBytes": 40,
+      "totalUsedBytes": 40,
+      "fnCount": 2,
+      "sampleRanges": [
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 20,
+          "count": 1
+        },
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 20,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/app/page-6ba9b2f710dee95c.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "usedBytes": 39,
+      "totalUsedBytes": 39,
+      "fnCount": 1,
+      "sampleRanges": [
+        {
+          "fnName": "onThemeChange",
+          "startOffset": 857,
+          "endOffset": 896,
+          "count": 1
+        }
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Progress
 
-Last updated: 2026-07-09T14:50:00Z (deep bundle/runtime decoupling pass started)
+Last updated: 2026-07-09T10:10:00Z (action → stack → bundle → feature correlation pass started)
 
 ## Setup phase
 
@@ -41,15 +41,26 @@ Last updated: 2026-07-09T14:50:00Z (deep bundle/runtime decoupling pass started)
 - **NEW**: Track headers expose `draggable="true"` for reorder
 - **NEW**: localStorage keys persist across `page.reload()`
 
-## Deep bundle / runtime decoupling pass (in progress, 2026-07-09T14:50:00Z)
+## Action → stack → bundle → feature correlation pass (in progress, 2026-07-09T10:10:00Z)
 
-- ✅ Phase 0: Read current state, branch `deep-bundle-runtime-decoupling` checked out.
-- ⏳ Phase 1: Patching SKILL.md with Deep Bundle + Runtime Decoupling Mode.
-- ⏳ Phase 2: Raw bundle policy + repo hygiene.
-- ⏳ Phase 3: Install analysis deps.
-- ⏳ Phases 4–19: Fetch bundles, scan, analyze, action coverage, runtime, React probe, decode state, single-import, selector mine, harden tests, rewrite contracts, parity report, inventory, paper.
-- ⏳ Phase 20: Commit + push branch.
-- ⏳ Phase 21: Final answer.
+The previous deep pass produced action coverage but JS used/total was `0 / 0`.
+This pass:
+
+- ✅ Phase 0: Read current state, identified the 0/0 JS coverage gap.
+- ⏳ Phase 1: Patch proof language to clarify coverage is "bundles loaded", not byte-range code correlation.
+- ⏳ Phase 2: Stack-trace instrumentation (event listeners, storage setters, createObjectURL, media play/pause, canvas, console).
+- ⏳ Phase 3: Map stack frames to bundle files.
+- ⏳ Phase 4: Debug or replace coverage. Likely stack-trace fallback.
+- ⏳ Phase 5: Feature correlation engine.
+- ⏳ Phase 6: React region map.
+- ⏳ Phase 7: Import-timeline hardening.
+- ⏳ Phase 8: Harden tests.
+- ⏳ Phase 9: Update reports + paper.
+- ⏳ Phase 10: Run full pass.
+- ⏳ Phase 11: Commit + push.
+- ⏳ Phase 12: Final answer.
+
+## Deep bundle / runtime decoupling pass (completed 2026-07-09T09:30:00Z)
 
 ## Next steps
 
@@ -58,3 +69,16 @@ Last updated: 2026-07-09T14:50:00Z (deep bundle/runtime decoupling pass started)
 3. Manually run an export and capture F027 mp4 download evidence.
 4. Begin a **separate** rebuild run (this harness run is observation only).
 5. Add per-feature parity specs that target a future rebuilt app.
+## Action → Stack → Bundle → Feature Correlation Pass (completed 2026-07-09T10:25:00Z)
+
+- ✅ Phase 0: Read state, identified 0/0 JS coverage gap.
+- ✅ Phase 1: Patched proof language to clarify coverage limitation.
+- ✅ Phase 2: Stack-trace instrumentation. 6913 events captured.
+- ✅ Phase 3: Stack frames mapped to 150 bundle hits.
+- ✅ Phase 4: CDP preciseCoverage works (9.16 MB used bytes).
+- ✅ Phase 5: Correlation engine upgraded F007, F020, F031 to code_correlated.
+- ✅ Phase 6: React region map (7 regions).
+- ✅ Phase 7: Import-timeline hardening PROVEN.
+- ✅ Phase 8: 36 hard_proof tests, 17 soft probes.
+- ✅ Phase 9: Reports + paper updated.
+- ⏳ Phase 10: Final full pass (commit + push pending).

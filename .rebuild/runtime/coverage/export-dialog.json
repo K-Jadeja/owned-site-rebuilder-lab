@@ -1,44 +1,400 @@
 {
   "label": "export-dialog",
   "err": null,
-  "jsEntries": 4,
-  "jsUsedBytes": 0,
-  "jsTotalBytes": 0,
-  "cssEntries": 2,
-  "cssUsedBytes": 116702,
-  "cssTotalBytes": 128819,
-  "js": [
+  "delta": [
     {
-      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/255-4ecccced1aaa83b0.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 0,
-      "totalBytes": 0
-    },
-    {
-      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 0,
-      "totalBytes": 0
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "usedBytes": 418499,
+      "totalUsedBytes": 418499,
+      "fnCount": 689,
+      "sampleRanges": [
+        {
+          "fnName": "a",
+          "startOffset": 2412,
+          "endOffset": 2561,
+          "count": 2
+        },
+        {
+          "fnName": "a",
+          "startOffset": 2470,
+          "endOffset": 2479,
+          "count": 0
+        },
+        {
+          "fnName": "a",
+          "startOffset": 2488,
+          "endOffset": 2560,
+          "count": 0
+        },
+        {
+          "fnName": "o",
+          "startOffset": 2564,
+          "endOffset": 2785,
+          "count": 1
+        },
+        {
+          "fnName": "o",
+          "startOffset": 2766,
+          "endOffset": 2784,
+          "count": 0
+        },
+        {
+          "fnName": "i",
+          "startOffset": 2788,
+          "endOffset": 2944,
+          "count": 1
+        }
+      ]
     },
     {
       "url": "https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 0,
-      "totalBytes": 0
+      "usedBytes": 363163,
+      "totalUsedBytes": 363163,
+      "fnCount": 880,
+      "sampleRanges": [
+        {
+          "fnName": "A",
+          "startOffset": 98,
+          "endOffset": 103,
+          "count": 3
+        },
+        {
+          "fnName": "s",
+          "startOffset": 321,
+          "endOffset": 651,
+          "count": 6
+        },
+        {
+          "fnName": "s",
+          "startOffset": 361,
+          "endOffset": 432,
+          "count": 51
+        },
+        {
+          "fnName": "s",
+          "startOffset": 418,
+          "endOffset": 431,
+          "count": 27
+        },
+        {
+          "fnName": "s",
+          "startOffset": 553,
+          "endOffset": 642,
+          "count": 0
+        },
+        {
+          "fnName": "u",
+          "startOffset": 805,
+          "endOffset": 872,
+          "count": 14
+        }
+      ]
     },
     {
-      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 0,
-      "totalBytes": 0
-    }
-  ],
-  "css": [
-    {
-      "url": "https://demo.reactvideoeditor.com/_next/static/css/7496db7969e5bcd2.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 4251,
-      "totalBytes": 8460
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "usedBytes": 254819,
+      "totalUsedBytes": 254819,
+      "fnCount": 216,
+      "sampleRanges": [
+        {
+          "fnName": "c",
+          "startOffset": 573,
+          "endOffset": 732,
+          "count": 138
+        },
+        {
+          "fnName": "c",
+          "startOffset": 629,
+          "endOffset": 640,
+          "count": 15260
+        },
+        {
+          "fnName": "c",
+          "startOffset": 640,
+          "endOffset": 708,
+          "count": 0
+        },
+        {
+          "fnName": "c",
+          "startOffset": 726,
+          "endOffset": 731,
+          "count": 0
+        },
+        {
+          "fnName": "W",
+          "startOffset": 2275,
+          "endOffset": 2544,
+          "count": 15
+        },
+        {
+          "fnName": "W",
+          "startOffset": 2334,
+          "endOffset": 2407,
+          "count": 10
+        }
+      ]
     },
     {
-      "url": "https://demo.reactvideoeditor.com/_next/static/css/8fe5e52289a2a44c.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
-      "usedBytes": 112451,
-      "totalBytes": 120359
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/55eb4b32-87960e808445d7a8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "usedBytes": 113188,
+      "totalUsedBytes": 113188,
+      "fnCount": 192,
+      "sampleRanges": [
+        {
+          "fnName": "BO",
+          "startOffset": 101,
+          "endOffset": 107,
+          "count": 2
+        },
+        {
+          "fnName": "Bk",
+          "startOffset": 111,
+          "endOffset": 117,
+          "count": 1
+        },
+        {
+          "fnName": "H1",
+          "startOffset": 171,
+          "endOffset": 176,
+          "count": 2
+        },
+        {
+          "fnName": "HL",
+          "startOffset": 190,
+          "endOffset": 196,
+          "count": 1
+        },
+        {
+          "fnName": "UC",
+          "startOffset": 219,
+          "endOffset": 225,
+          "count": 2
+        },
+        {
+          "fnName": "Xp",
+          "startOffset": 229,
+          "endOffset": 235,
+          "count": 60
+        }
+      ]
+    },
+    {
+      "url": "",
+      "usedBytes": 48978,
+      "totalUsedBytes": 48978,
+      "fnCount": 69,
+      "sampleRanges": [
+        {
+          "fnName": "parseAttributeSelector",
+          "startOffset": 51302,
+          "endOffset": 56495,
+          "count": 10
+        },
+        {
+          "fnName": "parseAttributeSelector",
+          "startOffset": 56296,
+          "endOffset": 56316,
+          "count": 0
+        },
+        {
+          "fnName": "parseAttributeSelector",
+          "startOffset": 56336,
+          "endOffset": 56364,
+          "count": 0
+        },
+        {
+          "fnName": "parseAttributeSelector",
+          "startOffset": 56370,
+          "endOffset": 56476,
+          "count": 0
+        },
+        {
+          "fnName": "next",
+          "startOffset": 51432,
+          "endOffset": 51456,
+          "count": 730
+        },
+        {
+          "fnName": "next",
+          "startOffset": 51451,
+          "endOffset": 51456,
+          "count": 10
+        }
+      ]
+    },
+    {
+      "url": "",
+      "usedBytes": 15483,
+      "totalUsedBytes": 15483,
+      "fnCount": 16,
+      "sampleRanges": [
+        {
+          "fnName": "isRegExp",
+          "startOffset": 856,
+          "endOffset": 1027,
+          "count": 10
+        },
+        {
+          "fnName": "isRegExp",
+          "startOffset": 988,
+          "endOffset": 1025,
+          "count": 0
+        },
+        {
+          "fnName": "isDate",
+          "startOffset": 1028,
+          "endOffset": 1193,
+          "count": 10
+        },
+        {
+          "fnName": "isDate",
+          "startOffset": 1154,
+          "endOffset": 1191,
+          "count": 0
+        },
+        {
+          "fnName": "isURL",
+          "startOffset": 1194,
+          "endOffset": 1356,
+          "count": 10
+        },
+        {
+          "fnName": "isURL",
+          "startOffset": 1317,
+          "endOffset": 1354,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/255-4ecccced1aaa83b0.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "usedBytes": 11490,
+      "totalUsedBytes": 11490,
+      "fnCount": 31,
+      "sampleRanges": [
+        {
+          "fnName": "S",
+          "startOffset": 15769,
+          "endOffset": 15861,
+          "count": 517
+        },
+        {
+          "fnName": "S",
+          "startOffset": 15844,
+          "endOffset": 15846,
+          "count": 276
+        },
+        {
+          "fnName": "S",
+          "startOffset": 15846,
+          "endOffset": 15851,
+          "count": 241
+        },
+        {
+          "fnName": "A",
+          "startOffset": 15939,
+          "endOffset": 16109,
+          "count": 96
+        },
+        {
+          "fnName": "A",
+          "startOffset": 16010,
+          "endOffset": 16093,
+          "count": 0
+        },
+        {
+          "fnName": null,
+          "startOffset": 16067,
+          "endOffset": 16091,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "url": "",
+      "usedBytes": 1994,
+      "totalUsedBytes": 1994,
+      "fnCount": 2,
+      "sampleRanges": [
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 815,
+          "count": 10
+        },
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 815,
+          "count": 10
+        },
+        {
+          "fnName": null,
+          "startOffset": 271,
+          "endOffset": 540,
+          "count": 0
+        },
+        {
+          "fnName": null,
+          "startOffset": 560,
+          "endOffset": 655,
+          "count": 0
+        }
+      ]
+    },
+    {
+      "url": "",
+      "usedBytes": 120,
+      "totalUsedBytes": 120,
+      "fnCount": 2,
+      "sampleRanges": [
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 61,
+          "count": 20
+        },
+        {
+          "fnName": null,
+          "startOffset": 1,
+          "endOffset": 60,
+          "count": 20
+        }
+      ]
+    },
+    {
+      "url": "",
+      "usedBytes": 86,
+      "totalUsedBytes": 86,
+      "fnCount": 2,
+      "sampleRanges": [
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 43,
+          "count": 10
+        },
+        {
+          "fnName": null,
+          "startOffset": 0,
+          "endOffset": 43,
+          "count": 10
+        }
+      ]
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/app/page-6ba9b2f710dee95c.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "usedBytes": 50,
+      "totalUsedBytes": 50,
+      "fnCount": 1,
+      "sampleRanges": [
+        {
+          "fnName": "onSave",
+          "startOffset": 1182,
+          "endOffset": 1232,
+          "count": 1
+        }
+      ]
     }
   ]
 }

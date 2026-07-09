@@ -2,18 +2,40 @@
 
 Target: https://demo.reactvideoeditor.com
 Generated: 2026-07-09T09:30:00Z (deep bundle + runtime decoupling pass)
+Updated:    2026-07-09T10:10:00Z (action → stack → bundle → feature correlation pass)
 
 This report uses a **strict proof-level ladder**:
 
 - `hard_proof`: concrete before/after evidence + passing assertion.
 - `behavior_observed`: before/after evidence exists, but assertion is incomplete.
 - `surface_observed`: button/region exists; behavior not proven.
-- `code_correlated`: runtime behavior linked to bundle/coverage evidence.
+- `code_correlated`: runtime behavior linked to bundle/coverage **AND** stack trace evidence. Requires (a) a runtime action that produces a stack frame pointing into a target bundle OR a valid CDP coverage range, AND (b) that bundle containing feature-relevant code clues, AND (c) a passing test/probe artifact.
 - `inferred_from_bundle`: code strings suggest behavior; runtime proof missing.
 - `inferred_from_architecture`: based on general architecture or open-source reference.
 - `fixture_ready`: fixture exists; feature not executed end-to-end.
 - `blocked`: cannot test (auth, fixture, selector, environment, manual).
 - `not_found`: searched but not found.
+
+## Important caveat about Playwright JS coverage
+
+The Playwright `page.coverage.startJSCoverage` API, in this
+environment, reported **`0 / 0` bytes** for every action. The
+"action coverage" map in `.rebuild/runtime/coverage/` therefore lists
+*which bundles loaded during an action* but does **not** indicate
+which byte ranges within those bundles were actually executed.
+
+This means `code_correlated` cannot be claimed on the basis of the
+existing action-coverage map alone. The next pass (this run)
+introduces a **stack-trace fallback**: runtime instrumentation
+captures the call stack at the moment of every event handler
+invocation, storage mutation, `URL.createObjectURL`, media play/
+pause, canvas draw, console.log. Stack frames are then mapped to
+local bundle files and snippets.
+
+If stack frames map into a target bundle, that bundle's code clues
+overlap with the feature's keyword vocabulary, and the action has
+a passing test, the feature can be **upgraded** to `code_correlated`.
+This pass computes that upgrade explicitly.
 
 ## Strict feature table
 
@@ -82,10 +104,67 @@ test that asserts a feature-specific outcome:
   build; Radix UI primitives (`TooltipProvider`, `MenuProvider`,
   `Popper`, `DropdownMenu`) observed.
 - **Action coverage** — 10 actions each with JS + CSS coverage and
-  per-action top bundle URL table.
+  per-action top bundle URL table. **Caveat**: JS used/total was 0/0
+  in this environment; the table lists bundles loaded, not byte
+  ranges executed.
+- **CDP precise coverage** — the Playwright API returned 0/0, but the
+  CDP `Profiler.startPreciseCoverage` API returned 9.16 MB used
+  bytes across 35 entries. See
+  `.rebuild/runtime/coverage-debug/coverage-debug-summary.md`.
+- **Stack-trace instrumentation** — wrappers around `addEventListener`,
+  `localStorage.setItem/removeItem`, `sessionStorage`,
+  `history.pushState/replaceState`, `fetch`, `XMLHttpRequest`,
+  `URL.createObjectURL`, `HTMLMediaElement.play/pause`,
+  `CanvasRenderingContext2D.drawImage`, `HTMLCanvasElement.toBlob`,
+  `console.log/warn/error/info` capture the call stack at every
+  invocation. 14 actions produced 6913 events with stack traces.
+- **Stack-frame → bundle mapping** — `.rebuild/features/action-stack-bundle-map.json`
+  resolves every frame to a local bundle file plus a snippet and a
+  keyword list. 150 mapped frames.
 - **Library fingerprint** — 12 libraries identified:
   React, Next.js, Radix UI, Tailwind, Zustand, Immer, Supabase, Pexels,
   WebCodecs, MediaRecorder, Mediabunny, Remotion.
+- **Import → timeline proof** — the new import-timeline hardening
+  probe tried 5 strategies and proved that the drag of the imported
+  media card mutates `advanced-timeline-store` and the body text.
+  See `.rebuild/deep-import/import-timeline-hardening.md`.
+
+### Features upgraded to `code_correlated` (this pass)
+
+The correlation engine in `scripts/correlate-features-to-code.mjs`
+upgraded the following features to `code_correlated` because each one
+satisfies all four criteria:
+
+1. Runtime behavior evidence (storage mutation / media play /
+   createObjectURL observed).
+2. A stack trace pointing into a target bundle.
+3. The bundle contains feature-relevant code clues.
+4. A passing test/probe artifact exists.
+
+| ID | Feature | Why upgraded |
+| --- | --- | --- |
+| F007 | Asset import / add media | `URL.createObjectURL` stack → bundle `180476bc-...js` (snippet includes `URL.createObjectURL(e)` and `classifyFileType`); storage mutation `lastCleanup_thumbnailCache` observed; `tests/single-import-proof.spec.mjs` passes. |
+| F020 | Playback | `HTMLMediaElement.play` stack → bundle `55eb4b32-...js` (snippet `Attempting to play`); storage mutation `rve-extended-theme` and `advanced-timeline-store` observed; `tests/deep-runtime-proof.spec.mjs` passes. |
+| F031 | Persistence after reload | `idb_migration_v1_done`, `lastCleanup_thumbnailCache`, `advanced-timeline-store` all set with mapped frames in `180476bc-...js`; `tests/deep-runtime-proof.spec.mjs` passes. |
+
+See `.rebuild/reports/code-correlation-summary.md` for the full
+upgrade verdict.
+
+### What the correlation pass added
+
+After this run, the harness also produces:
+
+- `.rebuild/runtime/stack-traces/action-stack-events.json` — every event
+  handler invocation captured with a stack trace and target descriptor.
+- `.rebuild/runtime/stack-traces/action-storage-stacks.json` — every
+  localStorage.setItem/removeItem captured with a stack trace.
+- `.rebuild/features/action-stack-bundle-map.json` — stack frames
+  mapped to local bundle filenames and snippets.
+- `.rebuild/features/feature-code-correlation.json` — per-feature
+  evidence scores that decide whether `code_correlated` is honest.
+
+See `.rebuild/reports/code-correlation-summary.md` for the upgrade
+verdicts.
 
 ## What is still toy-level / shallow
 

@@ -1,0 +1,220 @@
+{
+  "target": "https://demo.reactvideoeditor.com",
+  "generatedAt": "2026-07-09T10:27:03.974Z",
+  "fixture": ".rebuild/tests/fixtures/sample.mp4",
+  "afterUpload": {
+    "url": "https://demo.reactvideoeditor.com/",
+    "storage": {
+      "idb_migration_v1_done": "1783592803554",
+      "lastCleanup_thumbnailCache": "1783592807227"
+    },
+    "videoCount": 1,
+    "videoInfo": [
+      {
+        "src": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4#t=0,12",
+        "duration": 33.92
+      }
+    ],
+    "imgCount": 2,
+    "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+    "interactiveCount": 57,
+    "draggables": 6,
+    "advancedTimelineStore": null
+  },
+  "attempts": [
+    {
+      "label": "03-strategy-drag",
+      "err": null,
+      "before": {
+        "advancedTimelineStore": null,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+        "videoCount": 1,
+        "imgCount": 2,
+        "draggables": 6,
+        "interactiveCount": 57
+      },
+      "after": {
+        "advancedTimelineStore": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}",
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nAnother Lowfi\nSaved at 15:56",
+        "videoCount": 1,
+        "imgCount": 2,
+        "draggables": 6,
+        "interactiveCount": 57
+      },
+      "changed": {
+        "storage": true,
+        "bodyText": true,
+        "videoCount": false,
+        "imgCount": false,
+        "draggables": false,
+        "interactiveCount": false
+      }
+    },
+    {
+      "label": "04-strategy-dblclick",
+      "err": null,
+      "before": {
+        "advancedTimelineStore": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}",
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nAnother Lowfi\nSaved at 15:56",
+        "videoCount": 1,
+        "imgCount": 2,
+        "draggables": 6,
+        "interactiveCount": 57
+      },
+      "after": {
+        "advancedTimelineStore": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}",
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+        "videoCount": 1,
+        "imgCount": 2,
+        "draggables": 6,
+        "interactiveCount": 57
+      },
+      "changed": {
+        "storage": false,
+        "bodyText": true,
+        "videoCount": false,
+        "imgCount": false,
+        "draggables": false,
+        "interactiveCount": false
+      }
+    },
+    {
+      "label": "05-strategy-enter",
+      "err": null,
+      "before": {
+        "advancedTimelineStore": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}",
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+        "videoCount": 1,
+        "imgCount": 2,
+        "draggables": 6,
+        "interactiveCount": 57
+      },
+      "after": {
+        "advancedTimelineStore": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}",
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+        "videoCount": 1,
+        "imgCount": 2,
+        "draggables": 6,
+        "interactiveCount": 57
+      },
+      "changed": {
+        "storage": false,
+        "bodyText": false,
+        "videoCount": false,
+        "imgCount": false,
+        "draggables": false,
+        "interactiveCount": false
+      }
+    },
+    {
+      "label": "06-strategy-button",
+      "err": "no add-to-timeline button found",
+      "before": {
+        "advancedTimelineStore": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}",
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+        "videoCount": 1,
+        "imgCount": 2,
+        "draggables": 6,
+        "interactiveCount": 57
+      },
+      "after": {
+        "advancedTimelineStore": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}",
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+        "videoCount": 1,
+        "imgCount": 2,
+        "draggables": 6,
+        "interactiveCount": 57
+      },
+      "changed": {
+        "storage": false,
+        "bodyText": false,
+        "videoCount": false,
+        "imgCount": false,
+        "draggables": false,
+        "interactiveCount": false
+      }
+    },
+    {
+      "label": "07-strategy-targeted-drag",
+      "err": null,
+      "before": {
+        "advancedTimelineStore": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}",
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+        "videoCount": 1,
+        "imgCount": 2,
+        "draggables": 6,
+        "interactiveCount": 57
+      },
+      "after": {
+        "advancedTimelineStore": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}",
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nLoading...\nLoading...\nAnother Lowfi\nSaved at 15:57",
+        "videoCount": 1,
+        "imgCount": 2,
+        "draggables": 6,
+        "interactiveCount": 57
+      },
+      "changed": {
+        "storage": false,
+        "bodyText": true,
+        "videoCount": false,
+        "imgCount": false,
+        "draggables": false,
+        "interactiveCount": false
+      }
+    }
+  ],
+  "final": {
+    "advancedTimelineStore": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}",
+    "videoCount": 1,
+    "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nLoading...\nLoading...\nAnother Lowfi\nSaved at 15:57"
+  },
+  "firstMutation": "03-strategy-drag",
+  "timelineAddProven": true,
+  "consoleLogs": [
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-ob4wt1-1-40, interval: 1s, height: 40px",
+      "t": 1783592803686
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1rfe6ip-1-40, interval: 1s, height: 40px",
+      "t": 1783592803688
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1udzx29-1-40, interval: 1s, height: 40px",
+      "t": 1783592803709
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1gqds2q-1-40, interval: 1s, height: 40px",
+      "t": 1783592803711
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-cr1ex8-1-40, interval: 1s, height: 40px",
+      "t": 1783592803711
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Successfully cached sprite for key: video-thumbnail-1rfe6ip-1-40 firstTimestampSec: 0 dimensions: 284x120 size: 0.01MB tileHeight: 40px totalTiles: 10 interval: 1s",
+      "t": 1783592807217
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Completed sprite generation for key: video-thumbnail-1rfe6ip-1-40, tiles: 10, duration: 3531ms",
+      "t": 1783592807217
+    },
+    {
+      "type": "log",
+      "text": "[onSave] Editor state saved: {tracks: Array(6), aspectRatio: 16:9, backgroundColor: white, playbackRate: 1, savedAt: 1783592813533}",
+      "t": 1783592813523
+    },
+    {
+      "type": "log",
+      "text": "[onSave] Editor state saved: {tracks: Array(6), aspectRatio: 16:9, backgroundColor: white, playbackRate: 1, savedAt: 1783592823526}",
+      "t": 1783592823518
+    }
+  ]
+}

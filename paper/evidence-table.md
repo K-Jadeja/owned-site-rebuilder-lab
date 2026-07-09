@@ -3,6 +3,40 @@
 Every claim is graded by proof level. The "file" column points to the
 specific evidence file in the repo.
 
+## Coverage caveat
+
+The Playwright `page.coverage.startJSCoverage` API, in this
+environment, reported `0 / 0` bytes for every action. The
+action-coverage table therefore lists **which bundles loaded during an
+action**, not which byte ranges were executed.
+
+The correlation pass that produced this paper replaces coverage with
+**stack-trace mapping** AND **CDP preciseCoverage**:
+
+- Stack-trace mapping: every storage mutation, `URL.createObjectURL`,
+  media play/pause, and console call records the call stack. The
+  stack frames are resolved to local bundle files in
+  `.rebuild/target-source/bundles/` plus a snippet + keyword list.
+- CDP `Profiler.startPreciseCoverage` with `detailed: true, callCount:
+  true` returns 9.16 MB used bytes across 35 entries. Per-action
+  positive-delta summaries are written to
+  `.rebuild/runtime/coverage/action-coverage-summary.md`.
+
+`code_correlated` claims in this paper require (a) a runtime action
+with a stack frame pointing into a target bundle OR a valid CDP
+coverage range, AND (b) that bundle containing feature-relevant code
+clues, AND (c) a passing test/probe artifact. If only bundle keywords
+are present without stack-trace mapping, the proof level remains
+`inferred_from_bundle`.
+
+## Upgraded features (this pass)
+
+| ID | Feature | Evidence |
+| --- | --- | --- |
+| F007 | Asset import / add media | Stack: `URL.createObjectURL(e)` in bundle `180476bc-...js`, snippet includes `classifyFileType`; storage mutation `lastCleanup_thumbnailCache`; CDP coverage delta: 1.5 MB. Test: `tests/single-import-proof.spec.mjs`. |
+| F020 | Playback | Stack: `HTMLMediaElement.play` in bundle `55eb4b32-...js`, snippet `Attempting to play`; storage mutations `rve-extended-theme` + `advanced-timeline-store`. Test: `tests/deep-runtime-proof.spec.mjs`. |
+| F031 | Persistence after reload | Stack: every app-owned store mutation (`idb_migration_v1_done`, `lastCleanup_thumbnailCache`, `advanced-timeline-store`) maps to bundle `180476bc-...js` with feature-relevant keywords. Test: `tests/deep-runtime-proof.spec.mjs`. |
+
 | Claim | Evidence | File | Proof level | Repro command | Limitation |
 | --- | --- | --- | --- | --- | --- |
 | App shell hydrates within 5s | response < 400, landmarks visible | `tests/feature-parity-plan.spec.mjs`, `tests/reference-capture.spec.mjs` | hard_proof | `npm test` | None |

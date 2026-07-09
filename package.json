@@ -20,11 +20,20 @@
     "coverage:actions": "node scripts/action-coverage-map.mjs",
     "audit:proof": "node scripts/audit-proof-quality.mjs",
     "scan:target": "node scripts/scan-target-artifacts.mjs",
+    "probe:stacks": "node scripts/action-stack-trace-probe.mjs",
+    "map:stacks": "node scripts/map-stack-frames-to-bundles.mjs",
+    "coverage:debug": "node scripts/coverage-debug.mjs",
+    "coverage:cdp": "node scripts/action-coverage-cdp.mjs",
+    "correlate:features": "node scripts/correlate-features-to-code.mjs",
+    "react:regions": "node scripts/react-region-map.mjs",
+    "probe:import-timeline": "node scripts/import-timeline-hardening.mjs",
     "deep": "npm run fetch:bundles && npm run analyze:deep-bundles && npm run instrument:runtime && npm run coverage:actions && npm run probe:single-import && npm run mine:selectors && npm run decode:state && npm run audit:proof && npm run scan:target",
+    "deep:correlation": "npm run probe:stacks && npm run map:stacks && npm run coverage:debug && npm run coverage:cdp && npm run correlate:features && npm run react:regions && npm run probe:import-timeline",
     "test": "playwright test",
     "test:visual": "playwright test tests/visual-baseline.spec.mjs",
     "test:features": "playwright test tests/feature-parity-plan.spec.mjs",
-    "test:deep": "playwright test tests/deep-runtime-proof.spec.mjs tests/single-import-proof.spec.mjs tests/bundle-analysis-proof.spec.mjs"
+    "test:deep": "playwright test tests/deep-runtime-proof.spec.mjs tests/single-import-proof.spec.mjs tests/bundle-analysis-proof.spec.mjs",
+    "test:correlation": "playwright test tests/code-correlation-proof.spec.mjs tests/action-stack-proof.spec.mjs tests/import-timeline-proof.spec.mjs"
   },
   "engines": {
     "node": ">=18"

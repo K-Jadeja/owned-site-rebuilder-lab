@@ -1,0 +1,1001 @@
+{
+  "header": {
+    "topComponents": [
+      [
+        "path",
+        15
+      ],
+      [
+        "button",
+        14
+      ],
+      [
+        "div",
+        12
+      ],
+      [
+        "svg",
+        10
+      ],
+      [
+        "span",
+        8
+      ],
+      [
+        "Presence",
+        6
+      ],
+      [
+        "rect",
+        5
+      ],
+      [
+        "MenuProvider",
+        4
+      ],
+      [
+        "gN",
+        4
+      ],
+      [
+        "gS",
+        4
+      ],
+      [
+        "gU",
+        4
+      ],
+      [
+        "gj",
+        4
+      ],
+      [
+        "Dialog",
+        4
+      ],
+      [
+        "DialogProvider",
+        4
+      ],
+      [
+        "DialogPortal",
+        4
+      ],
+      [
+        "DialogPortalProvider",
+        4
+      ],
+      [
+        "img",
+        3
+      ],
+      [
+        "gQ",
+        2
+      ],
+      [
+        "DropdownMenu",
+        2
+      ],
+      [
+        "DropdownMenuProvider",
+        2
+      ],
+      [
+        "Menu",
+        2
+      ],
+      [
+        "Popper",
+        2
+      ],
+      [
+        "PopperProvider",
+        2
+      ],
+      [
+        "DropdownMenuPortal",
+        2
+      ],
+      [
+        "MenuPortal",
+        2
+      ]
+    ],
+    "topHandlerProps": [
+      [
+        "onClick",
+        3
+      ],
+      [
+        "ref",
+        1
+      ],
+      [
+        "onPointerDown",
+        1
+      ],
+      [
+        "onKeyDown",
+        1
+      ]
+    ],
+    "domNodes": [
+      {
+        "tag": "header",
+        "className": "rve:sticky rve:top-0 rve:flex rve:shrink-0 rve:items-center rve:gap-2.5 rve:border-l rve:bg-backgrou",
+        "text": "Toggle Sidebar\nDark\nExport Video",
+        "box": {
+          "x": 58,
+          "y": 0,
+          "w": 1382,
+          "h": 48
+        }
+      },
+      {
+        "tag": "div",
+        "className": "rve:flex rve:size-6 rve:shrink-0 rve:items-center rve:justify-center rve:sm:hidden",
+        "text": "",
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "tag": "img",
+        "className": "",
+        "text": "",
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "tag": "button",
+        "className": "rve:items-center rve:justify-center rve:rounded-md rve:text-sm rve:font-extralight rve:whitespace-no",
+        "text": "Toggle Sidebar",
+        "box": {
+          "x": 77,
+          "y": 14,
+          "w": 20,
+          "h": 20
+        }
+      },
+      {
+        "tag": "svg",
+        "className": "",
+        "text": "",
+        "box": {
+          "x": 77,
+          "y": 16,
+          "w": 16,
+          "h": 16
+        }
+      },
+      {
+        "tag": "rect",
+        "className": "",
+        "text": "",
+        "box": {
+          "x": 79,
+          "y": 18,
+          "w": 12,
+          "h": 12
+        }
+      },
+      {
+        "tag": "path",
+        "className": "",
+        "text": "",
+        "box": {
+          "x": 83,
+          "y": 18,
+          "w": 0,
+          "h": 12
+        }
+      },
+      {
+        "tag": "span",
+        "className": "rve:sr-only",
+        "text": "Toggle Sidebar",
+        "box": {
+          "x": 86,
+          "y": 31,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "media_library": {
+    "topComponents": [],
+    "topHandlerProps": [],
+    "domNodes": []
+  },
+  "preview": {
+    "topComponents": [
+      [
+        "div",
+        210
+      ],
+      [
+        "path",
+        82
+      ],
+      [
+        "svg",
+        67
+      ],
+      [
+        "button",
+        54
+      ],
+      [
+        "rect",
+        41
+      ],
+      [
+        "line",
+        37
+      ],
+      [
+        "circle",
+        32
+      ],
+      [
+        "span",
+        28
+      ],
+      [
+        "MenuProvider",
+        28
+      ],
+      [
+        "Presence",
+        28
+      ],
+      [
+        "TooltipProvider",
+        28
+      ],
+      [
+        "Popper",
+        20
+      ],
+      [
+        "PopperProvider",
+        20
+      ],
+      [
+        "Menu",
+        14
+      ],
+      [
+        "MenuPortal",
+        14
+      ],
+      [
+        "MenuPortalProvider",
+        14
+      ],
+      [
+        "TooltipProviderProvider",
+        14
+      ],
+      [
+        "Tooltip",
+        14
+      ],
+      [
+        "audio",
+        13
+      ],
+      [
+        "polyline",
+        13
+      ],
+      [
+        "DropdownMenu",
+        10
+      ],
+      [
+        "DropdownMenuProvider",
+        10
+      ],
+      [
+        "DropdownMenuPortal",
+        10
+      ],
+      [
+        "video",
+        10
+      ],
+      [
+        "W",
+        9
+      ]
+    ],
+    "topHandlerProps": [
+      [
+        "onPointerDown",
+        14
+      ],
+      [
+        "onClick",
+        12
+      ],
+      [
+        "ref",
+        8
+      ],
+      [
+        "onPointerLeave",
+        8
+      ],
+      [
+        "onPointerMove",
+        7
+      ],
+      [
+        "onFocus",
+        7
+      ],
+      [
+        "onBlur",
+        7
+      ],
+      [
+        "onPointerEnter",
+        1
+      ],
+      [
+        "onDoubleClick",
+        1
+      ],
+      [
+        "onMouseDown",
+        1
+      ],
+      [
+        "onTouchStart",
+        1
+      ]
+    ],
+    "domNodes": [
+      {
+        "tag": "main",
+        "className": "rve:relative rve:flex rve:w-full rve:flex-1 rve:flex-col rve:bg-background rve:md:peer-data-[variant",
+        "text": "Toggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16",
+        "box": {
+          "x": 58,
+          "y": 0,
+          "w": 1382,
+          "h": 900
+        }
+      },
+      {
+        "tag": "div",
+        "className": "rve:flex rve:flex-col rve:overflow-hidden rve:select-none",
+        "text": "Toggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16",
+        "box": {
+          "x": 58,
+          "y": 0,
+          "w": 1382,
+          "h": 900
+        }
+      },
+      {
+        "tag": "div",
+        "className": "rve:flex rve:grow rve:flex-col rve:overflow-hidden rve:lg:flex-row",
+        "text": "90%",
+        "box": {
+          "x": 58,
+          "y": 48,
+          "w": 1382,
+          "h": 445
+        }
+      },
+      {
+        "tag": "div",
+        "className": "rve:h-full rve:w-full rve:overflow-hidden ",
+        "text": "90%",
+        "box": {
+          "x": 58,
+          "y": 48,
+          "w": 1382,
+          "h": 445
+        }
+      },
+      {
+        "tag": "div",
+        "className": "video-container rve:relative rve:z-0 rve:h-full rve:w-full rve:bg-muted rve:bg-[linear-gradient(to_r",
+        "text": "90%",
+        "box": {
+          "x": 58,
+          "y": 48,
+          "w": 1382,
+          "h": 445
+        }
+      },
+      {
+        "tag": "div",
+        "className": "",
+        "text": "",
+        "box": {
+          "x": 127,
+          "y": 70,
+          "w": 1244,
+          "h": 401
+        }
+      },
+      {
+        "tag": "div",
+        "className": "rve:absolute rve:inset-0 rve:z-10 rve:flex rve:items-center rve:justify-center",
+        "text": "",
+        "box": {
+          "x": 127,
+          "y": 70,
+          "w": 1244,
+          "h": 401
+        }
+      },
+      {
+        "tag": "div",
+        "className": "rve:relative",
+        "text": "",
+        "box": {
+          "x": 173,
+          "y": 70,
+          "w": 1152,
+          "h": 401
+        }
+      }
+    ]
+  },
+  "timeline": {
+    "topComponents": [
+      [
+        "div",
+        1244
+      ],
+      [
+        "svg",
+        280
+      ],
+      [
+        "path",
+        266
+      ],
+      [
+        "line",
+        183
+      ],
+      [
+        "span",
+        103
+      ],
+      [
+        "circle",
+        79
+      ],
+      [
+        "button",
+        71
+      ],
+      [
+        "polyline",
+        64
+      ],
+      [
+        "fz",
+        58
+      ],
+      [
+        "xo",
+        55
+      ],
+      [
+        "MenuProvider",
+        50
+      ],
+      [
+        "f3",
+        37
+      ],
+      [
+        "Presence",
+        36
+      ],
+      [
+        "Popper",
+        27
+      ],
+      [
+        "PopperProvider",
+        27
+      ],
+      [
+        "f9",
+        26
+      ],
+      [
+        "f6",
+        26
+      ],
+      [
+        "f7",
+        26
+      ],
+      [
+        "Menu",
+        25
+      ],
+      [
+        "MenuPortal",
+        25
+      ],
+      [
+        "MenuPortalProvider",
+        25
+      ],
+      [
+        "TooltipProvider",
+        22
+      ],
+      [
+        "fq",
+        22
+      ],
+      [
+        "fV",
+        22
+      ],
+      [
+        "rect",
+        19
+      ]
+    ],
+    "topHandlerProps": [
+      [
+        "onClick",
+        43
+      ],
+      [
+        "onTouchStart",
+        43
+      ],
+      [
+        "onMouseDown",
+        36
+      ],
+      [
+        "onPointerDown",
+        21
+      ],
+      [
+        "onPointerMove",
+        19
+      ],
+      [
+        "ref",
+        13
+      ],
+      [
+        "onPointerUp",
+        12
+      ],
+      [
+        "onMouseMove",
+        12
+      ],
+      [
+        "onMouseLeave",
+        12
+      ],
+      [
+        "onTouchEnd",
+        12
+      ],
+      [
+        "onContextMenu",
+        11
+      ],
+      [
+        "onMouseEnter",
+        11
+      ],
+      [
+        "onPointerCancel",
+        11
+      ],
+      [
+        "onFocus",
+        8
+      ],
+      [
+        "onPointerLeave",
+        7
+      ],
+      [
+        "onBlur",
+        7
+      ],
+      [
+        "onDragOver",
+        7
+      ],
+      [
+        "onDragLeave",
+        7
+      ],
+      [
+        "onDrop",
+        7
+      ],
+      [
+        "onDragEnd",
+        7
+      ],
+      [
+        "onDragStart",
+        6
+      ],
+      [
+        "onKeyDown",
+        3
+      ],
+      [
+        "onMouseUp",
+        1
+      ],
+      [
+        "onTouchMove",
+        1
+      ]
+    ],
+    "domNodes": [
+      {
+        "tag": "div",
+        "className": "timeline-container rve:flex rve:h-full rve:flex-col rve:overflow-hidden rve:bg-background",
+        "text": "1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres n",
+        "box": {
+          "x": 58,
+          "y": 505,
+          "w": 1382,
+          "h": 395
+        }
+      },
+      {
+        "tag": "div",
+        "className": "rve:flex rve:items-center rve:justify-between rve:border rve:border-border rve:bg-background rve:px-",
+        "text": "1x\n0:00.00\n/\n0:33.70\n16:9",
+        "box": {
+          "x": 58,
+          "y": 505,
+          "w": 1382,
+          "h": 58
+        }
+      },
+      {
+        "tag": "div",
+        "className": "rve:flex rve:flex-1 rve:items-center rve:justify-start rve:gap-2",
+        "text": "",
+        "box": {
+          "x": 71,
+          "y": 518,
+          "w": 368,
+          "h": 32
+        }
+      },
+      {
+        "tag": "div",
+        "className": "rve:mr-2 rve:flex rve:items-center rve:gap-1 rve:border-r rve:border-border rve:pr-3",
+        "text": "",
+        "box": {
+          "x": 71,
+          "y": 518,
+          "w": 81,
+          "h": 32
+        }
+      },
+      {
+        "tag": "button",
+        "className": "rve:inline-flex rve:items-center rve:justify-center rve:rounded-md rve:text-sm rve:font-extralight r",
+        "text": "",
+        "box": {
+          "x": 71,
+          "y": 518,
+          "w": 32,
+          "h": 32
+        }
+      },
+      {
+        "tag": "svg",
+        "className": "",
+        "text": "",
+        "box": {
+          "x": 79,
+          "y": 526,
+          "w": 16,
+          "h": 16
+        }
+      },
+      {
+        "tag": "path",
+        "className": "",
+        "text": "",
+        "box": {
+          "x": 81,
+          "y": 529,
+          "w": 3,
+          "h": 7
+        }
+      },
+      {
+        "tag": "path",
+        "className": "",
+        "text": "",
+        "box": {
+          "x": 81,
+          "y": 532,
+          "w": 11,
+          "h": 7
+        }
+      }
+    ]
+  },
+  "inspector": {
+    "topComponents": [],
+    "topHandlerProps": [],
+    "domNodes": []
+  },
+  "export_dialog": {
+    "topComponents": [],
+    "topHandlerProps": [],
+    "domNodes": []
+  },
+  "other": {
+    "topComponents": [
+      [
+        "div",
+        209
+      ],
+      [
+        "path",
+        121
+      ],
+      [
+        "svg",
+        97
+      ],
+      [
+        "circle",
+        85
+      ],
+      [
+        "TooltipProvider",
+        74
+      ],
+      [
+        "button",
+        72
+      ],
+      [
+        "TooltipProviderProvider",
+        42
+      ],
+      [
+        "Presence",
+        40
+      ],
+      [
+        "Popper",
+        37
+      ],
+      [
+        "line",
+        36
+      ],
+      [
+        "PopperProvider",
+        35
+      ],
+      [
+        "Tooltip",
+        35
+      ],
+      [
+        "TooltipPortal",
+        28
+      ],
+      [
+        "TooltipPortalProvider",
+        27
+      ],
+      [
+        "polyline",
+        26
+      ],
+      [
+        "input",
+        25
+      ],
+      [
+        "rect",
+        24
+      ],
+      [
+        "span",
+        18
+      ],
+      [
+        "p",
+        17
+      ],
+      [
+        "Dialog",
+        16
+      ],
+      [
+        "DialogProvider",
+        16
+      ],
+      [
+        "img",
+        15
+      ],
+      [
+        "DialogPortal",
+        15
+      ],
+      [
+        "DialogPortalProvider",
+        15
+      ],
+      [
+        "mK",
+        15
+      ]
+    ],
+    "topHandlerProps": [
+      [
+        "ref",
+        16
+      ],
+      [
+        "onFocus",
+        15
+      ],
+      [
+        "onBlur",
+        13
+      ],
+      [
+        "onClick",
+        12
+      ],
+      [
+        "onPointerMove",
+        12
+      ],
+      [
+        "onPointerLeave",
+        12
+      ],
+      [
+        "onPointerDown",
+        12
+      ],
+      [
+        "onMouseDown",
+        3
+      ],
+      [
+        "onChange",
+        2
+      ],
+      [
+        "onKeyDown",
+        2
+      ],
+      [
+        "onSubmit",
+        1
+      ]
+    ],
+    "domNodes": [
+      {
+        "tag": "html",
+        "className": "",
+        "text": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter",
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 0
+        }
+      },
+      {
+        "tag": "meta",
+        "className": "",
+        "text": "",
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "tag": "meta",
+        "className": "",
+        "text": "",
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "tag": "meta",
+        "className": "",
+        "text": "",
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "tag": "title",
+        "className": "",
+        "text": "Demo | React Video Editor",
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "tag": "meta",
+        "className": "",
+        "text": "",
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "tag": "link",
+        "className": "",
+        "text": "",
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      {
+        "tag": "body",
+        "className": "__variable_246ccd __variable_c29908 antialiased",
+        "text": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter",
+        "box": {
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 0
+        }
+      }
+    ]
+  }
+}

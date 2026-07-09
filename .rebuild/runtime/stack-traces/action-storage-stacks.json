@@ -1,0 +1,184 @@
+{
+  "sets": [
+    {
+      "kind": "storage-set",
+      "data": {
+        "store": "local",
+        "key": "idb_migration_v1_done",
+        "valuePreview": "1783591914925",
+        "stack": [
+          "Error",
+          "    at stack (<anonymous>:13:18)",
+          "    at Storage.setItem (<anonymous>:75:18)",
+          "    at t$ (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:5009)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:4476"
+        ],
+        "url": "https://demo.reactvideoeditor.com/",
+        "action": "boot"
+      },
+      "t": 1783591914929
+    },
+    {
+      "kind": "storage-set",
+      "data": {
+        "store": "local",
+        "key": "lastCleanup_thumbnailCache",
+        "valuePreview": "1783591923490",
+        "stack": [
+          "Error",
+          "    at stack (<anonymous>:13:18)",
+          "    at Storage.setItem (<anonymous>:75:18)",
+          "    at t9 (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:7440)"
+        ],
+        "url": "https://demo.reactvideoeditor.com/",
+        "action": "dark-toggle"
+      },
+      "t": 1783591923560
+    },
+    {
+      "kind": "storage-set",
+      "data": {
+        "store": "local",
+        "key": "rve-extended-theme",
+        "valuePreview": "light",
+        "stack": [
+          "Error",
+          "    at stack (<anonymous>:13:18)",
+          "    at Storage.setItem (<anonymous>:75:18)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:102598",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:808428",
+          "    at onClick (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:808442)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:84813",
+          "    at i8 (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:135363)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:141449",
+          "    at nz (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:19173)",
+          "    at sn (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:136596)"
+        ],
+        "url": "https://demo.reactvideoeditor.com/",
+        "action": "playback-space"
+      },
+      "t": 1783591932479
+    },
+    {
+      "kind": "storage-set",
+      "data": {
+        "store": "local",
+        "key": "advanced-timeline-store",
+        "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}",
+        "stack": [
+          "Error",
+          "    at stack (<anonymous>:13:18)",
+          "    at Storage.setItem (<anonymous>:75:18)",
+          "    at Object.setItem (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:509393)",
+          "    at u (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:509876)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:510067",
+          "    at setGhostElement (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:511722)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:918367",
+          "    at i8 (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:135363)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:141449",
+          "    at nz (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:19197)"
+        ],
+        "url": "https://demo.reactvideoeditor.com/",
+        "action": "try-add-imported-media-to-timeline"
+      },
+      "t": 1783591957954
+    },
+    {
+      "kind": "storage-set",
+      "data": {
+        "store": "local",
+        "key": "advanced-timeline-store",
+        "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}",
+        "stack": [
+          "Error",
+          "    at stack (<anonymous>:13:18)",
+          "    at Storage.setItem (<anonymous>:75:18)",
+          "    at Object.setItem (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:509393)",
+          "    at u (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:509876)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:510067",
+          "    at setGhostElement (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:511722)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:918669",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:923780",
+          "    at i8 (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:135363)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:141449"
+        ],
+        "url": "https://demo.reactvideoeditor.com/",
+        "action": "try-add-imported-media-to-timeline"
+      },
+      "t": 1783591957994
+    },
+    {
+      "kind": "storage-set",
+      "data": {
+        "store": "local",
+        "key": "advanced-timeline-store",
+        "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}",
+        "stack": [
+          "Error",
+          "    at stack (<anonymous>:13:18)",
+          "    at Storage.setItem (<anonymous>:75:18)",
+          "    at Object.setItem (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:509393)",
+          "    at u (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:509876)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:510067",
+          "    at setValidDropByItemId (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:511871)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:918710",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:923780",
+          "    at i8 (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:135363)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:141449"
+        ],
+        "url": "https://demo.reactvideoeditor.com/",
+        "action": "try-add-imported-media-to-timeline"
+      },
+      "t": 1783591957994
+    },
+    {
+      "kind": "storage-set",
+      "data": {
+        "store": "local",
+        "key": "advanced-timeline-store",
+        "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}",
+        "stack": [
+          "Error",
+          "    at stack (<anonymous>:13:18)",
+          "    at Storage.setItem (<anonymous>:75:18)",
+          "    at Object.setItem (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:509393)",
+          "    at u (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:509876)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:510067",
+          "    at setNewItemDragState (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:512014)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:918716",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:923780",
+          "    at i8 (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:135363)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:141449"
+        ],
+        "url": "https://demo.reactvideoeditor.com/",
+        "action": "try-add-imported-media-to-timeline"
+      },
+      "t": 1783591957995
+    },
+    {
+      "kind": "storage-set",
+      "data": {
+        "store": "local",
+        "key": "advanced-timeline-store",
+        "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}",
+        "stack": [
+          "Error",
+          "    at stack (<anonymous>:13:18)",
+          "    at Storage.setItem (<anonymous>:75:18)",
+          "    at Object.setItem (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:509393)",
+          "    at u (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:509876)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:510067",
+          "    at setInsertionIndex (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:512416)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:923784",
+          "    at i8 (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:135363)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:141449",
+          "    at nz (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:19197)"
+        ],
+        "url": "https://demo.reactvideoeditor.com/",
+        "action": "try-add-imported-media-to-timeline"
+      },
+      "t": 1783591957995
+    }
+  ],
+  "removes": []
+}

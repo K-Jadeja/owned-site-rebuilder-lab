@@ -1,0 +1,153 @@
+{
+  "fetch": [
+    {
+      "kind": "fetch",
+      "data": {
+        "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+        "method": "GET",
+        "stack": [
+          "Error",
+          "    at stack (<anonymous>:13:18)",
+          "    at w.fetch (<anonymous>:116:64)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867412",
+          "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+        ],
+        "action": "boot"
+      },
+      "t": 1783591915616
+    },
+    {
+      "kind": "fetch",
+      "data": {
+        "url": "https://videos.pexels.com/video-files/7722221/7722221-hd_1280_720_25fps.mp4",
+        "method": "GET",
+        "stack": [
+          "Error",
+          "    at stack (<anonymous>:13:18)",
+          "    at w.fetch (<anonymous>:116:64)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867412",
+          "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+        ],
+        "action": "boot"
+      },
+      "t": 1783591915617
+    },
+    {
+      "kind": "fetch",
+      "data": {
+        "url": "https://videos.pexels.com/video-files/7664770/7664770-hd_1280_720_25fps.mp4",
+        "method": "GET",
+        "stack": [
+          "Error",
+          "    at stack (<anonymous>:13:18)",
+          "    at w.fetch (<anonymous>:116:64)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867412",
+          "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+        ],
+        "action": "boot"
+      },
+      "t": 1783591915657
+    },
+    {
+      "kind": "fetch",
+      "data": {
+        "url": "https://videos.pexels.com/video-files/856142/856142-hd_1920_1080_30fps.mp4",
+        "method": "GET",
+        "stack": [
+          "Error",
+          "    at stack (<anonymous>:13:18)",
+          "    at w.fetch (<anonymous>:116:64)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867412",
+          "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+        ],
+        "action": "boot"
+      },
+      "t": 1783591915659
+    },
+    {
+      "kind": "fetch",
+      "data": {
+        "url": "https://videos.pexels.com/video-files/7180708/7180708-hd_2048_1080_25fps.mp4",
+        "method": "GET",
+        "stack": [
+          "Error",
+          "    at stack (<anonymous>:13:18)",
+          "    at w.fetch (<anonymous>:116:64)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:867412",
+          "    at async fO (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:868522)"
+        ],
+        "action": "boot"
+      },
+      "t": 1783591915660
+    },
+    {
+      "kind": "fetch",
+      "data": {
+        "url": "https://rwxrdxvxndclnqvznxfj.supabase.co/storage/v1/object/public/sounds/sound-3.mp3?t=2024-11-04T03%3A52%3A35.101Z",
+        "method": "GET",
+        "stack": [
+          "Error",
+          "    at stack (<anonymous>:13:18)",
+          "    at w.fetch (<anonymous>:116:64)",
+          "    at en (https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:65:125294)",
+          "    at y._runWorker (https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:145860)",
+          "    at x.runWorker (https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:154831)",
+          "    at x.read (https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:153046)",
+          "    at y._read (https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:145646)",
+          "    at s.requestSlice (https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:65589)",
+          "    at e4._canReadInput (https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:65:368024)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:54741"
+        ],
+        "action": "boot"
+      },
+      "t": 1783591915708
+    },
+    {
+      "kind": "fetch",
+      "data": {
+        "url": "/api/fonts/Inter",
+        "method": "GET",
+        "stack": [
+          "Error",
+          "    at stack (<anonymous>:13:18)",
+          "    at w.fetch (<anonymous>:116:64)",
+          "    at hE (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:543677)",
+          "    at hI (https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:544070)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:544635",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:544740",
+          "    at o1 (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:88951)",
+          "    at uE (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104843)",
+          "    at ux (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104727)",
+          "    at uE (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:104888)"
+        ],
+        "action": "manual-trim-split-key-probe"
+      },
+      "t": 1783591977635
+    }
+  ],
+  "xhr": [],
+  "history": [
+    {
+      "kind": "history",
+      "data": {
+        "op": "replaceState",
+        "url": "/",
+        "stack": [
+          "Error",
+          "    at stack (<anonymous>:13:18)",
+          "    at w.history.<computed> [as replaceState] (<anonymous>:100:63)",
+          "    at https://demo.reactvideoeditor.com/_next/static/chunks/255-4ecccced1aaa83b0.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:102203",
+          "    at o1 (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:88951)",
+          "    at uv (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:98475)",
+          "    at ug (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:98316)",
+          "    at uv (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:98438)",
+          "    at ug (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:98316)",
+          "    at uv (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:98514)",
+          "    at ug (https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz:1:98316)"
+        ],
+        "action": "boot"
+      },
+      "t": 1783591914828
+    }
+  ]
+}

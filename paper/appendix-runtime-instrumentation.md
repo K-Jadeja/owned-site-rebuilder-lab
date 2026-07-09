@@ -31,6 +31,41 @@ executes:
   drop / input / change` events (capture phase)
 - `console.*`, `window.onerror`, `unhandledrejection`
 
+## Stack-trace capture (this pass)
+
+`scripts/action-stack-trace-probe.mjs` adds deeper wraps:
+
+- `EventTarget.prototype.addEventListener` — wraps every listener so
+  on invocation, the target descriptor + URL + `new Error().stack`
+  are recorded before calling the original listener.
+- `Storage.prototype.setItem / removeItem` — records the key, value
+  preview, URL, and stack.
+- `history.pushState / replaceState` — records the URL and stack.
+- `URL.createObjectURL` — records the blob type, size, constructor,
+  and stack.
+- `HTMLMediaElement.play / pause` — records the currentSrc,
+  currentTime, duration, paused, and stack.
+- `CanvasRenderingContext2D.prototype.drawImage` — records the
+  canvas dimensions and stack.
+- `HTMLCanvasElement.prototype.toBlob` — records the canvas dimensions
+  and stack.
+- `console.log / warn / error / info` — wraps each so the original
+  behavior is preserved, and a stack frame is captured.
+
+## Stack-frame → bundle mapping
+
+`scripts/map-stack-frames-to-bundles.mjs` reads each captured stack
+frame, parses the URL, resolves it to a local bundle filename under
+`.rebuild/target-source/bundles/`, extracts a snippet around the
+line:col, and lists nearby feature keywords.
+
+In this run, 150 frames mapped successfully across 14 actions. The
+most strongly correlated bundle is `180476bc-91ccc8fcb48478c4.js`,
+which contains every `advanced-timeline-store` setter, every
+`lastCleanup_thumbnailCache` setter, every `URL.createObjectURL` for
+the ThumbnailCache sprite flow, and the `classifyFileType` /
+`urlCache.set` calls for single-file upload.
+
 ## Actions driven
 
 | Action | Trigger |

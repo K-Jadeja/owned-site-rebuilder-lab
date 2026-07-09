@@ -1,7 +1,23 @@
 {
   "schema_version": 2,
   "target": "https://demo.reactvideoeditor.com",
-  "generated_at": "2026-07-09T09:30:00Z",
+  "generated_at": "2026-07-09T10:25:00Z",
+  "action_stack_bundle_correlation_run": {
+    "startedAt": "2026-07-09T10:10:00Z",
+    "finishedAt": "2026-07-09T10:25:00Z",
+    "stackTraceActions": 14,
+    "storageStacks": 8,
+    "mediaPlayStacks": 1,
+    "createObjectURLStacks": 6,
+    "framesMapped": 150,
+    "cdpCoverageWorks": true,
+    "cdpCoverageUsedBytes": 9165640,
+    "featuresUpgradedToCodeCorrelated": [
+      "F007",
+      "F020",
+      "F031"
+    ]
+  },
   "deep_bundle_runtime_decoupling": {
     "startedAt": "2026-07-09T14:50:00Z",
     "finishedAt": "2026-07-09T09:30:00Z",
@@ -174,7 +190,7 @@
     {
       "id": "F007",
       "name": "Asset import / add media",
-      "proof_level": "hard_proof",
+      "proof_level": "code_correlated",
       "test_files": [
         "tests/single-import-proof.spec.mjs",
         "tests/feature-parity-plan.spec.mjs"
@@ -446,7 +462,7 @@
     {
       "id": "F020",
       "name": "Playback",
-      "proof_level": "hard_proof",
+      "proof_level": "code_correlated",
       "test_files": [
         "tests/deep-runtime-proof.spec.mjs"
       ],
@@ -655,7 +671,7 @@
     {
       "id": "F031",
       "name": "Persistence after reload",
-      "proof_level": "hard_proof",
+      "proof_level": "code_correlated",
       "test_files": [
         "tests/deep-runtime-proof.spec.mjs",
         "tests/feature-parity-plan.spec.mjs"

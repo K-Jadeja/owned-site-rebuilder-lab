@@ -1,0 +1,1055 @@
+{
+  "generatedAt": "2026-07-09T10:22:48.666Z",
+  "features": [
+    {
+      "id": "F001",
+      "name": "App shell loads",
+      "current_proof_level": "hard_proof",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 5,
+        "coverage": 0,
+        "test": 2,
+        "total": 55
+      },
+      "matched_keywords": [
+        "app",
+        "shell"
+      ],
+      "bundle_hits": 8,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs",
+        "tests/reference-capture.spec.mjs"
+      ],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F002",
+      "name": "Topbar / toolbar",
+      "current_proof_level": "surface_observed",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 2,
+        "coverage": 0,
+        "test": 1,
+        "total": 51
+      },
+      "matched_keywords": [
+        "toolbar"
+      ],
+      "bundle_hits": 2,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F003",
+      "name": "Media library region",
+      "current_proof_level": "surface_observed",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 5,
+        "coverage": 0,
+        "test": 1,
+        "total": 54
+      },
+      "matched_keywords": [
+        "media",
+        "region"
+      ],
+      "bundle_hits": 8,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F004",
+      "name": "Preview / player region",
+      "current_proof_level": "hard_proof",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 7,
+        "coverage": 0,
+        "test": 1,
+        "total": 56
+      },
+      "matched_keywords": [
+        "preview",
+        "player",
+        "region"
+      ],
+      "bundle_hits": 6,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F005",
+      "name": "Timeline region",
+      "current_proof_level": "surface_observed",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 62,
+        "bundle_keyword": 1,
+        "coverage": 0,
+        "test": 1,
+        "total": 64
+      },
+      "matched_keywords": [
+        "region"
+      ],
+      "bundle_hits": 4,
+      "mapped_frame_hits": [
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        },
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        },
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        },
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        },
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        },
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        },
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        }
+      ],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F006",
+      "name": "Inspector region",
+      "current_proof_level": "behavior_observed",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 1,
+        "coverage": 0,
+        "test": 0,
+        "total": 49
+      },
+      "matched_keywords": [
+        "region"
+      ],
+      "bundle_hits": 2,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F007",
+      "name": "Asset import / add media",
+      "current_proof_level": "hard_proof",
+      "candidate_proof_level": "code_correlated",
+      "scores": {
+        "runtime": 6,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 6,
+        "coverage": 0,
+        "test": 4,
+        "total": 64
+      },
+      "matched_keywords": [
+        "media",
+        "import"
+      ],
+      "bundle_hits": 8,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [
+        {
+          "kind": "createObjectURL",
+          "action": "single-file-import"
+        },
+        {
+          "kind": "createObjectURL",
+          "action": "single-file-import"
+        }
+      ],
+      "test_files": [
+        "tests/single-import-proof.spec.mjs",
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "note": "Upgraded from hard_proof to code_correlated. Stack frames map into target bundle + feature keywords appear in mapped frame snippets."
+    },
+    {
+      "id": "F008",
+      "name": "Export dialog",
+      "current_proof_level": "hard_proof",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 5,
+        "coverage": 0,
+        "test": 4,
+        "total": 57
+      },
+      "matched_keywords": [
+        "export",
+        "dialog"
+      ],
+      "bundle_hits": 5,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [
+        "tests/deep-runtime-proof.spec.mjs",
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F009",
+      "name": "Undo / redo button",
+      "current_proof_level": "surface_observed",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 1,
+        "coverage": 0,
+        "test": 1,
+        "total": 50
+      },
+      "matched_keywords": [
+        "redo"
+      ],
+      "bundle_hits": 3,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F010",
+      "name": "Persistence / storage",
+      "current_proof_level": "hard_proof",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 2,
+        "coverage": 0,
+        "test": 1,
+        "total": 51
+      },
+      "matched_keywords": [
+        "storage"
+      ],
+      "bundle_hits": 4,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F011",
+      "name": "Project create/load/save",
+      "current_proof_level": "not_found",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 0,
+        "coverage": 0,
+        "test": 0,
+        "total": 48
+      },
+      "matched_keywords": [],
+      "bundle_hits": 0,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F012",
+      "name": "Media library tabs",
+      "current_proof_level": "surface_observed",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 5,
+        "coverage": 0,
+        "test": 1,
+        "total": 54
+      },
+      "matched_keywords": [
+        "media",
+        "tabs"
+      ],
+      "bundle_hits": 8,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F013",
+      "name": "Drag/drop to timeline",
+      "current_proof_level": "behavior_observed",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 15,
+        "storage": 0,
+        "stack": 62,
+        "bundle_keyword": 0,
+        "coverage": 0,
+        "test": 0,
+        "total": 77
+      },
+      "matched_keywords": [],
+      "bundle_hits": 6,
+      "mapped_frame_hits": [
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        },
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        },
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        },
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        },
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        },
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        },
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        }
+      ],
+      "coverage_hits": [],
+      "runtime_hits": [
+        {
+          "kind": "storage",
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline"
+        },
+        {
+          "kind": "storage",
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline"
+        },
+        {
+          "kind": "storage",
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline"
+        },
+        {
+          "kind": "storage",
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline"
+        },
+        {
+          "kind": "storage",
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline"
+        }
+      ],
+      "test_files": [],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F014",
+      "name": "Track management",
+      "current_proof_level": "surface_observed",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 50,
+        "bundle_keyword": 5,
+        "coverage": 0,
+        "test": 1,
+        "total": 56
+      },
+      "matched_keywords": [
+        "track",
+        "management"
+      ],
+      "bundle_hits": 8,
+      "mapped_frame_hits": [
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "track"
+        }
+      ],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F015",
+      "name": "Clip trimming",
+      "current_proof_level": "inferred_from_bundle",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 50,
+        "bundle_keyword": 3,
+        "coverage": 0,
+        "test": 0,
+        "total": 53
+      },
+      "matched_keywords": [
+        "clip"
+      ],
+      "bundle_hits": 5,
+      "mapped_frame_hits": [
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "clip"
+        }
+      ],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F016",
+      "name": "Clip splitting",
+      "current_proof_level": "inferred_from_bundle",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 50,
+        "bundle_keyword": 0,
+        "coverage": 0,
+        "test": 0,
+        "total": 50
+      },
+      "matched_keywords": [],
+      "bundle_hits": 1,
+      "mapped_frame_hits": [
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "clip"
+        }
+      ],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F017",
+      "name": "Clip movement",
+      "current_proof_level": "behavior_observed",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 50,
+        "bundle_keyword": 3,
+        "coverage": 0,
+        "test": 0,
+        "total": 53
+      },
+      "matched_keywords": [
+        "clip"
+      ],
+      "bundle_hits": 8,
+      "mapped_frame_hits": [
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "clip"
+        }
+      ],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F018",
+      "name": "Snapping",
+      "current_proof_level": "inferred_from_bundle",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 0,
+        "coverage": 0,
+        "test": 0,
+        "total": 48
+      },
+      "matched_keywords": [],
+      "bundle_hits": 0,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F019",
+      "name": "Timeline zoom",
+      "current_proof_level": "hard_proof",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 62,
+        "bundle_keyword": 2,
+        "coverage": 0,
+        "test": 1,
+        "total": 65
+      },
+      "matched_keywords": [
+        "zoom"
+      ],
+      "bundle_hits": 5,
+      "mapped_frame_hits": [
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        },
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        },
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        },
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        },
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        },
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        },
+        {
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline",
+          "kw": "timeline"
+        }
+      ],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F020",
+      "name": "Playback",
+      "current_proof_level": "hard_proof",
+      "candidate_proof_level": "code_correlated",
+      "scores": {
+        "runtime": 6,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 4,
+        "coverage": 0,
+        "test": 3,
+        "total": 61
+      },
+      "matched_keywords": [
+        "playback"
+      ],
+      "bundle_hits": 6,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [
+        {
+          "kind": "storage",
+          "key": "rve-extended-theme",
+          "action": "playback-space"
+        },
+        {
+          "kind": "media-play",
+          "action": "playback-space"
+        }
+      ],
+      "test_files": [
+        "tests/deep-runtime-proof.spec.mjs"
+      ],
+      "note": "Upgraded from hard_proof to code_correlated. Stack frames map into target bundle + feature keywords appear in mapped frame snippets."
+    },
+    {
+      "id": "F021",
+      "name": "Scrubbing",
+      "current_proof_level": "inferred_from_bundle",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 0,
+        "coverage": 0,
+        "test": 0,
+        "total": 48
+      },
+      "matched_keywords": [],
+      "bundle_hits": 0,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F022",
+      "name": "Inspector / properties",
+      "current_proof_level": "behavior_observed",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 0,
+        "coverage": 0,
+        "test": 0,
+        "total": 48
+      },
+      "matched_keywords": [],
+      "bundle_hits": 0,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F023",
+      "name": "Text overlays",
+      "current_proof_level": "inferred_from_bundle",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 0,
+        "coverage": 0,
+        "test": 0,
+        "total": 48
+      },
+      "matched_keywords": [],
+      "bundle_hits": 0,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F024",
+      "name": "Transitions",
+      "current_proof_level": "inferred_from_bundle",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 0,
+        "coverage": 0,
+        "test": 0,
+        "total": 48
+      },
+      "matched_keywords": [],
+      "bundle_hits": 7,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F025",
+      "name": "Effects",
+      "current_proof_level": "inferred_from_bundle",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 0,
+        "coverage": 0,
+        "test": 0,
+        "total": 48
+      },
+      "matched_keywords": [],
+      "bundle_hits": 0,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F026",
+      "name": "Keyframes",
+      "current_proof_level": "inferred_from_bundle",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 0,
+        "coverage": 0,
+        "test": 0,
+        "total": 48
+      },
+      "matched_keywords": [],
+      "bundle_hits": 0,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F027",
+      "name": "Audio waveform",
+      "current_proof_level": "fixture_ready",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 1,
+        "coverage": 0,
+        "test": 1,
+        "total": 50
+      },
+      "matched_keywords": [
+        "audio"
+      ],
+      "bundle_hits": 5,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F028",
+      "name": "Export settings",
+      "current_proof_level": "hard_proof",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 0,
+        "coverage": 0,
+        "test": 3,
+        "total": 51
+      },
+      "matched_keywords": [],
+      "bundle_hits": 0,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [
+        "tests/deep-runtime-proof.spec.mjs"
+      ],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F029",
+      "name": "Keyboard shortcuts",
+      "current_proof_level": "behavior_observed",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 0,
+        "coverage": 0,
+        "test": 1,
+        "total": 49
+      },
+      "matched_keywords": [],
+      "bundle_hits": 0,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F030",
+      "name": "Undo / redo (deep)",
+      "current_proof_level": "behavior_observed",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 0,
+        "coverage": 0,
+        "test": 1,
+        "total": 49
+      },
+      "matched_keywords": [],
+      "bundle_hits": 0,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F031",
+      "name": "Persistence after reload",
+      "current_proof_level": "hard_proof",
+      "candidate_proof_level": "code_correlated",
+      "scores": {
+        "runtime": 12,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 6,
+        "coverage": 0,
+        "test": 4,
+        "total": 70
+      },
+      "matched_keywords": [
+        "after",
+        "reload"
+      ],
+      "bundle_hits": 7,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [
+        {
+          "kind": "storage",
+          "key": "idb_migration_v1_done",
+          "action": "boot"
+        },
+        {
+          "kind": "storage",
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline"
+        },
+        {
+          "kind": "storage",
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline"
+        },
+        {
+          "kind": "storage",
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline"
+        },
+        {
+          "kind": "storage",
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline"
+        },
+        {
+          "kind": "storage",
+          "key": "advanced-timeline-store",
+          "action": "try-add-imported-media-to-timeline"
+        }
+      ],
+      "test_files": [
+        "tests/deep-runtime-proof.spec.mjs",
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "note": "Upgraded from hard_proof to code_correlated. Stack frames map into target bundle + feature keywords appear in mapped frame snippets."
+    },
+    {
+      "id": "F032",
+      "name": "Error states",
+      "current_proof_level": "not_found",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 0,
+        "coverage": 0,
+        "test": 0,
+        "total": 48
+      },
+      "matched_keywords": [],
+      "bundle_hits": 0,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F033",
+      "name": "Empty states",
+      "current_proof_level": "not_found",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 0,
+        "coverage": 0,
+        "test": 0,
+        "total": 48
+      },
+      "matched_keywords": [],
+      "bundle_hits": 0,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    },
+    {
+      "id": "F034",
+      "name": "Unsupported media handling",
+      "current_proof_level": "not_found",
+      "candidate_proof_level": "behavior_observed",
+      "scores": {
+        "runtime": 0,
+        "storage": 0,
+        "stack": 48,
+        "bundle_keyword": 0,
+        "coverage": 0,
+        "test": 0,
+        "total": 48
+      },
+      "matched_keywords": [],
+      "bundle_hits": 0,
+      "mapped_frame_hits": [],
+      "coverage_hits": [],
+      "runtime_hits": [],
+      "test_files": [],
+      "note": "Evidence gathered but criteria for upgrade not met."
+    }
+  ],
+  "tally": {
+    "behavior_observed": 31,
+    "code_correlated": 3
+  },
+  "upgradedToCodeCorrelated": [
+    "F007",
+    "F020",
+    "F031"
+  ]
+}
