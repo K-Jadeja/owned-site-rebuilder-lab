@@ -1,0 +1,186 @@
+[
+  {
+    "action": "dark-toggle",
+    "t": 1783589215100,
+    "type": "pointerdown",
+    "tag": "button",
+    "textPreview": "Dark",
+    "key": null
+  },
+  {
+    "action": "dark-toggle",
+    "t": 1783589215216,
+    "type": "pointerup",
+    "tag": "html",
+    "textPreview": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above",
+    "key": null
+  },
+  {
+    "action": "dark-toggle",
+    "t": 1783589215217,
+    "type": "click",
+    "tag": "html",
+    "textPreview": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above",
+    "key": null
+  },
+  {
+    "action": "export-dialog",
+    "t": 1783589220987,
+    "type": "keydown",
+    "tag": "div",
+    "textPreview": "Light\nDark\nRVE",
+    "key": "Escape"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589222273,
+    "type": "keydown",
+    "tag": "button",
+    "textPreview": "Dark",
+    "key": " "
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589223203,
+    "type": "keydown",
+    "tag": "div",
+    "textPreview": "Light",
+    "key": " "
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589223204,
+    "type": "click",
+    "tag": "div",
+    "textPreview": "Light",
+    "key": null
+  },
+  {
+    "action": "undo-redo",
+    "t": 1783589224608,
+    "type": "keydown",
+    "tag": "button",
+    "textPreview": "Light",
+    "key": "Control"
+  },
+  {
+    "action": "undo-redo",
+    "t": 1783589224611,
+    "type": "keydown",
+    "tag": "button",
+    "textPreview": "Light",
+    "key": "Z"
+  },
+  {
+    "action": "undo-redo",
+    "t": 1783589224925,
+    "type": "keydown",
+    "tag": "button",
+    "textPreview": "Light",
+    "key": "Control"
+  },
+  {
+    "action": "undo-redo",
+    "t": 1783589224927,
+    "type": "keydown",
+    "tag": "button",
+    "textPreview": "Light",
+    "key": "Shift"
+  },
+  {
+    "action": "undo-redo",
+    "t": 1783589224929,
+    "type": "keydown",
+    "tag": "button",
+    "textPreview": "Light",
+    "key": "Z"
+  },
+  {
+    "action": "zoom-in",
+    "t": 1783589226257,
+    "type": "pointerdown",
+    "tag": "path",
+    "textPreview": "",
+    "key": null
+  },
+  {
+    "action": "zoom-in",
+    "t": 1783589226260,
+    "type": "pointerup",
+    "tag": "path",
+    "textPreview": "",
+    "key": null
+  },
+  {
+    "action": "zoom-in",
+    "t": 1783589226260,
+    "type": "click",
+    "tag": "path",
+    "textPreview": "",
+    "key": null
+  },
+  {
+    "action": "zoom-out",
+    "t": 1783589227593,
+    "type": "pointerdown",
+    "tag": "path",
+    "textPreview": "",
+    "key": null
+  },
+  {
+    "action": "zoom-out",
+    "t": 1783589227594,
+    "type": "pointerup",
+    "tag": "path",
+    "textPreview": "",
+    "key": null
+  },
+  {
+    "action": "zoom-out",
+    "t": 1783589227594,
+    "type": "click",
+    "tag": "path",
+    "textPreview": "",
+    "key": null
+  },
+  {
+    "action": "zoom-reset",
+    "t": 1783589228937,
+    "type": "pointerdown",
+    "tag": "svg",
+    "textPreview": "",
+    "key": null
+  },
+  {
+    "action": "zoom-reset",
+    "t": 1783589228938,
+    "type": "pointerup",
+    "tag": "svg",
+    "textPreview": "",
+    "key": null
+  },
+  {
+    "action": "zoom-reset",
+    "t": 1783589228938,
+    "type": "click",
+    "tag": "svg",
+    "textPreview": "",
+    "key": null
+  },
+  {
+    "action": "single-import",
+    "t": 1783589233516,
+    "type": "input",
+    "tag": "input",
+    "textPreview": "C:\\fakepath\\sample.mp4",
+    "key": null
+  },
+  {
+    "action": "single-import",
+    "t": 1783589233516,
+    "type": "change",
+    "tag": "input",
+    "textPreview": "C:\\fakepath\\sample.mp4",
+    "key": null
+  }
+]

@@ -1,120 +1,155 @@
 # Handoff
 
-Generated: 2026-07-09T07:13:38.661Z (last updated 2026-07-09T08:30:00Z after deep probe)
-
-This file is the first thing a new Claude Code session should read
-after `/clear` or compaction.
+Generated: 2026-07-09T09:30:00Z (deep bundle + runtime decoupling pass)
 
 ## Current goal
 
 Reconstruct observable behavior of https://demo.reactvideoeditor.com
 from public surface evidence (DOM, network, storage, public bundles)
-into a spec, state model, acceptance tests, and rebuild plan. Then
-demonstrate that Claude Code can independently reimplement the
-observable product and verify parity with automated tests.
+into a spec, state model, acceptance tests, and rebuild plan.
 
-**This run was deep-feature observation only.** No rebuild was built.
-The harness now produces per-feature before/after evidence JSON +
-screenshots, plus a richer feature inventory and state model driven
-by the deep probe.
+This run was the **Deep Bundle + Runtime Decoupling Pass** per the
+operating philosophy in `.claude/skills/owned-site-rebuilder/SKILL.md`.
+No rebuild was built in this run.
 
-## What was created
+## What this run produced
 
-- `.claude/skills/owned-site-rebuilder/` — project-local skill.
-- `.harness/` — long-run state.
-- `.rebuild/reference/` — captured DOM/styles/network/storage/bundles/console/screenshots.
-- `.rebuild/spec/` — visual-spec, interaction-spec, component-map,
-  implementation-plan, video-editor-architecture.
-- `.rebuild/features/` — feature-inventory, feature-matrix.json,
-  state-model, api-contracts, event-map, storage-model, bundle-analysis,
-  acceptance-tests, media-engine-notes.
-- `.rebuild/reports/` — capture-run, feature-parity, gaps, progress,
-  visual-diff, final-research-summary.
-- `.rebuild/tests/fixtures/` — sample.mp4, sample.mp3, sample.png
-  (ffmpeg-generated, ffprobe-verified).
-- `.rebuild/tests/feature/` — per-feature JSON evidence + before/after
-  screenshots from `scripts/deep-probe.mjs`.
-- `.research/` — FreeCut notes + open-source comparison.
-- `scripts/` — capture-site, probe-features, deep-probe, analyze-bundles,
-  inspect-storage, generate-reports, visual-compare + utils.
-- `tests/` — reference-capture, visual-baseline, feature-parity-plan
-  Playwright specs.
-- `docs/` — 9 documentation files.
-- `README.md`, `package.json`, `playwright.config.mjs`, `.gitignore`.
+### Skill patch
+- `.claude/skills/owned-site-rebuilder/SKILL.md` now has a `Deep
+  Bundle + Runtime Decoupling Mode` section + 9-level proof-quality
+  ladder + hard-test rule.
+- 4 new references: `deep-bundle-decoupling.md`,
+  `runtime-instrumentation.md`, `proof-quality.md`,
+  `open-source-release-evidence.md`.
+- `README.md` updated with a "Deep Bundle + Runtime Decoupling Mode"
+  section.
 
-## Commands to run
+### Raw bundle policy
+- `.rebuild/target-source/{bundles,source-maps,manifests,reports}/`
+  created.
+- `.rebuild/private/{bundles,secrets-check}/` created (git-ignored).
+- `.gitignore` updated.
 
-- `npm install` — install npm deps.
-- `npx playwright install chromium` — install browser binary.
-- `npm run capture` — multi-viewport capture.
-- `npm run probe` — interactive probing.
-- `node scripts/deep-probe.mjs` — **deep feature probe** (new in this run).
-- `npm run bundles` — bundle analysis.
-- `npm run storage` — storage inspection.
-- `npm run reports` — regenerate spec + reports + this handoff.
-- `npm test` — run all Playwright tests.
-- `npm run test:visual` — visual baseline only.
-- `npm run test:features` — feature parity plan only.
+### Scripts (10 new)
+- `scripts/fetch-public-bundles.mjs`
+- `scripts/deep-bundle-analysis.mjs`
+- `scripts/scan-target-artifacts.mjs`
+- `scripts/action-coverage-map.mjs`
+- `scripts/runtime-instrumentation.mjs`
+- `scripts/react-component-probe.mjs`
+- `scripts/decode-state-stores.mjs`
+- `scripts/single-file-import-probe.mjs`
+- `scripts/selector-miner.mjs`
+- `scripts/audit-proof-quality.mjs`
+
+### Tests (3 new)
+- `tests/deep-runtime-proof.spec.mjs` — export dialog, playback,
+  persistence, bundle analysis hard proofs.
+- `tests/single-import-proof.spec.mjs` — single-file upload proof.
+- `tests/bundle-analysis-proof.spec.mjs` — bundle artifacts
+  existence + content.
+
+### Outputs
+
+| Artifact | Path |
+| --- | --- |
+| Bundle manifest | `.rebuild/private/bundles/manifest.json` |
+| Promoted bundles | `.rebuild/target-source/bundles/` (13 files) |
+| Secrets scan | `.rebuild/target-source/reports/secrets-scan-report.md` |
+| License report | `.rebuild/target-source/reports/license-provenance-report.md` |
+| Commit eligibility | `.rebuild/target-source/reports/commit-eligibility.md` |
+| Bundle index | `.rebuild/features/bundle-symbol-index.json` |
+| Library fingerprint | `.rebuild/features/library-fingerprint.json` |
+| Feature → bundle map | `.rebuild/features/feature-code-clues.json` |
+| Decoded state stores | `.rebuild/features/decoded-state-stores.md` |
+| Persistence model | `.rebuild/features/inferred-persistence-model.md` |
+| Bundle summary | `.rebuild/features/deep-bundle-analysis.md` |
+| API contracts | `.rebuild/features/api-contracts.md` |
+| Feature parity | `.rebuild/reports/feature-parity.md` |
+| Test proof audit | `.rebuild/reports/test-proof-audit.md` |
+| Runtime summary | `.rebuild/runtime/runtime-summary.md` |
+| Action coverage | `.rebuild/runtime/coverage/action-coverage-summary.md` |
+| React tree | `.rebuild/runtime/react-component-tree.md` |
+| Single-import | `.rebuild/deep-import/import-summary.md` |
+| Selector map | `.rebuild/features/selector-map.md` |
+| Paper | `paper/` (10 files) |
+
+### Headline counts
+
+- 13 bundles fetched (11 JS + 2 CSS).
+- 0 source maps exposed publicly.
+- 0 secrets findings.
+- 12 libraries fingerprinted.
+- 40+ feature keyword hits across bundles.
+- 10 actions covered with JS + CSS coverage.
+- 9 features at `hard_proof`, 6 at `behavior_observed`, 6 at
+  `surface_observed`, 8 at `inferred_from_bundle`, 1 at
+  `fixture_ready`, 4 at `not_found`.
+- 33/33 desktop Playwright tests pass.
+
+## Major discoveries
+
+- **`advanced-timeline-store`** is a Zustand-persist JSON
+  `{state: {trackDensity: "default"}, version: 0}`.
+- **React fiber keys** are present in the production build. Radix
+  UI primitives (`TooltipProvider`, `MenuProvider`, `Popper`,
+  `DropdownMenu`) are extracted at runtime.
+- **ThumbnailCache** generates sprite images (284x120, 40px tiles,
+  10 tiles, 1s interval) during a single-file upload.
+- **Space keypress** creates the `advanced-timeline-store` key —
+  the strongest single observable playback behavior.
+- **Export dialog** opens with `720p`, `1080p`, `4K`, `Start
+  Export`, `Rendered in your browser`.
+- **`lastCleanup_thumbnailCache`** is added on first user action
+  (theme toggle / import).
+- **12 libraries** fingerprinted in bundles: React, Next.js, Radix
+  UI, Tailwind, Zustand, Immer, Supabase, Pexels, WebCodecs,
+  MediaRecorder, Mediabunny, Remotion.
 
 ## What succeeded
 
-### Setup (Phase 0–9)
-
-- Project scaffold, skill, scripts, tests, docs, FreeCut clone.
-- Feature inventory seeded with 34 entries.
-
-### First capture (Phase 19–21)
-
-- 3 viewports captured, 71 network entries, 18 console msgs.
-- 28 interactive nodes discovered.
-- 33 Playwright tests passing (6 fixture-skipped at the time).
-
-### Deep feature probe (this run)
-
-- 3 fixture files generated (mp4 71 KB, mp3 40 KB, png 886 B).
-- Fixture-media tests unskipped; **all 17 desktop tests pass**.
-- Per-feature evidence for F007, F008, F013, F015, F016, F017, F019,
-  F020, F030, F031 captured with before/after screenshots, storage
-  diffs, network deltas, and console messages.
-- Discovery: pressing **Space** adds `advanced-timeline-store` to
-  `localStorage` (the strongest single observable behavior so far).
-- Discovery: clicking **Export Video** opens a dialog with 720p/1080p/4K
-  + Start Export.
-- Discovery: track headers have `draggable="true"` with title
-  "Reorder track".
-- Discovery: localStorage keys persist across `page.reload()`.
+- Bundle fetch + secrets + license + promotion pipeline.
+- acorn-based bundle parsing (0 parse failures).
+- Runtime instrumentation (22 storage mutations captured).
+- React fiber extraction (918 elements, Radix primitives found).
+- Single-file upload probe (upload succeeded, bodyText + storage
+  changed).
+- All 33 desktop Playwright tests pass.
 
 ## What failed
 
-- `setInputFiles([sample.mp4, sample.mp3, sample.png])` failed with
-  "Non-multiple file input" — the field accepts one file at a time.
-  Logged; manual single-file upload recommended for F024/F027.
-- Clip drag selectors `[data-clip-id]`, `[data-item-id]`,
-  `[data-testid*="clip"]` timed out. Selector refinement is a future
-  iteration; this run records the timeout as evidence.
-- Trim/split keyboard shortcut hint text not found on the page.
+- No source maps exposed publicly → bundle analysis is regex/
+  identifier based, not source-mapped.
+- Clip drag selectors (`[data-clip-id]`, `[data-item-id]`,
+  `[data-testid*="clip"]`) still not found. Selector miner produced
+  82 candidates but no data attributes.
+- Trim/split shortcut hint text not visible.
 
 ## Files that matter most
 
-- `.rebuild/features/feature-inventory.md` — 34 records + Deep Probe Evidence section.
-- `.rebuild/features/feature-matrix.json` — machine-readable companion.
-- `.rebuild/features/state-model.md` — inferred + Observed State section.
-- `.rebuild/features/event-map.md` — interactive surface + verified events.
-- `.rebuild/features/bundle-analysis.md` — Next.js confirmed.
-- `.rebuild/features/acceptance-tests.md` — manual + automated + deep-probe results.
-- `.rebuild/spec/video-editor-architecture.md` — independent rebuild architecture.
-- `.rebuild/reports/feature-parity.md` — proof-of-reconstruction report.
-- `.rebuild/reports/gaps.md` — known gaps.
-- `.rebuild/tests/feature/*.json` — per-feature before/after evidence.
-- `.harness/handoff.md` — this file.
+- `paper/README.md` — paper entry point
+- `.rebuild/features/deep-bundle-analysis.md`
+- `.rebuild/features/library-fingerprint.json`
+- `.rebuild/features/bundle-symbol-index.json`
+- `.rebuild/features/feature-code-clues.json`
+- `.rebuild/features/decoded-state-stores.md`
+- `.rebuild/runtime/runtime-summary.md`
+- `.rebuild/runtime/coverage/action-coverage-summary.md`
+- `.rebuild/deep-import/import-summary.md`
+- `.rebuild/features/selector-map.md`
+- `.rebuild/reports/test-proof-audit.md`
+- `.rebuild/reports/feature-parity.md`
 
 ## Next best actions
 
-1. **Refine clip-drag selectors** with role/text heuristics; capture before/after.
-2. **Manually upload a fixture** to the app and capture F024 waveform render evidence.
-3. **Manually run an export** and capture F027 mp4 download evidence.
-4. **Begin a separate rebuild run** — this harness run is observation only.
-5. **Add per-feature parity specs** that target a future rebuilt app.
+1. **Build the actual rebuilt app** in a separate run — this run
+   is observation only.
+2. Intersect `feature-code-clues.json` hits with action coverage
+   ranges to upgrade some features to `code_correlated`.
+3. Probe additional clip selectors (role-based, text-based) for
+   drag/drop parity.
+4. Manual probe of trim/split shortcuts.
+5. Add per-property inspector spec.
 
 ## Known blockers
 

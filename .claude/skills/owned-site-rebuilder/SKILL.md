@@ -145,6 +145,112 @@ See `.claude/skills/owned-site-rebuilder/references/` for:
 - `bundle-analysis.md`
 - `video-editor-features.md`
 - `safety.md`
+- `deep-bundle-decoupling.md`
+- `runtime-instrumentation.md`
+- `proof-quality.md`
+- `open-source-release-evidence.md`
+
+## Deep Bundle + Runtime Decoupling Mode
+
+Use this mode when the user wants proof that Claude Code can reverse
+engineer observable product features, not just UI.
+
+The goal is to **correlate**:
+
+- public JS/CSS bundle bodies
+- public source maps if available
+- webpack/Next.js module IDs and chunks
+- code string/symbol clues
+- DOM structure
+- runtime events
+- localStorage/sessionStorage
+- IndexedDB names and safe metadata
+- visible network calls
+- feature probes
+- screenshots
+- acceptance tests
+
+### Allowed
+
+- Fetch public JS/CSS bundles that the browser already downloaded.
+- Store raw bundle bodies locally under `.rebuild/private/bundles/`.
+- Commit raw public target bundles to `.rebuild/target-source/` only
+  after a secrets scan and license/provenance report passes.
+- Beautify and parse browser-delivered JS.
+- Build derived indexes from strings, identifiers, property names,
+  module IDs, source maps, code coverage, and feature keywords.
+- Use Playwright runtime instrumentation (fetch/XHR/IndexedDB/storage/
+  history/event patches) to capture app-owned behavior.
+- Inspect IndexedDB database names and object store names.
+- Decode app-owned localStorage values such as
+  `advanced-timeline-store`.
+- Use browser JS coverage to map user actions to bundle ranges.
+- Extract React component names from public runtime/fiber metadata if
+  available.
+- Create hard feature tests with concrete assertions.
+
+### Not allowed
+
+- Bypass auth.
+- Attack infrastructure.
+- Extract cookies/tokens/secrets.
+- Commit secrets.
+- Claim private backend source recovery.
+- Copy third-party proprietary source.
+- Treat soft discovery tests as feature proof.
+
+## Proof quality levels
+
+Every feature claim, test, and audit line is classified with one of
+these proof levels:
+
+- **`hard_proof`** — concrete before/after evidence plus a passing
+  assertion that checks a feature-specific outcome (e.g., dialog
+  contains 720p/1080p/4K, storage mutation occurs, upload changes
+  library text).
+- **`behavior_observed`** — before/after evidence exists, but the test
+  assertion is incomplete (e.g., page did not crash).
+- **`surface_observed`** — the button/region/control exists, but
+  behavior is not proven.
+- **`code_correlated`** — runtime behavior is linked to bundle/source-
+  map/code-coverage evidence (e.g., action X executed bundle ranges
+  Y which contain identifier Z).
+- **`inferred_from_bundle`** — code strings or modules suggest
+  behavior, but runtime proof is missing.
+- **`inferred_from_architecture`** — based on general architecture or
+  open-source reference only.
+- **`fixture_ready`** — fixture exists, but the feature has not been
+  executed end-to-end.
+- **`blocked`** — cannot be tested due to auth, fixture issue, selector
+  issue, environment, or missing manual step.
+- **`not_found`** — searched but not found.
+
+## Hard-test rule
+
+A Playwright test does **not** count as feature proof if it only asserts:
+
+- `expect(true).toBeTruthy()`
+- `typeof x === "boolean"`
+- `Array.isArray(x)`
+- the page did not crash
+- a fixture file exists
+- a selector query returned an array but without required contents
+
+Those tests are allowed, but they must be labeled `soft_probe`, not
+`hard_proof`.
+
+A **hard proof** must assert a concrete outcome, such as:
+
+- export dialog contains 720p, 1080p, 4K, Start Export, and
+  "Rendered in your browser"
+- pressing Space changes time display or creates a specific storage
+  mutation (`advanced-timeline-store` appears)
+- single-file upload changes DOM/storage/network in a feature-specific
+  way (library item count increases, IndexedDB observation changes)
+- localStorage key persists after reload
+- bundle analysis finds a specific feature keyword or state-store
+  clue in a specific chunk
+- runtime coverage maps an action to specific bundle ranges
 
 ## Templates
 

@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-07-09T09:30:00Z",
+  "schema_version": 2,
+  "summary": {
+    "document": 1,
+    "static_js": 11,
+    "static_css": 2,
+    "font": 2,
+    "image": "several",
+    "media": "several",
+    "storage_mutations": 22,
+    "api": 0,
+    "analytics": 0,
+    "unknown": 0
+  },
+  "non_static_requests": [],
+  "embedded_urls": [
+    { "origin": "rwxrdxvxndclnqvznxfj.supabase.co", "type": "media", "purpose": "public audio host" },
+    { "origin": "videos.pexels.com", "type": "media", "purpose": "public stock video CDN" },
+    { "origin": "images.pexels.com", "type": "image", "purpose": "public stock thumbnails" },
+    { "origin": "demo.reactvideoeditor.com", "type": "same-origin", "purpose": "app + chunks" }
+  ],
+  "note": "No non-static backend API contract was observed during the probed public demo flows."
+}

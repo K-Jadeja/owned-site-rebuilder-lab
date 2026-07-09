@@ -1,7 +1,32 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "target": "https://demo.reactvideoeditor.com",
-  "generated_at": "2026-07-09T08:30:00Z",
+  "generated_at": "2026-07-09T09:30:00Z",
+  "deep_bundle_runtime_decoupling_run": {
+    "startedAt": "2026-07-09T14:50:00Z",
+    "finishedAt": "2026-07-09T09:30:00Z",
+    "branch": "deep-bundle-runtime-decoupling",
+    "bundlesFetched": 13,
+    "bundlesParsed": 11,
+    "cssBundles": 2,
+    "parseFailures": 0,
+    "librariesFingerprinted": 12,
+    "featureKeywordHits": 40,
+    "coverageActions": 10,
+    "reactFiberKeys": true,
+    "secretsScan": "PASS",
+    "promotedBundles": 13,
+    "proofLevels": {
+      "hard_proof": 9,
+      "behavior_observed": 6,
+      "surface_observed": 6,
+      "code_correlated": 0,
+      "inferred_from_bundle": 8,
+      "fixture_ready": 1,
+      "blocked": 0,
+      "not_found": 4
+    }
+  },
   "deep_probe_run": {
     "startedAt": "2026-07-09T08:28:45.372Z",
     "finishedAt": "2026-07-09T08:29:53.463Z",

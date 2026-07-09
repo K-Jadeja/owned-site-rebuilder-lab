@@ -1,0 +1,178 @@
+[
+  {
+    "action": "boot",
+    "t": 1783589214217,
+    "op": "set",
+    "store": "local",
+    "key": "lastCleanup_thumbnailCache",
+    "valuePreview": "1783589214190"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589222556,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589222580,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589222613,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589222645,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589222681,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589222714,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589222746,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589222786,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589222810,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589222850,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589222886,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589222913,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589222948,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589222983,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589223014,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589223045,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589223080,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589223114,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589223149,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589223177,
+    "op": "set",
+    "store": "local",
+    "key": "advanced-timeline-store",
+    "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+  },
+  {
+    "action": "playback-space",
+    "t": 1783589223204,
+    "op": "set",
+    "store": "local",
+    "key": "rve-extended-theme",
+    "valuePreview": "light"
+  }
+]

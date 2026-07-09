@@ -1,0 +1,1187 @@
+{
+  "generatedAt": "2026-07-09T09:23:17.530Z",
+  "features": [
+    {
+      "id": "F001",
+      "name": "App shell loads",
+      "keywords_used": [
+        "f001",
+        "app shell loads",
+        "app",
+        "shell",
+        "loads"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__255-4ecccced1aaa83b0.js",
+        "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+        "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+        "___next__static__chunks__61-d3d99d30faface72.js",
+        "___next__static__chunks__839b68eb-f64514b466814bbd.js",
+        "___next__static__chunks__a9a36fa4-57726476e27cb934.js",
+        "___next__static__chunks__webpack-08d55afbbfac36e8.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "app",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "vString()),r||this.toHexString())},clone:function(){return u(this.toString())},_applyModification:function(e,t){var r=e.apply(null,[this].concat([].slice.call(t)))"
+        },
+        {
+          "keyword": "shell",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "\",saddlebrown:\"8b4513\",salmon:\"fa8072\",sandybrown:\"f4a460\",seagreen:\"2e8b57\",seashell:\"fff5ee\",sienna:\"a0522d\",silver:\"c0c0c0\",skyblue:\"87ceeb\",slateblue:\"6a5acd\",sl"
+        },
+        {
+          "keyword": "loads",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "melineItemIdsForAsset:p,isLoading:a,localMediaAdapter:r,uploadCompleteCount:i,uploadStates:s},children:t})},AH=()=>{let e=(0,R.useContext)(AE);if(void 0===e)throw Er"
+        },
+        {
+          "keyword": "app",
+          "file": "___next__static__chunks__255-4ecccced1aaa83b0.js",
+          "snippet": ",Array.prototype.flat||(Array.prototype.flat=function(e,t){return t=this.concat.apply([],this),e>1&&t.some(Array.isArray)?t.flat(e-1):t},Array.prototype.flatMap=fu"
+        },
+        {
+          "keyword": "app",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": "p\",Right:\"ArrowRight\",Down:\"ArrowDown\",Del:\"Delete\",Win:\"OS\",Menu:\"ContextMenu\",Apps:\"ContextMenu\",Scroll:\"ScrollLock\",MozPrintableKey:\"Unidentified\"},n1={8:\"Backs"
+        },
+        {
+          "keyword": "shell",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": "default:if(\"string\"==typeof n.status)n.then(nv,nv);else{if(null!==(e=uA)&&100<e.shellSuspendCounter)throw Error(i(482));(e=n).status=\"pending\",e.then(function(e){if("
+        },
+        {
+          "keyword": "loads",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": "nterCapture input invalid keyDown keyPress keyUp load loadedData loadedMetadata loadStart lostPointerCapture mouseDown mouseMove mouseOut mouseOver mouseUp paste pau"
+        },
+        {
+          "keyword": "app",
+          "file": "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+          "snippet": "ocument.createElement(\"div\");e.style.position=\"fixed\",e.style.top=\"-999999px\",e.appendChild(_),document.body.appendChild(e)}return _},D=()=>{if(\"undefined\"==typeof"
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F002",
+      "name": "Topbar / toolbar",
+      "keywords_used": [
+        "f002",
+        "topbar / toolbar",
+        "topbar",
+        "/",
+        "toolbar"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__webpack-08d55afbbfac36e8.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "toolbar",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "alignItems:\"center\",gap:2,padding:\"4px 8px\",backgroundColor:\"var(--rve-floating-toolbar-bg)\",backdropFilter:\"blur(8px)\",borderRadius:8,border:\"1px solid var(--rve-floa"
+        },
+        {
+          "keyword": "toolbar",
+          "file": "___next__static__chunks__webpack-08d55afbbfac36e8.js",
+          "snippet": "=void 0})(); ;(function(){if(typeof document===\"undefined\"||!/(?:^|;\\s)__vercel_toolbar=1(?:;|$)/.test(document.cookie))return;var s=document.createElement('script');s"
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F003",
+      "name": "Media library region",
+      "keywords_used": [
+        "f003",
+        "media library region",
+        "media",
+        "library",
+        "region"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__135.af73a71e3f9acb4f.js",
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__255-4ecccced1aaa83b0.js",
+        "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+        "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+        "___next__static__chunks__61-d3d99d30faface72.js",
+        "___next__static__chunks__839b68eb-f64514b466814bbd.js",
+        "___next__static__chunks__a9a36fa4-57726476e27cb934.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "media",
+          "file": "___next__static__chunks__135.af73a71e3f9acb4f.js",
+          "snippet": "135:(e,i,n)=>{n.d(i,{AudioBufferSink:()=>l.O8});var l=n(8525);let o=Symbol.for(\"mediabunny loaded\");globalThis[o]&&console.error(\"[WARNING]\\nMediabunny was loaded tw"
+        },
+        {
+          "keyword": "media",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": ",y=null}}),ro={};((e,t)=>{for(var r in t)tP(e,r,{get:t[r],enumerable:!0})})(ro,{MediaBunnyService:()=>b});var ri=tX({\"src/services/media-bunny-service.ts\"(){var e;rl"
+        },
+        {
+          "keyword": "library",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": ":n})});let d=[{value:\"stock\",label:\"Stock\"},...a?[]:[{value:\"uploads\",label:\"My Library\"}]];return(0,W.jsxs)(\"div\",{className:\"rve:flex rve:h-full rve:min-w-0 rve:flex"
+        },
+        {
+          "keyword": "media",
+          "file": "___next__static__chunks__255-4ecccced1aaa83b0.js",
+          "snippet": ",m=\"function\"==typeof clearTimeout?clearTimeout:null,R=\"undefined\"!=typeof setImmediate?setImmediate:null;function E(e){for(var t=n(f);null!==t;){if(null===t.callbac"
+        },
+        {
+          "keyword": "media",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": "stPaint,ea=a.unstable_now,eo=a.unstable_getCurrentPriorityLevel,eu=a.unstable_ImmediatePriority,ei=a.unstable_UserBlockingPriority,es=a.unstable_NormalPriority,ec=a."
+        },
+        {
+          "keyword": "media",
+          "file": "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+          "snippet": "nternalPremountDisplay:E,_remotionInternalPostmountDisplay:C,_remotionInternalIsMedia:R,outlineRef:k,...I}=e,{layout:F=\"absolute-fill\"}=I,[S]=(0,n.useState)(()=>Stri"
+        },
+        {
+          "keyword": "media",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "._metadataTags={},this._rootTarget=null,this._rootTargetPromise=null,this._firstMediaStreamTimestamp=null,!e||\"object\"!=typeof e)throw TypeError(\"options must be an "
+        },
+        {
+          "keyword": "region",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "else throw e})),o}_throwDueToCacheMiss(){throw Error(\"Read is before the cached region. With ReadableStreamSource, you must access the data more sequentially or incre"
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F004",
+      "name": "Preview / player region",
+      "keywords_used": [
+        "f004",
+        "preview / player region",
+        "preview",
+        "/",
+        "player",
+        "region"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__255-4ecccced1aaa83b0.js",
+        "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+        "___next__static__chunks__61-d3d99d30faface72.js",
+        "___next__static__chunks__839b68eb-f64514b466814bbd.js",
+        "___next__static__chunks__a9a36fa4-57726476e27cb934.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "preview",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "bnailUrl:e=>e.thumbnail},r6={modern:{name:\"Modern Title\",content:\"Modern Title\",preview:\"Sleek & Minimalist\",styles:{fontSize:\"2.8rem\",fontWeight:\"700\",color:\"#FFFFFF\""
+        },
+        {
+          "keyword": "player",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "e.addEventListener(\"ended\",i),!0}catch(e){return console.warn(\"Failed to attach player event listeners:\",e),!1}};return(t=l())||(e=setInterval(()=>{(t=l())&&e&&(clear"
+        },
+        {
+          "keyword": "preview",
+          "file": "___next__static__chunks__255-4ecccced1aaa83b0.js",
+          "snippet": "e|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebook"
+        },
+        {
+          "keyword": "preview",
+          "file": "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+          "snippet": ",n.createContext)(null),nt=e=>{let{children:t,audioLatencyHint:r,audioEnabled:o,previewSampleRate:i}=e,l=ed(),u=null!=i?i:48e3;(0,n.useEffect)(()=>{\"undefined\"!=typeof"
+        },
+        {
+          "keyword": "player",
+          "file": "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+          "snippet": "return\"NODE_ENV\"}var R=()=>{let e=\"undefined\"!=typeof window&&window.remotion_isPlayer,t=\"undefined\"!=typeof window&&void 0!==window.process&&void 0!==window.process."
+        },
+        {
+          "keyword": "preview",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "oke:\"white\",strokeLinecap:\"round\",fill:\"none\",strokeWidth:3})})})]})},y=e=>{let{previewSize:t,compositionWidth:r,compositionHeight:i,canvasSize:a}=e,s=n.Xp.calculateSc"
+        },
+        {
+          "keyword": "player",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": " component by adding \"use client\" at the top of the file.\\n\\nBefore:\\n import {Player} from \"@remotion/player\";\\n\\nAfter:\\n \"use client\";\\n import {Player} from \"@"
+        },
+        {
+          "keyword": "region",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "else throw e})),o}_throwDueToCacheMiss(){throw Error(\"Read is before the cached region. With ReadableStreamSource, you must access the data more sequentially or incre"
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F005",
+      "name": "Timeline region",
+      "keywords_used": [
+        "f005",
+        "timeline region",
+        "timeline",
+        "region"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+        "___next__static__chunks__61-d3d99d30faface72.js",
+        "___next__static__chunks__839b68eb-f64514b466814bbd.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "timeline",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "ediaFiles:A,addMediaFile:h,removeMediaFile:g,clearMediaFiles:f,retryUpload:m,getTimelineItemIdsForAsset:p,isLoading:a,localMediaAdapter:r,uploadCompleteCount:i,uploadSt"
+        },
+        {
+          "keyword": "timeline",
+          "file": "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+          "snippet": "^t>>>15,1|t),(((t^=t+Math.imul(t^t>>>7,61|t))^t>>>14)>>>0)/0x100000000}u(eI,{useTimelineSetFrame:()=>eU,useTimelinePosition:()=>eH,useTimelineContext:()=>eD,usePlayingS"
+        },
+        {
+          "keyword": "timeline",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "istener(\"mousemove\",l),clearTimeout(r)}},[t,e]),r},A=()=>{var e;let[t,r,a]=n.Xp.Timeline.usePlayingState(),[s,o]=(0,i.useState)(!1),l=n.Xp.Timeline.useTimelinePosition("
+        },
+        {
+          "keyword": "region",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "else throw e})),o}_throwDueToCacheMiss(){throw Error(\"Read is before the cached region. With ReadableStreamSource, you must access the data more sequentially or incre"
+        },
+        {
+          "keyword": "timeline",
+          "file": "___next__static__chunks__839b68eb-f64514b466814bbd.js",
+          "snippet": "ating target time to ${v.toFixed(3)}s`))},[v,S,t,k,e])},{useUnsafeVideoConfig:X,Timeline:B,SharedAudioContext:N,useMediaMutedState:V,useMediaVolumeState:q,useFrameForVo"
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F006",
+      "name": "Inspector region",
+      "keywords_used": [
+        "f006",
+        "inspector region",
+        "inspector",
+        "region"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__61-d3d99d30faface72.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "f006",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "tFamily:\"Orbitron\",fontSize:\"4.2rem\",lineHeight:1.3,textAlign:\"center\",color:\"#FF006E\",fontWeight:900,letterSpacing:\"0.1em\",textTransform:\"uppercase\",textShadow:\"2p"
+        },
+        {
+          "keyword": "region",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "else throw e})),o}_throwDueToCacheMiss(){throw Error(\"Read is before the cached region. With ReadableStreamSource, you must access the data more sequentially or incre"
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F007",
+      "name": "Media library import (file input)",
+      "keywords_used": [
+        "f007",
+        "media library import (file input)",
+        "media",
+        "library",
+        "import",
+        "(file",
+        "input)"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__135.af73a71e3f9acb4f.js",
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__255-4ecccced1aaa83b0.js",
+        "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+        "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+        "___next__static__chunks__61-d3d99d30faface72.js",
+        "___next__static__chunks__839b68eb-f64514b466814bbd.js",
+        "___next__static__chunks__a9a36fa4-57726476e27cb934.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "media",
+          "file": "___next__static__chunks__135.af73a71e3f9acb4f.js",
+          "snippet": "135:(e,i,n)=>{n.d(i,{AudioBufferSink:()=>l.O8});var l=n(8525);let o=Symbol.for(\"mediabunny loaded\");globalThis[o]&&console.error(\"[WARNING]\\nMediabunny was loaded tw"
+        },
+        {
+          "keyword": "import",
+          "file": "___next__static__chunks__135.af73a71e3f9acb4f.js",
+          "snippet": "kely cause Mediabunny not to work correctly. Check if multiple dependencies are importing different versions of Mediabunny, or if something is being bundled incorrect"
+        },
+        {
+          "keyword": "media",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": ",y=null}}),ro={};((e,t)=>{for(var r in t)tP(e,r,{get:t[r],enumerable:!0})})(ro,{MediaBunnyService:()=>b});var ri=tX({\"src/services/media-bunny-service.ts\"(){var e;rl"
+        },
+        {
+          "keyword": "library",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": ":n})});let d=[{value:\"stock\",label:\"Stock\"},...a?[]:[{value:\"uploads\",label:\"My Library\"}]];return(0,W.jsxs)(\"div\",{className:\"rve:flex rve:h-full rve:min-w-0 rve:flex"
+        },
+        {
+          "keyword": "import",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "state=open]:zoom-in-95\",r),...a})})});ak.displayName=tS.UC.displayName;var aE=[{importName:\"Roboto\",fontFamily:\"Roboto\",previewUrl:\"Roboto\"},{importName:\"OpenSans\",fo"
+        },
+        {
+          "keyword": "input)",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "teElement(\"input\",{value:c,onChange:function(e){return u(e)},style:ov({},i.rbgcpInput),id:\"rbgcp-\".concat(t,\"-input\").concat(l)}),R.createElement(\"div\",{style:ov({},i"
+        },
+        {
+          "keyword": "media",
+          "file": "___next__static__chunks__255-4ecccced1aaa83b0.js",
+          "snippet": ",m=\"function\"==typeof clearTimeout?clearTimeout:null,R=\"undefined\"!=typeof setImmediate?setImmediate:null;function E(e){for(var t=n(f);null!==t;){if(null===t.callbac"
+        },
+        {
+          "keyword": "media",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": "stPaint,ea=a.unstable_now,eo=a.unstable_getCurrentPriorityLevel,eu=a.unstable_ImmediatePriority,ei=a.unstable_UserBlockingPriority,es=a.unstable_NormalPriority,ec=a."
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F008",
+      "name": "Export dialog",
+      "keywords_used": [
+        "f008",
+        "export dialog",
+        "export",
+        "dialog"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__255-4ecccced1aaa83b0.js",
+        "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+        "___next__static__chunks__61-d3d99d30faface72.js",
+        "___next__static__chunks__webpack-08d55afbbfac36e8.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "export",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "&(t=(0,e[tO(e)[0]])(e=0)),t},tY=(e,t)=>function(){return t||(0,e[tO(e)[0]])((t={exports:{}}).exports,t),t.exports},tJ=(e,t,r)=>((e,t,r,A)=>{if(t&&\"object\"==typeof t||"
+        },
+        {
+          "keyword": "dialog",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "ol rve:space-y-1.5 rve:text-center rve:sm:text-left\",t),...r})};nu.displayName=\"DialogHeader\";var nv=e=>{let{className:t,...r}=e;return(0,W.jsx)(\"div\",{className:rx(\""
+        },
+        {
+          "keyword": "export",
+          "file": "___next__static__chunks__255-4ecccced1aaa83b0.js",
+          "snippet": ".defineProperty(t.default,\"__esModule\",{value:!0}),Object.assign(t.default,t),e.exports=t.default)},396:(e,t,r)=>{\"use strict\";Object.defineProperty(t,\"__esModule\",{v"
+        },
+        {
+          "keyword": "dialog",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": "(e){var n=e.stateNode,t=e.type,r=e.memoizedProps;switch(n[eR]=e,n[eI]=r,t){case\"dialog\":i6(\"cancel\",n),i6(\"close\",n);break;case\"iframe\":case\"object\":case\"embed\":i6(\"l"
+        },
+        {
+          "keyword": "export",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "Error(\"Sidecar medium not found\");return o.createElement(i,n({},r))};y.isSideCarExport=!0;var b=function(){var e=0,t=null;return{add:function(i){if(0==e&&(t=function("
+        },
+        {
+          "keyword": "dialog",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "(0,n.s)(t,s.triggerRef),c=(0,w.jsx)(m.sG.button,{type:\"button\",\"aria-haspopup\":\"dialog\",\"aria-expanded\":s.open,\"aria-controls\":s.contentId,\"data-state\":W(s.open),...i"
+        },
+        {
+          "keyword": "export",
+          "file": "___next__static__chunks__webpack-08d55afbbfac36e8.js",
+          "snippet": "()=>{\"use strict\";var e={},t={};function r(o){var n=t[o];if(void 0!==n)return n.exports;var a=t[o]={exports:{}},i=!0;try{e[o].call(a.exports,a,a.exports,r),i=!1}final"
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F009",
+      "name": "Undo / redo (button)",
+      "keywords_used": [
+        "f009",
+        "undo / redo (button)",
+        "undo",
+        "/",
+        "redo",
+        "(button)"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+        "___next__static__chunks__61-d3d99d30faface72.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "undo",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": ",t.backgroundColor),this.backgroundImage=ce(e,lP,t.backgroundImage),this.backgroundOrigin=ce(e,lG,t.backgroundOrigin),this.backgroundPosition=ce(e,lO,t.backgroundPo"
+        },
+        {
+          "keyword": "redo",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "e:\"SecularOne\",fontFamily:\"Secular One\",previewUrl:\"Secular+One\"},{importName:\"Fredoka\",fontFamily:\"Fredoka\",previewUrl:\"Fredoka\"},{importName:\"Bungee\",fontFamily:\""
+        },
+        {
+          "keyword": "redo",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": "pe)&&(t&&3===t.nodeType?e(n,t.parentNode):\"contains\"in n?n.contains(t):!!n.compareDocumentPosition&&!!(16&n.compareDocumentPosition(t))))}(u.ownerDocument.documentE"
+        },
+        {
+          "keyword": "undo",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "6 6 6-6\",key:\"qrunsl\"}]])},4122:(e,t,r)=>{r.d(t,{A:()=>i});let i=(0,r(1847).A)(\"Undo2\",[[\"path\",{d:\"M9 14 4 9l5-5\",key:\"102s5s\"}],[\"path\",{d:\"M4 9h10.5a5.5 5.5 0 0 "
+        },
+        {
+          "keyword": "redo",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "=30,e.writeBits(13,t)}},954:(e,t,r)=>{r.d(t,{A:()=>i});let i=(0,r(1847).A)(\"SquareDot\",[[\"rect\",{width:\"18\",height:\"18\",x:\"3\",y:\"3\",rx:\"2\",key:\"afitv7\"}],[\"circle\","
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F010",
+      "name": "Persistence / storage",
+      "keywords_used": [
+        "f010",
+        "persistence / storage",
+        "persistence",
+        "/",
+        "storage"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+        "___next__static__chunks__61-d3d99d30faface72.js",
+        "___next__static__chunks__a9a36fa4-57726476e27cb934.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "storage",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "h(e){return!1}},i=()=>o()&&a()&&(()=>{try{return\"undefined\"!=typeof navigator&&\"storage\"in navigator&&\"function\"==typeof navigator.storage.getDirectory}catch(e){return"
+        },
+        {
+          "keyword": "storage",
+          "file": "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+          "snippet": "ld(_),document.body.appendChild(e)}return _},D=()=>{if(\"undefined\"==typeof localStorage)return null;let e=localStorage.getItem(\"remotion_inputPropsOverride\"+window.loc"
+        },
+        {
+          "keyword": "persistence",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "edAudioTags:h,initiallyMuted:f,logLevel:m,audioLatencyHint:p,sampleRate:g,volumePersistenceKey:y,initialVolume:b,inputProps:w,audioEnabled:v}=e,k=void 0===b,x=(0,i.useMemo"
+        },
+        {
+          "keyword": "storage",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": ";for(let e of p)try{indexedDB.deleteDatabase(e)}catch(e){}let e=!1;try{e=!!localStorage.getItem(y)}catch(e){}if(!e){await T(\"VideoEditorDB\").catch(()=>{});try{var t,r;"
+        },
+        {
+          "keyword": "storage",
+          "file": "___next__static__chunks__a9a36fa4-57726476e27cb934.js",
+          "snippet": "Symbol,\"asyncDispose\",{value:Symbol.for(\"asyncDispose\")});var v=async()=>{if(!(\"storage\"in navigator)||!(\"getDirectory\"in navigator.storage))return!1;try{let e=await n"
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F012",
+      "name": "Media library tabs",
+      "keywords_used": [
+        "f012",
+        "media library tabs",
+        "media",
+        "library",
+        "tabs"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__135.af73a71e3f9acb4f.js",
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__255-4ecccced1aaa83b0.js",
+        "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+        "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+        "___next__static__chunks__61-d3d99d30faface72.js",
+        "___next__static__chunks__839b68eb-f64514b466814bbd.js",
+        "___next__static__chunks__a9a36fa4-57726476e27cb934.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "media",
+          "file": "___next__static__chunks__135.af73a71e3f9acb4f.js",
+          "snippet": "135:(e,i,n)=>{n.d(i,{AudioBufferSink:()=>l.O8});var l=n(8525);let o=Symbol.for(\"mediabunny loaded\");globalThis[o]&&console.error(\"[WARNING]\\nMediabunny was loaded tw"
+        },
+        {
+          "keyword": "media",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": ",y=null}}),ro={};((e,t)=>{for(var r in t)tP(e,r,{get:t[r],enumerable:!0})})(ro,{MediaBunnyService:()=>b});var ri=tX({\"src/services/media-bunny-service.ts\"(){var e;rl"
+        },
+        {
+          "keyword": "library",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": ":n})});let d=[{value:\"stock\",label:\"Stock\"},...a?[]:[{value:\"uploads\",label:\"My Library\"}]];return(0,W.jsxs)(\"div\",{className:\"rve:flex rve:h-full rve:min-w-0 rve:flex"
+        },
+        {
+          "keyword": "tabs",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "})})})}let r=!function(e){return\"settingsContent\"in e&&\"styleContent\"in e}(e)?e.tabs:[{value:\"settings\",label:\"Settings\",icon:(0,W.jsx)(O.A,{className:\"rve:h-3 rve:"
+        },
+        {
+          "keyword": "media",
+          "file": "___next__static__chunks__255-4ecccced1aaa83b0.js",
+          "snippet": ",m=\"function\"==typeof clearTimeout?clearTimeout:null,R=\"undefined\"!=typeof setImmediate?setImmediate:null;function E(e){for(var t=n(f);null!==t;){if(null===t.callbac"
+        },
+        {
+          "keyword": "media",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": "stPaint,ea=a.unstable_now,eo=a.unstable_getCurrentPriorityLevel,eu=a.unstable_ImmediatePriority,ei=a.unstable_UserBlockingPriority,es=a.unstable_NormalPriority,ec=a."
+        },
+        {
+          "keyword": "tabs",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": "pan gridColumnStart fontWeight lineClamp lineHeight opacity order orphans scale tabSize widows zIndex zoom fillOpacity floodOpacity stopOpacity strokeDasharray stro"
+        },
+        {
+          "keyword": "media",
+          "file": "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+          "snippet": "nternalPremountDisplay:E,_remotionInternalPostmountDisplay:C,_remotionInternalIsMedia:R,outlineRef:k,...I}=e,{layout:F=\"absolute-fill\"}=I,[S]=(0,n.useState)(()=>Stri"
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F013",
+      "name": "Drag/drop (track reorder observed; clip drag inferred)",
+      "keywords_used": [
+        "f013",
+        "drag/drop (track reorder observed; clip drag inferred)",
+        "drag/drop",
+        "(track",
+        "reorder",
+        "observed;",
+        "clip",
+        "drag",
+        "inferred)"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__255-4ecccced1aaa83b0.js",
+        "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+        "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+        "___next__static__chunks__61-d3d99d30faface72.js",
+        "___next__static__chunks__a9a36fa4-57726476e27cb934.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "reorder",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "es:j,toggleTrackMagnetic:w,smartResizeItem:B,deleteTrack:y,deleteTrackByIndex:b,reorderTracks:C,insertTrackAt:F,insertMultipleTracksAt:Q,createTracksWithItems:U,undo:l"
+        },
+        {
+          "keyword": "clip",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "linear-gradient(135deg, #6366F1 0%, #EC4899 50%, #F59E0B 100%)\",WebkitBackgroundClip:\"text\",WebkitTextFillColor:\"transparent\",fontFamily:\"Inter\",fontStyle:\"normal\","
+        },
+        {
+          "keyword": "drag",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "cat(A||Array.prototype.slice.call(t))},vv=function(e){var t=e.left,r=e.i,A=e.setDragging,n=ot(),a=n.colors,o=n.squareWidth,i=n.selectedColor,l=n.defaultStyles,s=n.p"
+        },
+        {
+          "keyword": "clip",
+          "file": "___next__static__chunks__255-4ecccced1aaa83b0.js",
+          "snippet": ".cssText=\"position:absolute;border:0;height:1px;margin:-1px;padding:0;width:1px;clip:rect(0 0 0 0);overflow:hidden;white-space:nowrap;word-wrap:normal\",e.attachShad"
+        },
+        {
+          "keyword": "clip",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": ",\"arabic-form\"],[\"baselineShift\",\"baseline-shift\"],[\"capHeight\",\"cap-height\"],[\"clipPath\",\"clip-path\"],[\"clipRule\",\"clip-rule\"],[\"colorInterpolation\",\"color-interpo"
+        },
+        {
+          "keyword": "drag",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": "ick beforeToggle cancel canPlay canPlayThrough click close contextMenu copy cut drag dragEnd dragEnter dragExit dragLeave dragOver dragStart drop durationChange emp"
+        },
+        {
+          "keyword": "drag",
+          "file": "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+          "snippet": "text({propStatuses:{}}),tn=n.createContext({current:{}}),to=n.createContext({getDragOverrides:()=>{throw Error(\"VisualModeDragOverridesContext not initialized\")},ge"
+        },
+        {
+          "keyword": "reorder",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "ull,fullRange:null},width:-1,height:-1,squarePixelWidth:-1,squarePixelHeight:-1,reorderSize:-1};break;case 3:case 4:case 15:case 129:case 135:{let e;if(3===t||4===t)e="
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F014",
+      "name": "Track management",
+      "keywords_used": [
+        "f014",
+        "track management",
+        "track",
+        "management"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__255-4ecccced1aaa83b0.js",
+        "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+        "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+        "___next__static__chunks__61-d3d99d30faface72.js",
+        "___next__static__chunks__839b68eb-f64514b466814bbd.js",
+        "___next__static__chunks__a9a36fa4-57726476e27cb934.js",
+        "___next__static__chunks__app__page-6ba9b2f710dee95c.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "track",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "e\");t=new M.Ts(e)}return new L.pd({source:t,formats:D.XE})}static async getVideoTrack(t){let r=await e.createInput(t),A=await r.getPrimaryVideoTrack();if(!A)throw Er"
+        },
+        {
+          "keyword": "track",
+          "file": "___next__static__chunks__255-4ecccced1aaa83b0.js",
+          "snippet": ";Object.defineProperty(t,\"__esModule\",{value:!0}),Object.defineProperty(t,\"useUntrackedPathname\",{enumerable:!0,get:function(){return o}});let n=r(2115),u=r(3865);fu"
+        },
+        {
+          "keyword": "track",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": "ut\"===e.toLowerCase()&&(\"checkbox\"===n||\"radio\"===n)}function e7(e){if(!e._valueTracker){var n=e9(e)?\"checked\":\"value\";e._valueTracker=function(e,n,t){var r=Object.g"
+        },
+        {
+          "keyword": "track",
+          "file": "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+          "snippet": "type:i.headers.get(\"Content-Type\")||\"image/gif\"});await u.completed;let{selectedTrack:s}=u.tracks;if(!s)throw Error(\"No selected track\");let c=[],d=null,f=async e=>{"
+        },
+        {
+          "keyword": "track",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "w TypeError(\"tags.albumArtist, when provided, must be a string.\");if(void 0!==e.trackNumber&&(!Number.isInteger(e.trackNumber)||e.trackNumber<=0))throw TypeError(\"ta"
+        },
+        {
+          "keyword": "management",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "deoSample was garbage collected without first being closed. For proper resource management, make sure to call close() on all your VideoSamples as soon as you're done usin"
+        },
+        {
+          "keyword": "track",
+          "file": "___next__static__chunks__839b68eb-f64514b466814bbd.js",
+          "snippet": "0,{skipLiveWait:!0})??e.computeDuration(void 0,{skipLiveWait:!0}),C=async({videoTrack:e,audioTracks:t,audioStreamIndex:r})=>null!==r?t[r]??null:e?await e.getPrimaryP"
+        },
+        {
+          "keyword": "track",
+          "file": "___next__static__chunks__a9a36fa4-57726476e27cb934.js",
+          "snippet": "imeout(()=>{s.abort()},1e4);try{let n=await fetch(\"https://www.remotion.pro/api/track/register-usage-point\",{method:\"POST\",body:JSON.stringify({event:r,apiKey:a,host"
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F015",
+      "name": "Clip selection",
+      "keywords_used": [
+        "f015",
+        "clip selection",
+        "clip",
+        "selection"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__255-4ecccced1aaa83b0.js",
+        "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+        "___next__static__chunks__61-d3d99d30faface72.js",
+        "___next__static__chunks__a9a36fa4-57726476e27cb934.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "clip",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "linear-gradient(135deg, #6366F1 0%, #EC4899 50%, #F59E0B 100%)\",WebkitBackgroundClip:\"text\",WebkitTextFillColor:\"transparent\",fontFamily:\"Inter\",fontStyle:\"normal\","
+        },
+        {
+          "keyword": "selection",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "foreground rve:shadow-xs rve:transition-[color,box-shadow] rve:outline-none rve:selection:bg-primary rve:selection:text-primary-foreground rve:file:inline-flex rve:file:"
+        },
+        {
+          "keyword": "clip",
+          "file": "___next__static__chunks__255-4ecccced1aaa83b0.js",
+          "snippet": ".cssText=\"position:absolute;border:0;height:1px;margin:-1px;padding:0;width:1px;clip:rect(0 0 0 0);overflow:hidden;white-space:nowrap;word-wrap:normal\",e.attachShad"
+        },
+        {
+          "keyword": "clip",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": ",\"arabic-form\"],[\"baselineShift\",\"baseline-shift\"],[\"capHeight\",\"cap-height\"],[\"clipPath\",\"clip-path\"],[\"clipRule\",\"clip-rule\"],[\"colorInterpolation\",\"color-interpo"
+        },
+        {
+          "keyword": "selection",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": ",tp.attachEvent(\"onpropertychange\",tS)):\"focusout\"===e&&tw()}function tE(e){if(\"selectionchange\"===e||\"keyup\"===e||\"keydown\"===e)return tg(tm)}function tz(e,n){if(\"click"
+        },
+        {
+          "keyword": "clip",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "tion:\"absolute\",border:0,width:1,height:1,padding:0,margin:-1,overflow:\"hidden\",clip:\"rect(0, 0, 0, 0)\",whiteSpace:\"nowrap\",wordWrap:\"normal\"}),o=i.forwardRef((e,t)"
+        },
+        {
+          "keyword": "selection",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "c)?\"h\":\"v\";if(\"touches\"in e&&\"h\"===d&&\"range\"===u.type)return!1;var h=window.getSelection(),f=h&&h.anchorNode;if(f&&(f===u||f.contains(u)))return!1;var m=U(d,u);if(!m)re"
+        },
+        {
+          "keyword": "clip",
+          "file": "___next__static__chunks__a9a36fa4-57726476e27cb934.js",
+          "snippet": ",e[2],e[1]]:[e[0],e[1],e[2],e[3]]}function ex({ctx:e,rect:t,borderRadius:r,forceClipEvenWhenZero:o=!1,computedStyle:i,backgroundClip:a}){if(0===r.topLeft.horizontal"
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F016",
+      "name": "Trim/split (keyboard shortcut inferred)",
+      "keywords_used": [
+        "f016",
+        "trim/split (keyboard shortcut inferred)",
+        "trim/split",
+        "(keyboard",
+        "shortcut",
+        "inferred)"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "shortcut",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "[(0,W.jsx)(\"h3\",{className:\"rve:text-sm rve:font-extralight\",children:\"Keyboard Shortcuts\"}),(0,W.jsx)(\"div\",{className:\"rve:space-y-0.5\",children:p9.map(e=>(0,W.jsxs)("
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F017",
+      "name": "Clip move (drag attempted)",
+      "keywords_used": [
+        "f017",
+        "clip move (drag attempted)",
+        "clip",
+        "move",
+        "(drag",
+        "attempted)"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__255-4ecccced1aaa83b0.js",
+        "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+        "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+        "___next__static__chunks__61-d3d99d30faface72.js",
+        "___next__static__chunks__839b68eb-f64514b466814bbd.js",
+        "___next__static__chunks__a9a36fa4-57726476e27cb934.js",
+        "___next__static__chunks__webpack-08d55afbbfac36e8.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "clip",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "linear-gradient(135deg, #6366F1 0%, #EC4899 50%, #F59E0B 100%)\",WebkitBackgroundClip:\"text\",WebkitTextFillColor:\"transparent\",fontFamily:\"Inter\",fontStyle:\"normal\","
+        },
+        {
+          "keyword": "move",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "_opfs_test__\",{create:!0}),r=await t.createWritable();await r.close(),await e.removeEntry(\"__opfs_test__\"),this.writeSupported=!0}catch(e){this.writeSupported=!1}re"
+        },
+        {
+          "keyword": "clip",
+          "file": "___next__static__chunks__255-4ecccced1aaa83b0.js",
+          "snippet": ".cssText=\"position:absolute;border:0;height:1px;margin:-1px;padding:0;width:1px;clip:rect(0 0 0 0);overflow:hidden;white-space:nowrap;word-wrap:normal\",e.attachShad"
+        },
+        {
+          "keyword": "move",
+          "file": "___next__static__chunks__255-4ecccced1aaa83b0.js",
+          "snippet": "\"/\"))return e;let{pathname:t,query:r,hash:o}=(0,u.parsePath)(e);return\"\"+(0,n.removeTrailingSlash)(t)+r+o};(\"function\"==typeof t.default||\"object\"==typeof t.default"
+        },
+        {
+          "keyword": "clip",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": ",\"arabic-form\"],[\"baselineShift\",\"baseline-shift\"],[\"capHeight\",\"cap-height\"],[\"clipPath\",\"clip-path\"],[\"clipRule\",\"clip-rule\"],[\"colorInterpolation\",\"color-interpo"
+        },
+        {
+          "keyword": "move",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": "call(e3,n)||!ee.call(e2,n)&&(e1.test(n)?e3[n]=!0:(e2[n]=!0,!1)))if(null===t)e.removeAttribute(n);else{switch(typeof t){case\"undefined\":case\"function\":case\"symbol\":e"
+        },
+        {
+          "keyword": "move",
+          "file": "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+          "snippet": "=this.hmrStatusHandler;if(!e)return;this.hmrStatusHandler=null;let t=f();t&&t.removeStatusHandler(e)}render(){return this.state.hasError?null:this.props.children}co"
+        },
+        {
+          "keyword": "clip",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "tion:\"absolute\",border:0,width:1,height:1,padding:0,margin:-1,overflow:\"hidden\",clip:\"rect(0, 0, 0, 0)\",whiteSpace:\"nowrap\",wordWrap:\"normal\"}),o=i.forwardRef((e,t)"
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F019",
+      "name": "Timeline zoom",
+      "keywords_used": [
+        "f019",
+        "timeline zoom",
+        "timeline",
+        "zoom"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+        "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+        "___next__static__chunks__61-d3d99d30faface72.js",
+        "___next__static__chunks__839b68eb-f64514b466814bbd.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "timeline zoom",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": ":mx-2 rve:hidden rve:flex-1 rve:hover:cursor-pointer rve:sm:flex\",\"aria-label\":\"Timeline Zoom\"}),(0,W.jsx)(rM,{delayDuration:50,children:(0,W.jsxs)(rL,{children:[(0,W.jsx)(r"
+        },
+        {
+          "keyword": "timeline",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "ediaFiles:A,addMediaFile:h,removeMediaFile:g,clearMediaFiles:f,retryUpload:m,getTimelineItemIdsForAsset:p,isLoading:a,localMediaAdapter:r,uploadCompleteCount:i,uploadSt"
+        },
+        {
+          "keyword": "zoom",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "py-1.5 rve:text-xs rve:text-popover-foreground rve:animate-in rve:fade-in-0 rve:zoom-in-95 rve:data-[side=bottom]:slide-in-from-top-2 rve:data-[side=left]:slide-in-"
+        },
+        {
+          "keyword": "zoom",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": "ntWeight lineClamp lineHeight opacity order orphans scale tabSize widows zIndex zoom fillOpacity floodOpacity stopOpacity strokeDasharray strokeDashoffset strokeMit"
+        },
+        {
+          "keyword": "timeline",
+          "file": "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+          "snippet": "^t>>>15,1|t),(((t^=t+Math.imul(t^t>>>7,61|t))^t>>>14)>>>0)/0x100000000}u(eI,{useTimelineSetFrame:()=>eU,useTimelinePosition:()=>eH,useTimelineContext:()=>eD,usePlayingS"
+        },
+        {
+          "keyword": "timeline",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "istener(\"mousemove\",l),clearTimeout(r)}},[t,e]),r},A=()=>{var e;let[t,r,a]=n.Xp.Timeline.usePlayingState(),[s,o]=(0,i.useState)(!1),l=n.Xp.Timeline.useTimelinePosition("
+        },
+        {
+          "keyword": "zoom",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "d,T=e.shards,S=e.sideCar,C=e.noRelative,E=e.noIsolation,P=e.inert,A=e.allowPinchZoom,I=e.as,F=e.gapMode,_=s(e,[\"forwardProps\",\"children\",\"className\",\"removeScrollBa"
+        },
+        {
+          "keyword": "timeline",
+          "file": "___next__static__chunks__839b68eb-f64514b466814bbd.js",
+          "snippet": "ating target time to ${v.toFixed(3)}s`))},[v,S,t,k,e])},{useUnsafeVideoConfig:X,Timeline:B,SharedAudioContext:N,useMediaMutedState:V,useMediaVolumeState:q,useFrameForVo"
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F020",
+      "name": "Playback (Space toggle)",
+      "keywords_used": [
+        "f020",
+        "playback (space toggle)",
+        "playback",
+        "(space",
+        "toggle)"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+        "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+        "___next__static__chunks__61-d3d99d30faface72.js",
+        "___next__static__chunks__839b68eb-f64514b466814bbd.js",
+        "___next__static__chunks__app__page-6ba9b2f710dee95c.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "playback",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "ostMarkerPosition:null,isDragging:!1,isPlayheadDragging:!1,isContextMenuOpen:!1,playbackFrame:0,draggedItem:null,ghostElement:null,floatingGhost:null,validDropByItemId:"
+        },
+        {
+          "keyword": "toggle)",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "m?void 0:m.showDefaultThemes)||t,w=null!=(r=null!=l?l:null==m?void 0:m.hideThemeToggle)&&r,B=null!=(A=null!=s?s:null==m?void 0:m.defaultTheme)?A:\"dark\",{setTheme:y}=AU"
+        },
+        {
+          "keyword": "playback",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": "ult\":case\"defer\":case\"disabled\":case\"disablePictureInPicture\":case\"disableRemotePlayback\":case\"formNoValidate\":case\"hidden\":case\"loop\":case\"noModule\":case\"noValidate\":c"
+        },
+        {
+          "keyword": "playback",
+          "file": "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+          "snippet": ",useTimelinePosition:()=>eH,useTimelineContext:()=>eD,usePlayingState:()=>eW,usePlaybackRate:()=>eq,useAbsoluteTimelinePosition:()=>ez,persistCurrentFrame:()=>eA,getIni"
+        },
+        {
+          "keyword": "playback",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "t(\"ended\",void 0)},this.dispatchRateChange=e=>{this.dispatchEvent(\"ratechange\",{playbackRate:e})},this.dispatchScaleChange=e=>{this.dispatchEvent(\"scalechange\",{scale:e"
+        },
+        {
+          "keyword": "toggle)",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": ".contentId,\"data-state\":W(s.open),...i,ref:l,onClick:(0,a.mK)(e.onClick,s.onOpenToggle)});return s.hasCustomAnchor?c:(0,w.jsx)(d.Mz,{asChild:!0,...o,children:c})});I.d"
+        },
+        {
+          "keyword": "playback",
+          "file": "___next__static__chunks__839b68eb-f64514b466814bbd.js",
+          "snippet": ")))}catch(e){o(e)}if(r)throw t};return i()},p=({loop:e,mediaDurationInSeconds:t,playbackRate:r,trimAfter:a,trimBefore:i,sequenceDurationInFrames:n,compFps:s})=>{if(!e||"
+        },
+        {
+          "keyword": "playback",
+          "file": "___next__static__chunks__app__page-6ba9b2f710dee95c.js",
+          "snippet": "OADING),f=a.length>0?{tracks:a,aspectRatio:t||\"16:9\",backgroundColor:l||\"white\",playbackRate:1,savedAt:new Date(\"2025-01-01\").getTime()}:void 0;return(0,o.jsxs)(\"div\",{"
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F024",
+      "name": "Audio waveform",
+      "keywords_used": [
+        "f024",
+        "audio waveform",
+        "audio",
+        "waveform"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__135.af73a71e3f9acb4f.js",
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+        "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+        "___next__static__chunks__61-d3d99d30faface72.js",
+        "___next__static__chunks__839b68eb-f64514b466814bbd.js",
+        "___next__static__chunks__a9a36fa4-57726476e27cb934.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "audio",
+          "file": "___next__static__chunks__135.af73a71e3f9acb4f.js",
+          "snippet": ".webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[135],{6135:(e,i,n)=>{n.d(i,{AudioBufferSink:()=>l.O8});var l=n(8525);let o=Symbol.for(\"mediabunny loaded\");global"
+        },
+        {
+          "keyword": "audio waveform",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": " instanceof Error&&\"AbortError\"===e.name)return;console.error(\"Error processing audio waveform:\",e),A.signal.aborted||n(null)}finally{A.signal.aborted||o(!1)}})(),()=>{A.abor"
+        },
+        {
+          "keyword": "audio",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "VideoDecoder&&\"function\"==typeof window.VideoEncoder&&\"function\"==typeof window.AudioDecoder&&\"function\"==typeof window.AudioEncoder}catch(e){return!1}},i=()=>o()&&a"
+        },
+        {
+          "keyword": "waveform",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "deoEditorDB\",s=2,c=\"autosave\",d=\"thumbnailCache\",u=\"thumbnailCache_metadata\",v=\"waveformPeaks\",h=[\"VideoEditorFileHandlesDB\",\"VideoEditorVideoCacheDB\"],m=\"VideoEditorPr"
+        },
+        {
+          "keyword": "audio",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": "break;case\"iframe\":case\"object\":case\"embed\":i6(\"load\",n);break;case\"video\":case\"audio\":for(t=0;t<i3.length;t++)i6(i3[t],n);break;case\"source\":i6(\"error\",n);break;cas"
+        },
+        {
+          "keyword": "audio",
+          "file": "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+          "snippet": "[v,h]);let g=(0,n.useMemo)(()=>({frame:p,playing:o,imperativePlaying:l,rootId:d,audioAndVideoTags:c}),[p,o,d]),y=(0,n.useMemo)(()=>({playbackRate:u,setPlaybackRate:s"
+        },
+        {
+          "keyword": "audio",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "imestamp:this.microsecondTimestamp,duration:this.microsecondDuration})}toEncodedAudioChunk(){if(this.isMetadataOnly)throw TypeError(\"Metadata-only packets cannot be "
+        },
+        {
+          "keyword": "waveform",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "=\"VideoEditorDB\",d=\"autosave\",h=\"thumbnailCache\",f=\"thumbnailCache_metadata\",m=\"waveformPeaks\",p=[\"VideoEditorFileHandlesDB\",\"VideoEditorVideoCacheDB\"],g=\"VideoEditorPr"
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F027",
+      "name": "Export to mp4 (sample.mp4 fixture)",
+      "keywords_used": [
+        "f027",
+        "export to mp4 (sample.mp4 fixture)",
+        "export",
+        "to",
+        "mp4",
+        "(sample.mp4",
+        "fixture)"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__255-4ecccced1aaa83b0.js",
+        "___next__static__chunks__61-d3d99d30faface72.js",
+        "___next__static__chunks__a9a36fa4-57726476e27cb934.js",
+        "___next__static__chunks__webpack-08d55afbbfac36e8.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "export",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "&(t=(0,e[tO(e)[0]])(e=0)),t},tY=(e,t)=>function(){return t||(0,e[tO(e)[0]])((t={exports:{}}).exports,t),t.exports},tJ=(e,t,r)=>((e,t,r,A)=>{if(t&&\"object\"==typeof t||"
+        },
+        {
+          "keyword": "mp4",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "n\"image\";let r=null==(t=e.name.split(\".\").pop())?void 0:t.toLowerCase();return[\"mp4\",\"webm\",\"mov\",\"avi\",\"mkv\"].includes(r||\"\")?\"video\":[\"mp3\",\"wav\",\"ogg\",\"aac\",\"fl"
+        },
+        {
+          "keyword": "export",
+          "file": "___next__static__chunks__255-4ecccced1aaa83b0.js",
+          "snippet": ".defineProperty(t.default,\"__esModule\",{value:!0}),Object.assign(t.default,t),e.exports=t.default)},396:(e,t,r)=>{\"use strict\";Object.defineProperty(t,\"__esModule\",{v"
+        },
+        {
+          "keyword": "export",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "Error(\"Sidecar medium not found\");return o.createElement(i,n({},r))};y.isSideCarExport=!0;var b=function(){var e=0,t=null;return{add:function(i){if(0==e&&(t=function("
+        },
+        {
+          "keyword": "mp4",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "sVideo?\"video/\":e.hasAudio?\"audio/\":\"application/\")+(e.isQuickTime?\"quicktime\":\"mp4\");if(e.codecStrings.length>0){let r=[...new Set(e.codecStrings)];t+=`; codecs=\""
+        },
+        {
+          "keyword": "mp4",
+          "file": "___next__static__chunks__a9a36fa4-57726476e27cb934.js",
+          "snippet": "turn\"av1\";default:throw Error(`Unsupported codec: ${e}`)}},R=e=>{switch(e){case\"mp4\":return new o.si({fastStart:\"reserve\"});case\"webm\":return new o.wQ;case\"mkv\":re"
+        },
+        {
+          "keyword": "export",
+          "file": "___next__static__chunks__webpack-08d55afbbfac36e8.js",
+          "snippet": "()=>{\"use strict\";var e={},t={};function r(o){var n=t[o];if(void 0!==n)return n.exports;var a=t[o]={exports:{}},i=!0;try{e[o].call(a.exports,a,a.exports,r),i=!1}final"
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    },
+    {
+      "id": "F030",
+      "name": "Undo/redo (keyboard)",
+      "keywords_used": [
+        "f030",
+        "undo/redo (keyboard)",
+        "undo/redo",
+        "(keyboard)"
+      ],
+      "bundles_hit": [],
+      "snippets": [],
+      "confidence": "not_found",
+      "runtime_confirmation_needed": false
+    },
+    {
+      "id": "F031",
+      "name": "Persistence after reload",
+      "keywords_used": [
+        "f031",
+        "persistence after reload",
+        "persistence",
+        "after",
+        "reload"
+      ],
+      "bundles_hit": [
+        "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+        "___next__static__chunks__255-4ecccced1aaa83b0.js",
+        "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+        "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+        "___next__static__chunks__61-d3d99d30faface72.js",
+        "___next__static__chunks__839b68eb-f64514b466814bbd.js",
+        "___next__static__chunks__a9a36fa4-57726476e27cb934.js"
+      ],
+      "snippets": [
+        {
+          "keyword": "after",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "near rve:group-data-[side=left]:-right-4 rve:group-data-[side=right]:left-0 rve:after:absolute rve:after:inset-y-0 rve:after:left-1/2 rve:after:w-[2px] rve:hover:aft"
+        },
+        {
+          "keyword": "reload",
+          "file": "___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+          "snippet": "omise((r,A)=>{let n=URL.createObjectURL(e),a=document.createElement(\"video\");a.preload=\"auto\",a.muted=!0,a.playsInline=!0;let o=()=>{a.src=\"\",a.load(),URL.revokeObjec"
+        },
+        {
+          "keyword": "reload",
+          "file": "___next__static__chunks__255-4ecccced1aaa83b0.js",
+          "snippet": ")),t(e,n,u)};let n=e=>{if(e.state){if(!e.state.__NA)return void window.location.reload();(0,l.startTransition)(()=>{(0,E.dispatchTraverseAction)(window.location.href,"
+        },
+        {
+          "keyword": "after",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": "\":s=\"focus\",i=nX;break;case\"focusout\":s=\"blur\",i=nX;break;case\"beforeblur\":case\"afterblur\":i=nX;break;case\"click\":if(2===t.button)break e;case\"auxclick\":case\"dblclic"
+        },
+        {
+          "keyword": "reload",
+          "file": "___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+          "snippet": "ull===r.stylesheets&&(r.stylesheets=new Map),r.stylesheets.set(n,e),(e=n.state.preload)&&0==(3&n.state.loading)&&(r.count++,n=s8.bind(r),e.addEventListener(\"load\",n),"
+        },
+        {
+          "keyword": "after",
+          "file": "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+          "snippet": "the top of the file.\\n\\nBefore:\\n import {useCurrentFrame} from \"remotion\";\\n\\nAfter:\\n \"use client\";\\n import {useCurrentFrame} from \"remotion\";');var s=(0,n.cre"
+        },
+        {
+          "keyword": "reload",
+          "file": "___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+          "snippet": ",{value:E,children:[h.map(e=>{let{id:t,ref:r}=e;return(0,a.jsx)(\"audio\",{ref:r,preload:\"metadata\",src:r9},t)}),o]})},nn=(e,t)=>1e-5>Math.abs(e-t),no=(e,t)=>Math.round"
+        },
+        {
+          "keyword": "persistence",
+          "file": "___next__static__chunks__61-d3d99d30faface72.js",
+          "snippet": "edAudioTags:h,initiallyMuted:f,logLevel:m,audioLatencyHint:p,sampleRate:g,volumePersistenceKey:y,initialVolume:b,inputProps:w,audioEnabled:v}=e,k=void 0===b,x=(0,i.useMemo"
+        }
+      ],
+      "confidence": "inferred_from_bundle",
+      "runtime_confirmation_needed": true
+    }
+  ]
+}

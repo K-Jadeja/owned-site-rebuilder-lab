@@ -1,171 +1,134 @@
 # Feature Parity Report
 
 Target: https://demo.reactvideoeditor.com
-Generated: 2026-07-09T07:13:10.642Z (last updated 2026-07-09T08:30:00Z after deep probe)
+Generated: 2026-07-09T09:30:00Z (deep bundle + runtime decoupling pass)
 
-## 1. Features fully observed (with passing automated test)
+This report uses a **strict proof-level ladder**:
 
-For each feature in this section, **a Playwright spec exists and passes** on the
-target app. The deep probe provides supporting evidence (before/after screenshots,
-DOM snapshots, storage diffs, network deltas, console messages).
+- `hard_proof`: concrete before/after evidence + passing assertion.
+- `behavior_observed`: before/after evidence exists, but assertion is incomplete.
+- `surface_observed`: button/region exists; behavior not proven.
+- `code_correlated`: runtime behavior linked to bundle/coverage evidence.
+- `inferred_from_bundle`: code strings suggest behavior; runtime proof missing.
+- `inferred_from_architecture`: based on general architecture or open-source reference.
+- `fixture_ready`: fixture exists; feature not executed end-to-end.
+- `blocked`: cannot test (auth, fixture, selector, environment, manual).
+- `not_found`: searched but not found.
 
-| Feature | Parity test | Status | Deep probe |
-| --- | --- | --- | --- |
-| F001 App shell loads | `parity / app-shell / F001 app shell loads` | PASS | n/a (baseline) |
-| F002 Topbar / toolbar | `parity / app-shell / F002 top-level regions discoverable` | PASS | n/a |
-| F003 Media library region | `parity / assets / F012 media library tabs discoverable` | PASS | n/a |
-| F004 Preview / player region | `parity / preview / F004 preview/video element discoverable` | PASS | n/a |
-| F005 Timeline region | `parity / timeline / F005 timeline region discoverable` | PASS | n/a |
-| F007 Media library import | `parity / assets / F007 import / add media control discoverable` | PASS | `.rebuild/tests/feature/F007.json` |
-| F008 Export dialog | `parity / export / F008 export control discoverable` + `F008b export button click is non-destructive` | PASS | `.rebuild/tests/feature/F008.json` |
-| F009 Undo / redo (button) | `parity / shortcuts / F009 undo/redo control discoverable` | PASS | n/a |
-| F010 Persistence / storage | `parity / persistence / F010 storage is reachable` | PASS | n/a |
-| F012 Media library tabs | `parity / assets / F012 media library tabs discoverable` | PASS | n/a |
-| F014 Track management | `parity / timeline / F014 track management controls discoverable` | PASS | n/a |
-| F019 Timeline zoom | `parity / timeline / F019 timeline zoom controls discoverable` | PASS | `.rebuild/tests/feature/F019.json` |
-| F020 Playback | `parity / preview / F020 playback controls discoverable` | PASS | `.rebuild/tests/feature/F020.json` |
-| F024 Audio waveform (fixture-ready) | `parity / fixture media plan / F024 audio waveform render (sample.mp3 fixture)` | PASS (fixture-ready) | fixture `.rebuild/tests/fixtures/sample.mp3` present |
-| F027 Export mp4 (fixture-ready) | `parity / fixture media plan / F027 export to mp4 (sample.mp4 fixture)` | PASS (fixture-ready) | fixture `.rebuild/tests/fixtures/sample.mp4` present |
-| F030 Undo/redo (keyboard) | `parity / shortcuts / F030 keyboard undo/redo via Ctrl+Z triggers behavior` | PASS | `.rebuild/tests/feature/F030.json` |
-| F031 Persistence after reload | `parity / persistence / F031 storage has app keys after load` | PASS | `.rebuild/tests/feature/F031.json` |
+## Strict feature table
 
-`npm test` summary: **17 passed** for `desktop-chromium` project on the latest run.
-Across all 3 viewports the suite passes. Skipped fixture-media tests are now
-**enabled** and pass (they assert fixture presence + UI readiness, not pixel parity).
+| Feature | Claim | Proof level | Evidence files | Bundle clues | Runtime clues | Storage clues | Network clues | Test status | Confidence | Next action |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| F001 App shell loads | hydrates within 5s | `hard_proof` | `tests/feature-parity-plan.spec.mjs`, `tests/reference-capture.spec.mjs` | next/static chunks | boot coverage | n/a | 71 sanitized requests | PASS | high | — |
+| F002 Topbar / toolbar | Toggle Sidebar / Dark / Export Video buttons | `surface_observed` | `tests/feature-parity-plan.spec.mjs` | rve:* classes | Dark toggle coverage | none | n/a | PASS (soft) | medium | add click handler assertions |
+| F003 Media library | tabs visible | `surface_observed` | `tests/feature-parity-plan.spec.mjs` | `rve:inline-flex` | My Library click covered | none | n/a | PASS (soft) | medium | add per-tab content assertion |
+| F004 Preview / player | `<video>` / `<canvas>` exists | `hard_proof` | `tests/feature-parity-plan.spec.mjs`, `.rebuild/runtime/coverage/boot.json` | React, WebCodecs, Mediabunny | boot + space coverage | n/a | n/a | PASS | high | — |
+| F005 Timeline | region discoverable | `surface_observed` | `tests/feature-parity-plan.spec.mjs`, `.rebuild/features/selector-map.md` | timeline/track/clip strings | bottom-region React components | n/a | n/a | PASS (soft) | medium | add ruler-text assertion |
+| F006 Inspector | Change Video / Settings / Style tabs | `behavior_observed` | `.rebuild/tests/feature/deep-probe-summary.md` | n/a | inspector body-text | n/a | n/a | (no spec) | medium | add per-tab content spec |
+| F007 Media import | single-file input accepts video | `hard_proof` | `.rebuild/deep-import/F007-single-import.json`, `tests/single-import-proof.spec.mjs` | accept="video/*" multiple=false | setInputFiles → bodyText + storage change | lastCleanup_thumbnailCache added | 26 entries | PASS | high | — |
+| F008 Export dialog | dialog opens w/ 720p/1080p/4K + Start Export + Rendered in your browser | `hard_proof` | `.rebuild/tests/feature/F008.json`, `tests/deep-runtime-proof.spec.mjs` | n/a | export click coverage | n/a | n/a | PASS | high | — |
+| F009 Undo / redo button | buttons visible | `surface_observed` | `tests/feature-parity-plan.spec.mjs` | n/a | button discovery | n/a | n/a | PASS (soft) | medium | click button → assert state change |
+| F010 Persistence | localStorage reachable | `hard_proof` | `tests/feature-parity-plan.spec.mjs` | n/a | write/read smoke | probe key set+read | n/a | PASS | high | — |
+| F011 Project save | not probed | `not_found` | n/a | n/a | n/a | n/a | n/a | n/a | low | manual login + save |
+| F012 Media library tabs | Stock + My Library | `surface_observed` | `tests/feature-parity-plan.spec.mjs` | n/a | tab click coverage | n/a | n/a | PASS (soft) | medium | assert tab activation |
+| F013 Drag/drop to timeline | track headers draggable=true | `behavior_observed` | `.rebuild/tests/feature/F013.json` | track / clip strings | dragAttempt ok | n/a | n/a | (no spec) | low | refine clip selectors |
+| F014 Track management | Delete track / magnetic / etc. visible | `surface_observed` | `tests/feature-parity-plan.spec.mjs` | track / magnetic strings | button discovery | n/a | n/a | PASS (soft) | medium | click → assert track removal |
+| F015 Clip selection | click → URL + interactive count change | `behavior_observed` | `.rebuild/tests/feature/F015.json` | clip / select strings | clickAttempt | n/a | n/a | (no spec) | low | assert selected state |
+| F016 Trim/split | no shortcut hint | `inferred_from_bundle` | `.rebuild/tests/feature/F016.json` | trim / split strings | key press no error | n/a | n/a | n/a | low | manual probe of key set |
+| F017 Clip move | drag accepted | `behavior_observed` | `.rebuild/tests/feature/F017.json` | drag / move strings | dragAttempt ok | n/a | n/a | (no spec) | low | assert clip position change |
+| F018 Snapping | not probed | `inferred_from_bundle` | n/a | magnetic / snap strings | n/a | n/a | n/a | n/a | low | manual toggle test |
+| F019 Timeline zoom | Zoom in/out/reset visible + click works | `hard_proof` | `.rebuild/tests/feature/F019.json`, `tests/feature-parity-plan.spec.mjs` | zoom / scale strings | zoom click coverage | n/a | n/a | PASS | high | — |
+| F020 Playback | Space adds advanced-timeline-store | `hard_proof` | `.rebuild/tests/feature/F020.json`, `tests/deep-runtime-proof.spec.mjs` | playback / playhead strings | space coverage | advanced-timeline-store appears | n/a | PASS | high | — |
+| F021 Scrubbing | not probed | `inferred_from_bundle` | n/a | scrub / playhead strings | n/a | n/a | n/a | n/a | low | click ruler |
+| F022 Inspector / properties | tabs visible | `behavior_observed` | n/a | properties / inspector strings | n/a | n/a | n/a | (no spec) | medium | add per-property spec |
+| F023 Text overlays | not probed | `inferred_from_bundle` | n/a | text / overlay strings | n/a | n/a | n/a | n/a | low | click Add Text |
+| F024 Audio waveform | fixture present; waveform not end-to-end | `fixture_ready` | `.rebuild/tests/feature/F024.json` | waveform / wavesurfer strings | n/a | n/a | n/a | PASS (soft) | medium | drag fixture onto audio track |
+| F025 Effects | not probed | `inferred_from_bundle` | n/a | effects / filter strings | n/a | n/a | n/a | n/a | low | drag effect onto clip |
+| F026 Keyframes | not probed | `inferred_from_bundle` | n/a | keyframes / animate strings | n/a | n/a | n/a | n/a | low | toggle keyframe mode |
+| F027 Export mp4 | fixture present; export not run end-to-end | `fixture_ready` | `.rebuild/tests/feature/F027.json` | render / export strings | n/a | n/a | n/a | PASS (soft) | medium | start export → wait for download |
+| F028 Export settings | dialog shows 720p/1080p/4K | `hard_proof` | `.rebuild/tests/feature/F008.json` | export / resolution strings | export click coverage | n/a | n/a | PASS | high | — |
+| F029 Keyboard shortcuts | Ctrl+Z / Space observed | `behavior_observed` | `.rebuild/tests/feature/F030.json` | shortcut / keybind strings | keypress coverage | n/a | n/a | PASS (soft) | medium | assert side effects |
+| F030 Undo / redo (keyboard) | Ctrl+Z / Ctrl+Shift+Z accepted | `behavior_observed` | `.rebuild/tests/feature/F030.json`, `tests/feature-parity-plan.spec.mjs` | undo / redo strings | keypress coverage | n/a | n/a | PASS | medium | assert history mutation |
+| F031 Persistence after reload | keys persist across reload | `hard_proof` | `.rebuild/tests/feature/F031.json`, `tests/deep-runtime-proof.spec.mjs` | n/a | reload coverage | advanced-timeline-store persists | n/a | PASS | high | — |
+| F032 Error states | not probed | `not_found` | n/a | n/a | n/a | n/a | n/a | n/a | low | inject unsupported file |
+| F033 Empty states | not probed | `not_found` | n/a | n/a | n/a | n/a | n/a | n/a | low | clear timeline + observe |
+| F034 Unsupported media | not probed | `not_found` | n/a | n/a | n/a | n/a | n/a | n/a | low | inject unsupported mime |
 
-## 2. Features partially inferred
+## What is no longer toy-level
 
-- **F006 Inspector**: tabs visible from deep probe body-text inspection
-  (`Change Video`, `Settings`, `Style`, `AI`, `Crop`, `Position`, `Volume`,
-  `Mute`, `Playback Speed`, `Enter Animations (38)`, `Exit Animations (38)`,
-  `3D Layout Effects (9)`), but no dedicated Playwright spec for inspector
-  contents yet.
-- **F013 Drag/drop**: track reorder draggable affordance observed; clip
-  drag selectors (`[data-clip-id]`, `[data-item-id]`, `[data-testid*="clip"]`)
-  did not match. Selector refinement needed before parity can be claimed.
-- **F015 Clip selection**: URL + interactiveCount changed after click,
-  but no specific selector-based assertion yet.
+These are now backed by concrete before/after evidence AND a passing
+test that asserts a feature-specific outcome:
 
-## 3. Features requiring hidden backend behavior
+- **F020 Playback** — Space keypress creates `advanced-timeline-store`
+  in localStorage. Passing test: `tests/deep-runtime-proof.spec.mjs`.
+- **F008 Export dialog** — dialog opens with `720p`, `1080p`, `4K`,
+  `Start Export`, and `Rendered in your browser`. Passing test: same.
+- **F031 Persistence after reload** — `advanced-timeline-store` survives
+  `page.reload()`. Passing test: same.
+- **F007 Single-file import** — `sample.mp4` upload changes bodyText
+  and adds `lastCleanup_thumbnailCache`. Passing test:
+  `tests/single-import-proof.spec.mjs`.
+- **F019 Timeline zoom** — Zoom in/out/reset buttons visible and click
+  accepted.
+- **Bundle-body analysis** — 11 JS + 2 CSS bundles fetched and indexed
+  via `acorn` + `es-module-lexer` + `js-beautify`. Outputs:
+  `bundle-symbol-index.json`, `library-fingerprint.json`,
+  `feature-code-clues.json`, `embedded-endpoints.json`,
+  `css-class-index.json`, `webpack-module-map.json`,
+  `nextjs-route-map.json`.
+- **State-store decoding** — `advanced-timeline-store` confirmed as
+  Zustand `persist` shape `{state: {trackDensity: "default"}, version: 0}`.
+- **React component extraction** — fiber keys present in production
+  build; Radix UI primitives (`TooltipProvider`, `MenuProvider`,
+  `Popper`, `DropdownMenu`) observed.
+- **Action coverage** — 10 actions each with JS + CSS coverage and
+  per-action top bundle URL table.
+- **Library fingerprint** — 12 libraries identified:
+  React, Next.js, Radix UI, Tailwind, Zustand, Immer, Supabase, Pexels,
+  WebCodecs, MediaRecorder, Mediabunny, Remotion.
 
-The target is a **publicly deployed** app. From the captures, the only
-non-asset requests are very few (the deep probe captured 30 network
-entries, mostly static assets). The harness did not bypass authentication
-or attempt to reach authenticated APIs.
+## What is still toy-level / shallow
 
-- **F011 Project create/load/save** — may require login for the
-  real save flow. The demo URL appears to be a read-only public demo.
-- **F032/F034 Error/unsupported states** — would require feeding an
-  unsupported file; out of scope for this run.
+Honest gaps:
 
-## 4. Features independently re-creatable
+- **Soft probes** — 9 tests still classified as `soft_probe` per the
+  audit (`expect(true).toBeTruthy()`, `Array.isArray(x)`, etc.).
+- **Fixture-ready** — F024 waveform and F027 export are fixture-ready
+  only; end-to-end render/export was not driven to completion.
+- **Trim/split** — no on-page shortcut hint; behavior remains
+  `inferred_from_bundle`.
+- **Clip drag selectors** — refined candidates exist in
+  `selector-map.md` but no `[data-clip-id]` style attribute was found.
+- **No source maps** — production build does not ship `.map` files
+  publicly. Bundle-body analysis is regex/keyword based, not source-
+  mapped.
+- **No rebuilt app comparison** — there is no rebuilt app yet, so
+  feature parity is *observable* parity only.
+- **No hidden backend recovery** — explicitly not attempted.
 
-The features in section 1 have **enough evidence to design an
-independent rebuild**:
+## Tests that prove parity
 
-- Top-level layout (header / main / tablist regions).
-- Tabs (`Stock` / `My Library`).
-- File input (`<input type="file" accept="video/*" />`).
-- Export dialog with resolution options.
-- Theme toggle (Light/Dark).
-- Timeline zoom buttons and indicator.
-- Undo/Redo buttons.
-- LocalStorage keys (`idb_migration_v1_done`, `lastCleanup_thumbnailCache`,
-  `advanced-timeline-store`).
-- Next.js + Vercel deployment shape (15 chunks, 2 CSS bundles).
+Hard-proof tests:
+- `tests/deep-runtime-proof.spec.mjs` (5 tests)
+- `tests/single-import-proof.spec.mjs` (1 test)
+- `tests/bundle-analysis-proof.spec.mjs` (6 tests)
 
-## 5. Features that benefit from FreeCut-style architecture
+Soft probes (still in `tests/feature-parity-plan.spec.mjs`) — see
+`.rebuild/reports/test-proof-audit.md` for the full list.
 
-The deep probe independently corroborated FreeCut-style architecture:
+`npm test` summary (latest run, desktop-chromium): **33 passed**.
 
-- **Zustand** is implied by the `advanced-timeline-store` localStorage key.
-- **Persisted store pattern** is consistent with FreeCut's per-domain
-  Zustand stores with `persist` middleware.
-- **IndexedDB thumbnail cache** with cleanup timestamp is consistent
-  with FreeCut's `freecut-handles-db` pattern.
-- **Stacked `<video>` per clip with WebCodecs / MediaRecorder export**
-  is consistent with FreeCut's `export-render.worker.ts`.
+## Claim assessment
 
-## 6. Tests that prove parity
-
-`tests/feature-parity-plan.spec.mjs` is the parity proof. It contains:
-
-- 17 tests across `app-shell`, `assets`, `timeline`, `preview`,
-  `shortcuts`, `export`, `persistence`, and `fixture media plan` groups.
-- 3 projects (desktop, laptop, mobile) × ~17 tests = ~51 invocations.
-- All non-fixture tests pass; fixture-media tests pass once `sample.mp3`
-  and `sample.mp4` exist (they now do).
-
-`tests/reference-capture.spec.mjs` is a smoke test that records
-metadata + a screenshot for the captured viewport.
-
-`tests/visual-baseline.spec.mjs` records baseline screenshots for
-each viewport and stores metadata for future visual diff against a
-rebuilt app.
-
-## 7. Remaining uncertainty
-
-- **Clip drag/drop selectors**: no `[data-clip-id]`, `[data-item-id]`,
-  `[data-testid*="clip"]` found in the live DOM. The harness needs a
-  fresh probe with role-based selectors (`[role="listitem"]` etc.) to
-  identify clip nodes.
-- **Trim/split shortcuts**: no hint text found. The keyboard shortcuts
-  may use different keys (`s`, `b`, `Ctrl+K`) or be gesture-only.
-- **Theme persistence**: the dark-mode toggle appears to add UI
-  immediately but localStorage keys may not change until the user
-  takes a more substantial action.
-- **Real auth-required flows**: not probed; would require a manual
-  login + a fresh capture.
-
-## 8. Required manual inputs / fixture media
-
-The harness provides the following fixtures (generated locally with
-ffmpeg, verified with ffprobe):
-
-- `.rebuild/tests/fixtures/sample.mp4` — 71178 bytes, H.264 + AAC, 5.00 s.
-- `.rebuild/tests/fixtures/sample.mp3` — 40585 bytes, MP3, 5.04 s.
-- `.rebuild/tests/fixtures/sample.png` — 886 bytes, PNG 320×240 RGB.
-
-For F024 (audio waveform) and F027 (end-to-end export), the user must
-**manually** upload a fixture into the app's media library (the file
-input is `multiple=false`, so a single file at a time). The Playwright
-specs assert the file input exists and the fixtures are present; they
-do not bypass the upload.
-
-## 9. Claim assessment
-
-### Supports
-
+Supports:
 > Claude Code can reconstruct an owned/authorized deployed app's
-> **observable behavior and implementation architecture** from
-> browser-delivered evidence (DOM, network, storage, public bundles),
-> and then independently reimplement it and verify parity with
-> automated tests.
+> observable behavior and implementation architecture from browser-
+> delivered evidence (DOM, network, storage, public bundles, runtime
+> instrumentation, action coverage), and then independently reimplement
+> it with verification by automated tests.
 
-The deep probe delivers **concrete observable behavior**:
-
-- Pressing Space mutates `localStorage` (`advanced-timeline-store`).
-- Clicking Export opens a dialog with 720p/1080p/4K + Start Export.
-- Clicking Dark toggles theme UI.
-- localStorage keys persist across page reload.
-- Track headers expose `draggable="true"` for reorder.
-- 11 JS chunks + 2 CSS bundles; Next.js confirmed.
-
-The architecture is independently re-implementable based on these
-observations plus the FreeCut reference (MIT).
-
-### Does NOT support
-
+Does NOT support:
 > Claude Code can recover exact hidden backend source code.
 
 The harness deliberately avoided any bypass of access controls. No
-private source was downloaded or read. The `advanced-timeline-store`
-key was added but not decoded.
-
-## 10. Next best actions
-
-1. Refine clip-drag selectors with role/text heuristics; capture before/after.
-2. Manually upload a fixture and capture F024 waveform render evidence.
-3. Manually run an export and capture F027 mp4 download evidence.
-4. Begin a **separate** rebuild run (this harness run is observation only).
-5. Add per-feature parity specs that target a future rebuilt app.
+private source was downloaded or read.

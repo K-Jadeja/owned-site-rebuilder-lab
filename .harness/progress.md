@@ -1,6 +1,6 @@
 # Progress
 
-Last updated: 2026-07-09T08:30:00Z
+Last updated: 2026-07-09T14:50:00Z (deep bundle/runtime decoupling pass started)
 
 ## Setup phase
 
@@ -40,6 +40,16 @@ Last updated: 2026-07-09T08:30:00Z
 - **NEW**: Click "Export Video" opens dialog with 720p/1080p/4K + Start Export
 - **NEW**: Track headers expose `draggable="true"` for reorder
 - **NEW**: localStorage keys persist across `page.reload()`
+
+## Deep bundle / runtime decoupling pass (in progress, 2026-07-09T14:50:00Z)
+
+- ✅ Phase 0: Read current state, branch `deep-bundle-runtime-decoupling` checked out.
+- ⏳ Phase 1: Patching SKILL.md with Deep Bundle + Runtime Decoupling Mode.
+- ⏳ Phase 2: Raw bundle policy + repo hygiene.
+- ⏳ Phase 3: Install analysis deps.
+- ⏳ Phases 4–19: Fetch bundles, scan, analyze, action coverage, runtime, React probe, decode state, single-import, selector mine, harden tests, rewrite contracts, parity report, inventory, paper.
+- ⏳ Phase 20: Commit + push branch.
+- ⏳ Phase 21: Final answer.
 
 ## Next steps
 

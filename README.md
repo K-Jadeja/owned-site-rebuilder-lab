@@ -50,6 +50,59 @@ npm run reports
 npm test
 ```
 
+## Deep Bundle + Runtime Decoupling Mode
+
+For proof that goes beyond surface observation, this repo also supports
+a deep-decoupling pass:
+
+```bash
+# Fetch public JS/CSS bundles that the browser already downloaded.
+npm run fetch:bundles
+
+# Run the deep bundle analysis (acorn + es-module-lexer + js-beautify).
+npm run analyze:deep-bundles
+
+# Patch fetch/XHR/localStorage/IndexedDB/history inside the live app.
+npm run instrument:runtime
+
+# Map user actions to executed bundle ranges via Playwright JS/CSS coverage.
+npm run coverage:actions
+
+# Upload a single fixture file and observe the result.
+npm run probe:single-import
+
+# Mine candidate selectors for clips/tracks/playhead from the live DOM.
+npm run mine:selectors
+
+# Decode app-owned localStorage JSON values into typed state stores.
+npm run decode:state
+
+# Audit every test for proof level (hard_proof / soft_probe / …).
+npm run audit:proof
+
+# Run secrets + license scan and decide commit eligibility.
+npm run scan:target
+
+# Run all of the above in one shot.
+npm run deep
+```
+
+The deep mode produces:
+
+- `.rebuild/features/deep-bundle-analysis.md` — bundle-body analysis
+- `.rebuild/features/bundle-symbol-index.json` — keyword + identifier index
+- `.rebuild/features/feature-code-clues.json` — feature → chunk map
+- `.rebuild/features/decoded-state-stores.md` — decoded state stores
+- `.rebuild/runtime/runtime-summary.md` — runtime action evidence
+- `.rebuild/runtime/coverage/action-coverage-summary.md` — code-correlated actions
+- `.rebuild/deep-import/import-summary.md` — single-file import result
+- `.rebuild/features/selector-map.md` — candidate clip/track selectors
+- `.rebuild/reports/test-proof-audit.md` — every test classified by proof level
+- `paper/` — open-source evidence pack
+
+See `.claude/skills/owned-site-rebuilder/SKILL.md` for the full
+operating philosophy and proof-quality ladder.
+
 If `npx playwright install` is blocked by your network, the scripts still
 create files; capture will report a Playwright launch error in
 `.rebuild/reports/gaps.md` and `.harness/verification.md`.

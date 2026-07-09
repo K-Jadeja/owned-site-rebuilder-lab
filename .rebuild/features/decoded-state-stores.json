@@ -1,0 +1,56 @@
+{
+  "stores": [
+    {
+      "key": "idb_migration_v1_done",
+      "value": "1783589301227",
+      "valueLength": 13,
+      "jsonParseable": true,
+      "parseError": null,
+      "shape": null,
+      "valuePreview": 1783589301227,
+      "firstObserved": true,
+      "newSinceBoot": false
+    },
+    {
+      "key": "advanced-timeline-store",
+      "value": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}",
+      "valueLength": 48,
+      "jsonParseable": true,
+      "parseError": null,
+      "shape": {
+        "type": "object",
+        "keys": [
+          "state",
+          "version"
+        ],
+        "sample": {
+          "state": {
+            "type": "object",
+            "keys": [
+              "trackDensity"
+            ],
+            "sample": {
+              "trackDensity": {
+                "type": "string",
+                "value": "default"
+              }
+            }
+          },
+          "version": {
+            "type": "number",
+            "value": 0
+          }
+        }
+      },
+      "valuePreview": {
+        "state": {
+          "trackDensity": "default"
+        },
+        "version": 0
+      },
+      "firstObserved": false,
+      "newSinceBoot": true
+    }
+  ],
+  "generatedAt": "2026-07-09T09:28:26.097Z"
+}

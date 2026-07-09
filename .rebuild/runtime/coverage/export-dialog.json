@@ -1,0 +1,44 @@
+{
+  "label": "export-dialog",
+  "err": null,
+  "jsEntries": 4,
+  "jsUsedBytes": 0,
+  "jsTotalBytes": 0,
+  "cssEntries": 2,
+  "cssUsedBytes": 116702,
+  "cssTotalBytes": 128819,
+  "js": [
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/255-4ecccced1aaa83b0.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "usedBytes": 0,
+      "totalBytes": 0
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "usedBytes": 0,
+      "totalBytes": 0
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "usedBytes": 0,
+      "totalBytes": 0
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "usedBytes": 0,
+      "totalBytes": 0
+    }
+  ],
+  "css": [
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/css/7496db7969e5bcd2.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "usedBytes": 4251,
+      "totalBytes": 8460
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/css/8fe5e52289a2a44c.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "usedBytes": 112451,
+      "totalBytes": 120359
+    }
+  ]
+}

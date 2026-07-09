@@ -2,15 +2,13 @@
   "before": {
     "url": "https://demo.reactvideoeditor.com/",
     "keys": [
-      "idb_migration_v1_done",
-      "lastCleanup_thumbnailCache"
+      "idb_migration_v1_done"
     ]
   },
   "after": {
     "url": "https://demo.reactvideoeditor.com/",
     "keys": [
-      "idb_migration_v1_done",
-      "lastCleanup_thumbnailCache"
+      "idb_migration_v1_done"
     ]
   }
 }

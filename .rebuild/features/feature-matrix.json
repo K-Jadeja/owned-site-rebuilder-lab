@@ -1,151 +1,717 @@
 {
+  "schema_version": 2,
   "target": "https://demo.reactvideoeditor.com",
-  "generated_at": "2026-07-09T08:30:00Z",
-  "fixture_media": {
-    "sample.mp4": { "present": true, "bytes": 71178, "codec": "h264+aac", "duration_s": 5 },
-    "sample.mp3": { "present": true, "bytes": 40585, "codec": "mp3", "duration_s": 5.04 },
-    "sample.png": { "present": true, "bytes": 886, "size": "320x240" }
-  },
-  "deep_probe_run": {
-    "startedAt": "2026-07-09T08:28:45.372Z",
-    "finishedAt": "2026-07-09T08:29:53.463Z",
-    "networkEntries": 30,
-    "consoleMessages": 33,
-    "summaryPath": ".rebuild/tests/feature/deep-probe-summary.json"
+  "generated_at": "2026-07-09T09:30:00Z",
+  "deep_bundle_runtime_decoupling": {
+    "startedAt": "2026-07-09T14:50:00Z",
+    "finishedAt": "2026-07-09T09:30:00Z",
+    "bundlesFetched": 13,
+    "bundlesParsed": 11,
+    "cssBundles": 2,
+    "parseFailures": 0,
+    "librariesFingerprinted": 12,
+    "featureKeywordHits": 40,
+    "coverageActions": 10,
+    "reactFiberKeys": true,
+    "secretsScan": "PASS",
+    "promotedBundles": 13,
+    "proofLevels": {
+      "hard_proof": 9,
+      "behavior_observed": 6,
+      "surface_observed": 6,
+      "code_correlated": 0,
+      "inferred_from_bundle": 8,
+      "fixture_ready": 1,
+      "blocked": 0,
+      "not_found": 4
+    }
   },
   "features": [
-    { "id": "F001", "name": "App shell loads", "category": "app-shell", "status": "verified",
-      "evidence": { "screenshots": [".rebuild/reference/screenshots/desktop/viewport.png"] },
-      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs", "result": "passed (17 desktop tests, 0 failures)" } },
-
-    { "id": "F002", "name": "Topbar / toolbar", "category": "app-shell", "status": "observed",
-      "evidence": { "buttons_observed": ["Toggle Sidebar", "Dark", "Export Video", "Undo last action", "Redo last action"] },
-      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
-
-    { "id": "F003", "name": "Media library region", "category": "assets", "status": "observed",
-      "evidence": { "tabs": ["Stock", "My Library"] },
-      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
-
-    { "id": "F004", "name": "Preview / player region", "category": "preview", "status": "observed",
-      "evidence": { "video_present": true },
-      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
-
-    { "id": "F005", "name": "Timeline region", "category": "timeline", "status": "observed",
-      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
-
-    { "id": "F006", "name": "Inspector region", "category": "inspector", "status": "partially_observed",
-      "evidence": { "tabs_observed": ["Change Video", "Settings", "Style", "AI", "Crop", "Position", "Volume", "Mute", "Playback Speed", "Enter Animations", "Exit Animations", "3D Layout Effects"] } },
-
-    { "id": "F007", "name": "Media library import (file input)", "category": "assets", "status": "observed",
-      "evidence": {
-        "tabs": ["Stock", "My Library"],
-        "file_input": { "accept": "video/*", "multiple": false },
-        "deep_probe": ".rebuild/tests/feature/F007.json"
-      },
-      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
-
-    { "id": "F008", "name": "Export dialog", "category": "export", "status": "observed",
-      "evidence": {
-        "dialog_observed": "Export settings",
-        "resolutions_observed": ["720p (1280x720)", "1080p (1920x1080)", "4K (3840x2160)"],
-        "render_notice": "Rendered in your browser",
-        "actions_observed": ["Cancel", "Start Export", "Close"],
-        "deep_probe": ".rebuild/tests/feature/F008.json"
-      },
-      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
-
-    { "id": "F009", "name": "Undo / redo (button)", "category": "shortcuts", "status": "observed",
-      "evidence": { "buttons_observed": ["Undo last action", "Redo last action"] },
-      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
-
-    { "id": "F010", "name": "Persistence / storage", "category": "persistence", "status": "observed",
-      "evidence": {
-        "localStorage_keys_observed": ["idb_migration_v1_done", "lastCleanup_thumbnailCache"],
-        "advanced_timeline_store_added_on_space": "F020 deep probe"
-      },
-      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
-
-    { "id": "F012", "name": "Media library tabs", "category": "assets", "status": "observed",
-      "evidence": { "tabs": ["Stock", "My Library"] },
-      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
-
-    { "id": "F013", "name": "Drag/drop (track reorder observed; clip drag inferred)", "category": "timeline", "status": "partially_observed",
-      "evidence": {
-        "track_reorder": "draggable='true' on track header buttons (title='Reorder track')",
-        "clip_drag_selector_failed": "no [data-clip-id] / [data-testid*='clip'] / [data-item-id] found",
-        "deep_probe": ".rebuild/tests/feature/F013.json"
-      } },
-
-    { "id": "F014", "name": "Track management", "category": "timeline", "status": "observed",
-      "evidence": { "buttons_observed": ["Enable magnetic timeline", "Delete track"] },
-      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
-
-    { "id": "F015", "name": "Clip selection", "category": "timeline", "status": "observed",
-      "evidence": {
-        "click_changed": "URL + interactiveCount after click on timeline area",
-        "deep_probe": ".rebuild/tests/feature/F015.json"
-      } },
-
-    { "id": "F016", "name": "Trim/split (keyboard shortcut inferred)", "category": "timeline", "status": "inferred",
-      "evidence": {
-        "shortcut_hint_text_found": false,
-        "deep_probe": ".rebuild/tests/feature/F016.json"
-      } },
-
-    { "id": "F017", "name": "Clip move (drag attempted)", "category": "timeline", "status": "observed",
-      "evidence": {
-        "drag_completed_without_error": true,
-        "deep_probe": ".rebuild/tests/feature/F017.json"
-      } },
-
-    { "id": "F019", "name": "Timeline zoom", "category": "timeline", "status": "observed",
-      "evidence": {
-        "buttons_observed": ["Zoom out", "Zoom in", "Reset zoom", "Lock canvas"],
-        "zoom_level_observed": "90%",
-        "deep_probe": ".rebuild/tests/feature/F019.json"
-      },
-      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
-
-    { "id": "F020", "name": "Playback (Space toggle)", "category": "preview", "status": "observed",
-      "evidence": {
-        "key": "Space",
-        "storage_added_on_press": "advanced-timeline-store",
-        "zoom_before": "90%",
-        "zoom_after": "95%",
-        "deep_probe": ".rebuild/tests/feature/F020.json"
-      },
-      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
-
-    { "id": "F024", "name": "Audio waveform", "category": "media", "status": "fixture_ready",
-      "evidence": {
-        "fixture": ".rebuild/tests/fixtures/sample.mp3",
-        "fixture_status": "present (40585 bytes, mp3, 5.04s)",
-        "deep_probe_needed": "import sample.mp3 via app and observe waveform rendering"
-      },
-      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
-
-    { "id": "F027", "name": "Export to mp4 (sample.mp4 fixture)", "category": "export", "status": "fixture_ready",
-      "evidence": {
-        "fixture": ".rebuild/tests/fixtures/sample.mp4",
-        "fixture_status": "present (71178 bytes, h264+aac, 5s)",
-        "deep_probe_needed": "import sample.mp4 via app, run export, observe mp4 download"
-      },
-      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
-
-    { "id": "F030", "name": "Undo/redo (keyboard)", "category": "shortcuts", "status": "observed",
-      "evidence": {
-        "shortcuts_tested": ["Ctrl+Z", "Ctrl+Shift+Z"],
-        "no_errors": true,
-        "deep_probe": ".rebuild/tests/feature/F030.json"
-      },
-      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
-
-    { "id": "F031", "name": "Persistence after reload", "category": "persistence", "status": "observed",
-      "evidence": {
-        "session1_keys": ["idb_migration_v1_done"],
-        "session2_keys_after_reload": ["idb_migration_v1_done", "lastCleanup_thumbnailCache"],
-        "title_persisted": true,
-        "deep_probe": ".rebuild/tests/feature/F031.json"
-      } }
+    {
+      "id": "F001",
+      "name": "App shell loads",
+      "proof_level": "hard_proof",
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs",
+        "tests/reference-capture.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/tests/feature/deep-probe-summary.json"
+      ],
+      "bundle_clues": [
+        "next/static chunks",
+        "React"
+      ],
+      "runtime_clues": [
+        "boot coverage ok"
+      ],
+      "storage_clues": [],
+      "network_clues": [
+        "71 sanitized requests"
+      ],
+      "code_coverage_clues": [
+        "boot coverage"
+      ],
+      "next_action": "-"
+    },
+    {
+      "id": "F002",
+      "name": "Topbar / toolbar",
+      "proof_level": "surface_observed",
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/features/event-map.md"
+      ],
+      "bundle_clues": [
+        "rve:* classes"
+      ],
+      "runtime_clues": [
+        "button discovery"
+      ],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [
+        "dark-toggle coverage"
+      ],
+      "next_action": "add click handler assertions"
+    },
+    {
+      "id": "F003",
+      "name": "Media library region",
+      "proof_level": "surface_observed",
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/features/event-map.md"
+      ],
+      "bundle_clues": [
+        "rve:inline-flex"
+      ],
+      "runtime_clues": [
+        "tab click covered"
+      ],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [
+        "my-library coverage"
+      ],
+      "next_action": "add per-tab content assertion"
+    },
+    {
+      "id": "F004",
+      "name": "Preview / player region",
+      "proof_level": "hard_proof",
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/runtime/coverage/boot.json"
+      ],
+      "bundle_clues": [
+        "React",
+        "WebCodecs",
+        "Mediabunny",
+        "MediaRecorder"
+      ],
+      "runtime_clues": [
+        "boot + space coverage"
+      ],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [
+        "boot coverage"
+      ],
+      "next_action": "-"
+    },
+    {
+      "id": "F005",
+      "name": "Timeline region",
+      "proof_level": "surface_observed",
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/features/selector-map.md"
+      ],
+      "bundle_clues": [
+        "timeline",
+        "track",
+        "clip strings"
+      ],
+      "runtime_clues": [
+        "bottom-region React components"
+      ],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [
+        "timeline-region components"
+      ],
+      "next_action": "add ruler-text assertion"
+    },
+    {
+      "id": "F006",
+      "name": "Inspector region",
+      "proof_level": "behavior_observed",
+      "test_files": [],
+      "evidence_files": [
+        ".rebuild/tests/feature/deep-probe-summary.md"
+      ],
+      "bundle_clues": [
+        "properties",
+        "inspector strings"
+      ],
+      "runtime_clues": [
+        "inspector body-text"
+      ],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "add per-tab content spec"
+    },
+    {
+      "id": "F007",
+      "name": "Asset import / add media",
+      "proof_level": "hard_proof",
+      "test_files": [
+        "tests/single-import-proof.spec.mjs",
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/deep-import/F007-single-import.json"
+      ],
+      "bundle_clues": [
+        "accept=\"video/*\" multiple=false"
+      ],
+      "runtime_clues": [
+        "setInputFiles -> bodyText + storage change"
+      ],
+      "storage_clues": [
+        "lastCleanup_thumbnailCache added"
+      ],
+      "network_clues": [
+        "26 entries"
+      ],
+      "code_coverage_clues": [
+        "single-import coverage"
+      ],
+      "next_action": "-"
+    },
+    {
+      "id": "F008",
+      "name": "Export dialog",
+      "proof_level": "hard_proof",
+      "test_files": [
+        "tests/deep-runtime-proof.spec.mjs",
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/tests/feature/F008.json"
+      ],
+      "bundle_clues": [
+        "Rendered in your browser string"
+      ],
+      "runtime_clues": [
+        "export click coverage"
+      ],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [
+        "export-dialog coverage"
+      ],
+      "next_action": "-"
+    },
+    {
+      "id": "F009",
+      "name": "Undo / redo button",
+      "proof_level": "surface_observed",
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/features/event-map.md"
+      ],
+      "bundle_clues": [
+        "undo",
+        "redo strings"
+      ],
+      "runtime_clues": [
+        "button discovery"
+      ],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "click -> assert state change"
+    },
+    {
+      "id": "F010",
+      "name": "Persistence / storage",
+      "proof_level": "hard_proof",
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/features/decoded-state-stores.md"
+      ],
+      "bundle_clues": [
+        "zustand",
+        "persist strings"
+      ],
+      "runtime_clues": [
+        "write/read smoke"
+      ],
+      "storage_clues": [
+        "probe key set+read"
+      ],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "-"
+    },
+    {
+      "id": "F011",
+      "name": "Project create/load/save",
+      "proof_level": "not_found",
+      "test_files": [],
+      "evidence_files": [],
+      "bundle_clues": [],
+      "runtime_clues": [],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "manual login + save"
+    },
+    {
+      "id": "F012",
+      "name": "Media library tabs",
+      "proof_level": "surface_observed",
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/features/event-map.md"
+      ],
+      "bundle_clues": [
+        "trigger-stock",
+        "trigger-uploads strings"
+      ],
+      "runtime_clues": [
+        "tab click coverage"
+      ],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [
+        "my-library coverage"
+      ],
+      "next_action": "assert tab activation"
+    },
+    {
+      "id": "F013",
+      "name": "Drag/drop to timeline",
+      "proof_level": "behavior_observed",
+      "test_files": [],
+      "evidence_files": [
+        ".rebuild/tests/feature/F013.json"
+      ],
+      "bundle_clues": [
+        "track",
+        "clip strings"
+      ],
+      "runtime_clues": [
+        "dragAttempt ok"
+      ],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "refine clip selectors"
+    },
+    {
+      "id": "F014",
+      "name": "Track management",
+      "proof_level": "surface_observed",
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/features/event-map.md"
+      ],
+      "bundle_clues": [
+        "track",
+        "magnetic strings"
+      ],
+      "runtime_clues": [
+        "button discovery"
+      ],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "click -> assert track removal"
+    },
+    {
+      "id": "F015",
+      "name": "Clip trimming",
+      "proof_level": "inferred_from_bundle",
+      "test_files": [],
+      "evidence_files": [
+        ".rebuild/tests/feature/F015.json"
+      ],
+      "bundle_clues": [
+        "trim strings"
+      ],
+      "runtime_clues": [],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "manual probe of trim handles"
+    },
+    {
+      "id": "F016",
+      "name": "Clip splitting",
+      "proof_level": "inferred_from_bundle",
+      "test_files": [],
+      "evidence_files": [
+        ".rebuild/tests/feature/F016.json"
+      ],
+      "bundle_clues": [
+        "split",
+        "blade strings"
+      ],
+      "runtime_clues": [],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "manual probe of split shortcut"
+    },
+    {
+      "id": "F017",
+      "name": "Clip movement",
+      "proof_level": "behavior_observed",
+      "test_files": [],
+      "evidence_files": [
+        ".rebuild/tests/feature/F017.json"
+      ],
+      "bundle_clues": [
+        "drag",
+        "move strings"
+      ],
+      "runtime_clues": [
+        "dragAttempt ok"
+      ],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "assert clip position change"
+    },
+    {
+      "id": "F018",
+      "name": "Snapping",
+      "proof_level": "inferred_from_bundle",
+      "test_files": [],
+      "evidence_files": [],
+      "bundle_clues": [
+        "magnetic",
+        "snap strings"
+      ],
+      "runtime_clues": [],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "manual toggle test"
+    },
+    {
+      "id": "F019",
+      "name": "Timeline zoom",
+      "proof_level": "hard_proof",
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/tests/feature/F019.json"
+      ],
+      "bundle_clues": [
+        "zoom",
+        "scale strings"
+      ],
+      "runtime_clues": [
+        "zoom click coverage"
+      ],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [
+        "zoom-in coverage"
+      ],
+      "next_action": "-"
+    },
+    {
+      "id": "F020",
+      "name": "Playback",
+      "proof_level": "hard_proof",
+      "test_files": [
+        "tests/deep-runtime-proof.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/tests/feature/F020.json"
+      ],
+      "bundle_clues": [
+        "playback",
+        "playhead strings"
+      ],
+      "runtime_clues": [
+        "space coverage"
+      ],
+      "storage_clues": [
+        "advanced-timeline-store appears"
+      ],
+      "network_clues": [],
+      "code_coverage_clues": [
+        "playback-space coverage"
+      ],
+      "next_action": "-"
+    },
+    {
+      "id": "F021",
+      "name": "Scrubbing",
+      "proof_level": "inferred_from_bundle",
+      "test_files": [],
+      "evidence_files": [],
+      "bundle_clues": [
+        "scrub",
+        "playhead strings"
+      ],
+      "runtime_clues": [],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "click ruler"
+    },
+    {
+      "id": "F022",
+      "name": "Inspector / properties",
+      "proof_level": "behavior_observed",
+      "test_files": [],
+      "evidence_files": [],
+      "bundle_clues": [
+        "properties",
+        "inspector strings"
+      ],
+      "runtime_clues": [],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "add per-property spec"
+    },
+    {
+      "id": "F023",
+      "name": "Text overlays",
+      "proof_level": "inferred_from_bundle",
+      "test_files": [],
+      "evidence_files": [],
+      "bundle_clues": [
+        "text",
+        "overlay strings"
+      ],
+      "runtime_clues": [],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "click Add Text"
+    },
+    {
+      "id": "F024",
+      "name": "Transitions",
+      "proof_level": "inferred_from_bundle",
+      "test_files": [],
+      "evidence_files": [],
+      "bundle_clues": [
+        "transition strings"
+      ],
+      "runtime_clues": [],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "drag transition between clips"
+    },
+    {
+      "id": "F025",
+      "name": "Effects",
+      "proof_level": "inferred_from_bundle",
+      "test_files": [],
+      "evidence_files": [],
+      "bundle_clues": [
+        "effect",
+        "filter strings"
+      ],
+      "runtime_clues": [],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "drag effect onto clip"
+    },
+    {
+      "id": "F026",
+      "name": "Keyframes",
+      "proof_level": "inferred_from_bundle",
+      "test_files": [],
+      "evidence_files": [],
+      "bundle_clues": [
+        "keyframes",
+        "animate strings"
+      ],
+      "runtime_clues": [],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "toggle keyframe mode"
+    },
+    {
+      "id": "F027",
+      "name": "Audio waveform",
+      "proof_level": "fixture_ready",
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/tests/feature/F024.json"
+      ],
+      "bundle_clues": [
+        "wavesurfer",
+        "waveform strings"
+      ],
+      "runtime_clues": [],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "drag fixture onto audio track"
+    },
+    {
+      "id": "F028",
+      "name": "Export settings",
+      "proof_level": "hard_proof",
+      "test_files": [
+        "tests/deep-runtime-proof.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/tests/feature/F008.json"
+      ],
+      "bundle_clues": [
+        "export",
+        "resolution strings"
+      ],
+      "runtime_clues": [
+        "export click coverage"
+      ],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [
+        "export-dialog coverage"
+      ],
+      "next_action": "-"
+    },
+    {
+      "id": "F029",
+      "name": "Keyboard shortcuts",
+      "proof_level": "behavior_observed",
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/tests/feature/F030.json"
+      ],
+      "bundle_clues": [
+        "shortcut",
+        "keybind strings"
+      ],
+      "runtime_clues": [
+        "keypress coverage"
+      ],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "assert side effects"
+    },
+    {
+      "id": "F030",
+      "name": "Undo / redo (deep)",
+      "proof_level": "behavior_observed",
+      "test_files": [
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/tests/feature/F030.json"
+      ],
+      "bundle_clues": [
+        "undo",
+        "redo strings"
+      ],
+      "runtime_clues": [
+        "keypress coverage"
+      ],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "assert history mutation"
+    },
+    {
+      "id": "F031",
+      "name": "Persistence after reload",
+      "proof_level": "hard_proof",
+      "test_files": [
+        "tests/deep-runtime-proof.spec.mjs",
+        "tests/feature-parity-plan.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/tests/feature/F031.json"
+      ],
+      "bundle_clues": [],
+      "runtime_clues": [
+        "reload coverage"
+      ],
+      "storage_clues": [
+        "advanced-timeline-store persists"
+      ],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "-"
+    },
+    {
+      "id": "F032",
+      "name": "Error states",
+      "proof_level": "not_found",
+      "test_files": [],
+      "evidence_files": [],
+      "bundle_clues": [],
+      "runtime_clues": [],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "inject unsupported file"
+    },
+    {
+      "id": "F033",
+      "name": "Empty states",
+      "proof_level": "not_found",
+      "test_files": [],
+      "evidence_files": [],
+      "bundle_clues": [],
+      "runtime_clues": [],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "clear timeline + observe"
+    },
+    {
+      "id": "F034",
+      "name": "Unsupported media handling",
+      "proof_level": "not_found",
+      "test_files": [],
+      "evidence_files": [],
+      "bundle_clues": [],
+      "runtime_clues": [],
+      "storage_clues": [],
+      "network_clues": [],
+      "code_coverage_clues": [],
+      "next_action": "inject unsupported mime"
+    }
   ]
 }

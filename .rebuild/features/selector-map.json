@@ -1,0 +1,2150 @@
+{
+  "totalScanned": 875,
+  "candidatesCount": 82,
+  "candidates": [
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 4,
+      "box": {
+        "x": 152,
+        "y": 563,
+        "w": 1288,
+        "h": 328
+      },
+      "classes": "timeline-scrollable-content rve:relative",
+      "attrs": {
+        "class": "timeline-scrollable-content rve:relative"
+      },
+      "text": "0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing vide",
+      "cursor": "auto",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "position": {
+        "position": "relative",
+        "left": "0px",
+        "top": "0px",
+        "width": "1288.41px",
+        "height": "328px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "span",
+      "kind": "slider",
+      "confidence": 3,
+      "box": {
+        "x": 1231,
+        "y": 526,
+        "w": 16,
+        "h": 16
+      },
+      "classes": "rve:block rve:h-4 rve:w-4 rve:rounded-full rve:border rve:border-primary/50 rve:bg-background rve:shadow rve:transition-colors rve:focus-visible:ring-1 rve:focus-visible:ring-ring rve:focus-visible:ou",
+      "attrs": {
+        "role": "slider",
+        "tabindex": "0",
+        "class": "rve:block rve:h-4 rve:w-4 rve:rounded-full rve:border rve:border-primary/50 rve:"
+      },
+      "text": "",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "16px",
+        "height": "16px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "clip|track|handle",
+      "confidence": 3,
+      "box": {
+        "x": 71,
+        "y": 615,
+        "w": 20,
+        "h": 24
+      },
+      "classes": "rve:flex rve:h-6 rve:w-9 rve:items-center rve:justify-center rve:rounded rve:transition-all rve:duration-150 rve:select-none rve:cursor-grab rve:hover:bg-muted",
+      "attrs": {
+        "class": "rve:flex rve:h-6 rve:w-9 rve:items-center rve:justify-center rve:rounded rve:tra",
+        "draggable": "true",
+        "title": "Reorder track"
+      },
+      "text": "",
+      "cursor": "grab",
+      "transform": null,
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "20px",
+        "height": "24px"
+      },
+      "draggable": true
+    },
+    {
+      "tag": "div",
+      "kind": "clip|track|handle",
+      "confidence": 3,
+      "box": {
+        "x": 71,
+        "y": 663,
+        "w": 20,
+        "h": 24
+      },
+      "classes": "rve:flex rve:h-6 rve:w-9 rve:items-center rve:justify-center rve:rounded rve:transition-all rve:duration-150 rve:select-none rve:cursor-grab rve:hover:bg-muted",
+      "attrs": {
+        "class": "rve:flex rve:h-6 rve:w-9 rve:items-center rve:justify-center rve:rounded rve:tra",
+        "draggable": "true",
+        "title": "Reorder track"
+      },
+      "text": "",
+      "cursor": "grab",
+      "transform": null,
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "20px",
+        "height": "24px"
+      },
+      "draggable": true
+    },
+    {
+      "tag": "div",
+      "kind": "clip|track|handle",
+      "confidence": 3,
+      "box": {
+        "x": 71,
+        "y": 711,
+        "w": 20,
+        "h": 24
+      },
+      "classes": "rve:flex rve:h-6 rve:w-9 rve:items-center rve:justify-center rve:rounded rve:transition-all rve:duration-150 rve:select-none rve:cursor-grab rve:hover:bg-muted",
+      "attrs": {
+        "class": "rve:flex rve:h-6 rve:w-9 rve:items-center rve:justify-center rve:rounded rve:tra",
+        "draggable": "true",
+        "title": "Reorder track"
+      },
+      "text": "",
+      "cursor": "grab",
+      "transform": null,
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "20px",
+        "height": "24px"
+      },
+      "draggable": true
+    },
+    {
+      "tag": "div",
+      "kind": "clip|track|handle",
+      "confidence": 3,
+      "box": {
+        "x": 71,
+        "y": 759,
+        "w": 20,
+        "h": 24
+      },
+      "classes": "rve:flex rve:h-6 rve:w-9 rve:items-center rve:justify-center rve:rounded rve:transition-all rve:duration-150 rve:select-none rve:cursor-grab rve:hover:bg-muted",
+      "attrs": {
+        "class": "rve:flex rve:h-6 rve:w-9 rve:items-center rve:justify-center rve:rounded rve:tra",
+        "draggable": "true",
+        "title": "Reorder track"
+      },
+      "text": "",
+      "cursor": "grab",
+      "transform": null,
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "20px",
+        "height": "24px"
+      },
+      "draggable": true
+    },
+    {
+      "tag": "div",
+      "kind": "clip|track|handle",
+      "confidence": 3,
+      "box": {
+        "x": 71,
+        "y": 807,
+        "w": 20,
+        "h": 24
+      },
+      "classes": "rve:flex rve:h-6 rve:w-9 rve:items-center rve:justify-center rve:rounded rve:transition-all rve:duration-150 rve:select-none rve:cursor-grab rve:hover:bg-muted",
+      "attrs": {
+        "class": "rve:flex rve:h-6 rve:w-9 rve:items-center rve:justify-center rve:rounded rve:tra",
+        "draggable": "true",
+        "title": "Reorder track"
+      },
+      "text": "",
+      "cursor": "grab",
+      "transform": null,
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "20px",
+        "height": "24px"
+      },
+      "draggable": true
+    },
+    {
+      "tag": "div",
+      "kind": "clip|track|handle",
+      "confidence": 3,
+      "box": {
+        "x": 71,
+        "y": 855,
+        "w": 20,
+        "h": 24
+      },
+      "classes": "rve:flex rve:h-6 rve:w-9 rve:items-center rve:justify-center rve:rounded rve:transition-all rve:duration-150 rve:select-none rve:cursor-grab rve:hover:bg-muted",
+      "attrs": {
+        "class": "rve:flex rve:h-6 rve:w-9 rve:items-center rve:justify-center rve:rounded rve:tra",
+        "draggable": "true",
+        "title": "Reorder track"
+      },
+      "text": "",
+      "cursor": "grab",
+      "transform": null,
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "20px",
+        "height": "24px"
+      },
+      "draggable": true
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 3,
+      "box": {
+        "x": 152,
+        "y": 563,
+        "w": 1288,
+        "h": 40
+      },
+      "classes": "timeline-markers-container rve:relative rve:w-full rve:cursor-pointer rve:border-b rve:border-border rve:bg-background",
+      "attrs": {
+        "class": "timeline-markers-container rve:relative rve:w-full rve:cursor-pointer rve:border"
+      },
+      "text": "0s\n5s\n10s\n15s\n20s\n25s\n30s",
+      "cursor": "pointer",
+      "transform": null,
+      "position": {
+        "position": "relative",
+        "left": "0px",
+        "top": "0px",
+        "width": "1288.41px",
+        "height": "40px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 189,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "38.2188px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 228,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "76.4531px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 266,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "114.688px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 304,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "152.922px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 380,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "229.375px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 419,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "267.609px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 457,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "305.844px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 495,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "344.078px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 572,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "420.547px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 610,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "458.766px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 648,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "497px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 686,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "535.234px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 763,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "611.703px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 801,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "649.938px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 839,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "688.156px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 877,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "726.391px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 954,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "802.859px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 992,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "841.094px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 1030,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "879.312px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 1069,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "917.547px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 1145,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "994.016px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 1183,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "1032.25px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 1222,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "1070.48px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 1260,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "1108.7px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 1336,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "1185.17px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 1375,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "1223.41px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 1413,
+        "y": 563,
+        "w": 1,
+        "h": 6
+      },
+      "classes": "rve:absolute",
+      "attrs": {
+        "class": "rve:absolute"
+      },
+      "text": "",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -0.5, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "1261.64px",
+        "top": "0px",
+        "width": "1px",
+        "height": "6px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 146,
+        "y": 563,
+        "w": 12,
+        "h": 32
+      },
+      "classes": "rve:absolute rve:flex rve:flex-col rve:items-center",
+      "attrs": {
+        "class": "rve:absolute rve:flex rve:flex-col rve:items-center"
+      },
+      "text": "0s",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -5.78125, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "0px",
+        "top": "0px",
+        "width": "11.5625px",
+        "height": "32px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 337,
+        "y": 563,
+        "w": 12,
+        "h": 32
+      },
+      "classes": "rve:absolute rve:flex rve:flex-col rve:items-center",
+      "attrs": {
+        "class": "rve:absolute rve:flex rve:flex-col rve:items-center"
+      },
+      "text": "5s",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -5.78125, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "191.156px",
+        "top": "0px",
+        "width": "11.5625px",
+        "height": "32px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 525,
+        "y": 563,
+        "w": 18,
+        "h": 32
+      },
+      "classes": "rve:absolute rve:flex rve:flex-col rve:items-center",
+      "attrs": {
+        "class": "rve:absolute rve:flex rve:flex-col rve:items-center"
+      },
+      "text": "10s",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -9.01562, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "382.312px",
+        "top": "0px",
+        "width": "18.0312px",
+        "height": "32px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 716,
+        "y": 563,
+        "w": 18,
+        "h": 32
+      },
+      "classes": "rve:absolute rve:flex rve:flex-col rve:items-center",
+      "attrs": {
+        "class": "rve:absolute rve:flex rve:flex-col rve:items-center"
+      },
+      "text": "15s",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -9.01562, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "573.469px",
+        "top": "0px",
+        "width": "18.0312px",
+        "height": "32px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 907,
+        "y": 563,
+        "w": 18,
+        "h": 32
+      },
+      "classes": "rve:absolute rve:flex rve:flex-col rve:items-center",
+      "attrs": {
+        "class": "rve:absolute rve:flex rve:flex-col rve:items-center"
+      },
+      "text": "20s",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -9.01562, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "764.625px",
+        "top": "0px",
+        "width": "18.0312px",
+        "height": "32px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 1098,
+        "y": 563,
+        "w": 18,
+        "h": 32
+      },
+      "classes": "rve:absolute rve:flex rve:flex-col rve:items-center",
+      "attrs": {
+        "class": "rve:absolute rve:flex rve:flex-col rve:items-center"
+      },
+      "text": "25s",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -9.01562, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "955.781px",
+        "top": "0px",
+        "width": "18.0312px",
+        "height": "32px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 3,
+      "box": {
+        "x": 1290,
+        "y": 563,
+        "w": 18,
+        "h": 32
+      },
+      "classes": "rve:absolute rve:flex rve:flex-col rve:items-center",
+      "attrs": {
+        "class": "rve:absolute rve:flex rve:flex-col rve:items-center"
+      },
+      "text": "30s",
+      "cursor": "pointer",
+      "transform": "matrix(1, 0, 0, 1, -9.01562, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "1146.94px",
+        "top": "0px",
+        "width": "18.0312px",
+        "height": "32px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 58,
+        "y": 505,
+        "w": 1382,
+        "h": 395
+      },
+      "classes": "timeline-container rve:flex rve:h-full rve:flex-col rve:overflow-hidden rve:bg-background",
+      "attrs": {
+        "class": "timeline-container rve:flex rve:h-full rve:flex-col rve:overflow-hidden rve:bg-b"
+      },
+      "text": "1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better t",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "1382.41px",
+        "height": "395px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "span",
+      "kind": "transformed-bottom",
+      "confidence": 2,
+      "box": {
+        "x": 1231,
+        "y": 526,
+        "w": 16,
+        "h": 16
+      },
+      "classes": "",
+      "attrs": {},
+      "text": "",
+      "cursor": "auto",
+      "transform": "matrix(1, 0, 0, 1, -8, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "8px",
+        "top": "-5px",
+        "width": "16px",
+        "height": "16px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 58,
+        "y": 563,
+        "w": 1382,
+        "h": 337
+      },
+      "classes": "timeline-tracks-wrapper rve:flex rve:flex-1 rve:overflow-hidden",
+      "attrs": {
+        "class": "timeline-tracks-wrapper rve:flex rve:flex-1 rve:overflow-hidden"
+      },
+      "text": "0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing vide",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "1382.41px",
+        "height": "337px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 59,
+        "y": 603,
+        "w": 92,
+        "h": 297
+      },
+      "classes": "track-handles-scroll rve:scrollbar-hide rve:flex-1 rve:overflow-x-hidden rve:overflow-y-auto",
+      "attrs": {
+        "class": "track-handles-scroll rve:scrollbar-hide rve:flex-1 rve:overflow-x-hidden rve:ove"
+      },
+      "text": "",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "92px",
+        "height": "297px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 59,
+        "y": 603,
+        "w": 92,
+        "h": 48
+      },
+      "classes": "track rve:flex rve:items-center rve:px-3 rve:gap-1 rve:border-border rve:bg-background rve:hover:bg-muted",
+      "attrs": {
+        "class": "track rve:flex rve:items-center rve:px-3 rve:gap-1 rve:border-border rve:bg-back"
+      },
+      "text": "",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "92px",
+        "height": "48px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 59,
+        "y": 651,
+        "w": 92,
+        "h": 48
+      },
+      "classes": "track rve:flex rve:items-center rve:px-3 rve:gap-1 rve:border-border rve:bg-background rve:hover:bg-muted",
+      "attrs": {
+        "class": "track rve:flex rve:items-center rve:px-3 rve:gap-1 rve:border-border rve:bg-back"
+      },
+      "text": "",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "92px",
+        "height": "48px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 59,
+        "y": 699,
+        "w": 92,
+        "h": 48
+      },
+      "classes": "track rve:flex rve:items-center rve:px-3 rve:gap-1 rve:border-border rve:bg-background rve:hover:bg-muted",
+      "attrs": {
+        "class": "track rve:flex rve:items-center rve:px-3 rve:gap-1 rve:border-border rve:bg-back"
+      },
+      "text": "",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "92px",
+        "height": "48px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 59,
+        "y": 747,
+        "w": 92,
+        "h": 48
+      },
+      "classes": "track rve:flex rve:items-center rve:px-3 rve:gap-1 rve:border-border rve:bg-background rve:hover:bg-muted",
+      "attrs": {
+        "class": "track rve:flex rve:items-center rve:px-3 rve:gap-1 rve:border-border rve:bg-back"
+      },
+      "text": "",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "92px",
+        "height": "48px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 59,
+        "y": 795,
+        "w": 92,
+        "h": 48
+      },
+      "classes": "track rve:flex rve:items-center rve:px-3 rve:gap-1 rve:border-border rve:bg-background rve:hover:bg-muted",
+      "attrs": {
+        "class": "track rve:flex rve:items-center rve:px-3 rve:gap-1 rve:border-border rve:bg-back"
+      },
+      "text": "",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "92px",
+        "height": "48px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 59,
+        "y": 843,
+        "w": 92,
+        "h": 48
+      },
+      "classes": "track rve:flex rve:items-center rve:px-3 rve:gap-1 rve:border-border rve:bg-background rve:hover:bg-muted",
+      "attrs": {
+        "class": "track rve:flex rve:items-center rve:px-3 rve:gap-1 rve:border-border rve:bg-back"
+      },
+      "text": "",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "92px",
+        "height": "48px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 152,
+        "y": 563,
+        "w": 1288,
+        "h": 337
+      },
+      "classes": "timeline-content rve:relative rve:flex-1 rve:overflow-hidden rve:bg-surface",
+      "attrs": {
+        "class": "timeline-content rve:relative rve:flex-1 rve:overflow-hidden rve:bg-surface"
+      },
+      "text": "0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing vide",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "relative",
+        "left": "0px",
+        "top": "0px",
+        "width": "1288.41px",
+        "height": "337px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 152,
+        "y": 563,
+        "w": 1288,
+        "h": 337
+      },
+      "classes": "timeline-tracks-scroll-container rve:scrollbar-hide rve:flex-1 rve:overflow-x-hidden",
+      "attrs": {
+        "class": "timeline-tracks-scroll-container rve:scrollbar-hide rve:flex-1 rve:overflow-x-hi"
+      },
+      "text": "0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing vide",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "1288.41px",
+        "height": "337px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 152,
+        "y": 563,
+        "w": 1288,
+        "h": 40
+      },
+      "classes": "timeline-markers-wrapper rve:sticky rve:top-0 rve:z-40 rve:bg-surface",
+      "attrs": {
+        "class": "timeline-markers-wrapper rve:sticky rve:top-0 rve:z-40 rve:bg-surface"
+      },
+      "text": "0s\n5s\n10s\n15s\n20s\n25s\n30s",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "sticky",
+        "left": "auto",
+        "top": "0px",
+        "width": "1288.41px",
+        "height": "40px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 152,
+        "y": 603,
+        "w": 1288,
+        "h": 288
+      },
+      "classes": "timeline-tracks-container rve:relative",
+      "attrs": {
+        "class": "timeline-tracks-container rve:relative"
+      },
+      "text": "Theres never been a better time to create amazing video experiences on the web\nV",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "relative",
+        "left": "0px",
+        "top": "0px",
+        "width": "1288.41px",
+        "height": "288px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 152,
+        "y": 603,
+        "w": 1288,
+        "h": 48
+      },
+      "classes": "track rve:relative rve:w-full rve:border-b rve:border-(--rve-border) rve:bg-(--rve-timeline-row) rve:transition-all rve:duration-200 rve:ease-in-out",
+      "attrs": {
+        "class": "track rve:relative rve:w-full rve:border-b rve:border-(--rve-border) rve:bg-(--r"
+      },
+      "text": "Theres never been a better time to create amazing video experiences on the web\nV",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "relative",
+        "left": "0px",
+        "top": "0px",
+        "width": "1288.41px",
+        "height": "48px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 614,
+        "y": 607,
+        "w": 256,
+        "h": 40
+      },
+      "classes": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 rve:transform rve:touch-none rve:items-center rve:justify-center rve:overflow-hidden rve:rounded rve:text-xs rve:font-lig",
+      "attrs": {
+        "class": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 r"
+      },
+      "text": "Theres never been a better time to create amazing video experiences on the web",
+      "cursor": "grab",
+      "transform": null,
+      "position": {
+        "position": "absolute",
+        "left": "462.594px",
+        "top": "23.5px",
+        "width": "256.141px",
+        "height": "40px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 905,
+        "y": 607,
+        "w": 191,
+        "h": 40
+      },
+      "classes": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 rve:transform rve:touch-none rve:items-center rve:justify-center rve:overflow-hidden rve:rounded rve:text-xs rve:font-lig",
+      "attrs": {
+        "class": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 r"
+      },
+      "text": "Video AI is evolving faster than ever before.",
+      "cursor": "grab",
+      "transform": null,
+      "position": {
+        "position": "absolute",
+        "left": "753.156px",
+        "top": "23.5px",
+        "width": "191.156px",
+        "height": "40px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 152,
+        "y": 651,
+        "w": 1288,
+        "h": 48
+      },
+      "classes": "track rve:relative rve:w-full rve:border-b rve:border-(--rve-border) rve:bg-(--rve-timeline-row) rve:transition-all rve:duration-200 rve:ease-in-out",
+      "attrs": {
+        "class": "track rve:relative rve:w-full rve:border-b rve:border-(--rve-border) rve:bg-(--r"
+      },
+      "text": "Loading...\nLoading...\nReact Video Editor is building for this future.\nThere's ne",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "relative",
+        "left": "0px",
+        "top": "0px",
+        "width": "1288.41px",
+        "height": "48px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 152,
+        "y": 655,
+        "w": 459,
+        "h": 40
+      },
+      "classes": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 rve:transform rve:touch-none rve:items-center rve:justify-center rve:overflow-hidden rve:rounded rve:text-xs rve:font-lig",
+      "attrs": {
+        "class": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 r"
+      },
+      "text": "Loading...",
+      "cursor": "grab",
+      "transform": null,
+      "position": {
+        "position": "absolute",
+        "left": "0px",
+        "top": "23.5px",
+        "width": "458.766px",
+        "height": "40px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "svg",
+      "kind": "transformed-bottom",
+      "confidence": 2,
+      "box": {
+        "x": 179,
+        "y": 665,
+        "w": 19,
+        "h": 19
+      },
+      "classes": "lucide lucide-loader-circle rve:w-4 rve:h-4 rve:animate-spin rve:text-white/60 rve:shrink-0",
+      "attrs": {
+        "class": "lucide lucide-loader-circle rve:w-4 rve:h-4 rve:animate-spin rve:text-white/60 r"
+      },
+      "text": "",
+      "cursor": "grab",
+      "transform": "matrix(-0.978047, 0.208383, -0.208383, -0.978047, 0, 0)",
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "16px",
+        "height": "16px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 740,
+        "y": 655,
+        "w": 157,
+        "h": 40
+      },
+      "classes": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 rve:transform rve:touch-none rve:items-center rve:justify-center rve:overflow-hidden rve:rounded rve:text-xs rve:font-lig",
+      "attrs": {
+        "class": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 r"
+      },
+      "text": "Loading...",
+      "cursor": "grab",
+      "transform": null,
+      "position": {
+        "position": "absolute",
+        "left": "588.766px",
+        "top": "23.5px",
+        "width": "156.734px",
+        "height": "40px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "svg",
+      "kind": "transformed-bottom",
+      "confidence": 2,
+      "box": {
+        "x": 768,
+        "y": 665,
+        "w": 19,
+        "h": 19
+      },
+      "classes": "lucide lucide-loader-circle rve:w-4 rve:h-4 rve:animate-spin rve:text-white/60 rve:shrink-0",
+      "attrs": {
+        "class": "lucide lucide-loader-circle rve:w-4 rve:h-4 rve:animate-spin rve:text-white/60 r"
+      },
+      "text": "",
+      "cursor": "grab",
+      "transform": "matrix(-0.978047, 0.208383, -0.208383, -0.978047, 0, 0)",
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "16px",
+        "height": "16px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 1123,
+        "y": 655,
+        "w": 153,
+        "h": 40
+      },
+      "classes": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 rve:transform rve:touch-none rve:items-center rve:justify-center rve:overflow-hidden rve:rounded rve:text-xs rve:font-lig",
+      "attrs": {
+        "class": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 r"
+      },
+      "text": "React Video Editor is building for this future.",
+      "cursor": "grab",
+      "transform": null,
+      "position": {
+        "position": "absolute",
+        "left": "971.078px",
+        "top": "23.5px",
+        "width": "152.922px",
+        "height": "40px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 1279,
+        "y": 655,
+        "w": 161,
+        "h": 40
+      },
+      "classes": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 rve:transform rve:touch-none rve:items-center rve:justify-center rve:overflow-hidden rve:rounded rve:text-xs rve:font-lig",
+      "attrs": {
+        "class": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 r"
+      },
+      "text": "There's never been a better time to build.",
+      "cursor": "grab",
+      "transform": null,
+      "position": {
+        "position": "absolute",
+        "left": "1127.83px",
+        "top": "23.5px",
+        "width": "160.562px",
+        "height": "40px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 152,
+        "y": 699,
+        "w": 1288,
+        "h": 48
+      },
+      "classes": "track rve:relative rve:w-full rve:border-b rve:border-(--rve-border) rve:bg-(--rve-timeline-row) rve:transition-all rve:duration-200 rve:ease-in-out",
+      "attrs": {
+        "class": "track rve:relative rve:w-full rve:border-b rve:border-(--rve-border) rve:bg-(--r"
+      },
+      "text": "What are you waiting for?",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "relative",
+        "left": "0px",
+        "top": "0px",
+        "width": "1288.41px",
+        "height": "48px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 1310,
+        "y": 703,
+        "w": 130,
+        "h": 40
+      },
+      "classes": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 rve:transform rve:touch-none rve:items-center rve:justify-center rve:overflow-hidden rve:rounded rve:text-xs rve:font-lig",
+      "attrs": {
+        "class": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 r"
+      },
+      "text": "What are you waiting for?",
+      "cursor": "grab",
+      "transform": null,
+      "position": {
+        "position": "absolute",
+        "left": "1158.41px",
+        "top": "23.5px",
+        "width": "129.984px",
+        "height": "40px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 152,
+        "y": 747,
+        "w": 1288,
+        "h": 48
+      },
+      "classes": "track rve:relative rve:w-full rve:border-b rve:border-(--rve-border) rve:bg-(--rve-timeline-row) rve:transition-all rve:duration-200 rve:ease-in-out",
+      "attrs": {
+        "class": "track rve:relative rve:w-full rve:border-b rve:border-(--rve-border) rve:bg-(--r"
+      },
+      "text": "Loading...",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "relative",
+        "left": "0px",
+        "top": "0px",
+        "width": "1288.41px",
+        "height": "48px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 1084,
+        "y": 751,
+        "w": 356,
+        "h": 40
+      },
+      "classes": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 rve:transform rve:touch-none rve:items-center rve:justify-center rve:overflow-hidden rve:rounded rve:text-xs rve:font-lig",
+      "attrs": {
+        "class": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 r"
+      },
+      "text": "Loading...",
+      "cursor": "grab",
+      "transform": null,
+      "position": {
+        "position": "absolute",
+        "left": "932.844px",
+        "top": "23.5px",
+        "width": "355.547px",
+        "height": "40px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "svg",
+      "kind": "transformed-bottom",
+      "confidence": 2,
+      "box": {
+        "x": 1112,
+        "y": 761,
+        "w": 19,
+        "h": 19
+      },
+      "classes": "lucide lucide-loader-circle rve:w-4 rve:h-4 rve:animate-spin rve:text-white/60 rve:shrink-0",
+      "attrs": {
+        "class": "lucide lucide-loader-circle rve:w-4 rve:h-4 rve:animate-spin rve:text-white/60 r"
+      },
+      "text": "",
+      "cursor": "grab",
+      "transform": "matrix(-0.978047, 0.208383, -0.208383, -0.978047, 0, 0)",
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "16px",
+        "height": "16px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 152,
+        "y": 795,
+        "w": 1288,
+        "h": 48
+      },
+      "classes": "track rve:relative rve:w-full rve:border-b rve:border-(--rve-border) rve:bg-(--rve-timeline-row) rve:transition-all rve:duration-200 rve:ease-in-out",
+      "attrs": {
+        "class": "track rve:relative rve:w-full rve:border-b rve:border-(--rve-border) rve:bg-(--r"
+      },
+      "text": "Loading...\nLoading...",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "relative",
+        "left": "0px",
+        "top": "0px",
+        "width": "1288.41px",
+        "height": "48px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 557,
+        "y": 799,
+        "w": 249,
+        "h": 40
+      },
+      "classes": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 rve:transform rve:touch-none rve:items-center rve:justify-center rve:overflow-hidden rve:rounded rve:text-xs rve:font-lig",
+      "attrs": {
+        "class": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 r"
+      },
+      "text": "Loading...",
+      "cursor": "grab",
+      "transform": null,
+      "position": {
+        "position": "absolute",
+        "left": "405.25px",
+        "top": "23.5px",
+        "width": "248.5px",
+        "height": "40px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "svg",
+      "kind": "transformed-bottom",
+      "confidence": 2,
+      "box": {
+        "x": 584,
+        "y": 809,
+        "w": 19,
+        "h": 19
+      },
+      "classes": "lucide lucide-loader-circle rve:w-4 rve:h-4 rve:animate-spin rve:text-white/60 rve:shrink-0",
+      "attrs": {
+        "class": "lucide lucide-loader-circle rve:w-4 rve:h-4 rve:animate-spin rve:text-white/60 r"
+      },
+      "text": "",
+      "cursor": "grab",
+      "transform": "matrix(-0.978047, 0.208383, -0.208383, -0.978047, 0, 0)",
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "16px",
+        "height": "16px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 882,
+        "y": 799,
+        "w": 226,
+        "h": 40
+      },
+      "classes": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 rve:transform rve:touch-none rve:items-center rve:justify-center rve:overflow-hidden rve:rounded rve:text-xs rve:font-lig",
+      "attrs": {
+        "class": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 r"
+      },
+      "text": "Loading...",
+      "cursor": "grab",
+      "transform": null,
+      "position": {
+        "position": "absolute",
+        "left": "730.219px",
+        "top": "23.5px",
+        "width": "225.562px",
+        "height": "40px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "svg",
+      "kind": "transformed-bottom",
+      "confidence": 2,
+      "box": {
+        "x": 909,
+        "y": 809,
+        "w": 19,
+        "h": 19
+      },
+      "classes": "lucide lucide-loader-circle rve:w-4 rve:h-4 rve:animate-spin rve:text-white/60 rve:shrink-0",
+      "attrs": {
+        "class": "lucide lucide-loader-circle rve:w-4 rve:h-4 rve:animate-spin rve:text-white/60 r"
+      },
+      "text": "",
+      "cursor": "grab",
+      "transform": "matrix(-0.978047, 0.208383, -0.208383, -0.978047, 0, 0)",
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "16px",
+        "height": "16px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 152,
+        "y": 843,
+        "w": 1288,
+        "h": 48
+      },
+      "classes": "track rve:relative rve:w-full rve:border-b rve:border-(--rve-border) rve:bg-(--rve-timeline-row) rve:transition-all rve:duration-200 rve:ease-in-out",
+      "attrs": {
+        "class": "track rve:relative rve:w-full rve:border-b rve:border-(--rve-border) rve:bg-(--r"
+      },
+      "text": "Loading...\nAnother Lowfi",
+      "cursor": "auto",
+      "transform": null,
+      "position": {
+        "position": "relative",
+        "left": "0px",
+        "top": "0px",
+        "width": "1288.41px",
+        "height": "48px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "timeline-region",
+      "confidence": 2,
+      "box": {
+        "x": 343,
+        "y": 847,
+        "w": 1097,
+        "h": 40
+      },
+      "classes": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 rve:transform rve:touch-none rve:items-center rve:justify-center rve:overflow-hidden rve:rounded rve:text-xs rve:font-lig",
+      "attrs": {
+        "class": "timeline-item rve:group rve:absolute rve:top-1/2 rve:flex rve:-translate-y-1/2 r"
+      },
+      "text": "Loading...\nAnother Lowfi",
+      "cursor": "grab",
+      "transform": null,
+      "position": {
+        "position": "absolute",
+        "left": "191.156px",
+        "top": "23.5px",
+        "width": "1097.23px",
+        "height": "40px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "svg",
+      "kind": "transformed-bottom",
+      "confidence": 2,
+      "box": {
+        "x": 856,
+        "y": 859,
+        "w": 14,
+        "h": 14
+      },
+      "classes": "lucide lucide-loader-circle rve:h-3 rve:w-3 rve:animate-spin rve:text-white/80",
+      "attrs": {
+        "class": "lucide lucide-loader-circle rve:h-3 rve:w-3 rve:animate-spin rve:text-white/80"
+      },
+      "text": "",
+      "cursor": "grab",
+      "transform": "matrix(-0.978047, 0.208383, -0.208383, -0.978047, 0, 0)",
+      "position": {
+        "position": "static",
+        "left": "auto",
+        "top": "auto",
+        "width": "12px",
+        "height": "12px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 2,
+      "box": {
+        "x": 151,
+        "y": 563,
+        "w": 2,
+        "h": 328
+      },
+      "classes": "rve:absolute rve:top-0 rve:z-50",
+      "attrs": {
+        "class": "rve:absolute rve:top-0 rve:z-50"
+      },
+      "text": "",
+      "cursor": "auto",
+      "transform": "matrix(1, 0, 0, 1, -1, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "0px",
+        "top": "0px",
+        "width": "2px",
+        "height": "328px"
+      },
+      "draggable": false
+    },
+    {
+      "tag": "div",
+      "kind": "transformed-bottom",
+      "confidence": 2,
+      "box": {
+        "x": 140,
+        "y": 563,
+        "w": 24,
+        "h": 328
+      },
+      "classes": "rve:pointer-events-none rve:absolute rve:top-0 rve:z-40",
+      "attrs": {
+        "class": "rve:pointer-events-none rve:absolute rve:top-0 rve:z-40"
+      },
+      "text": "",
+      "cursor": "auto",
+      "transform": "matrix(1, 0, 0, 1, -12, 0)",
+      "position": {
+        "position": "absolute",
+        "left": "0px",
+        "top": "0px",
+        "width": "24px",
+        "height": "328px"
+      },
+      "draggable": false
+    }
+  ]
+}

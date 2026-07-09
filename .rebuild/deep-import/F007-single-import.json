@@ -1,0 +1,406 @@
+{
+  "feature": "F007-single-import",
+  "target": "https://demo.reactvideoeditor.com",
+  "generatedAt": "2026-07-09T09:29:16.346Z",
+  "fixture": ".rebuild/tests/fixtures/sample.mp4",
+  "inputInfo": [
+    {
+      "accept": "video/*",
+      "multiple": false,
+      "name": ""
+    }
+  ],
+  "tabClick": "failed",
+  "uploadResult": {
+    "ok": true,
+    "file": ".rebuild/tests/fixtures/sample.mp4",
+    "acceptedInput": "video/*"
+  },
+  "timelineAttempt": {
+    "candidates": [
+      {
+        "tag": "div",
+        "text": "",
+        "x": 70.59375,
+        "y": 615,
+        "w": 20,
+        "h": 24
+      },
+      {
+        "tag": "div",
+        "text": "",
+        "x": 70.59375,
+        "y": 663,
+        "w": 20,
+        "h": 24
+      },
+      {
+        "tag": "div",
+        "text": "",
+        "x": 70.59375,
+        "y": 711,
+        "w": 20,
+        "h": 24
+      },
+      {
+        "tag": "div",
+        "text": "",
+        "x": 70.59375,
+        "y": 759,
+        "w": 20,
+        "h": 24
+      },
+      {
+        "tag": "div",
+        "text": "",
+        "x": 70.59375,
+        "y": 807,
+        "w": 20,
+        "h": 24
+      }
+    ],
+    "dragResult": "attempted"
+  },
+  "before": {
+    "label": "before",
+    "url": "https://demo.reactvideoeditor.com/",
+    "localStorage": {
+      "idb_migration_v1_done": "1783589345025"
+    },
+    "localStorageKeys": [
+      "idb_migration_v1_done"
+    ],
+    "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+    "interactiveCount": 57,
+    "visibleVideo": true,
+    "visibleCanvas": false,
+    "mediaItemCount": 6
+  },
+  "beforeShot": ".rebuild\\deep-import\\F007-before.png",
+  "afterUpload": {
+    "label": "after-upload",
+    "url": "https://demo.reactvideoeditor.com/",
+    "localStorage": {
+      "idb_migration_v1_done": "1783589345025",
+      "lastCleanup_thumbnailCache": "1783589350863"
+    },
+    "localStorageKeys": [
+      "idb_migration_v1_done",
+      "lastCleanup_thumbnailCache"
+    ],
+    "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+    "interactiveCount": 57,
+    "visibleVideo": true,
+    "visibleCanvas": true,
+    "mediaItemCount": 6
+  },
+  "afterUploadShot": ".rebuild\\deep-import\\F007-after-upload.png",
+  "afterTimeline": {
+    "label": "after-timeline-attempt",
+    "url": "https://demo.reactvideoeditor.com/",
+    "localStorage": {
+      "idb_migration_v1_done": "1783589345025",
+      "advanced-timeline-store": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}",
+      "lastCleanup_thumbnailCache": "1783589350863"
+    },
+    "localStorageKeys": [
+      "idb_migration_v1_done",
+      "advanced-timeline-store",
+      "lastCleanup_thumbnailCache"
+    ],
+    "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nAnother Lowfi\nSaved at 14:59",
+    "interactiveCount": 57,
+    "visibleVideo": true,
+    "visibleCanvas": true,
+    "mediaItemCount": 6
+  },
+  "afterTimelineShot": ".rebuild\\deep-import\\F007-after-timeline-attempt.png",
+  "diffs": {
+    "before_vs_afterUpload": {
+      "storage": {
+        "added": [
+          "lastCleanup_thumbnailCache"
+        ],
+        "removed": [],
+        "changed": []
+      },
+      "interactiveCount": false,
+      "mediaItemCount": false,
+      "bodyTextChanged": true
+    },
+    "afterUpload_vs_afterTimeline": {
+      "storage": {
+        "added": [
+          "advanced-timeline-store"
+        ],
+        "removed": [],
+        "changed": []
+      },
+      "interactiveCount": false,
+      "mediaItemCount": false,
+      "bodyTextChanged": true
+    }
+  },
+  "networkCount": 26,
+  "consoleCount": 20,
+  "networkLog": [
+    {
+      "url": "https://demo.reactvideoeditor.com/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "t": 1783589343711
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/css/7496db7969e5bcd2.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "t": 1783589343742
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/css/8fe5e52289a2a44c.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "t": 1783589343743
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+      "status": 200,
+      "contentType": "font/woff2",
+      "t": 1783589343754
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/webpack-08d55afbbfac36e8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "t": 1783589343788
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "t": 1783589343829
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/main-app-f9b5d20365cb8be2.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "t": 1783589343831
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/255-4ecccced1aaa83b0.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "t": 1783589343836
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/a9a36fa4-57726476e27cb934.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "t": 1783589343879
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/app/page-6ba9b2f710dee95c.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "t": 1783589343881
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/55eb4b32-87960e808445d7a8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "t": 1783589343881
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/839b68eb-f64514b466814bbd.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "t": 1783589343881
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "t": 1783589344051
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+      "status": 200,
+      "contentType": "font/woff2",
+      "t": 1783589344075
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "t": 1783589344885
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/135.af73a71e3f9acb4f.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "t": 1783589345555
+    },
+    {
+      "url": "https://videos.pexels.com/video-files/7722221/7722221-hd_1280_720_25fps.mp4",
+      "status": 200,
+      "contentType": "video/mp4",
+      "t": 1783589345685
+    },
+    {
+      "url": "https://videos.pexels.com/video-files/856142/856142-hd_1920_1080_30fps.mp4",
+      "status": 200,
+      "contentType": "video/mp4",
+      "t": 1783589345738
+    },
+    {
+      "url": "https://videos.pexels.com/video-files/7180708/7180708-hd_2048_1080_25fps.mp4",
+      "status": 200,
+      "contentType": "video/mp4",
+      "t": 1783589345738
+    },
+    {
+      "url": "https://videos.pexels.com/video-files/7664770/7664770-hd_1280_720_25fps.mp4",
+      "status": 200,
+      "contentType": "video/mp4",
+      "t": 1783589345738
+    },
+    {
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "status": 206,
+      "contentType": "video/mp4",
+      "t": 1783589345770
+    },
+    {
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "status": 200,
+      "contentType": "video/mp4",
+      "t": 1783589345926
+    },
+    {
+      "url": "https://rwxrdxvxndclnqvznxfj.supabase.co/storage/v1/object/public/sounds/sound-3.mp3?t=2024-11-04T03%3A52%3A35.101Z",
+      "status": 206,
+      "contentType": "audio/mpeg",
+      "t": 1783589346070
+    },
+    {
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "status": 206,
+      "contentType": "video/mp4",
+      "t": 1783589346395
+    },
+    {
+      "url": "blob:https://demo.reactvideoeditor.com/deb81280-aeb4-4258-9f9a-6d7c31c8e79e",
+      "status": 200,
+      "contentType": "image/webp",
+      "t": 1783589350869
+    },
+    {
+      "url": "blob:https://demo.reactvideoeditor.com/6fb34578-fcf4-4100-85be-ee7a176527d6",
+      "status": 200,
+      "contentType": "image/webp",
+      "t": 1783589355828
+    }
+  ],
+  "consoleLog": [
+    {
+      "type": "log",
+      "text": "[useProjectStateFromUrl] No 'projectId' parameter found, using fallback tracks",
+      "t": 1783589345010
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-ob4wt1-1-40, interval: 1s, height: 40px",
+      "t": 1783589345483
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1rfe6ip-1-40, interval: 1s, height: 40px",
+      "t": 1783589345483
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1udzx29-1-40, interval: 1s, height: 40px",
+      "t": 1783589345484
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1gqds2q-1-40, interval: 1s, height: 40px",
+      "t": 1783589345484
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-cr1ex8-1-40, interval: 1s, height: 40px",
+      "t": 1783589345484
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] firstTimestampSec: 0",
+      "t": 1783589349596
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Keyframe analysis - Video Duration: 9.08s, Keyframes: (count: 3, interval: 3.040s, rate: 0.33 keyframes/sec), intervalSec: 1s",
+      "t": 1783589349607
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Keyframe rate is much higher than the interval we want to use, falling back to interval-based sampling",
+      "t": 1783589349607
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Successfully cached sprite for key: video-thumbnail-1rfe6ip-1-40 firstTimestampSec: 0 dimensions: 284x120 size: 0.01MB tileHeight: 40px totalTiles: 10 interval: 1s",
+      "t": 1783589350864
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Completed sprite generation for key: video-thumbnail-1rfe6ip-1-40, tiles: 10, duration: 5391ms",
+      "t": 1783589350865
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] firstTimestampSec: 0",
+      "t": 1783589353259
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Keyframe analysis - Video Duration: 15.02s, Keyframes: (count: 5, interval: 3.003s, rate: 0.33 keyframes/sec), intervalSec: 1s",
+      "t": 1783589353277
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Keyframe rate is much higher than the interval we want to use, falling back to interval-based sampling",
+      "t": 1783589353278
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] firstTimestampSec: 0",
+      "t": 1783589353669
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Keyframe analysis - Video Duration: 14.44s, Keyframes: (count: 6, interval: 2.432s, rate: 0.41 keyframes/sec), intervalSec: 1s",
+      "t": 1783589353684
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Keyframe rate is much higher than the interval we want to use, falling back to interval-based sampling",
+      "t": 1783589353684
+    },
+    {
+      "type": "log",
+      "text": "[onSave] Editor state saved: {tracks: Array(6), aspectRatio: 16:9, backgroundColor: white, playbackRate: 1, savedAt: 1783589355008}",
+      "t": 1783589355011
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Successfully cached sprite for key: video-thumbnail-1udzx29-1-40 firstTimestampSec: 0 dimensions: 284x160 size: 0.01MB tileHeight: 40px totalTiles: 15 interval: 1s",
+      "t": 1783589355824
+    },
+    {
+      "type": "log",
+      "text": "[ThumbnailCache] Completed sprite generation for key: video-thumbnail-1udzx29-1-40, tiles: 15, duration: 10349ms",
+      "t": 1783589355824
+    }
+  ]
+}

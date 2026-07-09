@@ -1,0 +1,797 @@
+{
+  "actions": [
+    {
+      "label": "boot",
+      "err": null,
+      "before": {
+        "label": "boot-before",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "idb_migration_v1_done"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 58,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time t"
+      },
+      "after": {
+        "label": "boot-after",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "idb_migration_v1_done",
+          "lastCleanup_thumbnailCache"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 58,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWh"
+      },
+      "newLogs": [
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "lastCleanup_thumbnailCache",
+            "valuePreview": "1783589214190"
+          },
+          "t": 1783589214217
+        }
+      ]
+    },
+    {
+      "label": "dark-toggle",
+      "err": null,
+      "before": {
+        "label": "dark-toggle-before",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "idb_migration_v1_done",
+          "lastCleanup_thumbnailCache"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 58,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWh"
+      },
+      "after": {
+        "label": "dark-toggle-after",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "idb_migration_v1_done",
+          "lastCleanup_thumbnailCache"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 61,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWh"
+      },
+      "newLogs": [
+        {
+          "kind": "event",
+          "data": {
+            "type": "pointerdown",
+            "tag": "button",
+            "textPreview": "Dark",
+            "key": null
+          },
+          "t": 1783589215100
+        },
+        {
+          "kind": "event",
+          "data": {
+            "type": "pointerup",
+            "tag": "html",
+            "textPreview": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above",
+            "key": null
+          },
+          "t": 1783589215216
+        },
+        {
+          "kind": "event",
+          "data": {
+            "type": "click",
+            "tag": "html",
+            "textPreview": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above",
+            "key": null
+          },
+          "t": 1783589215217
+        }
+      ]
+    },
+    {
+      "label": "export-dialog",
+      "err": null,
+      "before": {
+        "label": "export-dialog-before",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "idb_migration_v1_done",
+          "lastCleanup_thumbnailCache"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 61,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWh"
+      },
+      "after": {
+        "label": "export-dialog-after",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "idb_migration_v1_done",
+          "lastCleanup_thumbnailCache"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 58,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWh"
+      },
+      "newLogs": [
+        {
+          "kind": "event",
+          "data": {
+            "type": "keydown",
+            "tag": "div",
+            "textPreview": "Light\nDark\nRVE",
+            "key": "Escape"
+          },
+          "t": 1783589220987
+        }
+      ]
+    },
+    {
+      "label": "playback-space",
+      "err": null,
+      "before": {
+        "label": "playback-space-before",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "idb_migration_v1_done",
+          "lastCleanup_thumbnailCache"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 58,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWh"
+      },
+      "after": {
+        "label": "playback-space-after",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "lastCleanup_thumbnailCache",
+          "idb_migration_v1_done",
+          "advanced-timeline-store",
+          "rve-extended-theme"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 58,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nLight\nExport Video\n90%\n1x\n0:00.66\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nW"
+      },
+      "newLogs": [
+        {
+          "kind": "event",
+          "data": {
+            "type": "keydown",
+            "tag": "button",
+            "textPreview": "Dark",
+            "key": " "
+          },
+          "t": 1783589222273
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589222556
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589222580
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589222613
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589222645
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589222681
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589222714
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589222746
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589222786
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589222810
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589222850
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589222886
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589222913
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589222948
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589222983
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589223014
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589223045
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589223080
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589223114
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589223149
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "advanced-timeline-store",
+            "valuePreview": "{\"state\":{\"trackDensity\":\"default\"},\"version\":0}"
+          },
+          "t": 1783589223177
+        },
+        {
+          "kind": "event",
+          "data": {
+            "type": "keydown",
+            "tag": "div",
+            "textPreview": "Light",
+            "key": " "
+          },
+          "t": 1783589223203
+        },
+        {
+          "kind": "event",
+          "data": {
+            "type": "click",
+            "tag": "div",
+            "textPreview": "Light",
+            "key": null
+          },
+          "t": 1783589223204
+        },
+        {
+          "kind": "storage-set",
+          "data": {
+            "store": "local",
+            "key": "rve-extended-theme",
+            "valuePreview": "light"
+          },
+          "t": 1783589223204
+        }
+      ]
+    },
+    {
+      "label": "undo-redo",
+      "err": null,
+      "before": {
+        "label": "undo-redo-before",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "lastCleanup_thumbnailCache",
+          "idb_migration_v1_done",
+          "advanced-timeline-store",
+          "rve-extended-theme"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 58,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nLight\nExport Video\n90%\n1x\n0:00.66\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nW"
+      },
+      "after": {
+        "label": "undo-redo-after",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "lastCleanup_thumbnailCache",
+          "idb_migration_v1_done",
+          "advanced-timeline-store",
+          "rve-extended-theme"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 58,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nLight\nExport Video\n90%\n1x\n0:00.66\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nW"
+      },
+      "newLogs": [
+        {
+          "kind": "event",
+          "data": {
+            "type": "keydown",
+            "tag": "button",
+            "textPreview": "Light",
+            "key": "Control"
+          },
+          "t": 1783589224608
+        },
+        {
+          "kind": "event",
+          "data": {
+            "type": "keydown",
+            "tag": "button",
+            "textPreview": "Light",
+            "key": "Z"
+          },
+          "t": 1783589224611
+        },
+        {
+          "kind": "event",
+          "data": {
+            "type": "keydown",
+            "tag": "button",
+            "textPreview": "Light",
+            "key": "Control"
+          },
+          "t": 1783589224925
+        },
+        {
+          "kind": "event",
+          "data": {
+            "type": "keydown",
+            "tag": "button",
+            "textPreview": "Light",
+            "key": "Shift"
+          },
+          "t": 1783589224927
+        },
+        {
+          "kind": "event",
+          "data": {
+            "type": "keydown",
+            "tag": "button",
+            "textPreview": "Light",
+            "key": "Z"
+          },
+          "t": 1783589224929
+        }
+      ]
+    },
+    {
+      "label": "zoom-in",
+      "err": null,
+      "before": {
+        "label": "zoom-in-before",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "lastCleanup_thumbnailCache",
+          "idb_migration_v1_done",
+          "advanced-timeline-store",
+          "rve-extended-theme"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 58,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nLight\nExport Video\n90%\n1x\n0:00.66\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nW"
+      },
+      "after": {
+        "label": "zoom-in-after",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "lastCleanup_thumbnailCache",
+          "idb_migration_v1_done",
+          "advanced-timeline-store",
+          "rve-extended-theme"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 58,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nLight\nExport Video\n95%\n1x\n0:00.66\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nW"
+      },
+      "newLogs": [
+        {
+          "kind": "event",
+          "data": {
+            "type": "pointerdown",
+            "tag": "path",
+            "textPreview": "",
+            "key": null
+          },
+          "t": 1783589226257
+        },
+        {
+          "kind": "event",
+          "data": {
+            "type": "pointerup",
+            "tag": "path",
+            "textPreview": "",
+            "key": null
+          },
+          "t": 1783589226260
+        },
+        {
+          "kind": "event",
+          "data": {
+            "type": "click",
+            "tag": "path",
+            "textPreview": "",
+            "key": null
+          },
+          "t": 1783589226260
+        }
+      ]
+    },
+    {
+      "label": "zoom-out",
+      "err": null,
+      "before": {
+        "label": "zoom-out-before",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "lastCleanup_thumbnailCache",
+          "idb_migration_v1_done",
+          "advanced-timeline-store",
+          "rve-extended-theme"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 58,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nLight\nExport Video\n95%\n1x\n0:00.66\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nW"
+      },
+      "after": {
+        "label": "zoom-out-after",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "lastCleanup_thumbnailCache",
+          "idb_migration_v1_done",
+          "advanced-timeline-store",
+          "rve-extended-theme"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 58,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nLight\nExport Video\n90%\n1x\n0:00.66\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nW"
+      },
+      "newLogs": [
+        {
+          "kind": "event",
+          "data": {
+            "type": "pointerdown",
+            "tag": "path",
+            "textPreview": "",
+            "key": null
+          },
+          "t": 1783589227593
+        },
+        {
+          "kind": "event",
+          "data": {
+            "type": "pointerup",
+            "tag": "path",
+            "textPreview": "",
+            "key": null
+          },
+          "t": 1783589227594
+        },
+        {
+          "kind": "event",
+          "data": {
+            "type": "click",
+            "tag": "path",
+            "textPreview": "",
+            "key": null
+          },
+          "t": 1783589227594
+        }
+      ]
+    },
+    {
+      "label": "zoom-reset",
+      "err": null,
+      "before": {
+        "label": "zoom-reset-before",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "lastCleanup_thumbnailCache",
+          "idb_migration_v1_done",
+          "advanced-timeline-store",
+          "rve-extended-theme"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 58,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nLight\nExport Video\n90%\n1x\n0:00.66\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nW"
+      },
+      "after": {
+        "label": "zoom-reset-after",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "lastCleanup_thumbnailCache",
+          "idb_migration_v1_done",
+          "advanced-timeline-store",
+          "rve-extended-theme"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 58,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nLight\nExport Video\n90%\n1x\n0:00.66\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nW"
+      },
+      "newLogs": [
+        {
+          "kind": "event",
+          "data": {
+            "type": "pointerdown",
+            "tag": "svg",
+            "textPreview": "",
+            "key": null
+          },
+          "t": 1783589228937
+        },
+        {
+          "kind": "event",
+          "data": {
+            "type": "pointerup",
+            "tag": "svg",
+            "textPreview": "",
+            "key": null
+          },
+          "t": 1783589228938
+        },
+        {
+          "kind": "event",
+          "data": {
+            "type": "click",
+            "tag": "svg",
+            "textPreview": "",
+            "key": null
+          },
+          "t": 1783589228938
+        }
+      ]
+    },
+    {
+      "label": "my-library",
+      "err": null,
+      "before": {
+        "label": "my-library-before",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "lastCleanup_thumbnailCache",
+          "idb_migration_v1_done",
+          "advanced-timeline-store",
+          "rve-extended-theme"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 58,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nLight\nExport Video\n90%\n1x\n0:00.66\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nW"
+      },
+      "after": {
+        "label": "my-library-after",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "lastCleanup_thumbnailCache",
+          "idb_migration_v1_done",
+          "advanced-timeline-store",
+          "rve-extended-theme"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 58,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nLight\nExport Video\n90%\n1x\n0:00.66\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you"
+      },
+      "newLogs": []
+    },
+    {
+      "label": "single-import",
+      "err": null,
+      "before": {
+        "label": "single-import-before",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "lastCleanup_thumbnailCache",
+          "idb_migration_v1_done",
+          "advanced-timeline-store",
+          "rve-extended-theme"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 58,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nLight\nExport Video\n90%\n1x\n0:00.66\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you"
+      },
+      "after": {
+        "label": "single-import-after",
+        "url": "https://demo.reactvideoeditor.com/",
+        "title": "Demo | React Video Editor",
+        "localStorageKeys": [
+          "lastCleanup_thumbnailCache",
+          "idb_migration_v1_done",
+          "advanced-timeline-store",
+          "rve-extended-theme"
+        ],
+        "sessionStorageKeys": [],
+        "interactiveCount": 58,
+        "visibleVideo": true,
+        "visibleCanvas": true,
+        "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nLight\nExport Video\n90%\n1x\n0:00.66\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you"
+      },
+      "newLogs": [
+        {
+          "kind": "event",
+          "data": {
+            "type": "input",
+            "tag": "input",
+            "textPreview": "C:\\fakepath\\sample.mp4",
+            "key": null
+          },
+          "t": 1783589233516
+        },
+        {
+          "kind": "event",
+          "data": {
+            "type": "change",
+            "tag": "input",
+            "textPreview": "C:\\fakepath\\sample.mp4",
+            "key": null
+          },
+          "t": 1783589233516
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-09T09:27:17.405Z"
+}

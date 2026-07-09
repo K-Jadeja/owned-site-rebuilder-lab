@@ -1,0 +1,30 @@
+{
+  ".rebuild\\private\\bundles\\css\\___next__static__css__7496db7969e5bcd2.css": {
+    "rveCount": 0,
+    "rve": [],
+    "otherSample": [
+      ".woff2",
+      ".com",
+      ".visible",
+      ".fixed",
+      ".relative",
+      ".inset-0",
+      ".h-full",
+      ".w-full",
+      ".transform",
+      ".antialiased"
+    ]
+  },
+  ".rebuild\\private\\bundles\\css\\___next__static__css__8fe5e52289a2a44c.css": {
+    "rveCount": 1,
+    "rve": [
+      ".rve-dragging"
+    ],
+    "otherSample": [
+      ".com",
+      ".rve",
+      ".googleapis",
+      ".font-normal"
+    ]
+  }
+}

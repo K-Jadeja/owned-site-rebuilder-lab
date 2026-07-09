@@ -7,6 +7,11 @@ playwright/.cache/
 .research/freecut/
 # Session log is local-only
 .harness/session-log.jsonl.tmp
+# Raw un-audited bundle bodies (kept local; only .rebuild/target-source/ is committed)
+.rebuild/private/
+.rebuild/runtime/raw/
+.rebuild/tmp/
+.rebuild/secrets-check/
 # OS noise
 .DS_Store
 Thumbs.db

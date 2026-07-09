@@ -17,3 +17,23 @@
 {"timestamp":"2026-07-09T08:30:00Z","event":"discovery_draggable_track","phase":"deep","message":"Track header buttons have draggable=true (title='Reorder track'). Clip drag selectors need refinement."}
 {"timestamp":"2026-07-09T08:30:00Z","event":"fixtures_generated","phase":"deep","message":"sample.mp4 (71178B h264+aac 5s), sample.mp3 (40585B mp3 5.04s), sample.png (886B 320x240) generated via ffmpeg; ffprobe-verified."}
 {"timestamp":"2026-07-09T08:30:00Z","event":"tests_unskipped","phase":"deep","message":"Fixture-media tests unskipped; all 17 desktop parity tests now pass."}
+{"timestamp":"2026-07-09T08:38:06Z","event":"deep_probe_pushed","phase":"publish","message":"Commit 8f99bbb pushed to github.com/K-Jadeja/owned-site-rebuilder-lab: 72 files, including 3 fixtures, 30 PNGs, deep-probe script, updated docs and harness state."}
+{"timestamp":"2026-07-09T14:50:00Z","event":"deep_bundle_runtime_decoupling_started","phase":"begin","message":"Branch deep-bundle-runtime-decoupling checked out."}
+{"timestamp":"2026-07-09T14:51:00Z","event":"skill_patched","phase":"phase1","message":"SKILL.md updated with Deep Bundle + Runtime Decoupling Mode + proof quality ladder + 4 reference docs."}
+{"timestamp":"2026-07-09T14:52:00Z","event":"raw_bundle_policy","phase":"phase2","message":".rebuild/target-source and .rebuild/private created with README files. .gitignore updated."}
+{"timestamp":"2026-07-09T14:52:30Z","event":"analysis_deps_installed","phase":"phase3","message":"acorn, acorn-walk, es-module-lexer, js-beautify, source-map, terser, fast-glob installed."}
+{"timestamp":"2026-07-09T14:53:00Z","event":"bundles_fetched","phase":"phase4","message":"13 bundles fetched (11 JS + 2 CSS), 0 source maps exposed."}
+{"timestamp":"2026-07-09T14:53:30Z","event":"secrets_scan_passed","phase":"phase5","message":"0 high / 0 medium findings. 13 bundles promoted to target-source."}
+{"timestamp":"2026-07-09T14:54:30Z","event":"deep_bundle_analysis_complete","phase":"phase6","message":"11 JS + 2 CSS bundles parsed, 12 libraries fingerprinted, 40+ feature keyword hits."}
+{"timestamp":"2026-07-09T14:55:30Z","event":"action_coverage_complete","phase":"phase7","message":"10 actions covered with JS + CSS coverage."}
+{"timestamp":"2026-07-09T14:56:30Z","event":"runtime_instrumentation_complete","phase":"phase8","message":"22 storage mutations captured; advanced-timeline-store decoded as Zustand persist."}
+{"timestamp":"2026-07-09T14:57:00Z","event":"react_component_probe_complete","phase":"phase9","message":"918 elements with fiber keys; Radix UI primitives identified."}
+{"timestamp":"2026-07-09T14:57:30Z","event":"state_stores_decoded","phase":"phase10","message":"advanced-timeline-store decoded: {state: {trackDensity: default}, version: 0}"}
+{"timestamp":"2026-07-09T14:58:30Z","event":"single_import_succeeded","phase":"phase11","message":"sample.mp4 uploaded, bodyText + storage mutated, ThumbnailCache logs captured."}
+{"timestamp":"2026-07-09T14:59:00Z","event":"selectors_mined","phase":"phase12","message":"82 candidate selectors mined."}
+{"timestamp":"2026-07-09T15:00:00Z","event":"tests_hardened","phase":"phase13","message":"3 new test files added. 33/33 desktop tests pass. 24 hard_proof, 9 soft_probe."}
+{"timestamp":"2026-07-09T15:01:00Z","event":"api_contracts_rewritten","phase":"phase14","message":"api-contracts.md/.json rewritten from runtime logs. No backend API observed during public demo flows."}
+{"timestamp":"2026-07-09T15:02:00Z","event":"feature_parity_rewritten","phase":"phase15","message":"feature-parity.md rewritten with strict proof-level table."}
+{"timestamp":"2026-07-09T15:03:00Z","event":"feature_inventory_updated","phase":"phase16","message":"feature-inventory.md + feature-matrix.json updated with proof_level + evidence fields."}
+{"timestamp":"2026-07-09T15:04:00Z","event":"paper_created","phase":"phase17","message":"paper/ created with 10 files: README, outline, method, evidence-table, limitations, reproducibility, figures, 3 appendices."}
+{"timestamp":"2026-07-09T15:05:00Z","event":"harness_state_updated","phase":"phase18","message":"progress.md, decisions.md, verification.md, handoff.md, features.json updated."}

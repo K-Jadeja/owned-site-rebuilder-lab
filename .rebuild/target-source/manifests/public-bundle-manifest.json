@@ -1,0 +1,190 @@
+{
+  "startedAt": "2026-07-09T09:21:11.856Z",
+  "finishedAt": "2026-07-09T09:21:12.912Z",
+  "inputFile": ".rebuild/reference/bundles/bundles.json",
+  "targetCount": 15,
+  "fetched": [
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/css/8fe5e52289a2a44c.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "redactedUrl": "https://demo.reactvideoeditor.com/_next/static/css/8fe5e52289a2a44c.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "ok": true,
+      "bytes": 120359,
+      "sha256": "9b412e21981fb7d64185ac5eeaf7c089c143a967620d66cda389b66b26925b71",
+      "contentType": "text/css; charset=utf-8",
+      "localPath": ".rebuild\\private\\bundles\\css\\___next__static__css__8fe5e52289a2a44c.css",
+      "isCss": true,
+      "sourceMappingURL": null,
+      "sourceMapLocalPath": null
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/255-4ecccced1aaa83b0.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "redactedUrl": "https://demo.reactvideoeditor.com/_next/static/chunks/255-4ecccced1aaa83b0.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "ok": true,
+      "bytes": 173850,
+      "sha256": "5e89401030d421e6c7bd4415fad55b823aae380438341e53c39bfc1ea1757647",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".rebuild\\private\\bundles\\js\\___next__static__chunks__255-4ecccced1aaa83b0.js",
+      "isCss": false,
+      "sourceMappingURL": null,
+      "sourceMapLocalPath": null
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/main-app-f9b5d20365cb8be2.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "redactedUrl": "https://demo.reactvideoeditor.com/_next/static/chunks/main-app-f9b5d20365cb8be2.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "ok": true,
+      "bytes": 557,
+      "sha256": "2e7f54a461dcd0e6291339c749f9048e5dcf98fbd2658bb4fd437d485f3bb385",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".rebuild\\private\\bundles\\js\\___next__static__chunks__main-app-f9b5d20365cb8be2.js",
+      "isCss": false,
+      "sourceMappingURL": null,
+      "sourceMapLocalPath": null
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/55eb4b32-87960e808445d7a8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "redactedUrl": "https://demo.reactvideoeditor.com/_next/static/chunks/55eb4b32-87960e808445d7a8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "ok": true,
+      "bytes": 178420,
+      "sha256": "6ea82b37f412d01db8d9515fc7b4b7b20d85bf7ff982a12a1fa17c59a7b04dfe",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".rebuild\\private\\bundles\\js\\___next__static__chunks__55eb4b32-87960e808445d7a8.js",
+      "isCss": false,
+      "sourceMappingURL": null,
+      "sourceMapLocalPath": null
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/css/7496db7969e5bcd2.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "redactedUrl": "https://demo.reactvideoeditor.com/_next/static/css/7496db7969e5bcd2.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "ok": true,
+      "bytes": 8460,
+      "sha256": "081b665588fcf0e18318659ee266925bd8e51144d02b8320a0d0528cef5de5a5",
+      "contentType": "text/css; charset=utf-8",
+      "localPath": ".rebuild\\private\\bundles\\css\\___next__static__css__7496db7969e5bcd2.css",
+      "isCss": true,
+      "sourceMappingURL": null,
+      "sourceMapLocalPath": null
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "redactedUrl": "https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "ok": true,
+      "bytes": 898315,
+      "sha256": "0e51305658bd58accedbcd2b39fa832a7526972e6cdde26c8f30d6d19d6e1aeb",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".rebuild\\private\\bundles\\js\\___next__static__chunks__61-d3d99d30faface72.js",
+      "isCss": false,
+      "sourceMappingURL": null,
+      "sourceMapLocalPath": null
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/app/page-6ba9b2f710dee95c.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "redactedUrl": "https://demo.reactvideoeditor.com/_next/static/chunks/app/page-6ba9b2f710dee95c.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "ok": true,
+      "bytes": 1313,
+      "sha256": "aa3a2d9c8d583e5aa071e73bb35b0d1e9cc4946b7e778c6a4eab3bedc29bb488",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".rebuild\\private\\bundles\\js\\___next__static__chunks__app__page-6ba9b2f710dee95c.js",
+      "isCss": false,
+      "sourceMappingURL": null,
+      "sourceMapLocalPath": null
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/webpack-08d55afbbfac36e8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "redactedUrl": "https://demo.reactvideoeditor.com/_next/static/chunks/webpack-08d55afbbfac36e8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "ok": true,
+      "bytes": 4122,
+      "sha256": "5752aca9021e32a36b42d55d0f8f460bc0f9979b0ef12fa1fd819ae8714bde56",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".rebuild\\private\\bundles\\js\\___next__static__chunks__webpack-08d55afbbfac36e8.js",
+      "isCss": false,
+      "sourceMappingURL": null,
+      "sourceMapLocalPath": null
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/839b68eb-f64514b466814bbd.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "redactedUrl": "https://demo.reactvideoeditor.com/_next/static/chunks/839b68eb-f64514b466814bbd.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "ok": true,
+      "bytes": 84226,
+      "sha256": "a2e74ded032ffec5f53d5e0526029d77fabf53c160b666f1ffc3e672732f889f",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".rebuild\\private\\bundles\\js\\___next__static__chunks__839b68eb-f64514b466814bbd.js",
+      "isCss": false,
+      "sourceMappingURL": null,
+      "sourceMapLocalPath": null
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/a9a36fa4-57726476e27cb934.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "redactedUrl": "https://demo.reactvideoeditor.com/_next/static/chunks/a9a36fa4-57726476e27cb934.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "ok": true,
+      "bytes": 71551,
+      "sha256": "dfd8a745da6db7b3b22cab42106ddaec797a18a6df4abb3debdc80ce9e2eda9a",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".rebuild\\private\\bundles\\js\\___next__static__chunks__a9a36fa4-57726476e27cb934.js",
+      "isCss": false,
+      "sourceMappingURL": null,
+      "sourceMapLocalPath": null
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "redactedUrl": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "ok": true,
+      "bytes": 967734,
+      "sha256": "aa74c5f59dcb31d0b2a8dbb058bb134378e3f6d813683687f5ba214707984935",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".rebuild\\private\\bundles\\js\\___next__static__chunks__180476bc-91ccc8fcb48478c4.js",
+      "isCss": false,
+      "sourceMappingURL": null,
+      "sourceMapLocalPath": null
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "redactedUrl": "https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "ok": true,
+      "bytes": 173019,
+      "sha256": "2c752a401191671d5bbbe7514f5828bbb0a7cc50bfbe77ddaf1b1ccba4412ed2",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".rebuild\\private\\bundles\\js\\___next__static__chunks__4bd1b696-c023c6e3521b1417.js",
+      "isCss": false,
+      "sourceMappingURL": null,
+      "sourceMapLocalPath": null
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/135.af73a71e3f9acb4f.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "redactedUrl": "https://demo.reactvideoeditor.com/_next/static/chunks/135.af73a71e3f9acb4f.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "status": 200,
+      "ok": true,
+      "bytes": 452,
+      "sha256": "3651bc953c38230bf5e97a11159b69ccf66c7590107b0df474863d8d257c294b",
+      "contentType": "application/javascript; charset=utf-8",
+      "localPath": ".rebuild\\private\\bundles\\js\\___next__static__chunks__135.af73a71e3f9acb4f.js",
+      "isCss": false,
+      "sourceMappingURL": null,
+      "sourceMapLocalPath": null
+    }
+  ],
+  "skipped": [
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+      "reason": "not-js/css or off-origin"
+    },
+    {
+      "url": "https://demo.reactvideoeditor.com/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+      "reason": "not-js/css or off-origin"
+    }
+  ],
+  "failures": [],
+  "sourceMaps": [],
+  "bytesTotal": 2682378
+}

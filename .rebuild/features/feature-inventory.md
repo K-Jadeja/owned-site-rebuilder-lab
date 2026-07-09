@@ -1,6 +1,6 @@
 # Feature Inventory
 
-Generated: 2026-07-09T07:13:10.631Z (last updated 2026-07-09T08:30:00Z)
+Generated: 2026-07-09T07:13:10.631Z (last updated 2026-07-09T09:30:00Z after deep bundle/runtime decoupling pass)
 
 ## Deep probe run summary
 
@@ -673,3 +673,86 @@ passed.** Where the probe was inconclusive, status is
 These fixtures were generated locally with ffmpeg 7.x and verified with
 ffprobe. They are intended for **manual** upload to the target app to
 exercise waveform rendering (F024) and end-to-end mp4 export (F027).
+
+## Deep Bundle + Runtime Decoupling Pass (2026-07-09T09:30:00Z)
+
+This section supersedes earlier inventory entries for the items it covers.
+
+### Proof level summary
+
+| Proof level | Count |
+| --- | --- |
+| hard_proof | 9 |
+| behavior_observed | 6 |
+| surface_observed | 6 |
+| code_correlated | 0 |
+| inferred_from_bundle | 8 |
+| fixture_ready | 1 |
+| blocked | 0 |
+| not_found | 4 |
+
+### Hard-proof features
+
+The following features now have concrete before/after evidence AND a
+passing assertion that checks a feature-specific outcome:
+
+- **F001 App shell loads** — page hydrates, response < 400, landmarks visible.
+- **F004 Preview / player region** — `<video>` / `<canvas>` elements present and observed in boot coverage.
+- **F007 Asset import / add media** — single-file upload of `sample.mp4` triggers bodyText + storage mutation.
+- **F008 Export dialog** — dialog opens, contains `720p`, `1080p`, `4K`, `Start Export`, `Rendered in your browser`.
+- **F010 Persistence / storage** — `localStorage.setItem/getItem` smoke test passes.
+- **F019 Timeline zoom** — Zoom in/out/reset buttons visible + click accepted.
+- **F020 Playback** — Space keypress creates `advanced-timeline-store` in `localStorage`.
+- **F028 Export settings** — same as F008, dialog-level proof.
+- **F031 Persistence after reload** — `advanced-timeline-store` survives `page.reload()`.
+
+### Bundle-body evidence
+
+The deep bundle pass fetched 13 public bundles (11 JS + 2 CSS) and
+indexed them with acorn + es-module-lexer. 12 libraries were
+fingerprinted:
+
+- React, Next.js, Radix UI, Tailwind, Zustand, Immer, Supabase, Pexels,
+  WebCodecs, MediaRecorder, Mediabunny, Remotion.
+
+40+ feature keyword hits were indexed across the bundles, including
+`timeline`, `track`, `clip`, `trim`, `split`, `waveform`, `thumbnail`,
+`advanced-timeline-store`, `thumbnailCache`, `useProjectStateFromUrl`.
+
+See `.rebuild/features/deep-bundle-analysis.md` for the full table.
+
+### Runtime evidence
+
+The runtime instrumentation captured 10 safe actions with before/after
+state, JS + CSS coverage per action, and a per-action summary in
+`.rebuild/runtime/coverage/action-coverage-summary.md`.
+
+The React component probe found production fiber keys (`__reactFiber$...`)
+and identified Radix UI primitives (`TooltipProvider`, `MenuProvider`,
+`Popper`, `DropdownMenu`).
+
+### State-store evidence
+
+The decoded state stores confirmed `advanced-timeline-store` is a
+Zustand-persist shape:
+
+```json
+{
+  "state": { "trackDensity": "default" },
+  "version": 0
+}
+```
+
+See `.rebuild/features/decoded-state-stores.md` and
+`.rebuild/features/inferred-persistence-model.md`.
+
+### Single-file import evidence
+
+`scripts/single-file-import-probe.mjs` uploaded `sample.mp4` via the
+app's single-file input and observed:
+
+- `lastCleanup_thumbnailCache` added to `localStorage`
+- `advanced-timeline-store` added during a drag-to-timeline attempt
+- Console: `[ThumbnailCache] Successfully cached sprite for key: video-thumbnail-...`
+
+See `.rebuild/deep-import/import-summary.md`.

@@ -11,17 +11,35 @@
     "storage": "node scripts/inspect-storage.mjs",
     "reports": "node scripts/generate-reports.mjs",
     "visual-compare": "node scripts/visual-compare.mjs",
+    "fetch:bundles": "node scripts/fetch-public-bundles.mjs",
+    "analyze:deep-bundles": "node scripts/deep-bundle-analysis.mjs",
+    "instrument:runtime": "node scripts/runtime-instrumentation.mjs",
+    "probe:single-import": "node scripts/single-file-import-probe.mjs",
+    "mine:selectors": "node scripts/selector-miner.mjs",
+    "decode:state": "node scripts/decode-state-stores.mjs",
+    "coverage:actions": "node scripts/action-coverage-map.mjs",
+    "audit:proof": "node scripts/audit-proof-quality.mjs",
+    "scan:target": "node scripts/scan-target-artifacts.mjs",
+    "deep": "npm run fetch:bundles && npm run analyze:deep-bundles && npm run instrument:runtime && npm run coverage:actions && npm run probe:single-import && npm run mine:selectors && npm run decode:state && npm run audit:proof && npm run scan:target",
     "test": "playwright test",
     "test:visual": "playwright test tests/visual-baseline.spec.mjs",
-    "test:features": "playwright test tests/feature-parity-plan.spec.mjs"
+    "test:features": "playwright test tests/feature-parity-plan.spec.mjs",
+    "test:deep": "playwright test tests/deep-runtime-proof.spec.mjs tests/single-import-proof.spec.mjs tests/bundle-analysis-proof.spec.mjs"
   },
   "engines": {
     "node": ">=18"
   },
   "devDependencies": {
     "@playwright/test": "^1.45.0",
-    "playwright": "^1.45.0",
+    "acorn": "^8.17.0",
+    "acorn-walk": "^8.3.5",
+    "es-module-lexer": "^2.3.0",
+    "fast-glob": "^3.3.3",
+    "js-beautify": "^2.0.3",
     "pixelmatch": "^6.0.0",
-    "pngjs": "^7.0.0"
+    "playwright": "^1.45.0",
+    "pngjs": "^7.0.0",
+    "source-map": "^0.7.6",
+    "terser": "^5.49.0"
   }
 }
