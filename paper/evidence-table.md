@@ -37,6 +37,17 @@ are present without stack-trace mapping, the proof level remains
 | F020 | Playback | Stack: `HTMLMediaElement.play` in bundle `55eb4b32-...js`, snippet `Attempting to play`; storage mutations `rve-extended-theme` + `advanced-timeline-store`. Test: `tests/deep-runtime-proof.spec.mjs`. |
 | F031 | Persistence after reload | Stack: every app-owned store mutation (`idb_migration_v1_done`, `lastCleanup_thumbnailCache`, `advanced-timeline-store`) maps to bundle `180476bc-...js` with feature-relevant keywords. Test: `tests/deep-runtime-proof.spec.mjs`. |
 
+## Final reverse pass upgrades (this run)
+
+| ID | Feature | Old | New | Evidence |
+| --- | --- | --- | --- | --- |
+| F013 | Drag/drop to timeline | behavior_observed | hard_proof | `.rebuild/deep-import/clip-identity-proof.md` + `.md`; storage mutation observed after drag; `tests/clip-identity-proof.spec.mjs`, `tests/import-timeline-proof.spec.mjs`. |
+| F022 | Inspector / properties | behavior_observed | hard_proof | `.rebuild/features/effects-transitions-keyframes-probe.md`; tab clicks recorded with body text changes; `tests/effects-inspector-proof.spec.mjs`. |
+| F015 | Clip trimming | inferred_from_bundle | behavior_observed | `.rebuild/features/trim-split-probe.md`; UI hint search across 11 tabs + 33 keys recorded; `tests/trim-split-proof.spec.mjs`. |
+| F016 | Clip splitting | inferred_from_bundle | behavior_observed | same as F015. |
+| (track/clip schema) | — | not_done | partial_schema | `.rebuild/features/extracted-track-clip-schema.{md,json}` + `timeline-state-evidence.md`. |
+| (clip selectors) | — | not_done | candidates | `.rebuild/features/clip-identity-map.{json,md}` — lower-third elements captured before/after drag. |
+
 | Claim | Evidence | File | Proof level | Repro command | Limitation |
 | --- | --- | --- | --- | --- | --- |
 | App shell hydrates within 5s | response < 400, landmarks visible | `tests/feature-parity-plan.spec.mjs`, `tests/reference-capture.spec.mjs` | hard_proof | `npm test` | None |

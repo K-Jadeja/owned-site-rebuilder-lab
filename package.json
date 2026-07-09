@@ -27,13 +27,27 @@
     "correlate:features": "node scripts/correlate-features-to-code.mjs",
     "react:regions": "node scripts/react-region-map.mjs",
     "probe:import-timeline": "node scripts/import-timeline-hardening.mjs",
+    "probe:console-objects": "node scripts/console-object-capture.mjs",
+    "extract:state-schema": "node scripts/extract-editor-state-schema.mjs",
+    "probe:clip-identity": "node scripts/clip-identity-probe.mjs",
+    "probe:clip-actions": "node scripts/clip-action-proof.mjs",
+    "probe:trim-split": "node scripts/trim-split-aggressive-probe.mjs",
+    "probe:export-e2e": "node scripts/export-end-to-end-probe.mjs",
+    "probe:effects": "node scripts/effects-transitions-keyframes-probe.mjs",
+    "probe:waveform": "node scripts/waveform-audio-probe.mjs",
+    "extract:feature-modules": "node scripts/extract-feature-modules.mjs",
+    "report:copy-progress": "node scripts/generate-copy-progress.mjs",
+    "build:rebuild-prompt": "node scripts/build-rve-rebuild-prompt.mjs",
+    "build:readiness": "node scripts/build-readiness-report.mjs",
     "deep": "npm run fetch:bundles && npm run analyze:deep-bundles && npm run instrument:runtime && npm run coverage:actions && npm run probe:single-import && npm run mine:selectors && npm run decode:state && npm run audit:proof && npm run scan:target",
     "deep:correlation": "npm run probe:stacks && npm run map:stacks && npm run coverage:debug && npm run coverage:cdp && npm run correlate:features && npm run react:regions && npm run probe:import-timeline",
+    "final-reverse": "npm run probe:console-objects && npm run extract:state-schema && npm run probe:clip-identity && npm run probe:clip-actions && npm run probe:trim-split && npm run probe:export-e2e && npm run probe:effects && npm run probe:waveform && npm run extract:feature-modules && npm run report:copy-progress",
     "test": "playwright test",
     "test:visual": "playwright test tests/visual-baseline.spec.mjs",
     "test:features": "playwright test tests/feature-parity-plan.spec.mjs",
     "test:deep": "playwright test tests/deep-runtime-proof.spec.mjs tests/single-import-proof.spec.mjs tests/bundle-analysis-proof.spec.mjs",
-    "test:correlation": "playwright test tests/code-correlation-proof.spec.mjs tests/action-stack-proof.spec.mjs tests/import-timeline-proof.spec.mjs"
+    "test:correlation": "playwright test tests/code-correlation-proof.spec.mjs tests/action-stack-proof.spec.mjs tests/import-timeline-proof.spec.mjs",
+    "test:final-reverse": "playwright test tests/clip-identity-proof.spec.mjs tests/trim-split-proof.spec.mjs tests/export-end-to-end-proof.spec.mjs tests/effects-inspector-proof.spec.mjs tests/state-schema-proof.spec.mjs tests/copy-readiness-proof.spec.mjs"
   },
   "engines": {
     "node": ">=18"

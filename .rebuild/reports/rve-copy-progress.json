@@ -1,0 +1,319 @@
+{
+  "generatedAt": "2026-07-09T12:18:08.096Z",
+  "rows": [
+    {
+      "id": "F001",
+      "title": "F001",
+      "score": 3,
+      "proofLevel": "hard_proof",
+      "canBuildNow": true,
+      "risk": "low",
+      "nextAction": "correlate to bundle code"
+    },
+    {
+      "id": "F002",
+      "title": "F002",
+      "score": 1,
+      "proofLevel": "surface_observed",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F003",
+      "title": "F003",
+      "score": 1,
+      "proofLevel": "surface_observed",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F004",
+      "title": "F004",
+      "score": 3,
+      "proofLevel": "hard_proof",
+      "canBuildNow": true,
+      "risk": "low",
+      "nextAction": "correlate to bundle code"
+    },
+    {
+      "id": "F005",
+      "title": "F005",
+      "score": 1,
+      "proofLevel": "surface_observed",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F006",
+      "title": "F006",
+      "score": 2,
+      "proofLevel": "behavior_observed",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F007",
+      "title": "F007",
+      "score": 4,
+      "proofLevel": "code_correlated",
+      "canBuildNow": true,
+      "risk": "low",
+      "nextAction": "implement in rebuild"
+    },
+    {
+      "id": "F008",
+      "title": "F008",
+      "score": 3,
+      "proofLevel": "hard_proof",
+      "canBuildNow": true,
+      "risk": "low",
+      "nextAction": "correlate to bundle code"
+    },
+    {
+      "id": "F009",
+      "title": "F009",
+      "score": 1,
+      "proofLevel": "surface_observed",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F010",
+      "title": "F010",
+      "score": 3,
+      "proofLevel": "hard_proof",
+      "canBuildNow": true,
+      "risk": "low",
+      "nextAction": "correlate to bundle code"
+    },
+    {
+      "id": "F011",
+      "title": "F011",
+      "score": 0,
+      "proofLevel": "not_found",
+      "canBuildNow": false,
+      "risk": "high",
+      "nextAction": "probe + reverse"
+    },
+    {
+      "id": "F012",
+      "title": "F012",
+      "score": 1,
+      "proofLevel": "surface_observed",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F013",
+      "title": "F013",
+      "score": 3,
+      "proofLevel": "hard_proof",
+      "canBuildNow": true,
+      "risk": "low",
+      "nextAction": "correlate to bundle code"
+    },
+    {
+      "id": "F014",
+      "title": "F014",
+      "score": 1,
+      "proofLevel": "surface_observed",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F015",
+      "title": "F015",
+      "score": 2,
+      "proofLevel": "behavior_observed",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F016",
+      "title": "F016",
+      "score": 2,
+      "proofLevel": "behavior_observed",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F017",
+      "title": "F017",
+      "score": 2,
+      "proofLevel": "behavior_observed",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F018",
+      "title": "F018",
+      "score": 2,
+      "proofLevel": "inferred_from_bundle",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F019",
+      "title": "F019",
+      "score": 3,
+      "proofLevel": "hard_proof",
+      "canBuildNow": true,
+      "risk": "low",
+      "nextAction": "correlate to bundle code"
+    },
+    {
+      "id": "F020",
+      "title": "F020",
+      "score": 4,
+      "proofLevel": "code_correlated",
+      "canBuildNow": true,
+      "risk": "low",
+      "nextAction": "implement in rebuild"
+    },
+    {
+      "id": "F021",
+      "title": "F021",
+      "score": 2,
+      "proofLevel": "inferred_from_bundle",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F022",
+      "title": "F022",
+      "score": 3,
+      "proofLevel": "hard_proof",
+      "canBuildNow": true,
+      "risk": "low",
+      "nextAction": "correlate to bundle code"
+    },
+    {
+      "id": "F023",
+      "title": "F023",
+      "score": 2,
+      "proofLevel": "inferred_from_bundle",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F024",
+      "title": "F024",
+      "score": 2,
+      "proofLevel": "inferred_from_bundle",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F025",
+      "title": "F025",
+      "score": 2,
+      "proofLevel": "inferred_from_bundle",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F026",
+      "title": "F026",
+      "score": 2,
+      "proofLevel": "inferred_from_bundle",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F027",
+      "title": "F027",
+      "score": 2,
+      "proofLevel": "fixture_ready",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F028",
+      "title": "F028",
+      "score": 3,
+      "proofLevel": "hard_proof",
+      "canBuildNow": true,
+      "risk": "low",
+      "nextAction": "correlate to bundle code"
+    },
+    {
+      "id": "F029",
+      "title": "F029",
+      "score": 2,
+      "proofLevel": "behavior_observed",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F030",
+      "title": "F030",
+      "score": 2,
+      "proofLevel": "behavior_observed",
+      "canBuildNow": false,
+      "risk": "medium",
+      "nextAction": "harden with stack trace or behavior assertion"
+    },
+    {
+      "id": "F031",
+      "title": "F031",
+      "score": 4,
+      "proofLevel": "code_correlated",
+      "canBuildNow": true,
+      "risk": "low",
+      "nextAction": "implement in rebuild"
+    },
+    {
+      "id": "F032",
+      "title": "F032",
+      "score": 0,
+      "proofLevel": "not_found",
+      "canBuildNow": false,
+      "risk": "high",
+      "nextAction": "probe + reverse"
+    },
+    {
+      "id": "F033",
+      "title": "F033",
+      "score": 0,
+      "proofLevel": "not_found",
+      "canBuildNow": false,
+      "risk": "high",
+      "nextAction": "probe + reverse"
+    },
+    {
+      "id": "F034",
+      "title": "F034",
+      "score": 0,
+      "proofLevel": "not_found",
+      "canBuildNow": false,
+      "risk": "high",
+      "nextAction": "probe + reverse"
+    }
+  ],
+  "totals": {
+    "totalScore": 68,
+    "maxScore": 238,
+    "researchProgress": 32.4,
+    "implementationProgress": 0,
+    "parityProgress": 0,
+    "totalCopyProgress": 28.6
+  }
+}

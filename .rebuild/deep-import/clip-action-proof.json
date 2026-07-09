@@ -1,0 +1,919 @@
+{
+  "actions": [
+    {
+      "phase": "drag-to-timeline",
+      "ok": true
+    },
+    {
+      "phase": "selection-click",
+      "evidence": {
+        "clicked": {
+          "x": 675,
+          "y": 627
+        },
+        "totalCandidates": 60
+      }
+    },
+    {
+      "phase": "move",
+      "evidence": {
+        "start": {
+          "x": 247.171875,
+          "y": 866.5,
+          "w": 191.15625,
+          "h": 40
+        },
+        "delta": 80
+      }
+    }
+  ],
+  "finalVerdict": "body-changed-after-drag",
+  "storageBefore": {
+    "idb_migration_v1_done": "1783599200816"
+  },
+  "bodyBefore": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+  "candidates": [
+    {
+      "tag": "DIV",
+      "cls": "rve:flex rve:h-6 rve:w-9 rve:items-center rve:justify-center rve:rounded rve:transition-all rve:duration-150 rve:select-none rve:cursor-grab rve:hover:bg-muted",
+      "cursor": "grab",
+      "draggable": "true",
+      "text": "",
+      "bb": {
+        "x": 70.59375,
+        "y": 615,
+        "w": 20,
+        "h": 24
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:flex rve:h-6 rve:w-9 rve:items-center rve:justify-center rve:rounded rve:transition-all rve:duration-150 rve:select-none rve:cursor-grab rve:hover:bg-muted",
+      "cursor": "grab",
+      "draggable": "true",
+      "text": "",
+      "bb": {
+        "x": 70.59375,
+        "y": 663,
+        "w": 20,
+        "h": 24
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:flex rve:h-6 rve:w-9 rve:items-center rve:justify-center rve:rounded rve:transition-all rve:duration-150 rve:select-none rve:cursor-grab rve:hover:bg-muted",
+      "cursor": "grab",
+      "draggable": "true",
+      "text": "",
+      "bb": {
+        "x": 70.59375,
+        "y": 711,
+        "w": 20,
+        "h": 24
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:flex rve:h-6 rve:w-9 rve:items-center rve:justify-center rve:rounded rve:transition-all rve:duration-150 rve:select-none rve:cursor-grab rve:hover:bg-muted",
+      "cursor": "grab",
+      "draggable": "true",
+      "text": "",
+      "bb": {
+        "x": 70.59375,
+        "y": 759,
+        "w": 20,
+        "h": 24
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:flex rve:h-6 rve:w-9 rve:items-center rve:justify-center rve:rounded rve:transition-all rve:duration-150 rve:select-none rve:cursor-grab rve:hover:bg-muted",
+      "cursor": "grab",
+      "draggable": "true",
+      "text": "",
+      "bb": {
+        "x": 70.59375,
+        "y": 807,
+        "w": 20,
+        "h": 24
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:flex rve:h-6 rve:w-9 rve:items-center rve:justify-center rve:rounded rve:transition-all rve:duration-150 rve:select-none rve:cursor-grab rve:hover:bg-muted",
+      "cursor": "grab",
+      "draggable": "true",
+      "text": "",
+      "bb": {
+        "x": 70.59375,
+        "y": 855,
+        "w": 20,
+        "h": 24
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:group rve:absolute rve:top-0 rve:bottom-0 rve:z-10 rve:my-auto rve:h-full rve:w-full rve:cursor-pointer",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 610.359375,
+        "y": 606.5,
+        "w": 129.984375,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:h-full rve:w-full rve:opacity-0 rve:transition-all rve:duration-200 rve:group-hover:opacity-100",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 610.359375,
+        "y": 606.5,
+        "w": 129.984375,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:flex rve:h-full rve:w-full rve:items-center rve:justify-center rve:opacity-0 rve:transition-opacity rve:duration-200 rve:group-hover:opac",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 610.359375,
+        "y": 606.5,
+        "w": 129.984375,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:rounded-full rve:border rve:border-white/20 rve:bg-slate-900/70 rve:p-1.5 rve:backdrop-blur-sm",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 663.34375,
+        "y": 614.5,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 670.34375,
+        "y": 621.5,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 672.84375,
+        "y": 624,
+        "w": 5,
+        "h": 5
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:group rve:absolute rve:top-0 rve:bottom-0 rve:z-10 rve:my-auto rve:h-full rve:w-full rve:cursor-pointer",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 897.109375,
+        "y": 606.5,
+        "w": 225.5625,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:h-full rve:w-full rve:opacity-0 rve:transition-all rve:duration-200 rve:group-hover:opacity-100",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 897.109375,
+        "y": 606.5,
+        "w": 225.5625,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:flex rve:h-full rve:w-full rve:items-center rve:justify-center rve:opacity-0 rve:transition-opacity rve:duration-200 rve:group-hover:opac",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 897.109375,
+        "y": 606.5,
+        "w": 225.5625,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:rounded-full rve:border rve:border-white/20 rve:bg-slate-900/70 rve:p-1.5 rve:backdrop-blur-sm",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 997.890625,
+        "y": 614.5,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 1004.890625,
+        "y": 621.5,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 1007.390625,
+        "y": 624,
+        "w": 5,
+        "h": 5
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:group rve:absolute rve:top-0 rve:bottom-0 rve:z-10 rve:my-auto rve:h-full rve:w-full rve:cursor-pointer",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 1275.59375,
+        "y": 606.5,
+        "w": 3.8125,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:h-full rve:w-full rve:opacity-0 rve:transition-all rve:duration-200 rve:group-hover:opacity-100",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 1275.59375,
+        "y": 606.5,
+        "w": 3.8125,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:flex rve:h-full rve:w-full rve:items-center rve:justify-center rve:opacity-0 rve:transition-opacity rve:duration-200 rve:group-hover:opac",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 1275.59375,
+        "y": 606.5,
+        "w": 3.8125,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:rounded-full rve:border rve:border-white/20 rve:bg-slate-900/70 rve:p-1.5 rve:backdrop-blur-sm",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 1265.5,
+        "y": 614.5,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 1272.5,
+        "y": 621.5,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 1275,
+        "y": 624,
+        "w": 5,
+        "h": 5
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:group rve:absolute rve:top-0 rve:bottom-0 rve:z-10 rve:my-auto rve:h-full rve:w-full rve:cursor-pointer",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 151.59375,
+        "y": 654.5,
+        "w": 462.59375,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:h-full rve:w-full rve:opacity-0 rve:transition-all rve:duration-200 rve:group-hover:opacity-100",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 151.59375,
+        "y": 654.5,
+        "w": 462.59375,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:flex rve:h-full rve:w-full rve:items-center rve:justify-center rve:opacity-0 rve:transition-opacity rve:duration-200 rve:group-hover:opac",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 151.59375,
+        "y": 654.5,
+        "w": 462.59375,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:rounded-full rve:border rve:border-white/20 rve:bg-slate-900/70 rve:p-1.5 rve:backdrop-blur-sm",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 370.890625,
+        "y": 662.5,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 377.890625,
+        "y": 669.5,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 380.390625,
+        "y": 672,
+        "w": 5,
+        "h": 5
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:group rve:absolute rve:top-0 rve:bottom-0 rve:z-10 rve:my-auto rve:h-full rve:w-full rve:cursor-pointer",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 870.34375,
+        "y": 654.5,
+        "w": 34.40625,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:h-full rve:w-full rve:opacity-0 rve:transition-all rve:duration-200 rve:group-hover:opacity-100",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 870.34375,
+        "y": 654.5,
+        "w": 34.40625,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:flex rve:h-full rve:w-full rve:items-center rve:justify-center rve:opacity-0 rve:transition-opacity rve:duration-200 rve:group-hover:opac",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 870.34375,
+        "y": 654.5,
+        "w": 34.40625,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:rounded-full rve:border rve:border-white/20 rve:bg-slate-900/70 rve:p-1.5 rve:backdrop-blur-sm",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 875.546875,
+        "y": 662.5,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 882.546875,
+        "y": 669.5,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 885.046875,
+        "y": 672,
+        "w": 5,
+        "h": 5
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:group rve:absolute rve:top-0 rve:bottom-0 rve:z-10 rve:my-auto rve:h-full rve:w-full rve:cursor-pointer",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 151.59375,
+        "y": 702.5,
+        "w": 1158.40625,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:h-full rve:w-full rve:opacity-0 rve:transition-all rve:duration-200 rve:group-hover:opacity-100",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 151.59375,
+        "y": 702.5,
+        "w": 1158.40625,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:flex rve:h-full rve:w-full rve:items-center rve:justify-center rve:opacity-0 rve:transition-opacity rve:duration-200 rve:group-hover:opac",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 151.59375,
+        "y": 702.5,
+        "w": 1158.40625,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:rounded-full rve:border rve:border-white/20 rve:bg-slate-900/70 rve:p-1.5 rve:backdrop-blur-sm",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 718.796875,
+        "y": 710.5,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 725.796875,
+        "y": 717.5,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 728.296875,
+        "y": 720,
+        "w": 5,
+        "h": 5
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:group rve:absolute rve:top-0 rve:bottom-0 rve:z-10 rve:my-auto rve:h-full rve:w-full rve:cursor-pointer",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 151.59375,
+        "y": 750.5,
+        "w": 932.84375,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:h-full rve:w-full rve:opacity-0 rve:transition-all rve:duration-200 rve:group-hover:opacity-100",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 151.59375,
+        "y": 750.5,
+        "w": 932.84375,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:flex rve:h-full rve:w-full rve:items-center rve:justify-center rve:opacity-0 rve:transition-opacity rve:duration-200 rve:group-hover:opac",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 151.59375,
+        "y": 750.5,
+        "w": 932.84375,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:rounded-full rve:border rve:border-white/20 rve:bg-slate-900/70 rve:p-1.5 rve:backdrop-blur-sm",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 606.015625,
+        "y": 758.5,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 613.015625,
+        "y": 765.5,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 615.515625,
+        "y": 768,
+        "w": 5,
+        "h": 5
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:group rve:absolute rve:top-0 rve:bottom-0 rve:z-10 rve:my-auto rve:h-full rve:w-full rve:cursor-pointer",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 151.59375,
+        "y": 798.5,
+        "w": 405.25,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:h-full rve:w-full rve:opacity-0 rve:transition-all rve:duration-200 rve:group-hover:opacity-100",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 151.59375,
+        "y": 798.5,
+        "w": 405.25,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:flex rve:h-full rve:w-full rve:items-center rve:justify-center rve:opacity-0 rve:transition-opacity rve:duration-200 rve:group-hover:opac",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 151.59375,
+        "y": 798.5,
+        "w": 405.25,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:rounded-full rve:border rve:border-white/20 rve:bg-slate-900/70 rve:p-1.5 rve:backdrop-blur-sm",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 342.21875,
+        "y": 806.5,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 349.21875,
+        "y": 813.5,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 351.71875,
+        "y": 816,
+        "w": 5,
+        "h": 5
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:group rve:absolute rve:top-0 rve:bottom-0 rve:z-10 rve:my-auto rve:h-full rve:w-full rve:cursor-pointer",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 805.34375,
+        "y": 798.5,
+        "w": 76.453125,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:h-full rve:w-full rve:opacity-0 rve:transition-all rve:duration-200 rve:group-hover:opacity-100",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 805.34375,
+        "y": 798.5,
+        "w": 76.453125,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:flex rve:h-full rve:w-full rve:items-center rve:justify-center rve:opacity-0 rve:transition-opacity rve:duration-200 rve:group-hover:opac",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 805.34375,
+        "y": 798.5,
+        "w": 76.453125,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:rounded-full rve:border rve:border-white/20 rve:bg-slate-900/70 rve:p-1.5 rve:backdrop-blur-sm",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 831.5625,
+        "y": 806.5,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 838.5625,
+        "y": 813.5,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 841.0625,
+        "y": 816,
+        "w": 5,
+        "h": 5
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:group rve:absolute rve:top-0 rve:bottom-0 rve:z-10 rve:my-auto rve:h-full rve:w-full rve:cursor-pointer",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 151.59375,
+        "y": 846.5,
+        "w": 191.15625,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:h-full rve:w-full rve:opacity-0 rve:transition-all rve:duration-200 rve:group-hover:opacity-100",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 151.59375,
+        "y": 846.5,
+        "w": 191.15625,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:absolute rve:top-0 rve:right-0 rve:bottom-0 rve:left-0 rve:flex rve:h-full rve:w-full rve:items-center rve:justify-center rve:opacity-0 rve:transition-opacity rve:duration-200 rve:group-hover:opac",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 151.59375,
+        "y": 846.5,
+        "w": 191.15625,
+        "h": 40
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "rve:rounded-full rve:border rve:border-white/20 rve:bg-slate-900/70 rve:p-1.5 rve:backdrop-blur-sm",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 235.171875,
+        "y": 854.5,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "tag": "svg",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 242.171875,
+        "y": 861.5,
+        "w": 10,
+        "h": 10
+      }
+    },
+    {
+      "tag": "path",
+      "cls": "[object SVGAnimatedString]",
+      "cursor": "pointer",
+      "draggable": null,
+      "text": "",
+      "bb": {
+        "x": 244.671875,
+        "y": 864,
+        "w": 5,
+        "h": 5
+      }
+    }
+  ],
+  "storageAfterDrag": {
+    "idb_migration_v1_done": "1783599200816"
+  },
+  "bodyAfterDrag": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nLoading...\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+  "storageAfterSelection": {
+    "idb_migration_v1_done": "1783599200816"
+  },
+  "bodyAfterSelection": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nLoading...\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+  "storageAfterMove": {
+    "idb_migration_v1_done": "1783599200816"
+  },
+  "bodyAfterMove": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nLoading...\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+  "storageFinal": {
+    "idb_migration_v1_done": "1783599200816"
+  },
+  "bodyFinal": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nLoading...\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+  "diff_drag": [],
+  "diff_selection": [],
+  "diff_move": [],
+  "bodyChanged": {
+    "drag": true,
+    "selection": false,
+    "move": false
+  }
+}

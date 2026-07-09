@@ -259,3 +259,72 @@ See `.claude/skills/owned-site-rebuilder/templates/` for:
 - `feature-record.md`
 - `visual-spec.md`
 - `feature-parity-report.md`
+
+## Complete RVE Copy Evidence Mode
+
+Use this mode when the user's goal is to **completely rebuild their own
+React Video Editor** from observable browser evidence.
+
+The goal is not just "surface observed". The goal is **copy-readiness**:
+
+- visual shell understood
+- feature behavior proven (hard proof)
+- state schema extracted
+- public bundle clues mapped
+- runtime events correlated
+- hard tests written
+- unknowns listed
+- rebuild order defined
+
+A feature can enter the rebuild queue only if it is one of:
+
+- `code_correlated` (best)
+- `hard_proof` (good)
+- `behavior_observed` (acceptable for milestone 1 visual shell only
+  if missing proof is non-central)
+
+The first rebuild milestone may include `behavior_observed` features
+only if the missing proof is not central to the visual shell.
+
+Before rebuild begins, the harness must generate:
+
+- `.rebuild/reports/rve-copy-progress.md` — per-feature copy progress score.
+- `.rebuild/reports/rebuild-readiness.md` — what is ready, what is blocked.
+- `.harness/next-rebuild-prompt.md` — a ready-to-paste prompt for the next
+  Claude session to create `apps/rve-rebuild/`.
+
+## Rebuild Gate
+
+Do **not** start building `apps/rve-rebuild/` until:
+
+1. The copy progress dashboard exists with all F001-F034 scored.
+2. The rebuild readiness report exists and lists milestone 1.
+3. At least one feature in each milestone-1 category is `hard_proof`
+   or `code_correlated`.
+4. The track/clip schema is at least partially extracted.
+5. Console-object capture has been attempted to extract the onSave
+   `tracks` array.
+6. The import → timeline mutation has been proven.
+
+If any of those six items is missing, do one more reverse-evidence
+pass before starting the rebuild.
+
+## Copy progress scale
+
+Every feature is scored 0-7:
+
+- `0` — `not_found`
+- `1` — `surface_observed` (button / region / control exists)
+- `2` — `behavior_observed` (before/after evidence, but assertion incomplete)
+- `3` — `hard_proof` (concrete before/after assertion passes)
+- `4` — `code_correlated` (runtime mapped to bundle code)
+- `5` — `implemented_in_rebuild` (rebuilt app implements feature)
+- `6` — `visual_parity_passes` (rebuilt app visually matches reference)
+- `7` — `feature_parity_passes` (rebuilt app passes the same hard test)
+
+Do **not** call the app "copied" until important features reach 5-7.
+
+## References
+
+- `references/complete-rve-copy-mode.md` — full operating procedure
+- `references/rebuild-gate.md` — checklist before rebuilding

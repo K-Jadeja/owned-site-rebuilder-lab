@@ -1,0 +1,469 @@
+{
+  "count": 1,
+  "objects": [
+    {
+      "type": "log",
+      "text": "[onSave] Editor state saved: {tracks: Array(8), aspectRatio: 16:9, backgroundColor: white, playbackRate: 1, savedAt: 1783599020679}",
+      "time": 1783599020693,
+      "args": [
+        "[onSave] Editor state saved:",
+        {
+          "tracks": [
+            {
+              "id": "592cae31-ccf3-4af9-b140-0e5fd2ad7b66",
+              "items": [
+                {
+                  "left": 340,
+                  "top": 270,
+                  "width": 600,
+                  "height": 180,
+                  "durationInFrames": 90,
+                  "from": 9,
+                  "rotation": 0,
+                  "type": "text",
+                  "content": "Heading 1",
+                  "styles": {
+                    "fontSize": "4rem",
+                    "fontWeight": "400",
+                    "color": "#FFFFFF",
+                    "backgroundColor": "",
+                    "fontFamily": "Inter",
+                    "fontStyle": "normal",
+                    "textDecoration": "none",
+                    "lineHeight": "1.1",
+                    "textAlign": "center",
+                    "opacity": 1,
+                    "zIndex": 1,
+                    "transform": "none",
+                    "fontSizeScale": 1
+                  },
+                  "id": "b4391c0c-a7f5-41c6-8156-650cc1e38057"
+                }
+              ],
+              "magnetic": false,
+              "muted": false,
+              "visible": true
+            },
+            {
+              "id": "97903c6a-2d5b-4f69-86ef-a1a0ec608e6a",
+              "items": [
+                {
+                  "left": 340,
+                  "top": 270,
+                  "width": 600,
+                  "height": 180,
+                  "durationInFrames": 90,
+                  "from": 9,
+                  "rotation": 0,
+                  "type": "text",
+                  "content": "Heading 1",
+                  "styles": {
+                    "fontSize": "4rem",
+                    "fontWeight": "400",
+                    "color": "#FFFFFF",
+                    "backgroundColor": "",
+                    "fontFamily": "Inter",
+                    "fontStyle": "normal",
+                    "textDecoration": "none",
+                    "lineHeight": "1.1",
+                    "textAlign": "center",
+                    "opacity": 1,
+                    "zIndex": 1,
+                    "transform": "none",
+                    "fontSizeScale": 1
+                  },
+                  "id": "64b0e917-4da1-4427-b6de-6d37a0526104"
+                }
+              ],
+              "magnetic": false,
+              "muted": false,
+              "visible": true
+            },
+            {
+              "id": "track-0",
+              "magnetic": false,
+              "muted": false,
+              "visible": true,
+              "items": [
+                {
+                  "id": "item-7",
+                  "left": 215,
+                  "top": 265,
+                  "width": 859,
+                  "height": 190,
+                  "durationInFrames": 201,
+                  "from": 363,
+                  "rotation": 0,
+                  "type": "text",
+                  "content": "Theres never been a better time to create amazing video experiences on the web",
+                  "styles": {
+                    "fontSize": "3.5rem",
+                    "fontWeight": "100",
+                    "color": "#FFFFFF",
+                    "backgroundColor": "",
+                    "fontFamily": "League Spartan",
+                    "fontStyle": "normal",
+                    "textDecoration": "none",
+                    "lineHeight": "1",
+                    "textAlign": "center",
+                    "letterSpacing": "0.02em",
+                    "textShadow": "2px 2px 0px rgba(0, 0, 0, 0.2)",
+                    "opacity": 1,
+                    "zIndex": 1,
+                    "transform": "none",
+                    "animation": {
+                      "enter": "<max-depth>",
+                      "exit": "<max-depth>"
+                    },
+                    "fontSizeScale": 2.5
+                  }
+                },
+                {
+                  "id": "item-16",
+                  "left": 139,
+                  "top": 229,
+                  "width": 1003,
+                  "height": 263,
+                  "durationInFrames": 150,
+                  "from": 591,
+                  "rotation": 0,
+                  "type": "text",
+                  "content": "Video AI is evolving faster than ever before.",
+                  "styles": {
+                    "fontSize": "3.5rem",
+                    "fontWeight": "100",
+                    "color": "#FFFFFF",
+                    "backgroundColor": "",
+                    "fontFamily": "League Spartan",
+                    "fontStyle": "normal",
+                    "textDecoration": "none",
+                    "lineHeight": "1",
+                    "textAlign": "center",
+                    "letterSpacing": "0.02em",
+                    "textShadow": "2px 2px 0px rgba(0, 0, 0, 0.2)",
+                    "opacity": 1,
+                    "zIndex": 1,
+                    "transform": "none",
+                    "animation": {
+                      "enter": "<max-depth>",
+                      "exit": "<max-depth>"
+                    },
+                    "fontSizeScale": 1.2
+                  }
+                }
+              ]
+            },
+            {
+              "id": "track-1",
+              "magnetic": false,
+              "muted": false,
+              "visible": true,
+              "items": [
+                {
+                  "id": "item-5",
+                  "left": 0,
+                  "top": 0,
+                  "width": 1280,
+                  "height": 720,
+                  "durationInFrames": 9,
+                  "from": 0,
+                  "rotation": 0,
+                  "type": "video",
+                  "content": "https://images.pexels.com/videos/854261/free-video-854261.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+                  "src": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+                  "mediaStartTime": 0,
+                  "mediaSrcDuration": 33.92,
+                  "styles": {
+                    "opacity": 1,
+                    "zIndex": 100,
+                    "transform": "none",
+                    "objectFit": "cover",
+                    "animation": {
+                      "enter": "<max-depth>",
+                      "exit": "<max-depth>"
+                    }
+                  }
+                },
+                {
+                  "id": "item-9",
+                  "left": 0,
+                  "top": 0,
+                  "width": 1280,
+                  "height": 720,
+                  "durationInFrames": 123,
+                  "from": 462,
+                  "rotation": 0,
+                  "type": "video",
+                  "content": "https://images.pexels.com/videos/7722221/adult-aquarium-audience-band-7722221.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+                  "src": "https://videos.pexels.com/video-files/7722221/7722221-hd_1280_720_25fps.mp4",
+                  "mediaStartTime": 0,
+                  "mediaSrcDuration": 9.08,
+                  "styles": {
+                    "opacity": 1,
+                    "zIndex": 100,
+                    "transform": "none",
+                    "objectFit": "cover",
+                    "animation": {
+                      "enter": "<max-depth>",
+                      "exit": "<max-depth>"
+                    }
+                  }
+                },
+                {
+                  "id": "item-14",
+                  "left": 146,
+                  "top": 324,
+                  "width": 996,
+                  "height": 72,
+                  "durationInFrames": 120,
+                  "from": 762,
+                  "rotation": 0,
+                  "type": "text",
+                  "content": "React Video Editor is building for this future.",
+                  "styles": {
+                    "fontSize": "3.5rem",
+                    "fontWeight": "100",
+                    "color": "#FFFFFF",
+                    "backgroundColor": "",
+                    "fontFamily": "League Spartan",
+                    "fontStyle": "normal",
+                    "textDecoration": "none",
+                    "lineHeight": "1",
+                    "textAlign": "center",
+                    "letterSpacing": "0.02em",
+                    "textShadow": "2px 2px 0px rgba(0, 0, 0, 0.2)",
+                    "opacity": 1,
+                    "zIndex": 1,
+                    "transform": "none",
+                    "animation": {
+                      "enter": "<max-depth>",
+                      "exit": "<max-depth>"
+                    },
+                    "fontSizeScale": 0.9
+                  }
+                },
+                {
+                  "id": "item-15",
+                  "left": 236,
+                  "top": 170,
+                  "width": 816,
+                  "height": 251,
+                  "durationInFrames": 126,
+                  "from": 885,
+                  "rotation": 0,
+                  "type": "text",
+                  "content": "There's never been a better time to build.",
+                  "styles": {
+                    "fontSize": "3.5rem",
+                    "fontWeight": "100",
+                    "color": "#FFFFFF",
+                    "backgroundColor": "",
+                    "fontFamily": "League Spartan",
+                    "fontStyle": "normal",
+                    "textDecoration": "none",
+                    "lineHeight": "1",
+                    "textAlign": "center",
+                    "letterSpacing": "0.02em",
+                    "textShadow": "2px 2px 0px rgba(0, 0, 0, 0.2)",
+                    "opacity": 1,
+                    "zIndex": 1,
+                    "transform": "none",
+                    "animation": {
+                      "enter": "<max-depth>",
+                      "exit": "<max-depth>"
+                    }
+                  }
+                },
+                {
+                  "id": "8aff34ce-26a1-4542-9ed3-8d1df1b11afa",
+                  "left": 0,
+                  "top": 0,
+                  "width": 1280,
+                  "height": 720,
+                  "durationInFrames": 351,
+                  "from": 9,
+                  "rotation": 0,
+                  "type": "video",
+                  "content": "https://images.pexels.com/videos/854261/free-video-854261.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+                  "src": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+                  "mediaStartTime": 0.3,
+                  "mediaSrcDuration": 33.92,
+                  "styles": {
+                    "opacity": 1,
+                    "zIndex": 100,
+                    "transform": "none",
+                    "objectFit": "cover",
+                    "animation": {
+                      "enter": "<max-depth>",
+                      "exit": "<max-depth>"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "track-2",
+              "magnetic": false,
+              "muted": false,
+              "visible": true,
+              "items": [
+                {
+                  "id": "item-17",
+                  "left": 237,
+                  "top": 235,
+                  "width": 816,
+                  "height": 251,
+                  "durationInFrames": 102,
+                  "from": 909,
+                  "rotation": 0,
+                  "type": "text",
+                  "content": "What are you waiting for?",
+                  "styles": {
+                    "fontSize": "3.5rem",
+                    "fontWeight": "100",
+                    "color": "#FFFFFF",
+                    "backgroundColor": "",
+                    "fontFamily": "League Spartan",
+                    "fontStyle": "normal",
+                    "textDecoration": "none",
+                    "lineHeight": "1",
+                    "textAlign": "center",
+                    "letterSpacing": "0.02em",
+                    "textShadow": "2px 2px 0px rgba(0, 0, 0, 0.2)",
+                    "opacity": 1,
+                    "zIndex": 1,
+                    "transform": "none",
+                    "animation": {
+                      "enter": "<max-depth>",
+                      "exit": "<max-depth>"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "track-3",
+              "magnetic": false,
+              "muted": false,
+              "visible": true,
+              "items": [
+                {
+                  "id": "item-13",
+                  "left": 0,
+                  "top": 0,
+                  "width": 1280,
+                  "height": 720,
+                  "durationInFrames": 279,
+                  "from": 732,
+                  "rotation": 0,
+                  "type": "video",
+                  "content": "https://images.pexels.com/videos/7664770/pexels-photo-7664770.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+                  "src": "https://videos.pexels.com/video-files/7664770/7664770-hd_1280_720_25fps.mp4",
+                  "mediaStartTime": 0,
+                  "mediaSrcDuration": 14.44,
+                  "styles": {
+                    "opacity": 1,
+                    "zIndex": 100,
+                    "transform": "none",
+                    "objectFit": "cover",
+                    "animation": {
+                      "enter": "<max-depth>",
+                      "exit": "<max-depth>"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "track-4",
+              "magnetic": false,
+              "muted": false,
+              "visible": true,
+              "items": [
+                {
+                  "id": "item-6",
+                  "left": 0,
+                  "top": 0,
+                  "width": 1280,
+                  "height": 720,
+                  "durationInFrames": 195,
+                  "from": 318,
+                  "rotation": 0,
+                  "type": "video",
+                  "content": "https://images.pexels.com/videos/856142/free-video-856142.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+                  "src": "https://videos.pexels.com/video-files/856142/856142-hd_1920_1080_30fps.mp4",
+                  "mediaStartTime": 0,
+                  "mediaSrcDuration": 15.015,
+                  "styles": {
+                    "opacity": 1,
+                    "zIndex": 100,
+                    "transform": "none",
+                    "objectFit": "cover",
+                    "animation": {
+                      "enter": "<max-depth>",
+                      "exit": "<max-depth>"
+                    }
+                  }
+                },
+                {
+                  "id": "item-11",
+                  "left": 0,
+                  "top": 0,
+                  "width": 1280,
+                  "height": 720,
+                  "durationInFrames": 177,
+                  "from": 573,
+                  "rotation": 0,
+                  "type": "video",
+                  "content": "https://images.pexels.com/videos/7180708/pexels-photo-7180708.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+                  "src": "https://videos.pexels.com/video-files/7180708/7180708-hd_2048_1080_25fps.mp4",
+                  "mediaStartTime": 0,
+                  "mediaSrcDuration": 40.96,
+                  "styles": {
+                    "opacity": 1,
+                    "zIndex": 100,
+                    "transform": "none",
+                    "objectFit": "cover",
+                    "animation": {
+                      "enter": "<max-depth>",
+                      "exit": "<max-depth>"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "track-5",
+              "magnetic": false,
+              "muted": false,
+              "visible": true,
+              "items": [
+                {
+                  "id": "item-4",
+                  "type": "audio",
+                  "content": "Another Lowfi",
+                  "src": "https://rwxrdxvxndclnqvznxfj.supabase.co/storage/v1/object/public/sounds/sound-3.mp3?t=2024-11-04T03%3A52%3A35.101Z",
+                  "from": 150,
+                  "left": 0,
+                  "top": 0,
+                  "width": 1920,
+                  "height": 100,
+                  "rotation": 0,
+                  "durationInFrames": 861,
+                  "styles": {
+                    "opacity": 1
+                  },
+                  "mediaStartTime": 0
+                }
+              ]
+            }
+          ],
+          "aspectRatio": "16:9",
+          "backgroundColor": "white",
+          "playbackRate": 1,
+          "savedAt": 1783599020679
+        }
+      ]
+    }
+  ]
+}

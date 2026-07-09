@@ -25,8 +25,6 @@ such. They are sanity checks, not feature proof.
 
 ## Features that remain `inferred_from_bundle`
 
-- F015 Trim
-- F016 Split
 - F018 Snapping
 - F021 Scrubbing
 - F023 Text overlays
@@ -34,7 +32,15 @@ such. They are sanity checks, not feature proof.
 - F025 Effects
 - F026 Keyframes
 
-These have bundle-string evidence but no runtime mutation proof.
+F015 (Trim) and F016 (Split) now have UI hint search + 33 key probe
+artifacts at `.rebuild/features/trim-split-probe.md`. They remain
+`behavior_observed` because no working shortcut was identified; the
+public demo does not appear to expose a manual trim/split shortcut
+without a clip being fully selected (a step the harness cannot
+perform reliably).
+
+These remaining six features have bundle-string evidence but no
+runtime mutation proof.
 
 ## Features that remain `not_found`
 

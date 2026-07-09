@@ -17,6 +17,12 @@ const TEST_FILES = [
   'tests/code-correlation-proof.spec.mjs',
   'tests/action-stack-proof.spec.mjs',
   'tests/import-timeline-proof.spec.mjs',
+  'tests/clip-identity-proof.spec.mjs',
+  'tests/trim-split-proof.spec.mjs',
+  'tests/export-end-to-end-proof.spec.mjs',
+  'tests/effects-inspector-proof.spec.mjs',
+  'tests/state-schema-proof.spec.mjs',
+  'tests/copy-readiness-proof.spec.mjs',
 ];
 
 const SOFT_MARKERS = [

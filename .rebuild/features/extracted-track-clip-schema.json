@@ -1,0 +1,275 @@
+{
+  "project": {
+    "tracks": {
+      "observed": [
+        "Array(8)"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "aspectRatio": {
+      "observed": [
+        "\"16:9\"",
+        "16:9"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "backgroundColor": {
+      "observed": [
+        "\"white\"",
+        "white"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "playbackRate": {
+      "observed": [
+        "1",
+        "1"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "savedAt": {
+      "observed": [
+        "1783599020679",
+        "1783599020679"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    }
+  },
+  "track": {
+    "id": {
+      "observed": [
+        "string"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "items": {
+      "observed": [
+        "object"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "magnetic": {
+      "observed": [
+        "boolean"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "muted": {
+      "observed": [
+        "boolean",
+        "seen in bundle text"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "visible": {
+      "observed": [
+        "boolean",
+        "seen in bundle text"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "addStrategy": {
+      "observed": [
+        "03-strategy-drag"
+      ],
+      "sources": {},
+      "proof": "hard_proof",
+      "confidence": "high"
+    },
+    "locked": {
+      "observed": [
+        "seen in bundle text"
+      ],
+      "sources": {},
+      "proof": "inferred_from_bundle",
+      "confidence": "low"
+    }
+  },
+  "clip": {
+    "left": {
+      "observed": [
+        "observed across items",
+        "number",
+        "seen in bundle text"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "top": {
+      "observed": [
+        "observed across items",
+        "number"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "width": {
+      "observed": [
+        "observed across items",
+        "number",
+        "seen in bundle text"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "height": {
+      "observed": [
+        "observed across items",
+        "number"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "durationInFrames": {
+      "observed": [
+        "observed across items",
+        "number"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "from": {
+      "observed": [
+        "observed across items",
+        "number"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "rotation": {
+      "observed": [
+        "observed across items",
+        "number"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "type": {
+      "observed": [
+        "observed across items",
+        "string"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "content": {
+      "observed": [
+        "observed across items",
+        "string"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "styles": {
+      "observed": [
+        "observed across items",
+        "object"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "id": {
+      "observed": [
+        "observed across items",
+        "string"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "src": {
+      "observed": [
+        "observed across items"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "mediaStartTime": {
+      "observed": [
+        "observed across items"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "mediaSrcDuration": {
+      "observed": [
+        "observed across items"
+      ],
+      "sources": {},
+      "proof": "code_correlated",
+      "confidence": "high"
+    },
+    "duration": {
+      "observed": [
+        "seen in bundle text"
+      ],
+      "sources": {},
+      "proof": "inferred_from_bundle",
+      "confidence": "low"
+    },
+    "trimStart": {
+      "observed": [
+        "seen in bundle text"
+      ],
+      "sources": {},
+      "proof": "inferred_from_bundle",
+      "confidence": "low"
+    },
+    "trimEnd": {
+      "observed": [
+        "seen in bundle text"
+      ],
+      "sources": {},
+      "proof": "inferred_from_bundle",
+      "confidence": "low"
+    },
+    "volume": {
+      "observed": [
+        "seen in bundle text"
+      ],
+      "sources": {},
+      "proof": "inferred_from_bundle",
+      "confidence": "low"
+    },
+    "effects": {
+      "observed": [
+        "seen in bundle text"
+      ],
+      "sources": {},
+      "proof": "inferred_from_bundle",
+      "confidence": "low"
+    }
+  }
+}

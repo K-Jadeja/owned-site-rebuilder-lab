@@ -69,7 +69,49 @@ This pass:
 3. Manually run an export and capture F027 mp4 download evidence.
 4. Begin a **separate** rebuild run (this harness run is observation only).
 5. Add per-feature parity specs that target a future rebuilt app.
-## Action → Stack → Bundle → Feature Correlation Pass (completed 2026-07-09T10:25:00Z)
+## Final RVE Reverse Pass (started 2026-07-09T11:00:00Z)
+
+This run: CLIP / TRIM / EXPORT / EFFECTS / STATE SCHEMA PROOF.
+
+### Goals
+
+1. Patch the skill with Complete RVE Copy Evidence Mode + Rebuild Gate + Copy progress scale.
+2. Capture full console objects — especially `[onSave] Editor state saved` to extract the full `tracks` array.
+3. Extract track/clip state schema.
+4. Harden clip identity (selectors + fiber).
+5. Prove clip selection/move.
+6. Aggressively probe trim/split (UI + keyboard).
+7. Probe export end-to-end (Start Export → download).
+8. Probe effects/transitions/keyframes.
+9. Probe waveform/audio.
+10. Extract feature modules around stack offsets.
+11. Build copy progress dashboard + rebuild readiness report.
+12. Add final hard tests.
+13. Commit + push as "Final reverse pass before RVE rebuild".
+
+### Phases
+
+- ✅ Phase 0: Read state files (handoff, verification, parity, correlation, stack/bundle map, features/matrix/inventory/decoded-stores/state-model, import-timeline-hardening, runtime-summary, react-region-map, paper, tests, package.json).
+- ⏳ Phase 1: Patch the skill (Complete RVE Copy Evidence Mode + Rebuild Gate + Copy progress scale + references).
+- ⏳ Phase 2: scripts/console-object-capture.mjs.
+- ⏳ Phase 3: scripts/extract-editor-state-schema.mjs.
+- ⏳ Phase 4: scripts/clip-identity-probe.mjs.
+- ⏳ Phase 5: scripts/clip-action-proof.mjs.
+- ⏳ Phase 6: scripts/trim-split-aggressive-probe.mjs.
+- ⏳ Phase 7: scripts/export-end-to-end-probe.mjs.
+- ⏳ Phase 8: scripts/effects-transitions-keyframes-probe.mjs.
+- ⏳ Phase 9: scripts/waveform-audio-probe.mjs.
+- ⏳ Phase 10: scripts/extract-feature-modules.mjs.
+- ⏳ Phase 11: scripts/generate-copy-progress.mjs.
+- ⏳ Phase 12: .rebuild/reports/rebuild-readiness.md + .harness/next-rebuild-prompt.md.
+- ⏳ Phase 13: 6 final hard tests.
+- ⏳ Phase 14: Update reports/paper.
+- ⏳ Phase 15: Update package.json.
+- ⏳ Phase 16: Run commands.
+- ⏳ Phase 17: Commit + push.
+- ⏳ Phase 18: Final 18-question answer.
+
+
 
 - ✅ Phase 0: Read state, identified 0/0 JS coverage gap.
 - ✅ Phase 1: Patched proof language to clarify coverage limitation.

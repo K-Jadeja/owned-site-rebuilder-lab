@@ -1,0 +1,905 @@
+{
+  "generatedAt": "2026-07-09T12:16:41.171Z",
+  "audioInputs": [
+    {
+      "accept": "video/*",
+      "multiple": false
+    }
+  ],
+  "mp3UploadResult": "attempted",
+  "domHints": {
+    "waveform": [
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-film rve:h-4 rve:w-4",
+        "bb": {
+          "x": 20.796875,
+          "y": 71,
+          "w": 16,
+          "h": 16
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-type rve:h-4 rve:w-4",
+        "bb": {
+          "x": 20.796875,
+          "y": 111,
+          "w": 16,
+          "h": 16
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-music rve:h-4 rve:w-4",
+        "bb": {
+          "x": 20.796875,
+          "y": 151,
+          "w": 16,
+          "h": 16
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-captions rve:h-4 rve:w-4",
+        "bb": {
+          "x": 20.796875,
+          "y": 191,
+          "w": 16,
+          "h": 16
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-image rve:h-4 rve:w-4",
+        "bb": {
+          "x": 20.796875,
+          "y": 231,
+          "w": 16,
+          "h": 16
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "rve:h-4 rve:w-4",
+        "bb": {
+          "x": 20.796875,
+          "y": 271,
+          "w": 16,
+          "h": 16
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-zoom-in rve:h-4 rve:w-4",
+        "bb": {
+          "x": 20.796875,
+          "y": 311,
+          "w": 16,
+          "h": 16
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-palette rve:h-4 rve:w-4",
+        "bb": {
+          "x": 20.796875,
+          "y": 351,
+          "w": 16,
+          "h": 16
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-panels-top-left rve:h-4 rve:w-4",
+        "bb": {
+          "x": 20.796875,
+          "y": 391,
+          "w": 16,
+          "h": 16
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-settings rve:h-4 rve:w-4",
+        "bb": {
+          "x": 20.796875,
+          "y": 866,
+          "w": 16,
+          "h": 16
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-upload rve:h-3.5 rve:w-3.5",
+        "bb": {
+          "x": 89.59375,
+          "y": 73,
+          "w": 14,
+          "h": 14
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-circle rve:h-3.5 rve:w-3.5 rve:fill-current",
+        "bb": {
+          "x": 121.59375,
+          "y": 73,
+          "w": 14,
+          "h": 14
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-search rve:h-4 rve:w-4",
+        "bb": {
+          "x": 122.59375,
+          "y": 117,
+          "w": 16,
+          "h": 16
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-search rve:mb-2 rve:h-8 rve:w-8",
+        "bb": {
+          "x": 58.59375,
+          "y": 183,
+          "w": 32,
+          "h": 32
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-panel-left rve:size-4",
+        "bb": {
+          "x": 76.59375,
+          "y": 16,
+          "w": 16,
+          "h": 16
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-save rve:h-3.5 rve:w-3.5",
+        "bb": {
+          "x": 1300.9375,
+          "y": 17,
+          "w": 14,
+          "h": 14
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-minus",
+        "bb": {
+          "x": 1261,
+          "y": 455,
+          "w": 14,
+          "h": 14
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-plus",
+        "bb": {
+          "x": 1331,
+          "y": 455,
+          "w": 14,
+          "h": 14
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-maximize",
+        "bb": {
+          "x": 1368,
+          "y": 455,
+          "w": 14,
+          "h": 14
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-lock-open",
+        "bb": {
+          "x": 1398,
+          "y": 455,
+          "w": 14,
+          "h": 14
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-undo2 rve:h-4 rve:w-4 rve:text-text-secondary",
+        "bb": {
+          "x": 78.59375,
+          "y": 526,
+          "w": 16,
+          "h": 16
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-redo2 rve:h-4 rve:w-4",
+        "bb": {
+          "x": 114.59375,
+          "y": 526,
+          "w": 16,
+          "h": 16
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-scissors rve:h-4 rve:w-4 rve:transition-all rve:duration-300",
+        "bb": {
+          "x": 175.59375,
+          "y": 526,
+          "w": 16,
+          "h": 16
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-skip-back rve:h-3 rve:w-3 rve:text-foreground",
+        "bb": {
+          "x": 676.015625,
+          "y": 528,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-play rve:h-4 rve:w-4 rve:text-foreground",
+        "bb": {
+          "x": 716.015625,
+          "y": 526,
+          "w": 16,
+          "h": 16
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-skip-forward rve:h-3 rve:w-3 rve:text-foreground",
+        "bb": {
+          "x": 760.015625,
+          "y": 528,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-monitor rve:h-3.5 rve:w-3.5 rve:text-blue-500",
+        "bb": {
+          "x": 1104,
+          "y": 527,
+          "w": 14,
+          "h": 14
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-chevron-down rve:h-3 rve:w-3 rve:opacity-50",
+        "bb": {
+          "x": 1160,
+          "y": 528,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-zoom-out rve:h-4 rve:w-4 rve:sm:h-3.5 rve:sm:w-3.5",
+        "bb": {
+          "x": 1200,
+          "y": 527,
+          "w": 14,
+          "h": 14
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-zoom-in rve:h-4 rve:w-4 rve:sm:h-3.5 rve:sm:w-3.5",
+        "bb": {
+          "x": 1319,
+          "y": 527,
+          "w": 14,
+          "h": 14
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-align-horizontal-space-around rve:h-4 rve:w-4 rve:sm:h-3.5 rve:sm:w-3.5",
+        "bb": {
+          "x": 1368,
+          "y": 527,
+          "w": 14,
+          "h": 14
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-minimize2 rve:h-4 rve:w-4",
+        "bb": {
+          "x": 1405,
+          "y": 526,
+          "w": 16,
+          "h": 16
+        },
+        "inLowerThird": false
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-grip-vertical rve:h-3 rve:w-3 rve:text-muted-foreground",
+        "bb": {
+          "x": 74.59375,
+          "y": 621,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-magnet rve:h-3 rve:w-3",
+        "bb": {
+          "x": 98.59375,
+          "y": 621,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-trash2 rve:h-3 rve:w-3",
+        "bb": {
+          "x": 122.59375,
+          "y": 621,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-grip-vertical rve:h-3 rve:w-3 rve:text-muted-foreground",
+        "bb": {
+          "x": 74.59375,
+          "y": 669,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-magnet rve:h-3 rve:w-3",
+        "bb": {
+          "x": 98.59375,
+          "y": 669,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-trash2 rve:h-3 rve:w-3",
+        "bb": {
+          "x": 122.59375,
+          "y": 669,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-grip-vertical rve:h-3 rve:w-3 rve:text-muted-foreground",
+        "bb": {
+          "x": 74.59375,
+          "y": 717,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-magnet rve:h-3 rve:w-3",
+        "bb": {
+          "x": 98.59375,
+          "y": 717,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-trash2 rve:h-3 rve:w-3",
+        "bb": {
+          "x": 122.59375,
+          "y": 717,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-grip-vertical rve:h-3 rve:w-3 rve:text-muted-foreground",
+        "bb": {
+          "x": 74.59375,
+          "y": 765,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-magnet rve:h-3 rve:w-3",
+        "bb": {
+          "x": 98.59375,
+          "y": 765,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-trash2 rve:h-3 rve:w-3",
+        "bb": {
+          "x": 122.59375,
+          "y": 765,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-grip-vertical rve:h-3 rve:w-3 rve:text-muted-foreground",
+        "bb": {
+          "x": 74.59375,
+          "y": 813,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-magnet rve:h-3 rve:w-3",
+        "bb": {
+          "x": 98.59375,
+          "y": 813,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-trash2 rve:h-3 rve:w-3",
+        "bb": {
+          "x": 122.59375,
+          "y": 813,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-grip-vertical rve:h-3 rve:w-3 rve:text-muted-foreground",
+        "bb": {
+          "x": 74.59375,
+          "y": 861,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-magnet rve:h-3 rve:w-3",
+        "bb": {
+          "x": 98.59375,
+          "y": 861,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-trash2 rve:h-3 rve:w-3",
+        "bb": {
+          "x": 122.59375,
+          "y": 861,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-type rve:w-3 rve:h-3 rve:text-white/80 rve:shrink-0",
+        "bb": {
+          "x": 643.1875,
+          "y": 620.5,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-type rve:w-3 rve:h-3 rve:text-white/80 rve:shrink-0",
+        "bb": {
+          "x": 933.75,
+          "y": 620.5,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "rve:h-2.5 rve:w-2.5 rve:text-white",
+        "bb": {
+          "x": 377.890625,
+          "y": 621.5,
+          "w": 10,
+          "h": 10
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "rve:h-2.5 rve:w-2.5 rve:text-white",
+        "bb": {
+          "x": 882.546875,
+          "y": 621.5,
+          "w": 10,
+          "h": 10
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-loader-circle rve:w-4 rve:h-4 rve:animate-spin rve:text-white/60 rve:shrink-0",
+        "bb": {
+          "x": 177.2961883544922,
+          "y": 663.2024536132812,
+          "w": 22.595123291015625,
+          "h": 22.5950927734375
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-loader-circle rve:w-4 rve:h-4 rve:animate-spin rve:text-white/60 rve:shrink-0",
+        "bb": {
+          "x": 766.0618286132812,
+          "y": 663.2024536132812,
+          "w": 22.5950927734375,
+          "h": 22.5950927734375
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-type rve:w-3 rve:h-3 rve:text-white/80 rve:shrink-0",
+        "bb": {
+          "x": 1151.671875,
+          "y": 668.5,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-type rve:w-3 rve:h-3 rve:text-white/80 rve:shrink-0",
+        "bb": {
+          "x": 1308.421875,
+          "y": 668.5,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "rve:h-2.5 rve:w-2.5 rve:text-white",
+        "bb": {
+          "x": 670.34375,
+          "y": 669.5,
+          "w": 10,
+          "h": 10
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "rve:h-2.5 rve:w-2.5 rve:text-white",
+        "bb": {
+          "x": 1004.890625,
+          "y": 669.5,
+          "w": 10,
+          "h": 10
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "rve:h-2.5 rve:w-2.5 rve:text-white",
+        "bb": {
+          "x": 1272.5,
+          "y": 669.5,
+          "w": 10,
+          "h": 10
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-type rve:w-3 rve:h-3 rve:text-white/80 rve:shrink-0",
+        "bb": {
+          "x": 1339,
+          "y": 716.5,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "rve:h-2.5 rve:w-2.5 rve:text-white",
+        "bb": {
+          "x": 725.796875,
+          "y": 717.5,
+          "w": 10,
+          "h": 10
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-loader-circle rve:w-4 rve:h-4 rve:animate-spin rve:text-white/60 rve:shrink-0",
+        "bb": {
+          "x": 1110.139892578125,
+          "y": 759.2024536132812,
+          "w": 22.59521484375,
+          "h": 22.5950927734375
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "rve:h-2.5 rve:w-2.5 rve:text-white",
+        "bb": {
+          "x": 613.015625,
+          "y": 765.5,
+          "w": 10,
+          "h": 10
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-loader-circle rve:w-4 rve:h-4 rve:animate-spin rve:text-white/60 rve:shrink-0",
+        "bb": {
+          "x": 582.546142578125,
+          "y": 807.2024536132812,
+          "w": 22.59521484375,
+          "h": 22.5950927734375
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-loader-circle rve:w-4 rve:h-4 rve:animate-spin rve:text-white/60 rve:shrink-0",
+        "bb": {
+          "x": 907.5149536132812,
+          "y": 807.2024536132812,
+          "w": 22.5950927734375,
+          "h": 22.5950927734375
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "rve:h-2.5 rve:w-2.5 rve:text-white",
+        "bb": {
+          "x": 349.21875,
+          "y": 813.5,
+          "w": 10,
+          "h": 10
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "rve:h-2.5 rve:w-2.5 rve:text-white",
+        "bb": {
+          "x": 838.5625,
+          "y": 813.5,
+          "w": 10,
+          "h": 10
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-loader-circle rve:h-3 rve:w-3 rve:animate-spin rve:text-white/80",
+        "bb": {
+          "x": 854.65185546875,
+          "y": 858.02685546875,
+          "w": 16.9462890625,
+          "h": 16.9462890625
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "lucide lucide-volume2 rve:h-3 rve:w-3 rve:shrink-0 rve:text-white rve:text-white",
+        "bb": {
+          "x": 379.75,
+          "y": 860.5,
+          "w": 12,
+          "h": 12
+        },
+        "inLowerThird": true
+      },
+      {
+        "tag": "svg",
+        "aria": null,
+        "cls": "rve:h-2.5 rve:w-2.5 rve:text-white",
+        "bb": {
+          "x": 242.171875,
+          "y": 861.5,
+          "w": 10,
+          "h": 10
+        },
+        "inLowerThird": true
+      }
+    ],
+    "canvases": [],
+    "svgs": [],
+    "audios": [
+      {
+        "src": "data:audio/mp3;base64,/+MYxAAJcAV8AAgAABn//////+/gQ5BAMA+D4Pg+BAQBAEAwD4Pg+D4EBAEAQDAPg++hYBH///hUFQVBUFREDQNHmf///////+MYxBUGkAGIMAAAAP/29Xt6lUxBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV",
+        "paused": true
+      },
+      {
+        "src": "data:audio/mp3;base64,/+MYxAAJcAV8AAgAABn//////+/gQ5BAMA+D4Pg+BAQBAEAwD4Pg+D4EBAEAQDAPg++hYBH///hUFQVBUFREDQNHmf///////+MYxBUGkAGIMAAAAP/29Xt6lUxBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV",
+        "paused": true
+      },
+      {
+        "src": "data:audio/mp3;base64,/+MYxAAJcAV8AAgAABn//////+/gQ5BAMA+D4Pg+BAQBAEAwD4Pg+D4EBAEAQDAPg++hYBH///hUFQVBUFREDQNHmf///////+MYxBUGkAGIMAAAAP/29Xt6lUxBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV",
+        "paused": true
+      },
+      {
+        "src": "data:audio/mp3;base64,/+MYxAAJcAV8AAgAABn//////+/gQ5BAMA+D4Pg+BAQBAEAwD4Pg+D4EBAEAQDAPg++hYBH///hUFQVBUFREDQNHmf///////+MYxBUGkAGIMAAAAP/29Xt6lUxBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV",
+        "paused": true
+      },
+      {
+        "src": "data:audio/mp3;base64,/+MYxAAJcAV8AAgAABn//////+/gQ5BAMA+D4Pg+BAQBAEAwD4Pg+D4EBAEAQDAPg++hYBH///hUFQVBUFREDQNHmf///////+MYxBUGkAGIMAAAAP/29Xt6lUxBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV",
+        "paused": true
+      }
+    ]
+  },
+  "hasWaveformText": false,
+  "hasAudioTrackText": false,
+  "verdict": "waveform-canvas-or-svg-found"
+}

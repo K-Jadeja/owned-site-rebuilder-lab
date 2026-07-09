@@ -1,0 +1,362 @@
+{
+  "uiHints": [],
+  "shortcutsFound": [
+    {
+      "source": "context-menu",
+      "evidence": "right-click on lower-third pointer"
+    },
+    {
+      "source": "keyboard",
+      "key": "S",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "b",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "B",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "t",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "T",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "c",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "C",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "x",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "X",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "Control+k",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "Control+b",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "Control+s",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "Shift+s",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "Alt+s",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "Delete",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "Backspace",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": ",",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": ".",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "[",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "]",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "{",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "}",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "ArrowLeft",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "ArrowRight",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "ArrowUp",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "ArrowDown",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "Shift+ArrowLeft",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "Shift+ArrowRight",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "Alt+ArrowLeft",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "Alt+ArrowRight",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "Tab",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "Enter",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "Space",
+      "evidence": "bodyText changed"
+    },
+    {
+      "source": "keyboard",
+      "key": "Escape",
+      "evidence": "storage mutation observed"
+    },
+    {
+      "source": "keyboard",
+      "key": "Escape",
+      "evidence": "bodyText changed"
+    }
+  ],
+  "keyResults": [
+    {
+      "key": "s",
+      "sameStorage": true,
+      "sameBody": true
+    },
+    {
+      "key": "S",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "b",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "B",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "t",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "T",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "c",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "C",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "x",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "X",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "Control+k",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "Control+b",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "Control+s",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "Shift+s",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "Alt+s",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "Delete",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "Backspace",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": ",",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": ".",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "[",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "]",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "{",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "}",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "ArrowLeft",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "ArrowRight",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "ArrowUp",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "ArrowDown",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "Shift+ArrowLeft",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "Shift+ArrowRight",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "Alt+ArrowLeft",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "Alt+ArrowRight",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "Tab",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "Enter",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "Space",
+      "sameStorage": true,
+      "sameBody": false
+    },
+    {
+      "key": "Escape",
+      "sameStorage": false,
+      "sameBody": false
+    }
+  ],
+  "baselineAt": "2026-07-09T12:13:09.743Z"
+}

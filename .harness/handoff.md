@@ -1,6 +1,6 @@
 # Handoff
 
-Generated: 2026-07-09T09:30:00Z (deep bundle + runtime decoupling pass)
+Generated: 2026-07-09T11:30:00Z (final reverse pass)
 
 ## Current goal
 
@@ -8,9 +8,40 @@ Reconstruct observable behavior of https://demo.reactvideoeditor.com
 from public surface evidence (DOM, network, storage, public bundles)
 into a spec, state model, acceptance tests, and rebuild plan.
 
-This run was the **Deep Bundle + Runtime Decoupling Pass** per the
-operating philosophy in `.claude/skills/owned-site-rebuilder/SKILL.md`.
-No rebuild was built in this run.
+This run was the **Final Reverse Pass — Clip / Trim / Export /
+Effects / State Schema Proof** per the operating philosophy in
+`.claude/skills/owned-site-rebuilder/SKILL.md`. No rebuild was built
+in this run.
+
+### What changed in this run
+
+- Skill: Complete RVE Copy Evidence Mode + Rebuild Gate + Copy
+  progress scale added.
+- New scripts: console-object-capture, extract-editor-state-schema,
+  clip-identity-probe, clip-action-proof, trim-split-aggressive-probe,
+  export-end-to-end-probe, effects-transitions-keyframes-probe,
+  waveform-audio-probe, extract-feature-modules,
+  generate-copy-progress, build-readiness-report,
+  build-rve-rebuild-prompt (12 new scripts).
+- New tests: clip-identity-proof, trim-split-proof,
+  export-end-to-end-proof, effects-inspector-proof,
+  state-schema-proof, copy-readiness-proof (6 new spec files;
+  24 new tests).
+- **Major finding**: full editor state with tracks recovered from
+  `[onSave]` console argument. 31 schema fields extracted across
+  project / track / clip tiers.
+- 11 / 34 features at hard_proof or higher.
+
+### Next best action
+
+Start `apps/rve-rebuild/` using `.harness/next-rebuild-prompt.md`.
+
+**Carried-over previous handoff content:**
+
+---
+
+Generated: 2026-07-09T09:30:00Z (deep bundle + runtime decoupling pass)
+
 
 ## What this run produced
 

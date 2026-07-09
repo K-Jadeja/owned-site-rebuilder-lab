@@ -1,6 +1,6 @@
 # Test Proof Audit
 
-Generated: 2026-07-09T10:37:08.287Z
+Generated: 2026-07-09T12:18:14.982Z
 
 Every test in the repo is classified by proof level.
 
@@ -59,7 +59,31 @@ Every test in the repo is classified by proof level.
 | tests/import-timeline-proof.spec.mjs | timeline add reported as PROVEN | hard_proof | contains concrete expect assertion |
 | tests/import-timeline-proof.spec.mjs | advanced-timeline-store appears in final state after drag strategy | hard_proof | contains concrete expect assertion |
 | tests/import-timeline-proof.spec.mjs | attempt 03-strategy-drag is recorded as firstMutation | hard_proof | contains concrete expect assertion |
+| tests/clip-identity-proof.spec.mjs | clip-identity map exists | hard_proof | contains concrete expect assertion |
+| tests/clip-identity-proof.spec.mjs | clip-identity proof exists | hard_proof | contains concrete expect assertion |
+| tests/clip-identity-proof.spec.mjs | clip-identity map has candidate counts | hard_proof | contains concrete expect assertion |
+| tests/clip-identity-proof.spec.mjs | clip-identity probe recorded drag attempt | hard_proof | contains concrete expect assertion |
+| tests/trim-split-proof.spec.mjs | trim-split probe exists | hard_proof | contains concrete expect assertion |
+| tests/trim-split-proof.spec.mjs | trim-split shortcut map exists | hard_proof | contains concrete expect assertion |
+| tests/trim-split-proof.spec.mjs | trim-split probe covers key list | soft_probe | matches soft marker |
+| tests/trim-split-proof.spec.mjs | trim-split probe recorded UI hint search | hard_proof | contains concrete expect assertion |
+| tests/export-end-to-end-proof.spec.mjs | export-end-to-end json exists | hard_proof | contains concrete expect assertion |
+| tests/export-end-to-end-proof.spec.mjs | export-end-to-end recorded objectUrls or download or completion | hard_proof | contains concrete expect assertion |
+| tests/export-end-to-end-proof.spec.mjs | export-end-to-end output dir exists | hard_proof | contains concrete expect assertion |
+| tests/effects-inspector-proof.spec.mjs | effects probe json exists | hard_proof | contains concrete expect assertion |
+| tests/effects-inspector-proof.spec.mjs | inspector options catalog exists | hard_proof | contains concrete expect assertion |
+| tests/effects-inspector-proof.spec.mjs | effects probe has tabResults | soft_probe | matches soft marker |
+| tests/effects-inspector-proof.spec.mjs | effects probe ran for at least 5 tabs | hard_proof | contains concrete expect assertion |
+| tests/state-schema-proof.spec.mjs | extracted-track-clip-schema.json exists | hard_proof | contains concrete expect assertion |
+| tests/state-schema-proof.spec.mjs | extracted-track-clip-schema.md exists | hard_proof | contains concrete expect assertion |
+| tests/state-schema-proof.spec.mjs | timeline-state-evidence.md exists | hard_proof | contains concrete expect assertion |
+| tests/state-schema-proof.spec.mjs | state schema has 3 sections | hard_proof | contains concrete expect assertion |
+| tests/state-schema-proof.spec.mjs | state schema at least 5 total known fields | hard_proof | contains concrete expect assertion |
+| tests/copy-readiness-proof.spec.mjs | copy progress md exists | hard_proof | contains concrete expect assertion |
+| tests/copy-readiness-proof.spec.mjs | rebuild readiness md exists | hard_proof | contains concrete expect assertion |
+| tests/copy-readiness-proof.spec.mjs | next-rebuild-prompt md exists | hard_proof | contains concrete expect assertion |
+| tests/copy-readiness-proof.spec.mjs | copy progress covers F001..F034 | hard_proof | contains concrete expect assertion |
 
 ## Totals
-- hard_proof: 36
-- soft_probe: 17
+- hard_proof: 58
+- soft_probe: 19

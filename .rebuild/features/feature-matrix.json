@@ -1,7 +1,25 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "target": "https://demo.reactvideoeditor.com",
-  "generated_at": "2026-07-09T10:25:00Z",
+  "generated_at": "2026-07-09T11:30:00Z",
+  "final_reverse_pass": {
+    "startedAt": "2026-07-09T11:00:00Z",
+    "finishedAt": "2026-07-09T11:30:00Z",
+    "consoleObjectsCaptured": true,
+    "trackClipSchemaExtracted": true,
+    "clipIdentityProbe": true,
+    "clipActionProbe": true,
+    "trimSplitProbe": true,
+    "exportEndToEndProbe": true,
+    "effectsProbe": true,
+    "waveformProbe": true,
+    "featureModulesExtracted": true,
+    "copyProgressDashboard": true,
+    "rebuildReadinessReport": true,
+    "nextRebuildPrompt": true,
+    "featuresUpgradedToHardProof": ["F013", "F022"],
+    "featuresUpgradedToBehaviorObserved": ["F015", "F016"]
+  },
   "action_stack_bundle_correlation_run": {
     "startedAt": "2026-07-09T10:10:00Z",
     "finishedAt": "2026-07-09T10:25:00Z",
@@ -41,6 +59,16 @@
       "blocked": 0,
       "not_found": 4
     }
+  },
+  "final_reverse_pass_proofLevels": {
+    "hard_proof": 11,
+    "behavior_observed": 8,
+    "surface_observed": 6,
+    "code_correlated": 3,
+    "inferred_from_bundle": 6,
+    "fixture_ready": 1,
+    "blocked": 0,
+    "not_found": 4
   },
   "features": [
     {
@@ -325,10 +353,13 @@
     {
       "id": "F013",
       "name": "Drag/drop to timeline",
-      "proof_level": "behavior_observed",
-      "test_files": [],
+      "proof_level": "hard_proof",
+      "test_files": [
+        "tests/import-timeline-proof.spec.mjs"
+      ],
       "evidence_files": [
-        ".rebuild/tests/feature/F013.json"
+        ".rebuild/deep-import/import-timeline-hardening.md",
+        ".rebuild/deep-import/clip-identity-proof.md"
       ],
       "bundle_clues": [
         "track",
@@ -367,10 +398,13 @@
     {
       "id": "F015",
       "name": "Clip trimming",
-      "proof_level": "inferred_from_bundle",
-      "test_files": [],
+      "proof_level": "behavior_observed",
+      "test_files": [
+        "tests/trim-split-proof.spec.mjs"
+      ],
       "evidence_files": [
-        ".rebuild/tests/feature/F015.json"
+        ".rebuild/features/trim-split-probe.md",
+        ".rebuild/features/trim-split-shortcut-map.md"
       ],
       "bundle_clues": [
         "trim strings"
@@ -384,10 +418,13 @@
     {
       "id": "F016",
       "name": "Clip splitting",
-      "proof_level": "inferred_from_bundle",
-      "test_files": [],
+      "proof_level": "behavior_observed",
+      "test_files": [
+        "tests/trim-split-proof.spec.mjs"
+      ],
       "evidence_files": [
-        ".rebuild/tests/feature/F016.json"
+        ".rebuild/features/trim-split-probe.md",
+        ".rebuild/features/trim-split-shortcut-map.md"
       ],
       "bundle_clues": [
         "split",
@@ -504,9 +541,14 @@
     {
       "id": "F022",
       "name": "Inspector / properties",
-      "proof_level": "behavior_observed",
-      "test_files": [],
-      "evidence_files": [],
+      "proof_level": "hard_proof",
+      "test_files": [
+        "tests/effects-inspector-proof.spec.mjs"
+      ],
+      "evidence_files": [
+        ".rebuild/features/effects-transitions-keyframes-probe.md",
+        ".rebuild/features/inspector-options-catalog.md"
+      ],
       "bundle_clues": [
         "properties",
         "inspector strings"

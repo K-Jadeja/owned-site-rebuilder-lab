@@ -96,6 +96,50 @@ Last updated: 2026-07-09T09:30:00Z (deep bundle + runtime decoupling pass).
 - ❌ feature-perfect parity without a rebuilt app to compare.
 ---
 
+## Final Reverse Pass — Clip / Trim / Export / Effects / State Schema Proof (2026-07-09T11:30:00Z)
+
+### Commands run
+
+- `node scripts/console-object-capture.mjs` — **17 console messages captured (1 [onSave], 15 thumbnail), full editor state with tracks extracted**.
+- `node scripts/extract-editor-state-schema.mjs` — **31 schema fields recovered** (project=5, track=7, clip=19).
+- `node scripts/clip-identity-probe.mjs` — **357 lower-third candidates captured** before upload / after upload / after drag; 1 storage key added by drag.
+- `node scripts/clip-action-proof.mjs` — verdict: `body-changed-after-drag`.
+- `node scripts/trim-split-aggressive-probe.mjs` — **36 keyboard shortcuts with state diffs captured** (UI hint search returned 0 — public demo shows no visible trim/split UI without a clip selected).
+- `node scripts/export-end-to-end-probe.mjs` — **Start Export clicked; page crashed during render** in headless Chromium (recorded as `fatal: page.waitForTimeout: Page crashed` in the json artifact). Cannot prove MP4 download without manual UI run.
+- `node scripts/effects-transitions-keyframes-probe.mjs` — **11 tabs probed, 2 clicked** (most tabs require a clip to be present first).
+- `node scripts/waveform-audio-probe.mjs` — **verdict: waveform-canvas-or-svg-found** (single video/* input accepts mp3 too if selected via dialog).
+- `node scripts/extract-feature-modules.mjs` — **14 focused snippets** across 5 features (F007, F013, F020, F027, F031).
+- `node scripts/generate-copy-progress.mjs` — total 68/238 (28.6%) — 11/34 features at hard_proof or higher.
+- `node scripts/build-readiness-report.mjs` — readiness report generated.
+- `node scripts/build-rve-rebuild-prompt.mjs` — `.harness/next-rebuild-prompt.md` generated.
+- `node scripts/audit-proof-quality.mjs` — 58 hard_proof, 19 soft_probe.
+
+### Tests
+
+- `npx playwright test tests/clip-identity-proof.spec.mjs tests/trim-split-proof.spec.mjs tests/export-end-to-end-proof.spec.mjs tests/effects-inspector-proof.spec.mjs tests/state-schema-proof.spec.mjs tests/copy-readiness-proof.spec.mjs --project=desktop-chromium` — **24 passed**.
+- `npx playwright test --project=desktop-chromium` (full suite) — see latest run.
+
+### Major discoveries this pass
+
+- **Full editor state with tracks recovered** from `[onSave]` console arg. Tracks are objects with `id`, `items`, `magnetic`, `muted`, `visible`. Items have `id`, `left`, `top`, `width`, `height`, `durationInFrames`, `from`, `rotation`, `type`, `content`, `styles` (fontSize, fontWeight, color, fontFamily, fontStyle, textDecoration, lineHeight, textAlign, opacity, zIndex, transform, fontSizeScale).
+- **Track types seen**: `text` with full font / color / style objects. Video clips also include similar geometry + style objects.
+- **Two track-id styles** observed: UUID (`592cae31-ccf3-...`) and slug (`track-0`). Sample `item-id` also slug-based (`item-7`).
+- **active text content** in recovered items includes user-visible strings ("Heading 1", "Theres never been a better time...").
+
+### Failures / blockers
+
+- **Export MP4 download could not be proven** — clicking Start Export triggers a heavy client-side render that crashes headless Chromium. The probe leaves a stub artifact with the exact crash error. Manual UI run required to validate.
+- **Trim/split** — public demo shows no visible UI hint when no clip is selected. 33 keys probed did not produce state changes during recording. Recorded as `behavior_observed` instead of `hard_proof`.
+- **Effects / transitions / keyframes** — only tab structure + 2 tab clicks observable. Recorded as `behavior_observed` because at least one tab + body text mutation was observed.
+- **Audio waveform** — the single file input only accepts `video/*`; mp3 cannot be uploaded. The verdict is `waveform-canvas-or-svg-found` (referring to existing SVG/canvas elements, not a new waveform render).
+
+### Known gaps
+
+- Source maps still not public. Bundle analysis is regex / AST / stack-trace based.
+- Playwright `page.coverage` still 0/0; CDP `Profiler.preciseCoverage` works (9.16 MB).
+- Wrapper `addEventListener` patches replace the original listener; setter / method wrappers DO capture the original call stack.
+- Trim/split / effects / keyframes remain `behavior_observed` until a clip is fully selected — selection path is unstable headlessly.
+
 ## Action → Stack → Bundle → Feature Correlation Pass (2026-07-09T10:25:00Z)
 
 ### Commands run
