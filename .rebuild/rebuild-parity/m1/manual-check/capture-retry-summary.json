@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-07-09T19:14:11.934Z",
+  "results": [
+    {
+      "viewport": "desktop",
+      "target": "https://demo.reactvideoeditor.com",
+      "captured": [
+        {
+          "ok": true,
+          "file": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-desktop-my-library.png"
+        },
+        {
+          "ok": true,
+          "file": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-desktop-after-space.png"
+        },
+        {
+          "ok": true,
+          "file": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-desktop-after-import.png"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "viewport": "desktop",
+      "target": "http://localhost:4310",
+      "captured": [
+        {
+          "ok": true,
+          "file": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-desktop-my-library.png"
+        },
+        {
+          "ok": true,
+          "file": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-desktop-after-space.png"
+        },
+        {
+          "ok": true,
+          "file": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-desktop-after-import.png"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "viewport": "laptop",
+      "target": "https://demo.reactvideoeditor.com",
+      "captured": [
+        {
+          "ok": true,
+          "file": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-laptop-my-library.png"
+        },
+        {
+          "ok": true,
+          "file": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-laptop-after-space.png"
+        },
+        {
+          "ok": true,
+          "file": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-laptop-after-import.png"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "viewport": "laptop",
+      "target": "http://localhost:4310",
+      "captured": [
+        {
+          "ok": true,
+          "file": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-laptop-my-library.png"
+        },
+        {
+          "ok": true,
+          "file": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-laptop-after-space.png"
+        },
+        {
+          "ok": true,
+          "file": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-laptop-after-import.png"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "viewport": "mobile",
+      "target": "https://demo.reactvideoeditor.com",
+      "captured": [
+        {
+          "ok": true,
+          "file": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-mobile-after-space.png"
+        }
+      ],
+      "failures": [
+        "my-library https://demo.reactvideoeditor.com: tab not found"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "target": "http://localhost:4310",
+      "captured": [
+        {
+          "ok": true,
+          "file": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-mobile-my-library.png"
+        },
+        {
+          "ok": true,
+          "file": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-mobile-after-space.png"
+        },
+        {
+          "ok": true,
+          "file": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-mobile-after-import.png"
+        }
+      ],
+      "failures": []
+    }
+  ]
+}
