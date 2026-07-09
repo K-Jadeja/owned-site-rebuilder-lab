@@ -7,3 +7,13 @@
 {"timestamp":"2026-07-09T07:13:30Z","event":"storage_complete","phase":"analysis","message":"storage-model.md written."}
 {"timestamp":"2026-07-09T07:13:38Z","event":"reports_complete","phase":"reports","message":"visual-spec, interaction-spec, component-map, implementation-plan, gaps, handoff all regenerated."}
 {"timestamp":"2026-07-09T07:15:30Z","event":"test_complete","phase":"test","message":"33 passed, 6 skipped (fixture media). 2.2m total. All non-fixture parity tests green."}
+{"timestamp":"2026-07-09T07:24:09Z","event":"repo_created","phase":"publish","message":"Public GitHub repo created at github.com/K-Jadeja/owned-site-rebuilder-lab."}
+{"timestamp":"2026-07-09T07:25:04Z","event":"first_commit_pushed","phase":"publish","message":"Initial commit 70134da pushed: 113 files, 15 PNGs, 5.0 MB. Includes all source, screenshots, reports, and feature inventory."}
+{"timestamp":"2026-07-09T08:28:45Z","event":"deep_probe_started","phase":"deep","message":"scripts/deep-probe.mjs launched; targeting F007,F008,F013,F015,F016,F017,F019,F020,F030,F031."}
+{"timestamp":"2026-07-09T08:29:53Z","event":"deep_probe_complete","phase":"deep","message":"deep probe finished; 30 network entries, 33 console msgs; 10 feature JSONs written."}
+{"timestamp":"2026-07-09T08:30:00Z","event":"docs_updated","phase":"deep","message":"feature-inventory.md, feature-matrix.json, state-model.md, event-map.md, acceptance-tests.md, feature-parity.md, handoff.md, verification.md, features.json, progress.md updated with deep-probe findings."}
+{"timestamp":"2026-07-09T08:30:00Z","event":"discovery_advanced_timeline_store","phase":"deep","message":"Pressing Space added 'advanced-timeline-store' to localStorage — strongest observable playback behavior so far."}
+{"timestamp":"2026-07-09T08:30:00Z","event":"discovery_export_dialog","phase":"deep","message":"Click Export Video opens dialog with 720p/1080p/4K + Start Export; 'Rendered in your browser' notice."}
+{"timestamp":"2026-07-09T08:30:00Z","event":"discovery_draggable_track","phase":"deep","message":"Track header buttons have draggable=true (title='Reorder track'). Clip drag selectors need refinement."}
+{"timestamp":"2026-07-09T08:30:00Z","event":"fixtures_generated","phase":"deep","message":"sample.mp4 (71178B h264+aac 5s), sample.mp3 (40585B mp3 5.04s), sample.png (886B 320x240) generated via ffmpeg; ffprobe-verified."}
+{"timestamp":"2026-07-09T08:30:00Z","event":"tests_unskipped","phase":"deep","message":"Fixture-media tests unskipped; all 17 desktop parity tests now pass."}

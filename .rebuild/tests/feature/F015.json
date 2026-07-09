@@ -1,0 +1,70 @@
+{
+  "feature": "F015-clip-selection",
+  "status": "observed",
+  "clickResult": {
+    "ok": true,
+    "box": {
+      "x": 392.7968444824219,
+      "y": 70.24998474121094,
+      "width": 712.0000305175781,
+      "height": 400.50001525878906
+    }
+  },
+  "selectionInfo": [
+    {
+      "tag": "button",
+      "text": "Settings",
+      "classes": "rve:inline-flex rve:items-center rve:justify-center rve:px-3 rve:py-1.5 rve:whitespace-nowrap rve:ri"
+    },
+    {
+      "tag": "div",
+      "text": "",
+      "classes": ""
+    }
+  ],
+  "before": {
+    "url": "https://demo.reactvideoeditor.com/",
+    "title": "Demo | React Video Editor",
+    "timestamp": 1783585769317,
+    "localStorage": {
+      "idb_migration_v1_done": "1783585730624",
+      "lastCleanup_thumbnailCache": "1783585732923"
+    },
+    "sessionStorage": {},
+    "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nAnother Lowfi",
+    "interactiveCount": 58,
+    "visibleVideo": true,
+    "visibleCanvas": true,
+    "shot": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\tests\\feature\\F015-before.png"
+  },
+  "after": {
+    "url": "https://demo.reactvideoeditor.com/#panel=video",
+    "title": "Demo | React Video Editor",
+    "timestamp": 1783585770735,
+    "localStorage": {
+      "idb_migration_v1_done": "1783585730624",
+      "lastCleanup_thumbnailCache": "1783585732923"
+    },
+    "sessionStorage": {},
+    "bodyText": "Video\nChange Video\nSettings\nStyle\nAI\nCrop\nPosition\nVolume\nMute\n100%\nPlayback Speed\n1x (Normal)\nEnter Animations\n(38)\nExit Animations\n(38)\n3D Layout Effects\n(9)\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nAnother Lowfi",
+    "interactiveCount": 69,
+    "visibleVideo": true,
+    "visibleCanvas": true,
+    "shot": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\tests\\feature\\F015-after.png"
+  },
+  "diff": {
+    "url": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "url"
+      ]
+    },
+    "storage": {
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "interactiveCount": true
+  }
+}

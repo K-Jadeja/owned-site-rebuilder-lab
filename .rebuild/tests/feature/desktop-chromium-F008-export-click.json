@@ -1,0 +1,10 @@
+{
+  "clicked": true,
+  "beforeUrl": "https://demo.reactvideoeditor.com/",
+  "afterUrl": "https://demo.reactvideoeditor.com/",
+  "dialogsVisible": 2,
+  "dialogsText": [
+    "",
+    "Export settings\n\nChoose a resolution\n\n720p\n1280 × 720\n1080p\n1920 × 1080\n4K\n3840 × 2160\nRendered in your browser\nCancelStart Export\nClose"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "feature": "F031-persistence-after-reload",
+  "status": "observed",
+  "session1": {
+    "url": "https://demo.reactvideoeditor.com/",
+    "title": "Demo | React Video Editor",
+    "timestamp": 1783585787999,
+    "localStorage": {
+      "idb_migration_v1_done": "1783585785839"
+    },
+    "sessionStorage": {},
+    "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+    "interactiveCount": 58,
+    "visibleVideo": true,
+    "visibleCanvas": false,
+    "shot": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\tests\\feature\\F031-session1.png"
+  },
+  "session1AfterAction": {
+    "url": "https://demo.reactvideoeditor.com/",
+    "title": "Demo | React Video Editor",
+    "timestamp": 1783585789644,
+    "localStorage": {
+      "idb_migration_v1_done": "1783585785839",
+      "lastCleanup_thumbnailCache": "1783585789514"
+    },
+    "sessionStorage": {},
+    "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nLoading...\nAnother Lowfi\nLight\nDark\nRVE",
+    "interactiveCount": 61,
+    "visibleVideo": true,
+    "visibleCanvas": false
+  },
+  "session2": {
+    "url": "https://demo.reactvideoeditor.com/",
+    "title": "Demo | React Video Editor",
+    "timestamp": 1783585792782,
+    "localStorage": {
+      "idb_migration_v1_done": "1783585789944",
+      "lastCleanup_thumbnailCache": "1783585789514"
+    },
+    "sessionStorage": {},
+    "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+    "interactiveCount": 58,
+    "visibleVideo": true,
+    "visibleCanvas": false,
+    "shot": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\tests\\feature\\F031-session2.png"
+  },
+  "persisted": {
+    "storage": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "idb_migration_v1_done"
+      ]
+    },
+    "title": true
+  }
+}

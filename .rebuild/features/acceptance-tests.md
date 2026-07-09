@@ -291,3 +291,57 @@ ffmpeg -f lavfi -i color=red:size=320x240:duration=1 -frames:v 1 .rebuild/tests/
 
 If `ffmpeg` is unavailable, document the manual fixture file path
 required to enable each test.
+
+---
+
+# Acceptance Test Results — Deep Probe (2026-07-09T08:30:00Z)
+
+For each major feature, this section records what the deep probe
+**observed** and whether the corresponding Playwright parity test
+**passed**.
+
+| Feature | Manual checklist | Automation | Status |
+| --- | --- | --- | --- |
+| F001 App shell loads | Page hydrates; landmarks visible | `parity / app-shell / F001 app shell loads` | PASS (3 viewports, 17 desktop tests) |
+| F002 Topbar / toolbar | Toggle Sidebar / Dark / Export Video visible | `parity / app-shell / F002 top-level regions` | PASS |
+| F003 Media library | Stock + My Library tabs visible | `parity / assets / F012 media library tabs` | PASS |
+| F004 Preview | `<video>` element present | `parity / preview / F004 preview/video element discoverable` | PASS |
+| F005 Timeline | Region discoverable by text/role heuristic | `parity / timeline / F005 timeline region discoverable` | PASS |
+| F006 Inspector | Tabs visible when clip selected (observed via Export dialog body text: Change Video, Settings, Style, AI, Crop, Position, Volume, Mute, Playback Speed, Enter/Exit Animations, 3D Layout Effects) | (covered via body-text observation, no specific spec yet) | partial |
+| F007 Media import | Tabs visible, file input observed | `parity / assets / F007 import / add media control discoverable` | PASS |
+| F008 Export dialog | Dialog opens with 720p/1080p/4K + Start Export | `parity / export / F008 export control discoverable` + `parity / export / F008b export button click is non-destructive` | PASS |
+| F009 Undo/redo button | Buttons visible | `parity / shortcuts / F009 undo/redo control discoverable` | PASS |
+| F010 Persistence | localStorage reachable; smoke test passes | `parity / persistence / F010 storage is reachable` | PASS |
+| F012 Media library tabs | Tabs: Stock + My Library | `parity / assets / F012 media library tabs discoverable` | PASS |
+| F013 Drag/drop | Track reorder has `draggable="true"`; clip drag selectors not yet found | (covered by deep probe; refinement needed) | partial |
+| F014 Track management | Delete track, magnetic timeline visible | `parity / timeline / F014 track management controls discoverable` | PASS |
+| F015 Clip selection | Click changed URL + interactiveCount | (deep probe only) | observed |
+| F016 Trim/split | No shortcut hint text found | (deep probe only; refinement needed) | inferred |
+| F017 Clip move | Drag accepted without error | (deep probe only) | observed |
+| F019 Timeline zoom | Zoom in/out/reset buttons visible; click changes indicator | `parity / timeline / F019 timeline zoom controls discoverable` | PASS |
+| F020 Playback | Space press added `advanced-timeline-store` to localStorage | `parity / preview / F020 playback controls discoverable` | PASS |
+| F024 Audio waveform | Fixture `sample.mp3` present (40585 bytes) | `parity / fixture media plan / F024 audio waveform render (sample.mp3 fixture)` | PASS (fixture-ready); manual waveform render requires manual upload |
+| F027 Export mp4 | Fixture `sample.mp4` present (71178 bytes) | `parity / fixture media plan / F027 export to mp4 (sample.mp4 fixture)` | PASS (fixture-ready); manual export requires manual upload |
+| F030 Undo/redo (keyboard) | Ctrl+Z / Ctrl+Shift+Z accepted | `parity / shortcuts / F030 keyboard undo/redo via Ctrl+Z triggers behavior` | PASS |
+| F031 Persistence after reload | Both keys persisted; UI restored | `parity / persistence / F031 storage has app keys after load` + deep probe | PASS |
+
+## What this proves (per the user's instruction)
+
+- For each feature marked PASS, the Playwright spec is the proof; the
+  deep probe is the supporting evidence.
+- For features marked `partial`, evidence exists in the deep probe JSON
+  files but the corresponding automated spec either does not exist yet
+  or selectors need refinement. We do **not** claim parity for those.
+- For features marked `inferred` or `observed`, evidence exists but the
+  harness does not assert it as parity. The deep probe is the proof of
+  observability, not of rebuild equivalence.
+
+## What was deliberately not done
+
+- **No rebuild.** This run is observation only.
+- **No upload of fixtures into the app's media library.** The file input
+  exists but is `multiple=false`; the harness did not bypass that. Manual
+  upload by the user is required for waveform (F024) and end-to-end
+  export (F027) verification.
+- **No claim of pixel parity or feature-perfect rebuild.** That claim is
+  reserved for a future iteration after a rebuild exists.

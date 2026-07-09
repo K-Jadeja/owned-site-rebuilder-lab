@@ -1,0 +1,81 @@
+{
+  "feature": "F007-media-import",
+  "status": "observed",
+  "evidence": {
+    "tabClicked": {
+      "ok": true,
+      "text": "My Library"
+    },
+    "fileInputs": [
+      {
+        "accept": "video/*",
+        "name": "",
+        "multiple": false
+      }
+    ],
+    "uploadAttempt": {
+      "ok": false,
+      "error": "locator.setInputFiles: Error: Non-multiple file input can only accept single file\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"file\"]').first()\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"file\" accept=\"video/*\" class=\"rve:hidden\"/>\u001b[22m\n"
+    }
+  },
+  "before": {
+    "url": "https://demo.reactvideoeditor.com/",
+    "title": "Demo | React Video Editor",
+    "timestamp": 1783585733374,
+    "localStorage": {
+      "idb_migration_v1_done": "1783585730624",
+      "lastCleanup_thumbnailCache": "1783585732923"
+    },
+    "sessionStorage": {},
+    "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+    "interactiveCount": 58,
+    "visibleVideo": true,
+    "visibleCanvas": true,
+    "shot": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\tests\\feature\\F007-before.png"
+  },
+  "afterTab": {
+    "url": "https://demo.reactvideoeditor.com/",
+    "title": "Demo | React Video Editor",
+    "timestamp": 1783585734357,
+    "localStorage": {
+      "idb_migration_v1_done": "1783585730624",
+      "lastCleanup_thumbnailCache": "1783585732923"
+    },
+    "sessionStorage": {},
+    "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+    "interactiveCount": 58,
+    "visibleVideo": true,
+    "visibleCanvas": true,
+    "shot": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\tests\\feature\\F007-after-tab.png"
+  },
+  "after": {
+    "url": "https://demo.reactvideoeditor.com/",
+    "title": "Demo | React Video Editor",
+    "timestamp": 1783585736568,
+    "localStorage": {
+      "idb_migration_v1_done": "1783585730624",
+      "lastCleanup_thumbnailCache": "1783585732923"
+    },
+    "sessionStorage": {},
+    "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+    "interactiveCount": 58,
+    "visibleVideo": true,
+    "visibleCanvas": true,
+    "shot": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\tests\\feature\\F007-after.png"
+  },
+  "diff": {
+    "url": {
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "storage": {
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "interactiveCount": false
+  },
+  "networkDelta": 1,
+  "consoleDelta": 11
+}

@@ -1,31 +1,30 @@
 # Progress
 
-Last updated: 2026-07-09T07:15:00Z
+Last updated: 2026-07-09T08:30:00Z
 
 ## Setup phase
 
-- ✅ Phase 0: Initialize project — done
-- ✅ Phase 1: Create project-local skill — done
-- ✅ Phase 2: Capture scripts — done
-- ✅ Phase 3-5: Probe, bundle, storage scripts — done
-- ✅ Phase 6: Report generator — done
-- ✅ Phase 7: Test scaffolding — done
-- ✅ Phase 8: Documentation — done
-- ✅ Phase 9: Open-source research (FreeCut shallow clone) — done
-- ✅ Phase 10-18: Specs and feature inventory seeded — done
-- ✅ Phase 19-21: Harness state initialized + first pass — done
+- ✅ Phase 0: Initialize project
+- ✅ Phase 1: Create project-local skill
+- ✅ Phase 2: Capture scripts
+- ✅ Phase 3-5: Probe, bundle, storage scripts
+- ✅ Phase 6: Report generator
+- ✅ Phase 7: Test scaffolding
+- ✅ Phase 8: Documentation
+- ✅ Phase 9: Open-source research (FreeCut shallow clone)
+- ✅ Phase 10-18: Specs and feature inventory seeded
+- ✅ Phase 19-21: Harness state initialized + first capture pass
 
-## Capture phase
+## Deep feature probe phase (this run)
 
-- ✅ Phase 20: First capture pass — succeeded
-  - `npm run capture` → 3 viewports, 71 network entries, 18 console
-    messages, 15 bundles, 8 assets
-  - `npm run probe` → 28 interactive nodes, 4 click attempts, 3
-    landmarks
-  - `npm run bundles` → bundle analysis written
-  - `npm run storage` → localStorage keys captured
-  - `npm run reports` → spec + reports + handoff regenerated
-  - `npm test` → 33 passed, 6 skipped (fixture media)
+- ✅ Phase A: Create fixture media
+  - sample.mp4 (71178 bytes, H.264 + AAC, 5.00 s)
+  - sample.mp3 (40585 bytes, MP3, 5.04 s)
+  - sample.png (886 bytes, PNG 320x240 RGB)
+- ✅ Phase B: Unskip fixture tests (all 17 desktop parity tests now pass)
+- ✅ Phase C: Deep feature probes (10 features probed)
+- ✅ Phase D: Update feature records from deep probes
+- ✅ Phase E: Commit + push (next)
 
 ## Real evidence observed
 
@@ -35,14 +34,17 @@ Last updated: 2026-07-09T07:15:00Z
   zoom, Lock canvas, Undo last action, Redo last action, 1x, 16:9,
   Collapse Timeline, Enable magnetic timeline, Delete track
 - Tabs: Stock / My Library
-- localStorage keys: `idb_migration_v1_done`,
-  `lastCleanup_thumbnailCache`
+- File input: `<input type="file" accept="video/*" multiple="false">`
+- localStorage keys: `idb_migration_v1_done`, `lastCleanup_thumbnailCache`
+- **NEW**: Space keypress adds `advanced-timeline-store` to localStorage
+- **NEW**: Click "Export Video" opens dialog with 720p/1080p/4K + Start Export
+- **NEW**: Track headers expose `draggable="true"` for reorder
+- **NEW**: localStorage keys persist across `page.reload()`
 
 ## Next steps
 
-1. Read `.rebuild/features/bundle-analysis.md` for framework clues.
-2. Add fixture media and unskip the fixture tests.
-3. Update `.harness/features.json` to reflect observed statuses.
-4. Refine probe heuristics (Undo/Redo buttons exist but role-click
-   failed).
-5. Begin rebuild per `.rebuild/spec/implementation-plan.md`.
+1. Refine clip-drag selectors with role/text heuristics.
+2. Manually upload a fixture and capture F024 waveform render evidence.
+3. Manually run an export and capture F027 mp4 download evidence.
+4. Begin a **separate** rebuild run (this harness run is observation only).
+5. Add per-feature parity specs that target a future rebuilt app.

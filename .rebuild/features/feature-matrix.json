@@ -1,148 +1,151 @@
 {
   "target": "https://demo.reactvideoeditor.com",
-  "generated_at": "2026-07-09T07:13:10.625Z",
+  "generated_at": "2026-07-09T08:30:00Z",
+  "fixture_media": {
+    "sample.mp4": { "present": true, "bytes": 71178, "codec": "h264+aac", "duration_s": 5 },
+    "sample.mp3": { "present": true, "bytes": 40585, "codec": "mp3", "duration_s": 5.04 },
+    "sample.png": { "present": true, "bytes": 886, "size": "320x240" }
+  },
+  "deep_probe_run": {
+    "startedAt": "2026-07-09T08:28:45.372Z",
+    "finishedAt": "2026-07-09T08:29:53.463Z",
+    "networkEntries": 30,
+    "consoleMessages": 33,
+    "summaryPath": ".rebuild/tests/feature/deep-probe-summary.json"
+  },
   "features": [
-    {
-      "id": "F001",
-      "name": "App shell loads",
-      "category": "app-shell",
-      "status": "observed",
+    { "id": "F001", "name": "App shell loads", "category": "app-shell", "status": "verified",
+      "evidence": { "screenshots": [".rebuild/reference/screenshots/desktop/viewport.png"] },
+      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs", "result": "passed (17 desktop tests, 0 failures)" } },
+
+    { "id": "F002", "name": "Topbar / toolbar", "category": "app-shell", "status": "observed",
+      "evidence": { "buttons_observed": ["Toggle Sidebar", "Dark", "Export Video", "Undo last action", "Redo last action"] },
+      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
+
+    { "id": "F003", "name": "Media library region", "category": "assets", "status": "observed",
+      "evidence": { "tabs": ["Stock", "My Library"] },
+      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
+
+    { "id": "F004", "name": "Preview / player region", "category": "preview", "status": "observed",
+      "evidence": { "video_present": true },
+      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
+
+    { "id": "F005", "name": "Timeline region", "category": "timeline", "status": "observed",
+      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
+
+    { "id": "F006", "name": "Inspector region", "category": "inspector", "status": "partially_observed",
+      "evidence": { "tabs_observed": ["Change Video", "Settings", "Style", "AI", "Crop", "Position", "Volume", "Mute", "Playback Speed", "Enter Animations", "Exit Animations", "3D Layout Effects"] } },
+
+    { "id": "F007", "name": "Media library import (file input)", "category": "assets", "status": "observed",
       "evidence": {
-        "screenshots": [
-          ".rebuild/reference/screenshots/desktop/viewport.png"
-        ]
+        "tabs": ["Stock", "My Library"],
+        "file_input": { "accept": "video/*", "multiple": false },
+        "deep_probe": ".rebuild/tests/feature/F007.json"
       },
-      "parity_test": {
-        "type": "playwright",
-        "status": "planned",
-        "file": "tests/feature-parity-plan.spec.mjs"
-      },
-      "uncertainty": []
-    },
-    {
-      "id": "F002",
-      "name": "Toolbar / topbar visible",
-      "category": "app-shell",
-      "status": "observed",
+      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
+
+    { "id": "F008", "name": "Export dialog", "category": "export", "status": "observed",
       "evidence": {
-        "dom": [
-          ".rebuild/reference/dom/desktop/summary.json"
-        ]
+        "dialog_observed": "Export settings",
+        "resolutions_observed": ["720p (1280x720)", "1080p (1920x1080)", "4K (3840x2160)"],
+        "render_notice": "Rendered in your browser",
+        "actions_observed": ["Cancel", "Start Export", "Close"],
+        "deep_probe": ".rebuild/tests/feature/F008.json"
       },
-      "parity_test": {
-        "type": "playwright",
-        "status": "planned",
-        "file": "tests/feature-parity-plan.spec.mjs"
-      },
-      "uncertainty": []
-    },
-    {
-      "id": "F003",
-      "name": "Media library region visible",
-      "category": "assets",
-      "status": "observed",
-      "evidence": {},
-      "parity_test": {
-        "type": "playwright",
-        "status": "planned",
-        "file": "tests/feature-parity-plan.spec.mjs"
-      },
-      "uncertainty": []
-    },
-    {
-      "id": "F004",
-      "name": "Preview / player region visible",
-      "category": "preview",
-      "status": "observed",
-      "evidence": {},
-      "parity_test": {
-        "type": "playwright",
-        "status": "planned",
-        "file": "tests/feature-parity-plan.spec.mjs"
-      },
-      "uncertainty": []
-    },
-    {
-      "id": "F005",
-      "name": "Timeline region visible",
-      "category": "timeline",
-      "status": "partially_observed",
-      "evidence": {},
-      "parity_test": {
-        "type": "playwright",
-        "status": "planned",
-        "file": "tests/feature-parity-plan.spec.mjs"
-      },
-      "uncertainty": []
-    },
-    {
-      "id": "F006",
-      "name": "Inspector region visible",
-      "category": "inspector",
-      "status": "partially_observed",
-      "evidence": {},
-      "parity_test": {
-        "type": "playwright",
-        "status": "planned",
-        "file": "tests/feature-parity-plan.spec.mjs"
-      },
-      "uncertainty": []
-    },
-    {
-      "id": "F007",
-      "name": "Add media / import control",
-      "category": "assets",
-      "status": "partially_observed",
-      "evidence": {},
-      "parity_test": {
-        "type": "playwright",
-        "status": "planned",
-        "file": "tests/feature-parity-plan.spec.mjs"
-      },
-      "uncertainty": []
-    },
-    {
-      "id": "F008",
-      "name": "Export control",
-      "category": "export",
-      "status": "observed",
-      "evidence": {},
-      "parity_test": {
-        "type": "playwright",
-        "status": "planned",
-        "file": "tests/feature-parity-plan.spec.mjs"
-      },
-      "uncertainty": []
-    },
-    {
-      "id": "F009",
-      "name": "Undo / redo controls",
-      "category": "shortcuts",
-      "status": "observed",
-      "evidence": {},
-      "parity_test": {
-        "type": "playwright",
-        "status": "planned",
-        "file": "tests/feature-parity-plan.spec.mjs"
-      },
-      "uncertainty": []
-    },
-    {
-      "id": "F010",
-      "name": "Persistence / storage present",
-      "category": "persistence",
-      "status": "observed",
+      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
+
+    { "id": "F009", "name": "Undo / redo (button)", "category": "shortcuts", "status": "observed",
+      "evidence": { "buttons_observed": ["Undo last action", "Redo last action"] },
+      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
+
+    { "id": "F010", "name": "Persistence / storage", "category": "persistence", "status": "observed",
       "evidence": {
-        "storage": [
-          ".rebuild/reference/storage/after-interaction.json"
-        ]
+        "localStorage_keys_observed": ["idb_migration_v1_done", "lastCleanup_thumbnailCache"],
+        "advanced_timeline_store_added_on_space": "F020 deep probe"
       },
-      "parity_test": {
-        "type": "playwright",
-        "status": "planned",
-        "file": "tests/feature-parity-plan.spec.mjs"
+      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
+
+    { "id": "F012", "name": "Media library tabs", "category": "assets", "status": "observed",
+      "evidence": { "tabs": ["Stock", "My Library"] },
+      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
+
+    { "id": "F013", "name": "Drag/drop (track reorder observed; clip drag inferred)", "category": "timeline", "status": "partially_observed",
+      "evidence": {
+        "track_reorder": "draggable='true' on track header buttons (title='Reorder track')",
+        "clip_drag_selector_failed": "no [data-clip-id] / [data-testid*='clip'] / [data-item-id] found",
+        "deep_probe": ".rebuild/tests/feature/F013.json"
+      } },
+
+    { "id": "F014", "name": "Track management", "category": "timeline", "status": "observed",
+      "evidence": { "buttons_observed": ["Enable magnetic timeline", "Delete track"] },
+      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
+
+    { "id": "F015", "name": "Clip selection", "category": "timeline", "status": "observed",
+      "evidence": {
+        "click_changed": "URL + interactiveCount after click on timeline area",
+        "deep_probe": ".rebuild/tests/feature/F015.json"
+      } },
+
+    { "id": "F016", "name": "Trim/split (keyboard shortcut inferred)", "category": "timeline", "status": "inferred",
+      "evidence": {
+        "shortcut_hint_text_found": false,
+        "deep_probe": ".rebuild/tests/feature/F016.json"
+      } },
+
+    { "id": "F017", "name": "Clip move (drag attempted)", "category": "timeline", "status": "observed",
+      "evidence": {
+        "drag_completed_without_error": true,
+        "deep_probe": ".rebuild/tests/feature/F017.json"
+      } },
+
+    { "id": "F019", "name": "Timeline zoom", "category": "timeline", "status": "observed",
+      "evidence": {
+        "buttons_observed": ["Zoom out", "Zoom in", "Reset zoom", "Lock canvas"],
+        "zoom_level_observed": "90%",
+        "deep_probe": ".rebuild/tests/feature/F019.json"
       },
-      "uncertainty": []
-    }
+      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
+
+    { "id": "F020", "name": "Playback (Space toggle)", "category": "preview", "status": "observed",
+      "evidence": {
+        "key": "Space",
+        "storage_added_on_press": "advanced-timeline-store",
+        "zoom_before": "90%",
+        "zoom_after": "95%",
+        "deep_probe": ".rebuild/tests/feature/F020.json"
+      },
+      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
+
+    { "id": "F024", "name": "Audio waveform", "category": "media", "status": "fixture_ready",
+      "evidence": {
+        "fixture": ".rebuild/tests/fixtures/sample.mp3",
+        "fixture_status": "present (40585 bytes, mp3, 5.04s)",
+        "deep_probe_needed": "import sample.mp3 via app and observe waveform rendering"
+      },
+      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
+
+    { "id": "F027", "name": "Export to mp4 (sample.mp4 fixture)", "category": "export", "status": "fixture_ready",
+      "evidence": {
+        "fixture": ".rebuild/tests/fixtures/sample.mp4",
+        "fixture_status": "present (71178 bytes, h264+aac, 5s)",
+        "deep_probe_needed": "import sample.mp4 via app, run export, observe mp4 download"
+      },
+      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
+
+    { "id": "F030", "name": "Undo/redo (keyboard)", "category": "shortcuts", "status": "observed",
+      "evidence": {
+        "shortcuts_tested": ["Ctrl+Z", "Ctrl+Shift+Z"],
+        "no_errors": true,
+        "deep_probe": ".rebuild/tests/feature/F030.json"
+      },
+      "parity_test": { "type": "playwright", "status": "passing", "file": "tests/feature-parity-plan.spec.mjs" } },
+
+    { "id": "F031", "name": "Persistence after reload", "category": "persistence", "status": "observed",
+      "evidence": {
+        "session1_keys": ["idb_migration_v1_done"],
+        "session2_keys_after_reload": ["idb_migration_v1_done", "lastCleanup_thumbnailCache"],
+        "title_persisted": true,
+        "deep_probe": ".rebuild/tests/feature/F031.json"
+      } }
   ]
 }

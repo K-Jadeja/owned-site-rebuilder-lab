@@ -1,0 +1,140 @@
+{
+  "feature": "F013-drag-drop",
+  "status": "partially_observed",
+  "evidence": {
+    "droppables": [],
+    "draggables": [
+      {
+        "tag": "div",
+        "attrs": [
+          "class=rve:flex rve:h-6 rve:w-9 rve:items-cente",
+          "draggable=true",
+          "title=Reorder track"
+        ],
+        "box": {
+          "x": 70.59375,
+          "y": 615,
+          "w": 20,
+          "h": 24
+        }
+      },
+      {
+        "tag": "div",
+        "attrs": [
+          "class=rve:flex rve:h-6 rve:w-9 rve:items-cente",
+          "draggable=true",
+          "title=Reorder track"
+        ],
+        "box": {
+          "x": 70.59375,
+          "y": 663,
+          "w": 20,
+          "h": 24
+        }
+      },
+      {
+        "tag": "div",
+        "attrs": [
+          "class=rve:flex rve:h-6 rve:w-9 rve:items-cente",
+          "draggable=true",
+          "title=Reorder track"
+        ],
+        "box": {
+          "x": 70.59375,
+          "y": 711,
+          "w": 20,
+          "h": 24
+        }
+      },
+      {
+        "tag": "div",
+        "attrs": [
+          "class=rve:flex rve:h-6 rve:w-9 rve:items-cente",
+          "draggable=true",
+          "title=Reorder track"
+        ],
+        "box": {
+          "x": 70.59375,
+          "y": 759,
+          "w": 20,
+          "h": 24
+        }
+      },
+      {
+        "tag": "div",
+        "attrs": [
+          "class=rve:flex rve:h-6 rve:w-9 rve:items-cente",
+          "draggable=true",
+          "title=Reorder track"
+        ],
+        "box": {
+          "x": 70.59375,
+          "y": 807,
+          "w": 20,
+          "h": 24
+        }
+      },
+      {
+        "tag": "div",
+        "attrs": [
+          "class=rve:flex rve:h-6 rve:w-9 rve:items-cente",
+          "draggable=true",
+          "title=Reorder track"
+        ],
+        "box": {
+          "x": 70.59375,
+          "y": 855,
+          "w": 20,
+          "h": 24
+        }
+      }
+    ]
+  },
+  "dragAttempt": {
+    "ok": false,
+    "error": "locator.boundingBox: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-track-id], [data-testid*=\"track\"]').first()\u001b[22m\n"
+  },
+  "before": {
+    "url": "https://demo.reactvideoeditor.com/",
+    "title": "Demo | React Video Editor",
+    "timestamp": 1783585737241,
+    "localStorage": {
+      "idb_migration_v1_done": "1783585730624",
+      "lastCleanup_thumbnailCache": "1783585732923"
+    },
+    "sessionStorage": {},
+    "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nLoading...\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nLoading...\nLoading...\nLoading...\nAnother Lowfi",
+    "interactiveCount": 58,
+    "visibleVideo": true,
+    "visibleCanvas": true,
+    "shot": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\tests\\feature\\F013-before.png"
+  },
+  "after": {
+    "url": "https://demo.reactvideoeditor.com/",
+    "title": "Demo | React Video Editor",
+    "timestamp": 1783585768971,
+    "localStorage": {
+      "idb_migration_v1_done": "1783585730624",
+      "lastCleanup_thumbnailCache": "1783585732923"
+    },
+    "sessionStorage": {},
+    "bodyText": "Video\nStock\nMy Library\n\nUse the search to find videos\n\nEnter a search term above\n\nToggle Sidebar\nDark\nExport Video\n90%\n1x\n0:00.00\n/\n0:33.70\n16:9\n0s\n5s\n10s\n15s\n20s\n25s\n30s\nTheres never been a better time to create amazing video experiences on the web\nVideo AI is evolving faster than ever before.\nReact Video Editor is building for this future.\nThere's never been a better time to build.\nWhat are you waiting for?\nAnother Lowfi",
+    "interactiveCount": 58,
+    "visibleVideo": true,
+    "visibleCanvas": true,
+    "shot": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\tests\\feature\\F013-after.png"
+  },
+  "diff": {
+    "url": {
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "storage": {
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "interactiveCount": false
+  }
+}

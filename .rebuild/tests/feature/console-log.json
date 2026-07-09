@@ -1,0 +1,200 @@
+[
+  {
+    "type": "log",
+    "text": "[useProjectStateFromUrl] No 'projectId' parameter found, using fallback tracks",
+    "viewport": "desktop",
+    "timestamp": 1783585730586
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-ob4wt1-1-40, interval: 1s, height: 40px",
+    "viewport": "desktop",
+    "timestamp": 1783585731132
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1rfe6ip-1-40, interval: 1s, height: 40px",
+    "viewport": "desktop",
+    "timestamp": 1783585731136
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1udzx29-1-40, interval: 1s, height: 40px",
+    "viewport": "desktop",
+    "timestamp": 1783585731137
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1gqds2q-1-40, interval: 1s, height: 40px",
+    "viewport": "desktop",
+    "timestamp": 1783585731141
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-cr1ex8-1-40, interval: 1s, height: 40px",
+    "viewport": "desktop",
+    "timestamp": 1783585731141
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] firstTimestampSec: 0",
+    "viewport": "desktop",
+    "timestamp": 1783585732182
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Keyframe analysis - Video Duration: 9.08s, Keyframes: (count: 3, interval: 3.040s, rate: 0.33 keyframes/sec), intervalSec: 1s",
+    "viewport": "desktop",
+    "timestamp": 1783585732187
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Keyframe rate is much higher than the interval we want to use, falling back to interval-based sampling",
+    "viewport": "desktop",
+    "timestamp": 1783585732187
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Successfully cached sprite for key: video-thumbnail-1rfe6ip-1-40 firstTimestampSec: 0 dimensions: 284x120 size: 0.01MB tileHeight: 40px totalTiles: 10 interval: 1s",
+    "viewport": "desktop",
+    "timestamp": 1783585732924
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Completed sprite generation for key: video-thumbnail-1rfe6ip-1-40, tiles: 10, duration: 1802ms",
+    "viewport": "desktop",
+    "timestamp": 1783585732924
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] firstTimestampSec: 0",
+    "viewport": "desktop",
+    "timestamp": 1783585738917
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Keyframe analysis - Video Duration: 15.02s, Keyframes: (count: 5, interval: 3.003s, rate: 0.33 keyframes/sec), intervalSec: 1s",
+    "viewport": "desktop",
+    "timestamp": 1783585738917
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Keyframe rate is much higher than the interval we want to use, falling back to interval-based sampling",
+    "viewport": "desktop",
+    "timestamp": 1783585738917
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] firstTimestampSec: 0",
+    "viewport": "desktop",
+    "timestamp": 1783585739121
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Keyframe analysis - Video Duration: 40.96s, Keyframes: (count: 14, interval: 3.040s, rate: 0.33 keyframes/sec), intervalSec: 1s",
+    "viewport": "desktop",
+    "timestamp": 1783585739156
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Keyframe rate is much higher than the interval we want to use, falling back to interval-based sampling",
+    "viewport": "desktop",
+    "timestamp": 1783585739156
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] firstTimestampSec: 0",
+    "viewport": "desktop",
+    "timestamp": 1783585739510
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Keyframe analysis - Video Duration: 14.44s, Keyframes: (count: 6, interval: 2.432s, rate: 0.41 keyframes/sec), intervalSec: 1s",
+    "viewport": "desktop",
+    "timestamp": 1783585739519
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Keyframe rate is much higher than the interval we want to use, falling back to interval-based sampling",
+    "viewport": "desktop",
+    "timestamp": 1783585739519
+  },
+  {
+    "type": "log",
+    "text": "[onSave] Editor state saved: {tracks: Array(6), aspectRatio: 16:9, backgroundColor: white, playbackRate: 1, savedAt: 1783585740582}",
+    "viewport": "desktop",
+    "timestamp": 1783585740584
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Successfully cached sprite for key: video-thumbnail-1udzx29-1-40 firstTimestampSec: 0 dimensions: 284x160 size: 0.01MB tileHeight: 40px totalTiles: 15 interval: 1s",
+    "viewport": "desktop",
+    "timestamp": 1783585740849
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Completed sprite generation for key: video-thumbnail-1udzx29-1-40, tiles: 15, duration: 9712ms",
+    "viewport": "desktop",
+    "timestamp": 1783585740850
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Successfully cached sprite for key: video-thumbnail-1gqds2q-1-40 firstTimestampSec: 0 dimensions: 284x160 size: 0.01MB tileHeight: 40px totalTiles: 16 interval: 1s",
+    "viewport": "desktop",
+    "timestamp": 1783585741209
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Completed sprite generation for key: video-thumbnail-1gqds2q-1-40, tiles: 16, duration: 10073ms",
+    "viewport": "desktop",
+    "timestamp": 1783585741209
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] firstTimestampSec: 0",
+    "viewport": "desktop",
+    "timestamp": 1783585741472
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Keyframe analysis - Video Duration: 33.90s, Keyframes: (count: 14, interval: 2.538s, rate: 0.39 keyframes/sec), intervalSec: 1s",
+    "viewport": "desktop",
+    "timestamp": 1783585741495
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Keyframe rate is much higher than the interval we want to use, falling back to interval-based sampling",
+    "viewport": "desktop",
+    "timestamp": 1783585741495
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Successfully cached sprite for key: video-thumbnail-ob4wt1-1-40 firstTimestampSec: 0 dimensions: 426x240 size: 0.02MB tileHeight: 40px totalTiles: 34 interval: 1s",
+    "viewport": "desktop",
+    "timestamp": 1783585744389
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Completed sprite generation for key: video-thumbnail-ob4wt1-1-40, tiles: 34, duration: 13269ms",
+    "viewport": "desktop",
+    "timestamp": 1783585744389
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Successfully cached sprite for key: video-thumbnail-cr1ex8-1-40 firstTimestampSec: 0 dimensions: 532x240 size: 0.03MB tileHeight: 40px totalTiles: 41 interval: 1s",
+    "viewport": "desktop",
+    "timestamp": 1783585745265
+  },
+  {
+    "type": "log",
+    "text": "[ThumbnailCache] Completed sprite generation for key: video-thumbnail-cr1ex8-1-40, tiles: 41, duration: 14127ms",
+    "viewport": "desktop",
+    "timestamp": 1783585745265
+  },
+  {
+    "type": "log",
+    "text": "[onSave] Editor state saved: {tracks: Array(6), aspectRatio: 16:9, backgroundColor: white, playbackRate: 1, savedAt: 1783585780585}",
+    "viewport": "desktop",
+    "timestamp": 1783585780590
+  }
+]
