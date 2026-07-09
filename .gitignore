@@ -1,0 +1,18 @@
+node_modules/
+.playwright-cache/
+test-results/
+playwright-report/
+playwright/.cache/
+# FreeCut reference clone (re-clone with: git clone --depth 1 https://github.com/walterlow/freecut.git .research/freecut)
+.research/freecut/
+# Session log is local-only
+.harness/session-log.jsonl.tmp
+# OS noise
+.DS_Store
+Thumbs.db
+# Editor
+.vscode/
+.idea/
+*.log
+# Stray dirs from test runs (we write to .rebuild/reference/screenshots/, not ./screenshots/)
+/screenshots/

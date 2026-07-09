@@ -1,0 +1,14 @@
+{
+  "url": "https://demo.reactvideoeditor.com/",
+  "title": "Demo | React Video Editor",
+  "localStorage": {
+    "idb_migration_v1_done": "1783581209981"
+  },
+  "sessionStorage": {},
+  "indexedDB": [
+    {
+      "name": "VideoEditorDB",
+      "version": 2
+    }
+  ]
+}

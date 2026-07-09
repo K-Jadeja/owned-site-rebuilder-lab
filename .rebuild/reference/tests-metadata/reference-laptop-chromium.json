@@ -1,0 +1,13 @@
+{
+  "project": "owned-site-rebuilder-lab",
+  "target": "https://demo.reactvideoeditor.com",
+  "projectName": "laptop-chromium",
+  "title": "Demo | React Video Editor",
+  "finalUrl": "https://demo.reactvideoeditor.com/",
+  "status": 200,
+  "timestamp": "2026-07-09T07:15:09.135Z",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  }
+}

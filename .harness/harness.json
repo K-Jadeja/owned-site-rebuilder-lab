@@ -1,0 +1,30 @@
+{
+  "project": "owned-site-rebuilder-lab",
+  "target_url": "https://demo.reactvideoeditor.com",
+  "created_at": "2026-07-09T07:10:08.120Z",
+  "tool_versions": {
+    "node": "v20.15.0",
+    "npm": "10.8.2",
+    "playwright": "1.45.x (declared in package.json)"
+  },
+  "verification_commands": {
+    "install": "npm install",
+    "browser": "npx playwright install chromium",
+    "capture": "npm run capture",
+    "probe": "npm run probe",
+    "bundles": "npm run bundles",
+    "storage": "npm run storage",
+    "reports": "npm run reports",
+    "test": "npm test"
+  },
+  "safety_boundaries": {
+    "auth_bypass": "forbidden",
+    "secret_extraction": "forbidden",
+    "vulnerability_exploitation": "forbidden",
+    "private_user_data_scraping": "forbidden",
+    "third_party_proprietary_copying": "forbidden",
+    "claim_hidden_backend_recovery": "forbidden",
+    "fake_results": "forbidden"
+  },
+  "owner_assertion": "User has asserted ownership or authorization to analyze demo.reactvideoeditor.com."
+}

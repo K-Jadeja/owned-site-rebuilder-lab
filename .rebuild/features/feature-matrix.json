@@ -1,0 +1,148 @@
+{
+  "target": "https://demo.reactvideoeditor.com",
+  "generated_at": "2026-07-09T07:13:10.625Z",
+  "features": [
+    {
+      "id": "F001",
+      "name": "App shell loads",
+      "category": "app-shell",
+      "status": "observed",
+      "evidence": {
+        "screenshots": [
+          ".rebuild/reference/screenshots/desktop/viewport.png"
+        ]
+      },
+      "parity_test": {
+        "type": "playwright",
+        "status": "planned",
+        "file": "tests/feature-parity-plan.spec.mjs"
+      },
+      "uncertainty": []
+    },
+    {
+      "id": "F002",
+      "name": "Toolbar / topbar visible",
+      "category": "app-shell",
+      "status": "observed",
+      "evidence": {
+        "dom": [
+          ".rebuild/reference/dom/desktop/summary.json"
+        ]
+      },
+      "parity_test": {
+        "type": "playwright",
+        "status": "planned",
+        "file": "tests/feature-parity-plan.spec.mjs"
+      },
+      "uncertainty": []
+    },
+    {
+      "id": "F003",
+      "name": "Media library region visible",
+      "category": "assets",
+      "status": "observed",
+      "evidence": {},
+      "parity_test": {
+        "type": "playwright",
+        "status": "planned",
+        "file": "tests/feature-parity-plan.spec.mjs"
+      },
+      "uncertainty": []
+    },
+    {
+      "id": "F004",
+      "name": "Preview / player region visible",
+      "category": "preview",
+      "status": "observed",
+      "evidence": {},
+      "parity_test": {
+        "type": "playwright",
+        "status": "planned",
+        "file": "tests/feature-parity-plan.spec.mjs"
+      },
+      "uncertainty": []
+    },
+    {
+      "id": "F005",
+      "name": "Timeline region visible",
+      "category": "timeline",
+      "status": "partially_observed",
+      "evidence": {},
+      "parity_test": {
+        "type": "playwright",
+        "status": "planned",
+        "file": "tests/feature-parity-plan.spec.mjs"
+      },
+      "uncertainty": []
+    },
+    {
+      "id": "F006",
+      "name": "Inspector region visible",
+      "category": "inspector",
+      "status": "partially_observed",
+      "evidence": {},
+      "parity_test": {
+        "type": "playwright",
+        "status": "planned",
+        "file": "tests/feature-parity-plan.spec.mjs"
+      },
+      "uncertainty": []
+    },
+    {
+      "id": "F007",
+      "name": "Add media / import control",
+      "category": "assets",
+      "status": "partially_observed",
+      "evidence": {},
+      "parity_test": {
+        "type": "playwright",
+        "status": "planned",
+        "file": "tests/feature-parity-plan.spec.mjs"
+      },
+      "uncertainty": []
+    },
+    {
+      "id": "F008",
+      "name": "Export control",
+      "category": "export",
+      "status": "observed",
+      "evidence": {},
+      "parity_test": {
+        "type": "playwright",
+        "status": "planned",
+        "file": "tests/feature-parity-plan.spec.mjs"
+      },
+      "uncertainty": []
+    },
+    {
+      "id": "F009",
+      "name": "Undo / redo controls",
+      "category": "shortcuts",
+      "status": "observed",
+      "evidence": {},
+      "parity_test": {
+        "type": "playwright",
+        "status": "planned",
+        "file": "tests/feature-parity-plan.spec.mjs"
+      },
+      "uncertainty": []
+    },
+    {
+      "id": "F010",
+      "name": "Persistence / storage present",
+      "category": "persistence",
+      "status": "observed",
+      "evidence": {
+        "storage": [
+          ".rebuild/reference/storage/after-interaction.json"
+        ]
+      },
+      "parity_test": {
+        "type": "playwright",
+        "status": "planned",
+        "file": "tests/feature-parity-plan.spec.mjs"
+      },
+      "uncertainty": []
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+[
+  {
+    "viewport": "desktop",
+    "type": "log",
+    "text": "[useProjectStateFromUrl] No 'projectId' parameter found, using fallback tracks",
+    "location": {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "line": 0,
+      "column": 125897,
+      "lineNumber": 0,
+      "columnNumber": 125897
+    },
+    "timestamp": 1783581157136
+  },
+  {
+    "viewport": "desktop",
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-ob4wt1-1-40, interval: 1s, height: 40px",
+    "location": {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "line": 0,
+      "column": 867279,
+      "lineNumber": 0,
+      "columnNumber": 867279
+    },
+    "timestamp": 1783581157544
+  },
+  {
+    "viewport": "desktop",
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1rfe6ip-1-40, interval: 1s, height: 40px",
+    "location": {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "line": 0,
+      "column": 867279,
+      "lineNumber": 0,
+      "columnNumber": 867279
+    },
+    "timestamp": 1783581157553
+  },
+  {
+    "viewport": "desktop",
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1udzx29-1-40, interval: 1s, height: 40px",
+    "location": {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "line": 0,
+      "column": 867279,
+      "lineNumber": 0,
+      "columnNumber": 867279
+    },
+    "timestamp": 1783581157554
+  },
+  {
+    "viewport": "desktop",
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1gqds2q-1-40, interval: 1s, height: 40px",
+    "location": {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "line": 0,
+      "column": 867279,
+      "lineNumber": 0,
+      "columnNumber": 867279
+    },
+    "timestamp": 1783581157554
+  },
+  {
+    "viewport": "desktop",
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-cr1ex8-1-40, interval: 1s, height: 40px",
+    "location": {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "line": 0,
+      "column": 867279,
+      "lineNumber": 0,
+      "columnNumber": 867279
+    },
+    "timestamp": 1783581157555
+  },
+  {
+    "viewport": "laptop",
+    "type": "log",
+    "text": "[useProjectStateFromUrl] No 'projectId' parameter found, using fallback tracks",
+    "location": {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "line": 0,
+      "column": 125897,
+      "lineNumber": 0,
+      "columnNumber": 125897
+    },
+    "timestamp": 1783581160925
+  },
+  {
+    "viewport": "laptop",
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-ob4wt1-1-40, interval: 1s, height: 40px",
+    "location": {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "line": 0,
+      "column": 867279,
+      "lineNumber": 0,
+      "columnNumber": 867279
+    },
+    "timestamp": 1783581161073
+  },
+  {
+    "viewport": "laptop",
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1rfe6ip-1-40, interval: 1s, height: 40px",
+    "location": {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "line": 0,
+      "column": 867279,
+      "lineNumber": 0,
+      "columnNumber": 867279
+    },
+    "timestamp": 1783581161084
+  },
+  {
+    "viewport": "laptop",
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1udzx29-1-40, interval: 1s, height: 40px",
+    "location": {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "line": 0,
+      "column": 867279,
+      "lineNumber": 0,
+      "columnNumber": 867279
+    },
+    "timestamp": 1783581161085
+  },
+  {
+    "viewport": "laptop",
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1gqds2q-1-40, interval: 1s, height: 40px",
+    "location": {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "line": 0,
+      "column": 867279,
+      "lineNumber": 0,
+      "columnNumber": 867279
+    },
+    "timestamp": 1783581161085
+  },
+  {
+    "viewport": "laptop",
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-cr1ex8-1-40, interval: 1s, height: 40px",
+    "location": {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "line": 0,
+      "column": 867279,
+      "lineNumber": 0,
+      "columnNumber": 867279
+    },
+    "timestamp": 1783581161085
+  },
+  {
+    "viewport": "mobile",
+    "type": "log",
+    "text": "[useProjectStateFromUrl] No 'projectId' parameter found, using fallback tracks",
+    "location": {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "line": 0,
+      "column": 125897,
+      "lineNumber": 0,
+      "columnNumber": 125897
+    },
+    "timestamp": 1783581164356
+  },
+  {
+    "viewport": "mobile",
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-ob4wt1-1-40, interval: 1s, height: 40px",
+    "location": {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "line": 0,
+      "column": 867279,
+      "lineNumber": 0,
+      "columnNumber": 867279
+    },
+    "timestamp": 1783581164528
+  },
+  {
+    "viewport": "mobile",
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1rfe6ip-1-40, interval: 1s, height: 40px",
+    "location": {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "line": 0,
+      "column": 867279,
+      "lineNumber": 0,
+      "columnNumber": 867279
+    },
+    "timestamp": 1783581164529
+  },
+  {
+    "viewport": "mobile",
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1udzx29-1-40, interval: 1s, height: 40px",
+    "location": {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "line": 0,
+      "column": 867279,
+      "lineNumber": 0,
+      "columnNumber": 867279
+    },
+    "timestamp": 1783581164538
+  },
+  {
+    "viewport": "mobile",
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-1gqds2q-1-40, interval: 1s, height: 40px",
+    "location": {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "line": 0,
+      "column": 867279,
+      "lineNumber": 0,
+      "columnNumber": 867279
+    },
+    "timestamp": 1783581164539
+  },
+  {
+    "viewport": "mobile",
+    "type": "log",
+    "text": "[ThumbnailCache] Generating new sprite for key: video-thumbnail-cr1ex8-1-40, interval: 1s, height: 40px",
+    "location": {
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "line": 0,
+      "column": 867279,
+      "lineNumber": 0,
+      "columnNumber": 867279
+    },
+    "timestamp": 1783581164539
+  }
+]

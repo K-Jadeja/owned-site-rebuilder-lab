@@ -1,0 +1,11 @@
+{
+  "target": "https://demo.reactvideoeditor.com",
+  "project": "mobile-chromium",
+  "viewport": {
+    "width": 393,
+    "height": 727
+  },
+  "shot": ".rebuild\\tests\\visual\\reference-mobile-chromium.png",
+  "fullShot": ".rebuild\\tests\\visual\\reference-mobile-chromium-full.png",
+  "timestamp": "2026-07-09T07:15:58.444Z"
+}

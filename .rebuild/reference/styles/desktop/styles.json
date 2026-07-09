@@ -1,0 +1,150 @@
+[
+  {
+    "selector": "body",
+    "found": true,
+    "tag": "body",
+    "classes": "__variable_246ccd __variable_c29908 antialiased",
+    "box": null,
+    "font": {
+      "family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "color": "rgb(0, 0, 0)"
+    },
+    "bg": "rgba(0, 0, 0, 0)",
+    "border": {
+      "top": "0px solid rgb(0, 0, 0)",
+      "right": "0px solid rgb(0, 0, 0)",
+      "bottom": "0px solid rgb(0, 0, 0)",
+      "left": "0px solid rgb(0, 0, 0)",
+      "radius": "0px"
+    },
+    "layout": {
+      "display": "block",
+      "position": "static",
+      "flexDirection": "row",
+      "gridTemplateColumns": "none",
+      "gap": "normal"
+    },
+    "spacing": {
+      "padding": "0px",
+      "margin": "0px"
+    },
+    "shadow": "none"
+  },
+  {
+    "selector": "header",
+    "found": true,
+    "tag": "header",
+    "classes": "rve:sticky rve:top-0 rve:flex rve:shrink-0 rve:items-center rve:gap-2.5 rve:border-l rve:bg-background rve:p-2.5 rve:px-4.5",
+    "box": {
+      "x": 58,
+      "y": 0,
+      "w": 1382,
+      "h": 48
+    },
+    "font": {
+      "family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "color": "rgb(0, 0, 0)"
+    },
+    "bg": "rgb(9, 9, 11)",
+    "border": {
+      "top": "0px solid rgb(39, 39, 43)",
+      "right": "0px solid rgb(39, 39, 43)",
+      "bottom": "0px solid rgb(39, 39, 43)",
+      "left": "1px solid rgb(39, 39, 43)",
+      "radius": "0px"
+    },
+    "layout": {
+      "display": "flex",
+      "position": "sticky",
+      "flexDirection": "row",
+      "gridTemplateColumns": "none",
+      "gap": "10px"
+    },
+    "spacing": {
+      "padding": "10px 18px",
+      "margin": "0px"
+    },
+    "shadow": "none"
+  },
+  {
+    "selector": "nav",
+    "found": false
+  },
+  {
+    "selector": "main",
+    "found": true,
+    "tag": "main",
+    "classes": "rve:relative rve:flex rve:w-full rve:flex-1 rve:flex-col rve:bg-background rve:md:peer-data-[variant=inset]:m-2 rve:md:peer-data-[variant=inset]:ml-0 rve:md:peer-data-[variant=inset]:rounded-xl rve:md",
+    "box": {
+      "x": 58,
+      "y": 0,
+      "w": 1382,
+      "h": 900
+    },
+    "font": {
+      "family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "size": "16px",
+      "weight": "400",
+      "lineHeight": "24px",
+      "color": "rgb(0, 0, 0)"
+    },
+    "bg": "rgb(9, 9, 11)",
+    "border": {
+      "top": "0px solid rgb(39, 39, 43)",
+      "right": "0px solid rgb(39, 39, 43)",
+      "bottom": "0px solid rgb(39, 39, 43)",
+      "left": "0px solid rgb(39, 39, 43)",
+      "radius": "0px"
+    },
+    "layout": {
+      "display": "flex",
+      "position": "relative",
+      "flexDirection": "column",
+      "gridTemplateColumns": "none",
+      "gap": "normal"
+    },
+    "spacing": {
+      "padding": "0px",
+      "margin": "0px"
+    },
+    "shadow": "none"
+  },
+  {
+    "selector": "aside",
+    "found": false
+  },
+  {
+    "selector": "footer",
+    "found": false
+  },
+  {
+    "selector": "[role=\"toolbar\"]",
+    "found": false
+  },
+  {
+    "selector": "[role=\"navigation\"]",
+    "found": false
+  },
+  {
+    "selector": "[role=\"banner\"]",
+    "found": false
+  },
+  {
+    "selector": "[role=\"complementary\"]",
+    "found": false
+  },
+  {
+    "selector": "[role=\"main\"]",
+    "found": false
+  },
+  {
+    "selector": "[role=\"region\"]",
+    "found": false
+  }
+]

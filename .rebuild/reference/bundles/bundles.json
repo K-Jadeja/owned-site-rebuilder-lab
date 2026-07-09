@@ -1,0 +1,107 @@
+[
+  {
+    "url": "https://demo.reactvideoeditor.com/_next/static/css/8fe5e52289a2a44c.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "status": 200,
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://demo.reactvideoeditor.com/_next/static/chunks/255-4ecccced1aaa83b0.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+    "method": "GET",
+    "resourceType": "script",
+    "status": 200,
+    "contentType": "application/javascript; charset=utf-8"
+  },
+  {
+    "url": "https://demo.reactvideoeditor.com/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "status": 200,
+    "contentType": "font/woff2"
+  },
+  {
+    "url": "https://demo.reactvideoeditor.com/_next/static/chunks/main-app-f9b5d20365cb8be2.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+    "method": "GET",
+    "resourceType": "script",
+    "status": 200,
+    "contentType": "application/javascript; charset=utf-8"
+  },
+  {
+    "url": "https://demo.reactvideoeditor.com/_next/static/chunks/55eb4b32-87960e808445d7a8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+    "method": "GET",
+    "resourceType": "script",
+    "status": 200,
+    "contentType": "application/javascript; charset=utf-8"
+  },
+  {
+    "url": "https://demo.reactvideoeditor.com/_next/static/css/7496db7969e5bcd2.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "status": 200,
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+    "method": "GET",
+    "resourceType": "script",
+    "status": 200,
+    "contentType": "application/javascript; charset=utf-8"
+  },
+  {
+    "url": "https://demo.reactvideoeditor.com/_next/static/chunks/app/page-6ba9b2f710dee95c.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+    "method": "GET",
+    "resourceType": "script",
+    "status": 200,
+    "contentType": "application/javascript; charset=utf-8"
+  },
+  {
+    "url": "https://demo.reactvideoeditor.com/_next/static/chunks/webpack-08d55afbbfac36e8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+    "method": "GET",
+    "resourceType": "script",
+    "status": 200,
+    "contentType": "application/javascript; charset=utf-8"
+  },
+  {
+    "url": "https://demo.reactvideoeditor.com/_next/static/chunks/839b68eb-f64514b466814bbd.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+    "method": "GET",
+    "resourceType": "script",
+    "status": 200,
+    "contentType": "application/javascript; charset=utf-8"
+  },
+  {
+    "url": "https://demo.reactvideoeditor.com/_next/static/chunks/a9a36fa4-57726476e27cb934.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+    "method": "GET",
+    "resourceType": "script",
+    "status": 200,
+    "contentType": "application/javascript; charset=utf-8"
+  },
+  {
+    "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+    "method": "GET",
+    "resourceType": "script",
+    "status": 200,
+    "contentType": "application/javascript; charset=utf-8"
+  },
+  {
+    "url": "https://demo.reactvideoeditor.com/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "status": 200,
+    "contentType": "font/woff2"
+  },
+  {
+    "url": "https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+    "method": "GET",
+    "resourceType": "script",
+    "status": 200,
+    "contentType": "application/javascript; charset=utf-8"
+  },
+  {
+    "url": "https://demo.reactvideoeditor.com/_next/static/chunks/135.af73a71e3f9acb4f.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+    "method": "GET",
+    "resourceType": "script",
+    "status": 200,
+    "contentType": "application/javascript; charset=utf-8"
+  }
+]

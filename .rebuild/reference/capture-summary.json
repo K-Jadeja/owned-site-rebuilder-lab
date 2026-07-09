@@ -1,0 +1,57 @@
+{
+  "target": "https://demo.reactvideoeditor.com",
+  "startedAt": "2026-07-09T07:12:29.420Z",
+  "finishedAt": "2026-07-09T07:12:46.578Z",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900,
+      "url": "https://demo.reactvideoeditor.com/",
+      "title": "Demo | React Video Editor",
+      "navOk": true,
+      "navError": null,
+      "durationMs": 7129,
+      "screenshotFull": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\reference\\screenshots\\desktop\\full.png",
+      "screenshotViewport": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\reference\\screenshots\\desktop\\viewport.png",
+      "outerHtmlSize": 138091,
+      "bundleCount": 14,
+      "assetCount": 4
+    },
+    {
+      "name": "laptop",
+      "width": 1280,
+      "height": 800,
+      "url": "https://demo.reactvideoeditor.com/",
+      "title": "Demo | React Video Editor",
+      "navOk": true,
+      "navError": null,
+      "durationMs": 3314,
+      "screenshotFull": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\reference\\screenshots\\laptop\\full.png",
+      "screenshotViewport": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\reference\\screenshots\\laptop\\viewport.png",
+      "outerHtmlSize": 137708,
+      "bundleCount": 11,
+      "assetCount": 4
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "url": "https://demo.reactvideoeditor.com/",
+      "title": "Demo | React Video Editor",
+      "navOk": true,
+      "navError": null,
+      "durationMs": 3169,
+      "screenshotFull": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\reference\\screenshots\\mobile\\full.png",
+      "screenshotViewport": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\reference\\screenshots\\mobile\\viewport.png",
+      "outerHtmlSize": 109910,
+      "bundleCount": 10,
+      "assetCount": 4
+    }
+  ],
+  "networkCount": 71,
+  "consoleCount": 18,
+  "bundleCount": 15,
+  "assetCount": 8,
+  "errors": []
+}

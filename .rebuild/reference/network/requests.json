@@ -1,0 +1,2954 @@
+[
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/",
+      "resourceType": "document",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "age": "765280",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-disposition": "inline",
+        "content-encoding": "br",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Thu, 09 Jul 2026 07:12:37 GMT",
+        "etag": "W/\"f70bf6a2d560466dacd8f4f560ca5026\"",
+        "server": "Vercel",
+        "strict-transport-security": "max-age=63072000",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+        "x-matched-path": "/",
+        "x-nextjs-prerender": "1",
+        "x-nextjs-stale-time": "300",
+        "x-vercel-cache": "HIT",
+        "x-vercel-id": "bom1::llw4w-1783581156727-ba7be3c9af4d"
+      },
+      "contentType": "text/html; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/css/8fe5e52289a2a44c.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/css/8fe5e52289a2a44c.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"e219321dd5149222dd6ad2a530902385\"",
+        "age": "614589",
+        "x-matched-path": "/_next/static/css/8fe5e52289a2a44c.css",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:37 GMT",
+        "content-disposition": "inline; filename=\"8fe5e52289a2a44c.css\"",
+        "content-type": "text/css; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::llw4w-1783581157163-b91ab67055fd"
+      },
+      "contentType": "text/css; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/255-4ecccced1aaa83b0.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/255-4ecccced1aaa83b0.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"b894b1bb4eab4f332e0eae8aec0d15ae\"",
+        "age": "614589",
+        "x-matched-path": "/_next/static/chunks/255-4ecccced1aaa83b0.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:37 GMT",
+        "content-disposition": "inline; filename=\"255-4ecccced1aaa83b0.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::rj2lp-1783581157164-04cbff3abf63"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+      "resourceType": "font",
+      "headers": {
+        "origin": "https://demo.reactvideoeditor.com",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "x-vercel-cache": "HIT",
+        "etag": "\"cd5b25781181c5c03d99ac2cbf88016a\"",
+        "age": "614589",
+        "x-matched-path": "/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "23108",
+        "date": "Thu, 09 Jul 2026 07:12:37 GMT",
+        "content-disposition": "inline; filename=\"7d4881bb7e1bf84d-s.p.woff2\"",
+        "content-type": "font/woff2",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::wqhxl-1783581157164-ace7d479a030"
+      },
+      "contentType": "font/woff2",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/main-app-f9b5d20365cb8be2.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/main-app-f9b5d20365cb8be2.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "x-vercel-cache": "HIT",
+        "etag": "\"2ea3555d16ca35739670f961f81f8eaa\"",
+        "age": "614590",
+        "x-matched-path": "/_next/static/chunks/main-app-f9b5d20365cb8be2.js",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "557",
+        "date": "Thu, 09 Jul 2026 07:12:37 GMT",
+        "content-disposition": "inline; filename=\"main-app-f9b5d20365cb8be2.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::62hsz-1783581157165-11ac55cded93"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/55eb4b32-87960e808445d7a8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/55eb4b32-87960e808445d7a8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"b7fac32c9d660f36da7b424f2ad2e655\"",
+        "age": "614589",
+        "x-matched-path": "/_next/static/chunks/55eb4b32-87960e808445d7a8.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:37 GMT",
+        "content-disposition": "inline; filename=\"55eb4b32-87960e808445d7a8.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::ph6jc-1783581157166-5a38aabe9c86"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/css/7496db7969e5bcd2.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/css/7496db7969e5bcd2.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"7cf72a9eee886f9b865f90a7dbb02f45\"",
+        "age": "614590",
+        "x-matched-path": "/_next/static/css/7496db7969e5bcd2.css",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:37 GMT",
+        "content-disposition": "inline; filename=\"7496db7969e5bcd2.css\"",
+        "content-type": "text/css; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::gfgnj-1783581157163-5ab65e9e9001"
+      },
+      "contentType": "text/css; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"8e1faceca2dc750866518d8af38ea871\"",
+        "age": "614589",
+        "x-matched-path": "/_next/static/chunks/61-d3d99d30faface72.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:37 GMT",
+        "content-disposition": "inline; filename=\"61-d3d99d30faface72.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::bd68v-1783581157167-bff139e56ac3"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/app/page-6ba9b2f710dee95c.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/app/page-6ba9b2f710dee95c.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"d9649e9e25fd3442c4436d88a4ed3fe0\"",
+        "age": "614590",
+        "x-matched-path": "/_next/static/chunks/app/page-6ba9b2f710dee95c.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:37 GMT",
+        "content-disposition": "inline; filename=\"page-6ba9b2f710dee95c.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::fxxkj-1783581157167-e1a0bd1c6367"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/webpack-08d55afbbfac36e8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/webpack-08d55afbbfac36e8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"78edf71386656e5d5725f770357f89dc\"",
+        "age": "7431",
+        "x-matched-path": "/_next/static/chunks/webpack-08d55afbbfac36e8.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:37 GMT",
+        "content-disposition": "inline; filename=\"webpack-08d55afbbfac36e8.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 09 Jul 2026 05:08:45 GMT",
+        "x-vercel-id": "bom1::ttzv2-1783581157165-6b59dc3e7a52"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/839b68eb-f64514b466814bbd.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/839b68eb-f64514b466814bbd.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"b7d196b604d59ccb33c428e8281cb7ed\"",
+        "age": "614590",
+        "x-matched-path": "/_next/static/chunks/839b68eb-f64514b466814bbd.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:37 GMT",
+        "content-disposition": "inline; filename=\"839b68eb-f64514b466814bbd.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::7pbrm-1783581157166-1100fc21b987"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/a9a36fa4-57726476e27cb934.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/a9a36fa4-57726476e27cb934.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"dc8270f37317045d973805f5b38b3c19\"",
+        "age": "614590",
+        "x-matched-path": "/_next/static/chunks/a9a36fa4-57726476e27cb934.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:37 GMT",
+        "content-disposition": "inline; filename=\"a9a36fa4-57726476e27cb934.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::kxl76-1783581157165-ddb9864d7913"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"46fc7a970d86b56c7c88ee58c546ead2\"",
+        "age": "614589",
+        "x-matched-path": "/_next/static/chunks/180476bc-91ccc8fcb48478c4.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:37 GMT",
+        "content-disposition": "inline; filename=\"180476bc-91ccc8fcb48478c4.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::h7gcx-1783581157167-e815d5b4e037"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+      "resourceType": "font",
+      "headers": {
+        "origin": "https://demo.reactvideoeditor.com",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "x-vercel-cache": "HIT",
+        "etag": "\"f4634c3bc1fa7cb53247e1f2872adb5a\"",
+        "age": "614590",
+        "x-matched-path": "/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "29288",
+        "date": "Thu, 09 Jul 2026 07:12:37 GMT",
+        "content-disposition": "inline; filename=\"22a5144ee8d83bca-s.p.woff2\"",
+        "content-type": "font/woff2",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::8xzs7-1783581157177-913775d4daa5"
+      },
+      "contentType": "font/woff2",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "MISS",
+        "etag": "W/\"81cd3b2d7a933bcc456bfcdf03a6ba1f\"",
+        "age": "0",
+        "x-matched-path": "/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:37 GMT",
+        "content-disposition": "inline; filename=\"4bd1b696-c023c6e3521b1417.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 09 Jul 2026 07:12:37 GMT",
+        "x-vercel-id": "bom1::c667w-1783581157164-6007d6f49e22"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "resourceType": "media",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "accept-encoding": "identity;q=1, *;q=0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "range": "bytes=0-",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 206,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "dAvCGeuSqtL2gjxSJ55iqQzFCD0rs6V5",
+        "etag": "\"d7b2e85bd082d44b764846959000de5c\"",
+        "age": "2210342",
+        "expires": "Fri, 09 Jul 2027 07:12:38 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "wmB8XkAtq3wS9QX8jH9xhZu0QQeZLo0oB4TWbvMF5JODxvfUq1JHlg==",
+        "date": "Thu, 09 Jul 2026 07:12:38 GMT",
+        "content-type": "video/mp4",
+        "vary": "Origin",
+        "last-modified": "Tue, 26 Mar 2024 16:39:41 GMT",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=31536000",
+        "content-range": "bytes 0-11660810/11660811",
+        "via": "1.1 43af3f074d724dd135e986688bed033e.cloudfront.net (CloudFront)",
+        "cf-ray": "a18585816a8079fc-BOM",
+        "access-control-allow-origin": "*",
+        "content-length": "11660811",
+        "x-amz-cf-pop": "SEA73-P3",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/7722221/7722221-hd_1280_720_25fps.mp4",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/7722221/7722221-hd_1280_720_25fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "qS5eyDsZnBY5ZHDWDYUjp1vNOSyCIgmU",
+        "etag": "\"e814464f99e956436024d1124de25b23\"",
+        "expires": "Fri, 09 Jul 2027 07:12:38 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "e4qK4EF0Kle1IdPJsCqsr9_u4r6DydA1uyI5j2kzHyXYJVcPRlyxXQ==",
+        "date": "Thu, 09 Jul 2026 07:12:38 GMT",
+        "content-type": "video/mp4",
+        "last-modified": "Tue, 26 Mar 2024 21:10:15 GMT",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=31536000",
+        "via": "1.1 8c1b0d772e0acbdf68d346f16fbb34ea.cloudfront.net (CloudFront)",
+        "cf-ray": "a185858168ad2b14-BOM",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "2844016",
+        "x-amz-cf-pop": "AMS58-P6",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/856142/856142-hd_1920_1080_30fps.mp4",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/856142/856142-hd_1920_1080_30fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "maKYCj2Pj9zDLzkvJm._lPtpkGbyRzhq",
+        "etag": "\"43fd9a66fc823309cd0474a345950d4e\"",
+        "expires": "Fri, 09 Jul 2027 07:12:38 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "s7xQ31mDtzDb0-u-Dyz72Vjxiq8ldPOpxDlbwQW6IYviydw8gAP3Fg==",
+        "date": "Thu, 09 Jul 2026 07:12:38 GMT",
+        "content-type": "video/mp4",
+        "last-modified": "Tue, 26 Mar 2024 16:40:45 GMT",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=31536000",
+        "via": "1.1 916d412afdd39cf0d9689036f0f43bb4.cloudfront.net (CloudFront)",
+        "cf-ray": "a185858168af2b14-BOM",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "7262572",
+        "x-amz-cf-pop": "AMS58-P6",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/7664770/7664770-hd_1280_720_25fps.mp4",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/7664770/7664770-hd_1280_720_25fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "eQCjfly2MvKKGJ8pVKsKrLF_z3KHixUl",
+        "etag": "\"cc54ae475373d6ec1a908ecad14e2f91\"",
+        "expires": "Fri, 09 Jul 2027 07:12:38 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Hit from cloudfront",
+        "x-amz-cf-id": "Pp6L8H_5uI09GHRvtnfq1qgB2diPO0aJJIpaNs0SXprpKSS_wTc3ag==",
+        "date": "Thu, 09 Jul 2026 07:12:38 GMT",
+        "content-type": "video/mp4",
+        "last-modified": "Tue, 26 Mar 2024 21:03:26 GMT",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=31536000",
+        "via": "1.1 e9ece8a38ce6bb2b68b3b5a87615cfee.cloudfront.net (CloudFront)",
+        "cf-ray": "a185858168aa2b14-BOM",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "3670103",
+        "x-amz-cf-pop": "TLV50-C1",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/7180708/7180708-hd_2048_1080_25fps.mp4",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/7180708/7180708-hd_2048_1080_25fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "smmDC2XPdsCjDg7ak7otNkzmlbwtKo1u",
+        "etag": "\"a1ec65a468f0e4e1b92b3ba5336da50c-5\"",
+        "expires": "Fri, 09 Jul 2027 07:12:38 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "M6vrQfjPb7b49xA8bm2uWzcFRQ6_xDhhllUzVdYEi3MYFNIDKo60ew==",
+        "date": "Thu, 09 Jul 2026 07:12:38 GMT",
+        "content-type": "video/mp4",
+        "last-modified": "Tue, 26 Mar 2024 20:30:49 GMT",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=31536000",
+        "via": "1.1 0bdea9339f79fea2216fd97b3f7856f2.cloudfront.net (CloudFront)",
+        "cf-ray": "a185858168ae2b14-BOM",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "21855582",
+        "x-amz-cf-pop": "AMS58-P6",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "dAvCGeuSqtL2gjxSJ55iqQzFCD0rs6V5",
+        "etag": "\"d7b2e85bd082d44b764846959000de5c\"",
+        "expires": "Fri, 09 Jul 2027 07:12:38 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "L2katvBRwXPR9xj9Y_tQ9RkaG4eMnr2A3XYpXIWXjOpe-jBdDR8z1g==",
+        "date": "Thu, 09 Jul 2026 07:12:38 GMT",
+        "content-type": "video/mp4",
+        "last-modified": "Tue, 26 Mar 2024 16:39:41 GMT",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=31536000",
+        "via": "1.1 b7f8e0880cd5f19b3036b75b021c1c76.cloudfront.net (CloudFront)",
+        "cf-ray": "a1858581d95c2b14-BOM",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "11660811",
+        "x-amz-cf-pop": "AMS58-P6",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "desktop",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "resourceType": "media",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "accept-encoding": "identity;q=1, *;q=0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "range": "bytes=0-",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 206,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "dAvCGeuSqtL2gjxSJ55iqQzFCD0rs6V5",
+        "etag": "\"d7b2e85bd082d44b764846959000de5c\"",
+        "age": "2210343",
+        "expires": "Fri, 09 Jul 2027 07:12:39 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "wmB8XkAtq3wS9QX8jH9xhZu0QQeZLo0oB4TWbvMF5JODxvfUq1JHlg==",
+        "date": "Thu, 09 Jul 2026 07:12:39 GMT",
+        "content-type": "video/mp4",
+        "vary": "Origin",
+        "last-modified": "Tue, 26 Mar 2024 16:39:41 GMT",
+        "priority": "u=3,i",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "server-timing": "cfExtPri",
+        "cache-control": "public, max-age=31536000",
+        "content-range": "bytes 0-11660810/11660811",
+        "via": "1.1 43af3f074d724dd135e986688bed033e.cloudfront.net (CloudFront)",
+        "cf-ray": "a18585888b063a19-BOM",
+        "access-control-allow-origin": "*",
+        "content-length": "11660811",
+        "x-amz-cf-pop": "SEA73-P3",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/",
+      "resourceType": "document",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "age": "765284",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-disposition": "inline",
+        "content-encoding": "br",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Thu, 09 Jul 2026 07:12:40 GMT",
+        "etag": "W/\"f70bf6a2d560466dacd8f4f560ca5026\"",
+        "server": "Vercel",
+        "strict-transport-security": "max-age=63072000",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+        "x-matched-path": "/",
+        "x-nextjs-prerender": "1",
+        "x-nextjs-stale-time": "300",
+        "x-vercel-cache": "HIT",
+        "x-vercel-id": "bom1::6d6n7-1783581160964-18ad5167d2a7"
+      },
+      "contentType": "text/html; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/css/7496db7969e5bcd2.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/css/7496db7969e5bcd2.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"7cf72a9eee886f9b865f90a7dbb02f45\"",
+        "age": "614593",
+        "x-matched-path": "/_next/static/css/7496db7969e5bcd2.css",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:41 GMT",
+        "content-disposition": "inline; filename=\"7496db7969e5bcd2.css\"",
+        "content-type": "text/css; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::2l8d9-1783581161039-b4a3a53d1a77"
+      },
+      "contentType": "text/css; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/css/8fe5e52289a2a44c.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/css/8fe5e52289a2a44c.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"e219321dd5149222dd6ad2a530902385\"",
+        "age": "614593",
+        "x-matched-path": "/_next/static/css/8fe5e52289a2a44c.css",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:41 GMT",
+        "content-disposition": "inline; filename=\"8fe5e52289a2a44c.css\"",
+        "content-type": "text/css; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::t7dhv-1783581161039-d41465e7fd8a"
+      },
+      "contentType": "text/css; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+      "resourceType": "font",
+      "headers": {
+        "origin": "https://demo.reactvideoeditor.com",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "x-vercel-cache": "HIT",
+        "etag": "\"f4634c3bc1fa7cb53247e1f2872adb5a\"",
+        "age": "614593",
+        "x-matched-path": "/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "29288",
+        "date": "Thu, 09 Jul 2026 07:12:41 GMT",
+        "content-disposition": "inline; filename=\"22a5144ee8d83bca-s.p.woff2\"",
+        "content-type": "font/woff2",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::llw4w-1783581161039-d20ea010b439"
+      },
+      "contentType": "font/woff2",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/webpack-08d55afbbfac36e8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/webpack-08d55afbbfac36e8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"78edf71386656e5d5725f770357f89dc\"",
+        "age": "7435",
+        "x-matched-path": "/_next/static/chunks/webpack-08d55afbbfac36e8.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:41 GMT",
+        "content-disposition": "inline; filename=\"webpack-08d55afbbfac36e8.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 09 Jul 2026 05:08:45 GMT",
+        "x-vercel-id": "bom1::xjq2f-1783581161041-ff0d203759f0"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+      "resourceType": "font",
+      "headers": {
+        "origin": "https://demo.reactvideoeditor.com",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "x-vercel-cache": "HIT",
+        "etag": "\"cd5b25781181c5c03d99ac2cbf88016a\"",
+        "age": "614593",
+        "x-matched-path": "/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "23108",
+        "date": "Thu, 09 Jul 2026 07:12:41 GMT",
+        "content-disposition": "inline; filename=\"7d4881bb7e1bf84d-s.p.woff2\"",
+        "content-type": "font/woff2",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::pg7vs-1783581161040-828c65a963e9"
+      },
+      "contentType": "font/woff2",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/app/page-6ba9b2f710dee95c.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/app/page-6ba9b2f710dee95c.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"d9649e9e25fd3442c4436d88a4ed3fe0\"",
+        "age": "614593",
+        "x-matched-path": "/_next/static/chunks/app/page-6ba9b2f710dee95c.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:41 GMT",
+        "content-disposition": "inline; filename=\"page-6ba9b2f710dee95c.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::vhjnd-1783581161069-22efa3bb0b90"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"81cd3b2d7a933bcc456bfcdf03a6ba1f\"",
+        "age": "3",
+        "x-matched-path": "/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:41 GMT",
+        "content-disposition": "inline; filename=\"4bd1b696-c023c6e3521b1417.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 09 Jul 2026 07:12:37 GMT",
+        "x-vercel-id": "bom1::xjq2f-1783581161068-52f8f52bffdf"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/839b68eb-f64514b466814bbd.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/839b68eb-f64514b466814bbd.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"b7d196b604d59ccb33c428e8281cb7ed\"",
+        "age": "614593",
+        "x-matched-path": "/_next/static/chunks/839b68eb-f64514b466814bbd.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:41 GMT",
+        "content-disposition": "inline; filename=\"839b68eb-f64514b466814bbd.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::lqqrw-1783581161069-e3ee4c218e19"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/main-app-f9b5d20365cb8be2.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/main-app-f9b5d20365cb8be2.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "x-vercel-cache": "HIT",
+        "etag": "\"2ea3555d16ca35739670f961f81f8eaa\"",
+        "age": "614594",
+        "x-matched-path": "/_next/static/chunks/main-app-f9b5d20365cb8be2.js",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "557",
+        "date": "Thu, 09 Jul 2026 07:12:41 GMT",
+        "content-disposition": "inline; filename=\"main-app-f9b5d20365cb8be2.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::6n4km-1783581161068-0a982206b120"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/a9a36fa4-57726476e27cb934.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/a9a36fa4-57726476e27cb934.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"dc8270f37317045d973805f5b38b3c19\"",
+        "age": "614593",
+        "x-matched-path": "/_next/static/chunks/a9a36fa4-57726476e27cb934.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:41 GMT",
+        "content-disposition": "inline; filename=\"a9a36fa4-57726476e27cb934.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::llw4w-1783581161068-dbe6dfcc7716"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/55eb4b32-87960e808445d7a8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/55eb4b32-87960e808445d7a8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"b7fac32c9d660f36da7b424f2ad2e655\"",
+        "age": "614593",
+        "x-matched-path": "/_next/static/chunks/55eb4b32-87960e808445d7a8.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:41 GMT",
+        "content-disposition": "inline; filename=\"55eb4b32-87960e808445d7a8.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::rzn4t-1783581161069-4b0f6a509d0f"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/255-4ecccced1aaa83b0.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/255-4ecccced1aaa83b0.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"b894b1bb4eab4f332e0eae8aec0d15ae\"",
+        "age": "614593",
+        "x-matched-path": "/_next/static/chunks/255-4ecccced1aaa83b0.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:41 GMT",
+        "content-disposition": "inline; filename=\"255-4ecccced1aaa83b0.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::2l8d9-1783581161072-b03aa763ff59"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"8e1faceca2dc750866518d8af38ea871\"",
+        "age": "614593",
+        "x-matched-path": "/_next/static/chunks/61-d3d99d30faface72.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:41 GMT",
+        "content-disposition": "inline; filename=\"61-d3d99d30faface72.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::h7gcx-1783581161069-0203db79c2f3"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"46fc7a970d86b56c7c88ee58c546ead2\"",
+        "age": "614593",
+        "x-matched-path": "/_next/static/chunks/180476bc-91ccc8fcb48478c4.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:41 GMT",
+        "content-disposition": "inline; filename=\"180476bc-91ccc8fcb48478c4.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::wq95z-1783581161069-0efb71b4ce94"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/7180708/7180708-hd_2048_1080_25fps.mp4",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/7180708/7180708-hd_2048_1080_25fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "smmDC2XPdsCjDg7ak7otNkzmlbwtKo1u",
+        "etag": "\"a1ec65a468f0e4e1b92b3ba5336da50c-5\"",
+        "age": "427247",
+        "expires": "Fri, 09 Jul 2027 07:12:42 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "M6vrQfjPb7b49xA8bm2uWzcFRQ6_xDhhllUzVdYEi3MYFNIDKo60ew==",
+        "date": "Thu, 09 Jul 2026 07:12:42 GMT",
+        "content-type": "video/mp4",
+        "last-modified": "Tue, 26 Mar 2024 20:30:49 GMT",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=31536000",
+        "via": "1.1 0bdea9339f79fea2216fd97b3f7856f2.cloudfront.net (CloudFront)",
+        "cf-ray": "a18585972fb60de6-BOM",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "21855582",
+        "x-amz-cf-pop": "AMS58-P6",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/7664770/7664770-hd_1280_720_25fps.mp4",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/7664770/7664770-hd_1280_720_25fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "eQCjfly2MvKKGJ8pVKsKrLF_z3KHixUl",
+        "etag": "\"cc54ae475373d6ec1a908ecad14e2f91\"",
+        "age": "701219",
+        "expires": "Fri, 09 Jul 2027 07:12:42 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Hit from cloudfront",
+        "x-amz-cf-id": "Pp6L8H_5uI09GHRvtnfq1qgB2diPO0aJJIpaNs0SXprpKSS_wTc3ag==",
+        "date": "Thu, 09 Jul 2026 07:12:42 GMT",
+        "content-type": "video/mp4",
+        "last-modified": "Tue, 26 Mar 2024 21:03:26 GMT",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=31536000",
+        "via": "1.1 e9ece8a38ce6bb2b68b3b5a87615cfee.cloudfront.net (CloudFront)",
+        "cf-ray": "a18585971faf0de6-BOM",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "3670103",
+        "x-amz-cf-pop": "TLV50-C1",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/7722221/7722221-hd_1280_720_25fps.mp4",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/7722221/7722221-hd_1280_720_25fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "qS5eyDsZnBY5ZHDWDYUjp1vNOSyCIgmU",
+        "etag": "\"e814464f99e956436024d1124de25b23\"",
+        "age": "619757",
+        "expires": "Fri, 09 Jul 2027 07:12:42 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "e4qK4EF0Kle1IdPJsCqsr9_u4r6DydA1uyI5j2kzHyXYJVcPRlyxXQ==",
+        "date": "Thu, 09 Jul 2026 07:12:42 GMT",
+        "content-type": "video/mp4",
+        "last-modified": "Tue, 26 Mar 2024 21:10:15 GMT",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=31536000",
+        "via": "1.1 8c1b0d772e0acbdf68d346f16fbb34ea.cloudfront.net (CloudFront)",
+        "cf-ray": "a18585971fac0de6-BOM",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "2844016",
+        "x-amz-cf-pop": "AMS58-P6",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "resourceType": "media",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "accept-encoding": "identity;q=1, *;q=0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "range": "bytes=0-",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 206,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "dAvCGeuSqtL2gjxSJ55iqQzFCD0rs6V5",
+        "etag": "\"d7b2e85bd082d44b764846959000de5c\"",
+        "expires": "Fri, 09 Jul 2027 07:12:42 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "wmB8XkAtq3wS9QX8jH9xhZu0QQeZLo0oB4TWbvMF5JODxvfUq1JHlg==",
+        "date": "Thu, 09 Jul 2026 07:12:42 GMT",
+        "content-type": "video/mp4",
+        "vary": "Origin",
+        "last-modified": "Tue, 26 Mar 2024 16:39:41 GMT",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=31536000",
+        "content-range": "bytes 0-11660810/11660811",
+        "via": "1.1 43af3f074d724dd135e986688bed033e.cloudfront.net (CloudFront)",
+        "cf-ray": "a1858597280883bc-BOM",
+        "access-control-allow-origin": "*",
+        "content-length": "11660811",
+        "x-amz-cf-pop": "SEA73-P3",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/135.af73a71e3f9acb4f.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/135.af73a71e3f9acb4f.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "x-vercel-cache": "MISS",
+        "etag": "\"83946c14b9db08ccb3db37d61adfdeff\"",
+        "age": "0",
+        "x-matched-path": "/_next/static/chunks/135.af73a71e3f9acb4f.js",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "452",
+        "date": "Thu, 09 Jul 2026 07:12:42 GMT",
+        "content-disposition": "inline; filename=\"135.af73a71e3f9acb4f.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 09 Jul 2026 07:12:42 GMT",
+        "x-vercel-id": "bom1::jwwb6-1783581161959-d3de562d6ad8"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/856142/856142-hd_1920_1080_30fps.mp4",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/856142/856142-hd_1920_1080_30fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "maKYCj2Pj9zDLzkvJm._lPtpkGbyRzhq",
+        "etag": "\"43fd9a66fc823309cd0474a345950d4e\"",
+        "expires": "Fri, 09 Jul 2027 07:12:42 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "s7xQ31mDtzDb0-u-Dyz72Vjxiq8ldPOpxDlbwQW6IYviydw8gAP3Fg==",
+        "date": "Thu, 09 Jul 2026 07:12:42 GMT",
+        "content-type": "video/mp4",
+        "last-modified": "Tue, 26 Mar 2024 16:40:45 GMT",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=31536000",
+        "via": "1.1 916d412afdd39cf0d9689036f0f43bb4.cloudfront.net (CloudFront)",
+        "cf-ray": "a18585972fb30de6-BOM",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "7262572",
+        "x-amz-cf-pop": "AMS58-P6",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "dAvCGeuSqtL2gjxSJ55iqQzFCD0rs6V5",
+        "etag": "\"d7b2e85bd082d44b764846959000de5c\"",
+        "expires": "Fri, 09 Jul 2027 07:12:42 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "L2katvBRwXPR9xj9Y_tQ9RkaG4eMnr2A3XYpXIWXjOpe-jBdDR8z1g==",
+        "date": "Thu, 09 Jul 2026 07:12:42 GMT",
+        "content-type": "video/mp4",
+        "last-modified": "Tue, 26 Mar 2024 16:39:41 GMT",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=31536000",
+        "via": "1.1 b7f8e0880cd5f19b3036b75b021c1c76.cloudfront.net (CloudFront)",
+        "cf-ray": "a18585985a910de6-BOM",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "11660811",
+        "x-amz-cf-pop": "AMS58-P6",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "resourceType": "media",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "accept-encoding": "identity;q=1, *;q=0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "range": "bytes=0-",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 206,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "dAvCGeuSqtL2gjxSJ55iqQzFCD0rs6V5",
+        "etag": "\"d7b2e85bd082d44b764846959000de5c\"",
+        "age": "2210347",
+        "expires": "Fri, 09 Jul 2027 07:12:43 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "wmB8XkAtq3wS9QX8jH9xhZu0QQeZLo0oB4TWbvMF5JODxvfUq1JHlg==",
+        "date": "Thu, 09 Jul 2026 07:12:43 GMT",
+        "content-type": "video/mp4",
+        "vary": "Origin",
+        "last-modified": "Tue, 26 Mar 2024 16:39:41 GMT",
+        "priority": "u=3,i",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "server-timing": "cfExtPri",
+        "cache-control": "public, max-age=31536000",
+        "content-range": "bytes 0-11660810/11660811",
+        "via": "1.1 43af3f074d724dd135e986688bed033e.cloudfront.net (CloudFront)",
+        "cf-ray": "a185859e69158c3a-BOM",
+        "access-control-allow-origin": "*",
+        "content-length": "11660811",
+        "x-amz-cf-pop": "SEA73-P3",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "laptop",
+    "request": {
+      "method": "GET",
+      "url": "https://rwxrdxvxndclnqvznxfj.supabase.co/storage/v1/object/public/sounds/sound-3.mp3?t=2024-11-04T03%3A52%3A35.101Z",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "range": "bytes=0-",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 206,
+      "statusText": "",
+      "url": "https://rwxrdxvxndclnqvznxfj.supabase.co/storage/v1/object/public/sounds/sound-3.mp3?t=2024-11-04T03%3A52%3A35.101Z",
+      "headers": {
+        "x-robots-tag": "none",
+        "sb-project-ref": "rwxrdxvxndclnqvznxfj",
+        "cf-cache-status": "HIT",
+        "etag": "\"3f06913af50b54ac5a1a2cdd0520e07b-1\"",
+        "sb-request-id": "019f45b8-bd24-7291-bf9b-35b105c2d902",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "date": "Thu, 09 Jul 2026 07:12:43 GMT",
+        "content-type": "audio/mpeg",
+        "last-modified": "Mon, 04 Nov 2024 03:51:49 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "cache-control": "max-age=3600",
+        "sb-gateway-mode": "direct",
+        "content-range": "bytes 0-361824/361825",
+        "cf-ray": "a185859b5fbd3a5d-BOM",
+        "access-control-allow-origin": "*",
+        "content-length": "361825",
+        "server": "cloudflare",
+        "sb-gateway-version": "1"
+      },
+      "contentType": "audio/mpeg",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/",
+      "resourceType": "document",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "age": "765287",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-disposition": "inline",
+        "content-encoding": "br",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Thu, 09 Jul 2026 07:12:44 GMT",
+        "etag": "W/\"f70bf6a2d560466dacd8f4f560ca5026\"",
+        "server": "Vercel",
+        "strict-transport-security": "max-age=63072000",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+        "x-matched-path": "/",
+        "x-nextjs-prerender": "1",
+        "x-nextjs-stale-time": "300",
+        "x-vercel-cache": "HIT",
+        "x-vercel-id": "bom1::xhsjn-1783581164384-f227ff87cdc8"
+      },
+      "contentType": "text/html; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+      "resourceType": "font",
+      "headers": {
+        "origin": "https://demo.reactvideoeditor.com",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "x-vercel-cache": "HIT",
+        "etag": "\"cd5b25781181c5c03d99ac2cbf88016a\"",
+        "age": "614597",
+        "x-matched-path": "/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "23108",
+        "date": "Thu, 09 Jul 2026 07:12:44 GMT",
+        "content-disposition": "inline; filename=\"7d4881bb7e1bf84d-s.p.woff2\"",
+        "content-type": "font/woff2",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::xhsjn-1783581164464-34df523e4713"
+      },
+      "contentType": "font/woff2",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/css/7496db7969e5bcd2.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/css/7496db7969e5bcd2.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"7cf72a9eee886f9b865f90a7dbb02f45\"",
+        "age": "614597",
+        "x-matched-path": "/_next/static/css/7496db7969e5bcd2.css",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:44 GMT",
+        "content-disposition": "inline; filename=\"7496db7969e5bcd2.css\"",
+        "content-type": "text/css; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::ff56f-1783581164464-c7310d6abac7"
+      },
+      "contentType": "text/css; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/css/8fe5e52289a2a44c.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "stylesheet",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/css/8fe5e52289a2a44c.css?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"e219321dd5149222dd6ad2a530902385\"",
+        "age": "614597",
+        "x-matched-path": "/_next/static/css/8fe5e52289a2a44c.css",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:44 GMT",
+        "content-disposition": "inline; filename=\"8fe5e52289a2a44c.css\"",
+        "content-type": "text/css; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::zrqv5-1783581164463-cc5f81577daa"
+      },
+      "contentType": "text/css; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+      "resourceType": "font",
+      "headers": {
+        "origin": "https://demo.reactvideoeditor.com",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "x-vercel-cache": "HIT",
+        "etag": "\"f4634c3bc1fa7cb53247e1f2872adb5a\"",
+        "age": "614597",
+        "x-matched-path": "/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "29288",
+        "date": "Thu, 09 Jul 2026 07:12:44 GMT",
+        "content-disposition": "inline; filename=\"22a5144ee8d83bca-s.p.woff2\"",
+        "content-type": "font/woff2",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::58f46-1783581164463-800ba258588d"
+      },
+      "contentType": "font/woff2",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/main-app-f9b5d20365cb8be2.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/main-app-f9b5d20365cb8be2.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "x-vercel-cache": "HIT",
+        "etag": "\"2ea3555d16ca35739670f961f81f8eaa\"",
+        "age": "614597",
+        "x-matched-path": "/_next/static/chunks/main-app-f9b5d20365cb8be2.js",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "557",
+        "date": "Thu, 09 Jul 2026 07:12:44 GMT",
+        "content-disposition": "inline; filename=\"main-app-f9b5d20365cb8be2.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::kbsm8-1783581164465-fc0150e43749"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/webpack-08d55afbbfac36e8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/webpack-08d55afbbfac36e8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"78edf71386656e5d5725f770357f89dc\"",
+        "age": "7438",
+        "x-matched-path": "/_next/static/chunks/webpack-08d55afbbfac36e8.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:44 GMT",
+        "content-disposition": "inline; filename=\"webpack-08d55afbbfac36e8.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 09 Jul 2026 05:08:45 GMT",
+        "x-vercel-id": "bom1::6d6n7-1783581164464-c752d7545356"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/839b68eb-f64514b466814bbd.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/839b68eb-f64514b466814bbd.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"b7d196b604d59ccb33c428e8281cb7ed\"",
+        "age": "614597",
+        "x-matched-path": "/_next/static/chunks/839b68eb-f64514b466814bbd.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:44 GMT",
+        "content-disposition": "inline; filename=\"839b68eb-f64514b466814bbd.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::6n4km-1783581164466-c7557035fccf"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/a9a36fa4-57726476e27cb934.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/a9a36fa4-57726476e27cb934.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"dc8270f37317045d973805f5b38b3c19\"",
+        "age": "614597",
+        "x-matched-path": "/_next/static/chunks/a9a36fa4-57726476e27cb934.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:44 GMT",
+        "content-disposition": "inline; filename=\"a9a36fa4-57726476e27cb934.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::x7p85-1783581164466-94ccdbe94e91"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"81cd3b2d7a933bcc456bfcdf03a6ba1f\"",
+        "age": "6",
+        "x-matched-path": "/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:44 GMT",
+        "content-disposition": "inline; filename=\"4bd1b696-c023c6e3521b1417.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 09 Jul 2026 07:12:37 GMT",
+        "x-vercel-id": "bom1::7nxlg-1783581164465-6f1a1097dece"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/app/page-6ba9b2f710dee95c.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/app/page-6ba9b2f710dee95c.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"d9649e9e25fd3442c4436d88a4ed3fe0\"",
+        "age": "614597",
+        "x-matched-path": "/_next/static/chunks/app/page-6ba9b2f710dee95c.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:44 GMT",
+        "content-disposition": "inline; filename=\"page-6ba9b2f710dee95c.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::7rfrv-1783581164469-645b441696df"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/255-4ecccced1aaa83b0.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/255-4ecccced1aaa83b0.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"b894b1bb4eab4f332e0eae8aec0d15ae\"",
+        "age": "614597",
+        "x-matched-path": "/_next/static/chunks/255-4ecccced1aaa83b0.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:44 GMT",
+        "content-disposition": "inline; filename=\"255-4ecccced1aaa83b0.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::f85fh-1783581164465-c0ae1e4ea4aa"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/55eb4b32-87960e808445d7a8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/55eb4b32-87960e808445d7a8.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"b7fac32c9d660f36da7b424f2ad2e655\"",
+        "age": "614597",
+        "x-matched-path": "/_next/static/chunks/55eb4b32-87960e808445d7a8.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:44 GMT",
+        "content-disposition": "inline; filename=\"55eb4b32-87960e808445d7a8.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::jhqq7-1783581164468-3a1ea79bf266"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/61-d3d99d30faface72.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"8e1faceca2dc750866518d8af38ea871\"",
+        "age": "614596",
+        "x-matched-path": "/_next/static/chunks/61-d3d99d30faface72.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:44 GMT",
+        "content-disposition": "inline; filename=\"61-d3d99d30faface72.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::xhsjn-1783581164473-4266b4e5d95f"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/180476bc-91ccc8fcb48478c4.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "content-encoding": "br",
+        "x-vercel-cache": "HIT",
+        "etag": "W/\"46fc7a970d86b56c7c88ee58c546ead2\"",
+        "age": "614596",
+        "x-matched-path": "/_next/static/chunks/180476bc-91ccc8fcb48478c4.js",
+        "access-control-allow-origin": "*",
+        "date": "Thu, 09 Jul 2026 07:12:44 GMT",
+        "content-disposition": "inline; filename=\"180476bc-91ccc8fcb48478c4.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 02 Jul 2026 04:29:27 GMT",
+        "x-vercel-id": "bom1::7lr7b-1783581164467-5851e6f1f1c4"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/135.af73a71e3f9acb4f.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "resourceType": "script",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://demo.reactvideoeditor.com/_next/static/chunks/135.af73a71e3f9acb4f.js?dpl=dpl_CbxPWwv1AJmKnN3bPt6e7nA5tBDz",
+      "headers": {
+        "strict-transport-security": "max-age=63072000",
+        "cache-control": "public,max-age=31536000,immutable",
+        "x-vercel-cache": "HIT",
+        "etag": "\"83946c14b9db08ccb3db37d61adfdeff\"",
+        "age": "3",
+        "x-matched-path": "/_next/static/chunks/135.af73a71e3f9acb4f.js",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "452",
+        "date": "Thu, 09 Jul 2026 07:12:45 GMT",
+        "content-disposition": "inline; filename=\"135.af73a71e3f9acb4f.js\"",
+        "content-type": "application/javascript; charset=utf-8",
+        "server": "Vercel",
+        "last-modified": "Thu, 09 Jul 2026 07:12:42 GMT",
+        "x-vercel-id": "bom1::bkm4l-1783581165393-938dc563d593"
+      },
+      "contentType": "application/javascript; charset=utf-8",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "resourceType": "media",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "accept-encoding": "identity;q=1, *;q=0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "range": "bytes=0-",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 206,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "dAvCGeuSqtL2gjxSJ55iqQzFCD0rs6V5",
+        "etag": "\"d7b2e85bd082d44b764846959000de5c\"",
+        "age": "2210349",
+        "expires": "Fri, 09 Jul 2027 07:12:45 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "wmB8XkAtq3wS9QX8jH9xhZu0QQeZLo0oB4TWbvMF5JODxvfUq1JHlg==",
+        "date": "Thu, 09 Jul 2026 07:12:45 GMT",
+        "content-type": "video/mp4",
+        "vary": "Origin",
+        "last-modified": "Tue, 26 Mar 2024 16:39:41 GMT",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=31536000",
+        "content-range": "bytes 0-11660810/11660811",
+        "via": "1.1 43af3f074d724dd135e986688bed033e.cloudfront.net (CloudFront)",
+        "cf-ray": "a18585acbe0c1432-BOM",
+        "access-control-allow-origin": "*",
+        "content-length": "11660811",
+        "x-amz-cf-pop": "SEA73-P3",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "dAvCGeuSqtL2gjxSJ55iqQzFCD0rs6V5",
+        "etag": "\"d7b2e85bd082d44b764846959000de5c\"",
+        "expires": "Fri, 09 Jul 2027 07:12:45 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "L2katvBRwXPR9xj9Y_tQ9RkaG4eMnr2A3XYpXIWXjOpe-jBdDR8z1g==",
+        "date": "Thu, 09 Jul 2026 07:12:45 GMT",
+        "content-type": "video/mp4",
+        "last-modified": "Tue, 26 Mar 2024 16:39:41 GMT",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=31536000",
+        "via": "1.1 b7f8e0880cd5f19b3036b75b021c1c76.cloudfront.net (CloudFront)",
+        "cf-ray": "a18585ad2f062e46-BOM",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "11660811",
+        "x-amz-cf-pop": "AMS58-P6",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/7664770/7664770-hd_1280_720_25fps.mp4",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/7664770/7664770-hd_1280_720_25fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "eQCjfly2MvKKGJ8pVKsKrLF_z3KHixUl",
+        "etag": "\"cc54ae475373d6ec1a908ecad14e2f91\"",
+        "expires": "Fri, 09 Jul 2027 07:12:45 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Hit from cloudfront",
+        "x-amz-cf-id": "Pp6L8H_5uI09GHRvtnfq1qgB2diPO0aJJIpaNs0SXprpKSS_wTc3ag==",
+        "date": "Thu, 09 Jul 2026 07:12:45 GMT",
+        "content-type": "video/mp4",
+        "last-modified": "Tue, 26 Mar 2024 21:03:26 GMT",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=31536000",
+        "via": "1.1 e9ece8a38ce6bb2b68b3b5a87615cfee.cloudfront.net (CloudFront)",
+        "cf-ray": "a18585ac7ebd2e46-BOM",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "3670103",
+        "x-amz-cf-pop": "TLV50-C1",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/7722221/7722221-hd_1280_720_25fps.mp4",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/7722221/7722221-hd_1280_720_25fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "qS5eyDsZnBY5ZHDWDYUjp1vNOSyCIgmU",
+        "etag": "\"e814464f99e956436024d1124de25b23\"",
+        "expires": "Fri, 09 Jul 2027 07:12:45 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "e4qK4EF0Kle1IdPJsCqsr9_u4r6DydA1uyI5j2kzHyXYJVcPRlyxXQ==",
+        "date": "Thu, 09 Jul 2026 07:12:45 GMT",
+        "content-type": "video/mp4",
+        "last-modified": "Tue, 26 Mar 2024 21:10:15 GMT",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=31536000",
+        "via": "1.1 8c1b0d772e0acbdf68d346f16fbb34ea.cloudfront.net (CloudFront)",
+        "cf-ray": "a18585ac7ebc2e46-BOM",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "2844016",
+        "x-amz-cf-pop": "AMS58-P6",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/856142/856142-hd_1920_1080_30fps.mp4",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/856142/856142-hd_1920_1080_30fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "maKYCj2Pj9zDLzkvJm._lPtpkGbyRzhq",
+        "etag": "\"43fd9a66fc823309cd0474a345950d4e\"",
+        "expires": "Fri, 09 Jul 2027 07:12:45 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "s7xQ31mDtzDb0-u-Dyz72Vjxiq8ldPOpxDlbwQW6IYviydw8gAP3Fg==",
+        "date": "Thu, 09 Jul 2026 07:12:45 GMT",
+        "content-type": "video/mp4",
+        "last-modified": "Tue, 26 Mar 2024 16:40:45 GMT",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=31536000",
+        "via": "1.1 916d412afdd39cf0d9689036f0f43bb4.cloudfront.net (CloudFront)",
+        "cf-ray": "a18585ac9ec62e46-BOM",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "7262572",
+        "x-amz-cf-pop": "AMS58-P6",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "resourceType": "media",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "accept-encoding": "identity;q=1, *;q=0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "range": "bytes=0-",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 206,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "dAvCGeuSqtL2gjxSJ55iqQzFCD0rs6V5",
+        "etag": "\"d7b2e85bd082d44b764846959000de5c\"",
+        "age": "2210350",
+        "expires": "Fri, 09 Jul 2027 07:12:46 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "wmB8XkAtq3wS9QX8jH9xhZu0QQeZLo0oB4TWbvMF5JODxvfUq1JHlg==",
+        "date": "Thu, 09 Jul 2026 07:12:46 GMT",
+        "content-type": "video/mp4",
+        "vary": "Origin",
+        "last-modified": "Tue, 26 Mar 2024 16:39:41 GMT",
+        "priority": "u=3,i",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "server-timing": "cfExtPri",
+        "cache-control": "public, max-age=31536000",
+        "content-range": "bytes 0-11660810/11660811",
+        "via": "1.1 43af3f074d724dd135e986688bed033e.cloudfront.net (CloudFront)",
+        "cf-ray": "a18585b128013a59-BOM",
+        "access-control-allow-origin": "*",
+        "content-length": "11660811",
+        "x-amz-cf-pop": "SEA73-P3",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://rwxrdxvxndclnqvznxfj.supabase.co/storage/v1/object/public/sounds/sound-3.mp3?t=2024-11-04T03%3A52%3A35.101Z",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "range": "bytes=0-",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 206,
+      "statusText": "",
+      "url": "https://rwxrdxvxndclnqvznxfj.supabase.co/storage/v1/object/public/sounds/sound-3.mp3?t=2024-11-04T03%3A52%3A35.101Z",
+      "headers": {
+        "x-robots-tag": "none",
+        "sb-project-ref": "rwxrdxvxndclnqvznxfj",
+        "cf-cache-status": "HIT",
+        "etag": "\"3f06913af50b54ac5a1a2cdd0520e07b-1\"",
+        "age": "185803",
+        "sb-request-id": "019f45b8-c849-7a17-9703-d1cff786d299",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "date": "Thu, 09 Jul 2026 07:12:46 GMT",
+        "content-type": "audio/mpeg",
+        "last-modified": "Mon, 04 Nov 2024 03:51:49 GMT",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+        "cache-control": "max-age=3600",
+        "sb-gateway-mode": "direct",
+        "content-range": "bytes 0-361824/361825",
+        "cf-ray": "a18585ad28bd3fe8-BOM",
+        "access-control-allow-origin": "*",
+        "content-length": "361825",
+        "server": "cloudflare",
+        "sb-gateway-version": "1"
+      },
+      "contentType": "audio/mpeg",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://videos.pexels.com/video-files/7180708/7180708-hd_2048_1080_25fps.mp4",
+      "resourceType": "fetch",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://demo.reactvideoeditor.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "url": "https://videos.pexels.com/video-files/7180708/7180708-hd_2048_1080_25fps.mp4",
+      "headers": {
+        "cf-cache-status": "HIT",
+        "x-amz-version-id": "smmDC2XPdsCjDg7ak7otNkzmlbwtKo1u",
+        "etag": "\"a1ec65a468f0e4e1b92b3ba5336da50c-5\"",
+        "expires": "Fri, 09 Jul 2027 07:12:46 GMT",
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "x-cache": "Miss from cloudfront",
+        "x-amz-cf-id": "M6vrQfjPb7b49xA8bm2uWzcFRQ6_xDhhllUzVdYEi3MYFNIDKo60ew==",
+        "date": "Thu, 09 Jul 2026 07:12:46 GMT",
+        "content-type": "video/mp4",
+        "last-modified": "Tue, 26 Mar 2024 20:30:49 GMT",
+        "content-disposition": "attachment",
+        "x-amz-replication-status": "COMPLETED",
+        "cache-control": "public, max-age=31536000",
+        "via": "1.1 0bdea9339f79fea2216fd97b3f7856f2.cloudfront.net (CloudFront)",
+        "cf-ray": "a18585ac9ec92e46-BOM",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "21855582",
+        "x-amz-cf-pop": "AMS58-P6",
+        "server": "cloudflare",
+        "x-amz-server-side-encryption": "AES256"
+      },
+      "contentType": "video/mp4",
+      "timing": null
+    }
+  },
+  {
+    "viewport": "mobile",
+    "request": {
+      "method": "GET",
+      "url": "https://rwxrdxvxndclnqvznxfj.supabase.co/storage/v1/object/public/sounds/sound-3.mp3?t=2024-11-04T03%3A52%3A35.101Z",
+      "resourceType": "fetch"
+    },
+    "failure": "net::ERR_ABORTED"
+  }
+]

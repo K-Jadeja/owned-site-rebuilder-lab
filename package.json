@@ -1,0 +1,27 @@
+{
+  "name": "owned-site-rebuilder-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local research harness for reconstructing observable behavior of an owned/authorized browser-based video editor (demo.reactvideoeditor.com). Not for unauthorized targets.",
+  "scripts": {
+    "capture": "node scripts/capture-site.mjs",
+    "probe": "node scripts/probe-features.mjs",
+    "bundles": "node scripts/analyze-bundles.mjs",
+    "storage": "node scripts/inspect-storage.mjs",
+    "reports": "node scripts/generate-reports.mjs",
+    "visual-compare": "node scripts/visual-compare.mjs",
+    "test": "playwright test",
+    "test:visual": "playwright test tests/visual-baseline.spec.mjs",
+    "test:features": "playwright test tests/feature-parity-plan.spec.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "playwright": "^1.45.0",
+    "pixelmatch": "^6.0.0",
+    "pngjs": "^7.0.0"
+  }
+}

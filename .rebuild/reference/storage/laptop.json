@@ -1,0 +1,16 @@
+{
+  "localStorage": {
+    "idb_migration_v1_done": "1783581160939"
+  },
+  "sessionStorage": {},
+  "indexedDB": [
+    {
+      "name": "VideoEditorDB",
+      "version": 2
+    }
+  ],
+  "cookies": "",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36",
+  "url": "https://demo.reactvideoeditor.com/",
+  "title": "Demo | React Video Editor"
+}

@@ -1,0 +1,2950 @@
+{
+  "tag": "body",
+  "classes": [
+    "__variable_246ccd",
+    "__variable_c29908",
+    "antialiased"
+  ],
+  "children": [
+    {
+      "tag": "div"
+    },
+    {
+      "tag": "div",
+      "classes": [
+        "w-full",
+        "h-full",
+        "fixed",
+        "inset-0"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "children": [
+        {
+          "tag": "div",
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "rve:group/sidebar-wrapper",
+                "rve:flex",
+                "rve:min-h-svh",
+                "rve:w-full"
+              ],
+              "box": {
+                "x": 0,
+                "y": 0,
+                "w": 1440,
+                "h": 900
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "classes": [
+                    "rve:group",
+                    "rve:peer",
+                    "rve:hidden",
+                    "rve:bg-sidebar"
+                  ],
+                  "box": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 58,
+                    "h": 900
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classes": [
+                        "rve:relative",
+                        "rve:w-(--rve-sidebar-width)",
+                        "rve:bg-transparent",
+                        "rve:transition-[width]"
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "classes": [
+                        "rve:fixed",
+                        "rve:inset-y-0",
+                        "rve:z-10",
+                        "rve:hidden"
+                      ],
+                      "box": {
+                        "x": 0,
+                        "y": 0,
+                        "w": 58,
+                        "h": 900
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "classes": [
+                            "rve:flex",
+                            "rve:h-full",
+                            "rve:w-full",
+                            "rve:flex-col"
+                          ],
+                          "box": {
+                            "x": 0,
+                            "y": 0,
+                            "w": 58,
+                            "h": 900
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "classes": [
+                                "rve:flex",
+                                "rve:h-full",
+                                "rve:w-(--rve-sidebar-width)",
+                                "rve:flex-col"
+                              ],
+                              "box": {
+                                "x": 0,
+                                "y": 0,
+                                "w": 59,
+                                "h": 900
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "classes": [
+                                    "rve:flex",
+                                    "rve:flex-col",
+                                    "rve:gap-2",
+                                    "rve:p-2"
+                                  ],
+                                  "box": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 58,
+                                    "h": 48
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "ul",
+                                      "classes": [
+                                        "rve:flex",
+                                        "rve:w-full",
+                                        "rve:min-w-0",
+                                        "rve:flex-col"
+                                      ],
+                                      "box": {
+                                        "x": 8,
+                                        "y": 8,
+                                        "w": 42,
+                                        "h": 32
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "li",
+                                          "classes": [
+                                            "rve:group/menu-item",
+                                            "rve:relative"
+                                          ],
+                                          "box": {
+                                            "x": 8,
+                                            "y": 8,
+                                            "w": 42,
+                                            "h": 32
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "div",
+                                              "classes": [
+                                                "rve:relative",
+                                                "rve:flex",
+                                                "rve:w-full",
+                                                "rve:min-w-0"
+                                              ],
+                                              "box": {
+                                                "x": 8,
+                                                "y": 8,
+                                                "w": 42,
+                                                "h": 32
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "div",
+                                                  "classes": [
+                                                    "rve:flex",
+                                                    "rve:aspect-square",
+                                                    "rve:size-9",
+                                                    "rve:items-center"
+                                                  ],
+                                                  "box": {
+                                                    "x": 11,
+                                                    "y": 6,
+                                                    "w": 36,
+                                                    "h": 36
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "classes": [
+                                    "rve:flex",
+                                    "rve:min-h-0",
+                                    "rve:flex-1",
+                                    "rve:flex-col"
+                                  ],
+                                  "box": {
+                                    "x": 0,
+                                    "y": 48,
+                                    "w": 58,
+                                    "h": 799
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "classes": [
+                                        "rve:relative",
+                                        "rve:flex",
+                                        "rve:w-full",
+                                        "rve:min-w-0"
+                                      ],
+                                      "box": {
+                                        "x": 0,
+                                        "y": 49,
+                                        "w": 58,
+                                        "h": 376
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "button",
+                                          "classes": [
+                                            "rve:relative",
+                                            "rve:w-full",
+                                            "rve:min-w-0",
+                                            "rve:justify-center"
+                                          ],
+                                          "box": {
+                                            "x": 8,
+                                            "y": 61,
+                                            "w": 42,
+                                            "h": 36
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "svg",
+                                              "classes": [
+                                                "lucide",
+                                                "lucide-film",
+                                                "rve:h-4",
+                                                "rve:w-4"
+                                              ],
+                                              "box": {
+                                                "x": 21,
+                                                "y": 71,
+                                                "w": 16,
+                                                "h": 16
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "rect",
+                                                  "box": {
+                                                    "x": 23,
+                                                    "y": 73,
+                                                    "w": 12,
+                                                    "h": 12
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "path"
+                                                },
+                                                {
+                                                  "tag": "path"
+                                                },
+                                                {
+                                                  "tag": "path"
+                                                },
+                                                {
+                                                  "tag": "path"
+                                                },
+                                                {
+                                                  "tag": "path"
+                                                },
+                                                {
+                                                  "tag": "path"
+                                                },
+                                                {
+                                                  "tag": "path"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "button",
+                                          "classes": [
+                                            "rve:relative",
+                                            "rve:w-full",
+                                            "rve:min-w-0",
+                                            "rve:justify-center"
+                                          ],
+                                          "box": {
+                                            "x": 8,
+                                            "y": 101,
+                                            "w": 42,
+                                            "h": 36
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "svg",
+                                              "classes": [
+                                                "lucide",
+                                                "lucide-type",
+                                                "rve:h-4",
+                                                "rve:w-4"
+                                              ],
+                                              "box": {
+                                                "x": 21,
+                                                "y": 111,
+                                                "w": 16,
+                                                "h": 16
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "polyline",
+                                                  "box": {
+                                                    "x": 23,
+                                                    "y": 114,
+                                                    "w": 11,
+                                                    "h": 2
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "line"
+                                                },
+                                                {
+                                                  "tag": "line"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "button",
+                                          "classes": [
+                                            "rve:relative",
+                                            "rve:w-full",
+                                            "rve:min-w-0",
+                                            "rve:justify-center"
+                                          ],
+                                          "box": {
+                                            "x": 8,
+                                            "y": 141,
+                                            "w": 42,
+                                            "h": 36
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "svg",
+                                              "classes": [
+                                                "lucide",
+                                                "lucide-music",
+                                                "rve:h-4",
+                                                "rve:w-4"
+                                              ],
+                                              "box": {
+                                                "x": 21,
+                                                "y": 151,
+                                                "w": 16,
+                                                "h": 16
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "path",
+                                                  "box": {
+                                                    "x": 27,
+                                                    "y": 153,
+                                                    "w": 8,
+                                                    "h": 10
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "circle",
+                                                  "box": {
+                                                    "x": 23,
+                                                    "y": 161,
+                                                    "w": 4,
+                                                    "h": 4
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "circle",
+                                                  "box": {
+                                                    "x": 31,
+                                                    "y": 160,
+                                                    "w": 4,
+                                                    "h": 4
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "button",
+                                          "classes": [
+                                            "rve:relative",
+                                            "rve:w-full",
+                                            "rve:min-w-0",
+                                            "rve:justify-center"
+                                          ],
+                                          "box": {
+                                            "x": 8,
+                                            "y": 181,
+                                            "w": 42,
+                                            "h": 36
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "svg",
+                                              "classes": [
+                                                "lucide",
+                                                "lucide-captions",
+                                                "rve:h-4",
+                                                "rve:w-4"
+                                              ],
+                                              "box": {
+                                                "x": 21,
+                                                "y": 191,
+                                                "w": 16,
+                                                "h": 16
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "rect",
+                                                  "box": {
+                                                    "x": 23,
+                                                    "y": 194,
+                                                    "w": 12,
+                                                    "h": 9
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "path",
+                                                  "box": {
+                                                    "x": 25,
+                                                    "y": 198,
+                                                    "w": 7,
+                                                    "h": 3
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "button",
+                                          "classes": [
+                                            "rve:relative",
+                                            "rve:w-full",
+                                            "rve:min-w-0",
+                                            "rve:justify-center"
+                                          ],
+                                          "box": {
+                                            "x": 8,
+                                            "y": 221,
+                                            "w": 42,
+                                            "h": 36
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "svg",
+                                              "classes": [
+                                                "lucide",
+                                                "lucide-image",
+                                                "rve:h-4",
+                                                "rve:w-4"
+                                              ],
+                                              "box": {
+                                                "x": 21,
+                                                "y": 231,
+                                                "w": 16,
+                                                "h": 16
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "rect",
+                                                  "box": {
+                                                    "x": 23,
+                                                    "y": 233,
+                                                    "w": 12,
+                                                    "h": 12
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "circle",
+                                                  "box": {
+                                                    "x": 25,
+                                                    "y": 236,
+                                                    "w": 3,
+                                                    "h": 3
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "path",
+                                                  "box": {
+                                                    "x": 25,
+                                                    "y": 239,
+                                                    "w": 10,
+                                                    "h": 6
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "button",
+                                          "classes": [
+                                            "rve:relative",
+                                            "rve:w-full",
+                                            "rve:min-w-0",
+                                            "rve:justify-center"
+                                          ],
+                                          "box": {
+                                            "x": 8,
+                                            "y": 261,
+                                            "w": 42,
+                                            "h": 36
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "svg",
+                                              "classes": [
+                                                "rve:h-4",
+                                                "rve:w-4"
+                                              ],
+                                              "box": {
+                                                "x": 21,
+                                                "y": 271,
+                                                "w": 16,
+                                                "h": 16
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "path",
+                                                  "box": {
+                                                    "x": 21,
+                                                    "y": 271,
+                                                    "w": 15,
+                                                    "h": 15
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "path",
+                                                  "box": {
+                                                    "x": 24,
+                                                    "y": 275,
+                                                    "w": 10,
+                                                    "h": 9
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "button",
+                                          "classes": [
+                                            "rve:relative",
+                                            "rve:w-full",
+                                            "rve:min-w-0",
+                                            "rve:justify-center"
+                                          ],
+                                          "box": {
+                                            "x": 8,
+                                            "y": 301,
+                                            "w": 42,
+                                            "h": 36
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "svg",
+                                              "classes": [
+                                                "lucide",
+                                                "lucide-zoom-in",
+                                                "rve:h-4",
+                                                "rve:w-4"
+                                              ],
+                                              "box": {
+                                                "x": 21,
+                                                "y": 311,
+                                                "w": 16,
+                                                "h": 16
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "circle",
+                                                  "box": {
+                                                    "x": 23,
+                                                    "y": 313,
+                                                    "w": 11,
+                                                    "h": 11
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "line",
+                                                  "box": {
+                                                    "x": 32,
+                                                    "y": 322,
+                                                    "w": 3,
+                                                    "h": 3
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "line"
+                                                },
+                                                {
+                                                  "tag": "line"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "button",
+                                          "classes": [
+                                            "rve:relative",
+                                            "rve:w-full",
+                                            "rve:min-w-0",
+                                            "rve:justify-center"
+                                          ],
+                                          "box": {
+                                            "x": 8,
+                                            "y": 341,
+                                            "w": 42,
+                                            "h": 36
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "svg",
+                                              "classes": [
+                                                "lucide",
+                                                "lucide-palette",
+                                                "rve:h-4",
+                                                "rve:w-4"
+                                              ],
+                                              "box": {
+                                                "x": 21,
+                                                "y": 351,
+                                                "w": 16,
+                                                "h": 16
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "circle",
+                                                  "box": {
+                                                    "x": 29,
+                                                    "y": 355,
+                                                    "w": 1,
+                                                    "h": 1
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "circle",
+                                                  "box": {
+                                                    "x": 32,
+                                                    "y": 358,
+                                                    "w": 1,
+                                                    "h": 1
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "circle",
+                                                  "box": {
+                                                    "x": 26,
+                                                    "y": 356,
+                                                    "w": 1,
+                                                    "h": 1
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "circle",
+                                                  "box": {
+                                                    "x": 25,
+                                                    "y": 359,
+                                                    "w": 1,
+                                                    "h": 1
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "path",
+                                                  "box": {
+                                                    "x": 22,
+                                                    "y": 352,
+                                                    "w": 13,
+                                                    "h": 13
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "button",
+                                          "classes": [
+                                            "rve:relative",
+                                            "rve:w-full",
+                                            "rve:min-w-0",
+                                            "rve:justify-center"
+                                          ],
+                                          "box": {
+                                            "x": 8,
+                                            "y": 381,
+                                            "w": 42,
+                                            "h": 36
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "svg",
+                                              "classes": [
+                                                "lucide",
+                                                "lucide-panels-top-left",
+                                                "rve:h-4",
+                                                "rve:w-4"
+                                              ],
+                                              "box": {
+                                                "x": 21,
+                                                "y": 391,
+                                                "w": 16,
+                                                "h": 16
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "rect",
+                                                  "box": {
+                                                    "x": 23,
+                                                    "y": 393,
+                                                    "w": 12,
+                                                    "h": 12
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "path"
+                                                },
+                                                {
+                                                  "tag": "path"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "classes": [
+                                    "rve:flex",
+                                    "rve:flex-col",
+                                    "rve:gap-2",
+                                    "rve:p-2"
+                                  ],
+                                  "box": {
+                                    "x": 0,
+                                    "y": 847,
+                                    "w": 58,
+                                    "h": 53
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "ul",
+                                      "classes": [
+                                        "rve:flex",
+                                        "rve:w-full",
+                                        "rve:min-w-0",
+                                        "rve:flex-col"
+                                      ],
+                                      "box": {
+                                        "x": 8,
+                                        "y": 856,
+                                        "w": 42,
+                                        "h": 36
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "classes": [
+                                            "rve:flex",
+                                            "rve:items-center",
+                                            "rve:justify-center"
+                                          ],
+                                          "box": {
+                                            "x": 8,
+                                            "y": 856,
+                                            "w": 42,
+                                            "h": 36
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "button",
+                                              "classes": [
+                                                "rve:relative",
+                                                "rve:w-full",
+                                                "rve:min-w-0",
+                                                "rve:justify-center"
+                                              ],
+                                              "box": {
+                                                "x": 8,
+                                                "y": 856,
+                                                "w": 42,
+                                                "h": 36
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "svg",
+                                                  "classes": [
+                                                    "lucide",
+                                                    "lucide-settings",
+                                                    "rve:h-4",
+                                                    "rve:w-4"
+                                                  ],
+                                                  "box": {
+                                                    "x": 21,
+                                                    "y": 866,
+                                                    "w": 16,
+                                                    "h": 16
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "classes": [
+                                "rve:h-full",
+                                "rve:w-(--rve-sidebar-width)",
+                                "rve:flex-col",
+                                "rve:text-sidebar-foreground"
+                              ],
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "classes": [
+                                    "rve:flex",
+                                    "rve:flex-col",
+                                    "rve:p-2",
+                                    "rve:gap-3.5"
+                                  ],
+                                  "box": {
+                                    "x": 59,
+                                    "y": 0,
+                                    "w": 32,
+                                    "h": 49
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "classes": [
+                                        "rve:flex",
+                                        "rve:w-full",
+                                        "rve:items-center",
+                                        "rve:justify-between"
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "classes": [
+                                            "rve:flex",
+                                            "rve:w-full",
+                                            "rve:items-center",
+                                            "rve:justify-between"
+                                          ],
+                                          "children": [
+                                            {
+                                              "tag": "h3",
+                                              "classes": [
+                                                "rve:font-extralight",
+                                                "rve:text-sidebar-foreground"
+                                              ],
+                                              "text": "Video",
+                                              "box": {
+                                                "x": 75,
+                                                "y": 12,
+                                                "w": 39,
+                                                "h": 24
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "classes": [
+                                    "rve:flex",
+                                    "rve:min-h-0",
+                                    "rve:flex-1",
+                                    "rve:flex-col"
+                                  ],
+                                  "box": {
+                                    "x": 59,
+                                    "y": 49,
+                                    "w": 16,
+                                    "h": 851
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "input",
+                                      "classes": [
+                                        "rve:hidden"
+                                      ]
+                                    },
+                                    {
+                                      "tag": "div",
+                                      "classes": [
+                                        "rve:flex",
+                                        "rve:h-full",
+                                        "rve:min-w-0",
+                                        "rve:flex-col"
+                                      ],
+                                      "box": {
+                                        "x": 67,
+                                        "y": 53,
+                                        "w": 16,
+                                        "h": 847
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "classes": [
+                                            "rve:mb-2",
+                                            "rve:flex",
+                                            "rve:shrink-0",
+                                            "rve:items-center"
+                                          ],
+                                          "children": [
+                                            {
+                                              "tag": "div",
+                                              "classes": [
+                                                "rve:min-w-0",
+                                                "rve:overflow-hidden"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "tag": "div",
+                                                  "classes": [
+                                                    "rve:inline-flex",
+                                                    "rve:items-center",
+                                                    "rve:justify-center",
+                                                    "rve:rounded-md"
+                                                  ],
+                                                  "role": "tablist",
+                                                  "box": {
+                                                    "x": 75,
+                                                    "y": 61,
+                                                    "w": 136,
+                                                    "h": 38
+                                                  }
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "div",
+                                              "classes": [
+                                                "rve:ml-auto",
+                                                "rve:flex",
+                                                "rve:shrink-0",
+                                                "rve:items-center"
+                                              ],
+                                              "box": {
+                                                "x": 83,
+                                                "y": 66,
+                                                "w": 60,
+                                                "h": 28
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "button",
+                                                  "classes": [
+                                                    "rve:inline-flex",
+                                                    "rve:items-center",
+                                                    "rve:justify-center",
+                                                    "rve:rounded-md"
+                                                  ],
+                                                  "box": {
+                                                    "x": 83,
+                                                    "y": 66,
+                                                    "w": 28,
+                                                    "h": 28
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "button",
+                                                  "classes": [
+                                                    "rve:inline-flex",
+                                                    "rve:items-center",
+                                                    "rve:justify-center",
+                                                    "rve:rounded-md"
+                                                  ],
+                                                  "box": {
+                                                    "x": 115,
+                                                    "y": 66,
+                                                    "w": 28,
+                                                    "h": 28
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "div",
+                                          "classes": [
+                                            "rve:min-h-0",
+                                            "rve:flex-1",
+                                            "rve:overflow-hidden"
+                                          ],
+                                          "children": [
+                                            {
+                                              "tag": "div",
+                                              "classes": [
+                                                "rve:flex",
+                                                "rve:h-full",
+                                                "rve:flex-col",
+                                                "rve:overflow-hidden"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "tag": "div",
+                                                  "classes": [
+                                                    "rve:mb-2",
+                                                    "rve:shrink-0"
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "div",
+                                                  "classes": [
+                                                    "rve:scrollbar-hide",
+                                                    "rve:flex-1",
+                                                    "rve:overflow-y-auto"
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "main",
+                  "classes": [
+                    "rve:relative",
+                    "rve:flex",
+                    "rve:w-full",
+                    "rve:flex-1"
+                  ],
+                  "box": {
+                    "x": 58,
+                    "y": 0,
+                    "w": 1382,
+                    "h": 900
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classes": [
+                        "rve:flex",
+                        "rve:flex-col",
+                        "rve:overflow-hidden",
+                        "rve:select-none"
+                      ],
+                      "box": {
+                        "x": 58,
+                        "y": 0,
+                        "w": 1382,
+                        "h": 900
+                      },
+                      "children": [
+                        {
+                          "tag": "header",
+                          "classes": [
+                            "rve:sticky",
+                            "rve:top-0",
+                            "rve:flex",
+                            "rve:shrink-0"
+                          ],
+                          "box": {
+                            "x": 58,
+                            "y": 0,
+                            "w": 1382,
+                            "h": 48
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "classes": [
+                                "rve:flex",
+                                "rve:size-6",
+                                "rve:shrink-0",
+                                "rve:items-center"
+                              ],
+                              "children": [
+                                {
+                                  "tag": "img"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "button",
+                              "classes": [
+                                "rve:items-center",
+                                "rve:justify-center",
+                                "rve:rounded-md",
+                                "rve:text-sm"
+                              ],
+                              "box": {
+                                "x": 77,
+                                "y": 14,
+                                "w": 20,
+                                "h": 20
+                              },
+                              "children": [
+                                {
+                                  "tag": "svg",
+                                  "classes": [
+                                    "lucide",
+                                    "lucide-panel-left",
+                                    "rve:size-4"
+                                  ],
+                                  "box": {
+                                    "x": 77,
+                                    "y": 16,
+                                    "w": 16,
+                                    "h": 16
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "rect",
+                                      "box": {
+                                        "x": 79,
+                                        "y": 18,
+                                        "w": 12,
+                                        "h": 12
+                                      }
+                                    },
+                                    {
+                                      "tag": "path"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "classes": [
+                                    "rve:sr-only"
+                                  ],
+                                  "text": "Toggle Sidebar",
+                                  "box": {
+                                    "x": 86,
+                                    "y": 31,
+                                    "w": 1,
+                                    "h": 1
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "classes": [
+                                "rve:shrink-0",
+                                "rve:bg-border",
+                                "rve:w-px",
+                                "rve:mr-2.5"
+                              ],
+                              "role": "none",
+                              "box": {
+                                "x": 107,
+                                "y": 14,
+                                "w": 1,
+                                "h": 20
+                              }
+                            },
+                            {
+                              "tag": "button",
+                              "id": "radix-_r_0_",
+                              "classes": [
+                                "rve:inline-flex",
+                                "rve:justify-center",
+                                "rve:rounded-md",
+                                "rve:font-extralight"
+                              ],
+                              "aria": {
+                                "aria-expanded": "false"
+                              },
+                              "box": {
+                                "x": 128,
+                                "y": 10,
+                                "w": 67,
+                                "h": 28
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "classes": [
+                                    "rve:mr-1"
+                                  ],
+                                  "box": {
+                                    "x": 141,
+                                    "y": 19,
+                                    "w": 10,
+                                    "h": 10
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "classes": [
+                                        "rve:h-2.5",
+                                        "rve:w-2.5",
+                                        "rve:shrink-0",
+                                        "rve:rounded-full"
+                                      ],
+                                      "box": {
+                                        "x": 141,
+                                        "y": 19,
+                                        "w": 10,
+                                        "h": 10
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "classes": [
+                                "rve:grow"
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "classes": [
+                                "rve:hidden",
+                                "rve:sm:block"
+                              ],
+                              "box": {
+                                "x": 1291,
+                                "y": 10,
+                                "w": 34,
+                                "h": 28
+                              },
+                              "children": [
+                                {
+                                  "tag": "button",
+                                  "classes": [
+                                    "rve:inline-flex",
+                                    "rve:items-center",
+                                    "rve:justify-center",
+                                    "rve:font-extralight"
+                                  ],
+                                  "box": {
+                                    "x": 1291,
+                                    "y": 10,
+                                    "w": 34,
+                                    "h": 28
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "svg",
+                                      "classes": [
+                                        "lucide",
+                                        "lucide-save",
+                                        "rve:h-3.5",
+                                        "rve:w-3.5"
+                                      ],
+                                      "box": {
+                                        "x": 1301,
+                                        "y": 17,
+                                        "w": 14,
+                                        "h": 14
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "path",
+                                          "box": {
+                                            "x": 1303,
+                                            "y": 19,
+                                            "w": 11,
+                                            "h": 11
+                                          }
+                                        },
+                                        {
+                                          "tag": "path",
+                                          "box": {
+                                            "x": 1305,
+                                            "y": 25,
+                                            "w": 6,
+                                            "h": 5
+                                          }
+                                        },
+                                        {
+                                          "tag": "path",
+                                          "box": {
+                                            "x": 1305,
+                                            "y": 19,
+                                            "w": 5,
+                                            "h": 3
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "button",
+                              "classes": [
+                                "rve:inline-flex",
+                                "rve:items-center",
+                                "rve:justify-center",
+                                "rve:font-extralight"
+                              ],
+                              "text": "Export Video",
+                              "box": {
+                                "x": 1335,
+                                "y": 10,
+                                "w": 87,
+                                "h": 28
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "classes": [
+                            "rve:flex",
+                            "rve:grow",
+                            "rve:flex-col",
+                            "rve:overflow-hidden"
+                          ],
+                          "box": {
+                            "x": 58,
+                            "y": 48,
+                            "w": 1382,
+                            "h": 445
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "classes": [
+                                "rve:h-full",
+                                "rve:w-full",
+                                "rve:overflow-hidden"
+                              ],
+                              "box": {
+                                "x": 58,
+                                "y": 48,
+                                "w": 1382,
+                                "h": 445
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "classes": [
+                                    "video-container",
+                                    "rve:relative",
+                                    "rve:z-0",
+                                    "rve:h-full"
+                                  ],
+                                  "box": {
+                                    "x": 58,
+                                    "y": 48,
+                                    "w": 1382,
+                                    "h": 445
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "box": {
+                                        "x": 127,
+                                        "y": 70,
+                                        "w": 1244,
+                                        "h": 401
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "classes": [
+                                            "rve:absolute",
+                                            "rve:inset-0",
+                                            "rve:z-10",
+                                            "rve:flex"
+                                          ],
+                                          "box": {
+                                            "x": 127,
+                                            "y": 70,
+                                            "w": 1244,
+                                            "h": 401
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "div",
+                                              "classes": [
+                                                "rve:relative"
+                                              ],
+                                              "box": {
+                                                "x": 173,
+                                                "y": 70,
+                                                "w": 1152,
+                                                "h": 401
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "audio"
+                                                },
+                                                {
+                                                  "tag": "audio"
+                                                },
+                                                {
+                                                  "tag": "audio"
+                                                },
+                                                {
+                                                  "tag": "audio"
+                                                },
+                                                {
+                                                  "tag": "audio"
+                                                },
+                                                {
+                                                  "tag": "div",
+                                                  "classes": [
+                                                    "rve:h-full",
+                                                    "rve:w-full"
+                                                  ],
+                                                  "box": {
+                                                    "x": 173,
+                                                    "y": 70,
+                                                    "w": 1152,
+                                                    "h": 401
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "div",
+                                      "box": {
+                                        "x": 1245,
+                                        "y": 443,
+                                        "w": 183,
+                                        "h": 38
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "box": {
+                                            "x": 1245,
+                                            "y": 443,
+                                            "w": 183,
+                                            "h": 38
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "button",
+                                              "box": {
+                                                "x": 1254,
+                                                "y": 448,
+                                                "w": 28,
+                                                "h": 28
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "svg",
+                                                  "classes": [
+                                                    "lucide",
+                                                    "lucide-minus"
+                                                  ],
+                                                  "box": {
+                                                    "x": 1261,
+                                                    "y": 455,
+                                                    "w": 14,
+                                                    "h": 14
+                                                  }
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "button",
+                                              "text": "90%",
+                                              "box": {
+                                                "x": 1284,
+                                                "y": 448,
+                                                "w": 38,
+                                                "h": 28
+                                              }
+                                            },
+                                            {
+                                              "tag": "button",
+                                              "box": {
+                                                "x": 1324,
+                                                "y": 448,
+                                                "w": 28,
+                                                "h": 28
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "svg",
+                                                  "classes": [
+                                                    "lucide",
+                                                    "lucide-plus"
+                                                  ],
+                                                  "box": {
+                                                    "x": 1331,
+                                                    "y": 455,
+                                                    "w": 14,
+                                                    "h": 14
+                                                  }
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "div",
+                                              "box": {
+                                                "x": 1356,
+                                                "y": 454,
+                                                "w": 1,
+                                                "h": 16
+                                              }
+                                            },
+                                            {
+                                              "tag": "button",
+                                              "box": {
+                                                "x": 1361,
+                                                "y": 448,
+                                                "w": 28,
+                                                "h": 28
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "svg",
+                                                  "classes": [
+                                                    "lucide",
+                                                    "lucide-maximize"
+                                                  ],
+                                                  "box": {
+                                                    "x": 1368,
+                                                    "y": 455,
+                                                    "w": 14,
+                                                    "h": 14
+                                                  }
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "button",
+                                              "box": {
+                                                "x": 1391,
+                                                "y": 448,
+                                                "w": 28,
+                                                "h": 28
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "svg",
+                                                  "classes": [
+                                                    "lucide",
+                                                    "lucide-lock-open"
+                                                  ],
+                                                  "box": {
+                                                    "x": 1398,
+                                                    "y": 455,
+                                                    "w": 14,
+                                                    "h": 14
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "classes": [
+                            "rve:group",
+                            "md:rve:h-1",
+                            "rve:relative",
+                            "rve:flex"
+                          ],
+                          "box": {
+                            "x": 58,
+                            "y": 493,
+                            "w": 1382,
+                            "h": 12
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "classes": [
+                                "md:rve:hidden",
+                                "rve:absolute",
+                                "rve:h-1",
+                                "rve:w-8"
+                              ],
+                              "box": {
+                                "x": 733,
+                                "y": 497,
+                                "w": 32,
+                                "h": 4
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "classes": [
+                            "rve:flex",
+                            "rve:flex-col",
+                            "rve:overflow-hidden"
+                          ],
+                          "box": {
+                            "x": 58,
+                            "y": 505,
+                            "w": 1382,
+                            "h": 395
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "classes": [
+                                "timeline-container",
+                                "rve:flex",
+                                "rve:h-full",
+                                "rve:flex-col"
+                              ],
+                              "box": {
+                                "x": 58,
+                                "y": 505,
+                                "w": 1382,
+                                "h": 395
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "classes": [
+                                    "rve:flex",
+                                    "rve:items-center",
+                                    "rve:justify-between",
+                                    "rve:border"
+                                  ],
+                                  "box": {
+                                    "x": 58,
+                                    "y": 505,
+                                    "w": 1382,
+                                    "h": 58
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "classes": [
+                                        "rve:flex",
+                                        "rve:flex-1",
+                                        "rve:items-center",
+                                        "rve:justify-start"
+                                      ],
+                                      "box": {
+                                        "x": 71,
+                                        "y": 518,
+                                        "w": 368,
+                                        "h": 32
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "classes": [
+                                            "rve:mr-2",
+                                            "rve:flex",
+                                            "rve:items-center",
+                                            "rve:gap-1"
+                                          ],
+                                          "box": {
+                                            "x": 71,
+                                            "y": 518,
+                                            "w": 81,
+                                            "h": 32
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "button",
+                                              "classes": [
+                                                "rve:inline-flex",
+                                                "rve:items-center",
+                                                "rve:justify-center",
+                                                "rve:rounded-md"
+                                              ],
+                                              "aria": {
+                                                "aria-label": "Undo last action"
+                                              },
+                                              "box": {
+                                                "x": 71,
+                                                "y": 518,
+                                                "w": 32,
+                                                "h": 32
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "svg",
+                                                  "classes": [
+                                                    "lucide",
+                                                    "lucide-undo2",
+                                                    "rve:h-4",
+                                                    "rve:w-4"
+                                                  ],
+                                                  "box": {
+                                                    "x": 79,
+                                                    "y": 526,
+                                                    "w": 16,
+                                                    "h": 16
+                                                  }
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "button",
+                                              "classes": [
+                                                "rve:inline-flex",
+                                                "rve:items-center",
+                                                "rve:justify-center",
+                                                "rve:rounded-md"
+                                              ],
+                                              "aria": {
+                                                "aria-label": "Redo last action"
+                                              },
+                                              "box": {
+                                                "x": 107,
+                                                "y": 518,
+                                                "w": 32,
+                                                "h": 32
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "svg",
+                                                  "classes": [
+                                                    "lucide",
+                                                    "lucide-redo2",
+                                                    "rve:h-4",
+                                                    "rve:w-4"
+                                                  ],
+                                                  "box": {
+                                                    "x": 115,
+                                                    "y": 526,
+                                                    "w": 16,
+                                                    "h": 16
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "div",
+                                          "classes": [
+                                            "rve:hidden",
+                                            "rve:md:block"
+                                          ],
+                                          "box": {
+                                            "x": 168,
+                                            "y": 518,
+                                            "w": 32,
+                                            "h": 32
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "button",
+                                              "classes": [
+                                                "rve:inline-flex",
+                                                "rve:items-center",
+                                                "rve:justify-center",
+                                                "rve:rounded-md"
+                                              ],
+                                              "box": {
+                                                "x": 168,
+                                                "y": 518,
+                                                "w": 32,
+                                                "h": 32
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "svg",
+                                                  "classes": [
+                                                    "lucide",
+                                                    "lucide-scissors",
+                                                    "rve:h-4",
+                                                    "rve:w-4"
+                                                  ],
+                                                  "box": {
+                                                    "x": 176,
+                                                    "y": 526,
+                                                    "w": 16,
+                                                    "h": 16
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "div",
+                                      "classes": [
+                                        "rve:flex",
+                                        "rve:grow",
+                                        "rve:items-center",
+                                        "rve:justify-center"
+                                      ],
+                                      "box": {
+                                        "x": 439,
+                                        "y": 520,
+                                        "w": 620,
+                                        "h": 28
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "button",
+                                          "id": "radix-_r_6_",
+                                          "classes": [
+                                            "rve:items-center",
+                                            "rve:justify-center",
+                                            "rve:font-extralight",
+                                            "rve:whitespace-nowrap"
+                                          ],
+                                          "aria": {
+                                            "aria-expanded": "false"
+                                          },
+                                          "text": "1x",
+                                          "box": {
+                                            "x": 623,
+                                            "y": 520,
+                                            "w": 35,
+                                            "h": 28
+                                          }
+                                        },
+                                        {
+                                          "tag": "button",
+                                          "classes": [
+                                            "rve:items-center",
+                                            "rve:justify-center",
+                                            "rve:font-extralight",
+                                            "rve:whitespace-nowrap"
+                                          ],
+                                          "box": {
+                                            "x": 666,
+                                            "y": 520,
+                                            "w": 32,
+                                            "h": 28
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "svg",
+                                              "classes": [
+                                                "lucide",
+                                                "lucide-skip-back",
+                                                "rve:h-3",
+                                                "rve:w-3"
+                                              ],
+                                              "box": {
+                                                "x": 676,
+                                                "y": 528,
+                                                "w": 12,
+                                                "h": 12
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "polygon",
+                                                  "box": {
+                                                    "x": 681,
+                                                    "y": 530,
+                                                    "w": 5,
+                                                    "h": 8
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "line"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "button",
+                                          "classes": [
+                                            "rve:inline-flex",
+                                            "rve:items-center",
+                                            "rve:justify-center",
+                                            "rve:font-extralight"
+                                          ],
+                                          "box": {
+                                            "x": 706,
+                                            "y": 520,
+                                            "w": 36,
+                                            "h": 28
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "svg",
+                                              "classes": [
+                                                "lucide",
+                                                "lucide-play",
+                                                "rve:h-4",
+                                                "rve:w-4"
+                                              ],
+                                              "box": {
+                                                "x": 716,
+                                                "y": 526,
+                                                "w": 16,
+                                                "h": 16
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "polygon",
+                                                  "box": {
+                                                    "x": 720,
+                                                    "y": 528,
+                                                    "w": 9,
+                                                    "h": 12
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "button",
+                                          "classes": [
+                                            "rve:items-center",
+                                            "rve:justify-center",
+                                            "rve:font-extralight",
+                                            "rve:whitespace-nowrap"
+                                          ],
+                                          "box": {
+                                            "x": 750,
+                                            "y": 520,
+                                            "w": 32,
+                                            "h": 28
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "svg",
+                                              "classes": [
+                                                "lucide",
+                                                "lucide-skip-forward",
+                                                "rve:h-3",
+                                                "rve:w-3"
+                                              ],
+                                              "box": {
+                                                "x": 760,
+                                                "y": 528,
+                                                "w": 12,
+                                                "h": 12
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "polygon",
+                                                  "box": {
+                                                    "x": 763,
+                                                    "y": 530,
+                                                    "w": 5,
+                                                    "h": 8
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "line"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "div",
+                                          "classes": [
+                                            "rve:flex",
+                                            "rve:items-center",
+                                            "rve:space-x-1"
+                                          ],
+                                          "box": {
+                                            "x": 790,
+                                            "y": 526,
+                                            "w": 85,
+                                            "h": 16
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "classes": [
+                                                "rve:text-xs",
+                                                "rve:font-extralight",
+                                                "rve:text-text-primary",
+                                                "rve:tabular-nums"
+                                              ],
+                                              "text": "0:00.00",
+                                              "box": {
+                                                "x": 790,
+                                                "y": 526,
+                                                "w": 36,
+                                                "h": 16
+                                              }
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "classes": [
+                                                "rve:text-xs",
+                                                "rve:font-extralight",
+                                                "rve:text-text-tertiary"
+                                              ],
+                                              "text": "/",
+                                              "box": {
+                                                "x": 830,
+                                                "y": 526,
+                                                "w": 4,
+                                                "h": 16
+                                              }
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "classes": [
+                                                "rve:text-xs",
+                                                "rve:font-extralight",
+                                                "rve:text-text-secondary",
+                                                "rve:tabular-nums"
+                                              ],
+                                              "text": "0:33.70",
+                                              "box": {
+                                                "x": 839,
+                                                "y": 526,
+                                                "w": 36,
+                                                "h": 16
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "div",
+                                      "classes": [
+                                        "rve:flex",
+                                        "rve:flex-1",
+                                        "rve:items-center",
+                                        "rve:justify-end"
+                                      ],
+                                      "box": {
+                                        "x": 1059,
+                                        "y": 520,
+                                        "w": 368,
+                                        "h": 28
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "classes": [
+                                            "rve:hidden",
+                                            "rve:md:block"
+                                          ],
+                                          "box": {
+                                            "x": 1093,
+                                            "y": 520,
+                                            "w": 90,
+                                            "h": 28
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "button",
+                                              "id": "radix-_r_b_",
+                                              "classes": [
+                                                "rve:inline-flex",
+                                                "rve:items-center",
+                                                "rve:font-extralight",
+                                                "rve:whitespace-nowrap"
+                                              ],
+                                              "aria": {
+                                                "aria-expanded": "false"
+                                              },
+                                              "box": {
+                                                "x": 1093,
+                                                "y": 520,
+                                                "w": 90,
+                                                "h": 28
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "div",
+                                                  "classes": [
+                                                    "rve:flex",
+                                                    "rve:items-center",
+                                                    "rve:gap-2"
+                                                  ],
+                                                  "box": {
+                                                    "x": 1104,
+                                                    "y": 526,
+                                                    "w": 41,
+                                                    "h": 16
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "svg",
+                                                  "classes": [
+                                                    "lucide",
+                                                    "lucide-chevron-down",
+                                                    "rve:h-3",
+                                                    "rve:w-3"
+                                                  ],
+                                                  "box": {
+                                                    "x": 1160,
+                                                    "y": 528,
+                                                    "w": 12,
+                                                    "h": 12
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "div",
+                                          "classes": [
+                                            "rve:flex",
+                                            "rve:w-full",
+                                            "rve:items-center",
+                                            "rve:gap-1"
+                                          ],
+                                          "box": {
+                                            "x": 1195,
+                                            "y": 522,
+                                            "w": 192,
+                                            "h": 24
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "button",
+                                              "classes": [
+                                                "rve:inline-flex",
+                                                "rve:items-center",
+                                                "rve:justify-center",
+                                                "rve:rounded-md"
+                                              ],
+                                              "box": {
+                                                "x": 1195,
+                                                "y": 522,
+                                                "w": 24,
+                                                "h": 24
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "svg",
+                                                  "classes": [
+                                                    "lucide",
+                                                    "lucide-zoom-out",
+                                                    "rve:h-4",
+                                                    "rve:w-4"
+                                                  ],
+                                                  "box": {
+                                                    "x": 1200,
+                                                    "y": 527,
+                                                    "w": 14,
+                                                    "h": 14
+                                                  }
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "classes": [
+                                                "rve:relative",
+                                                "rve:w-full",
+                                                "rve:touch-none",
+                                                "rve:items-center"
+                                              ],
+                                              "aria": {
+                                                "aria-label": "Timeline Zoom"
+                                              },
+                                              "box": {
+                                                "x": 1231,
+                                                "y": 531,
+                                                "w": 71,
+                                                "h": 6
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "span",
+                                                  "classes": [
+                                                    "rve:relative",
+                                                    "rve:h-1.5",
+                                                    "rve:w-full",
+                                                    "rve:grow"
+                                                  ],
+                                                  "box": {
+                                                    "x": 1231,
+                                                    "y": 531,
+                                                    "w": 71,
+                                                    "h": 6
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "span",
+                                                  "box": {
+                                                    "x": 1231,
+                                                    "y": 526,
+                                                    "w": 16,
+                                                    "h": 16
+                                                  }
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "button",
+                                              "classes": [
+                                                "rve:inline-flex",
+                                                "rve:items-center",
+                                                "rve:justify-center",
+                                                "rve:rounded-md"
+                                              ],
+                                              "box": {
+                                                "x": 1314,
+                                                "y": 522,
+                                                "w": 24,
+                                                "h": 24
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "svg",
+                                                  "classes": [
+                                                    "lucide",
+                                                    "lucide-zoom-in",
+                                                    "rve:h-4",
+                                                    "rve:w-4"
+                                                  ],
+                                                  "box": {
+                                                    "x": 1319,
+                                                    "y": 527,
+                                                    "w": 14,
+                                                    "h": 14
+                                                  }
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "div",
+                                              "classes": [
+                                                "rve:shrink-0",
+                                                "rve:bg-border",
+                                                "rve:w-px",
+                                                "rve:mx-2"
+                                              ],
+                                              "role": "none",
+                                              "box": {
+                                                "x": 1350,
+                                                "y": 526,
+                                                "w": 1,
+                                                "h": 16
+                                              }
+                                            },
+                                            {
+                                              "tag": "button",
+                                              "classes": [
+                                                "rve:inline-flex",
+                                                "rve:items-center",
+                                                "rve:justify-center",
+                                                "rve:rounded-md"
+                                              ],
+                                              "box": {
+                                                "x": 1363,
+                                                "y": 522,
+                                                "w": 24,
+                                                "h": 24
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "svg",
+                                                  "classes": [
+                                                    "lucide",
+                                                    "lucide-align-horizontal-space-around",
+                                                    "rve:h-4",
+                                                    "rve:w-4"
+                                                  ],
+                                                  "box": {
+                                                    "x": 1368,
+                                                    "y": 527,
+                                                    "w": 14,
+                                                    "h": 14
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "button",
+                                          "classes": [
+                                            "rve:hidden",
+                                            "rve:rounded-md",
+                                            "rve:p-1.5",
+                                            "rve:text-foreground"
+                                          ],
+                                          "box": {
+                                            "x": 1399,
+                                            "y": 520,
+                                            "w": 28,
+                                            "h": 28
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "svg",
+                                              "classes": [
+                                                "lucide",
+                                                "lucide-minimize2",
+                                                "rve:h-4",
+                                                "rve:w-4"
+                                              ],
+                                              "box": {
+                                                "x": 1405,
+                                                "y": 526,
+                                                "w": 16,
+                                                "h": 16
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "polyline",
+                                                  "box": {
+                                                    "x": 1408,
+                                                    "y": 535,
+                                                    "w": 4,
+                                                    "h": 4
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "polyline",
+                                                  "box": {
+                                                    "x": 1414,
+                                                    "y": 529,
+                                                    "w": 4,
+                                                    "h": 4
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "line",
+                                                  "box": {
+                                                    "x": 1414,
+                                                    "y": 528,
+                                                    "w": 5,
+                                                    "h": 5
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "line",
+                                                  "box": {
+                                                    "x": 1407,
+                                                    "y": 535,
+                                                    "w": 5,
+                                                    "h": 5
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "classes": [
+                                    "timeline-tracks-wrapper",
+                                    "rve:flex",
+                                    "rve:flex-1",
+                                    "rve:overflow-hidden"
+                                  ],
+                                  "box": {
+                                    "x": 58,
+                                    "y": 563,
+                                    "w": 1382,
+                                    "h": 337
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "classes": [
+                                        "rve:hidden",
+                                        "rve:overflow-hidden",
+                                        "rve:md:block"
+                                      ],
+                                      "box": {
+                                        "x": 58,
+                                        "y": 563,
+                                        "w": 94,
+                                        "h": 337
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "classes": [
+                                            "rve:flex",
+                                            "rve:h-full",
+                                            "rve:flex-col",
+                                            "rve:overflow-hidden"
+                                          ],
+                                          "box": {
+                                            "x": 58,
+                                            "y": 563,
+                                            "w": 94,
+                                            "h": 337
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "div",
+                                              "classes": [
+                                                "rve:shrink-0",
+                                                "rve:border-b",
+                                                "rve:border-border",
+                                                "rve:bg-background"
+                                              ],
+                                              "box": {
+                                                "x": 59,
+                                                "y": 563,
+                                                "w": 92,
+                                                "h": 40
+                                              }
+                                            },
+                                            {
+                                              "tag": "div",
+                                              "classes": [
+                                                "track-handles-scroll",
+                                                "rve:scrollbar-hide",
+                                                "rve:flex-1",
+                                                "rve:overflow-x-hidden"
+                                              ],
+                                              "box": {
+                                                "x": 59,
+                                                "y": 603,
+                                                "w": 92,
+                                                "h": 297
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "div",
+                                                  "classes": [
+                                                    "track",
+                                                    "rve:flex",
+                                                    "rve:items-center",
+                                                    "rve:px-3"
+                                                  ],
+                                                  "box": {
+                                                    "x": 59,
+                                                    "y": 603,
+                                                    "w": 92,
+                                                    "h": 48
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "div",
+                                                  "classes": [
+                                                    "track",
+                                                    "rve:flex",
+                                                    "rve:items-center",
+                                                    "rve:px-3"
+                                                  ],
+                                                  "box": {
+                                                    "x": 59,
+                                                    "y": 651,
+                                                    "w": 92,
+                                                    "h": 48
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "div",
+                                                  "classes": [
+                                                    "track",
+                                                    "rve:flex",
+                                                    "rve:items-center",
+                                                    "rve:px-3"
+                                                  ],
+                                                  "box": {
+                                                    "x": 59,
+                                                    "y": 699,
+                                                    "w": 92,
+                                                    "h": 48
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "div",
+                                                  "classes": [
+                                                    "track",
+                                                    "rve:flex",
+                                                    "rve:items-center",
+                                                    "rve:px-3"
+                                                  ],
+                                                  "box": {
+                                                    "x": 59,
+                                                    "y": 747,
+                                                    "w": 92,
+                                                    "h": 48
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "div",
+                                                  "classes": [
+                                                    "track",
+                                                    "rve:flex",
+                                                    "rve:items-center",
+                                                    "rve:px-3"
+                                                  ],
+                                                  "box": {
+                                                    "x": 59,
+                                                    "y": 795,
+                                                    "w": 92,
+                                                    "h": 48
+                                                  }
+                                                },
+                                                {
+                                                  "tag": "div",
+                                                  "classes": [
+                                                    "track",
+                                                    "rve:flex",
+                                                    "rve:items-center",
+                                                    "rve:px-3"
+                                                  ],
+                                                  "box": {
+                                                    "x": 59,
+                                                    "y": 843,
+                                                    "w": 92,
+                                                    "h": 48
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "div",
+                                      "classes": [
+                                        "timeline-content",
+                                        "rve:relative",
+                                        "rve:flex-1",
+                                        "rve:overflow-hidden"
+                                      ],
+                                      "box": {
+                                        "x": 152,
+                                        "y": 563,
+                                        "w": 1288,
+                                        "h": 337
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "classes": [
+                                            "rve:relative",
+                                            "rve:flex",
+                                            "rve:h-full",
+                                            "rve:flex-col"
+                                          ],
+                                          "box": {
+                                            "x": 152,
+                                            "y": 563,
+                                            "w": 1288,
+                                            "h": 337
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "div",
+                                              "classes": [
+                                                "timeline-tracks-scroll-container",
+                                                "rve:scrollbar-hide",
+                                                "rve:flex-1",
+                                                "rve:overflow-x-hidden"
+                                              ],
+                                              "box": {
+                                                "x": 152,
+                                                "y": 563,
+                                                "w": 1288,
+                                                "h": 337
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "div",
+                                                  "classes": [
+                                                    "timeline-scrollable-content",
+                                                    "rve:relative"
+                                                  ],
+                                                  "box": {
+                                                    "x": 152,
+                                                    "y": 563,
+                                                    "w": 1288,
+                                                    "h": 328
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "classes": [
+                            "rve:relative",
+                            "rve:flex",
+                            "rve:flex-col",
+                            "rve:border"
+                          ],
+                          "children": [
+                            {
+                              "tag": "div",
+                              "classes": [
+                                "rve:relative",
+                                "rve:flex",
+                                "rve:flex-1"
+                              ],
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "classes": [
+                                    "rve:relative",
+                                    "rve:scrollbar-hide",
+                                    "rve:flex",
+                                    "rve:flex-1"
+                                  ],
+                                  "children": [
+                                    {
+                                      "tag": "button",
+                                      "classes": [
+                                        "rve:flex",
+                                        "rve:flex-1",
+                                        "rve:flex-col",
+                                        "rve:items-center"
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "svg",
+                                          "classes": [
+                                            "lucide",
+                                            "lucide-film",
+                                            "rve:h-4",
+                                            "rve:w-4"
+                                          ],
+                                          "children": [
+                                            {
+                                              "tag": "rect"
+                                            },
+                                            {
+                                              "tag": "path"
+                                            },
+                                            {
+                                              "tag": "path"
+                                            },
+                                            {
+                                              "tag": "path"
+                                            },
+                                            {
+                                              "tag": "path"
+                                            },
+                                            {
+                                              "tag": "path"
+                                            },
+                                            {
+                                              "tag": "path"
+                                            },
+                                            {
+                                              "tag": "path"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "button",
+                                      "classes": [
+                                        "rve:flex",
+                                        "rve:flex-1",
+                                        "rve:flex-col",
+                                        "rve:items-center"
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "svg",
+                                          "classes": [
+                                            "lucide",
+                                            "lucide-type",
+                                            "rve:h-4",
+                                            "rve:w-4"
+                                          ],
+                                          "children": [
+                                            {
+                                              "tag": "polyline"
+                                            },
+                                            {
+                                              "tag": "line"
+                                            },
+                                            {
+                                              "tag": "line"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "button",
+                                      "classes": [
+                                        "rve:flex",
+                                        "rve:flex-1",
+                                        "rve:flex-col",
+                                        "rve:items-center"
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "svg",
+                                          "classes": [
+                                            "lucide",
+                                            "lucide-music",
+                                            "rve:h-4",
+                                            "rve:w-4"
+                                          ],
+                                          "children": [
+                                            {
+                                              "tag": "path"
+                                            },
+                                            {
+                                              "tag": "circle"
+                                            },
+                                            {
+                                              "tag": "circle"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "button",
+                                      "classes": [
+                                        "rve:flex",
+                                        "rve:flex-1",
+                                        "rve:flex-col",
+                                        "rve:items-center"
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "svg",
+                                          "classes": [
+                                            "lucide",
+                                            "lucide-captions",
+                                            "rve:h-4",
+                                            "rve:w-4"
+                                          ],
+                                          "children": [
+                                            {
+                                              "tag": "rect"
+                                            },
+                                            {
+                                              "tag": "path"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "button",
+                                      "classes": [
+                                        "rve:flex",
+                                        "rve:flex-1",
+                                        "rve:flex-col",
+                                        "rve:items-center"
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "svg",
+                                          "classes": [
+                                            "lucide",
+                                            "lucide-image",
+                                            "rve:h-4",
+                                            "rve:w-4"
+                                          ],
+                                          "children": [
+                                            {
+                                              "tag": "rect"
+                                            },
+                                            {
+                                              "tag": "circle"
+                                            },
+                                            {
+                                              "tag": "path"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "button",
+                                      "classes": [
+                                        "rve:flex",
+                                        "rve:flex-1",
+                                        "rve:flex-col",
+                                        "rve:items-center"
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "svg",
+                                          "classes": [
+                                            "lucide",
+                                            "lucide-zoom-in",
+                                            "rve:h-4",
+                                            "rve:w-4"
+                                          ],
+                                          "children": [
+                                            {
+                                              "tag": "circle"
+                                            },
+                                            {
+                                              "tag": "line"
+                                            },
+                                            {
+                                              "tag": "line"
+                                            },
+                                            {
+                                              "tag": "line"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "button",
+                                      "classes": [
+                                        "rve:flex",
+                                        "rve:flex-1",
+                                        "rve:flex-col",
+                                        "rve:items-center"
+                                      ],
+                                      "children": [
+                                        {
+                                          "tag": "svg",
+                                          "classes": [
+                                            "lucide",
+                                            "lucide-palette",
+                                            "rve:h-4",
+                                            "rve:w-4"
+                                          ],
+                                          "children": [
+                                            {
+                                              "tag": "circle"
+                                            },
+                                            {
+                                              "tag": "circle"
+                                            },
+                                            {
+                                              "tag": "circle"
+                                            },
+                                            {
+                                              "tag": "circle"
+                                            },
+                                            {
+                                              "tag": "path"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "script",
+      "id": "_R_"
+    },
+    {
+      "tag": "script",
+      "text": "(self.__next_f=self.__next_f||[]).push([0])"
+    },
+    {
+      "tag": "script",
+      "text": "self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n2:I[9766,[],\\\"\\\"]\\n3:I[8924,[],\\\"…"
+    },
+    {
+      "tag": "script",
+      "text": "self.__next_f.push([1,\"0:{\\\"P\\\":null,\\\"b\\\":\\\"PzaxwLRURgO83Y6imqsh6\\\",\\\"p\\\":\\\"\\\",…"
+    },
+    {
+      "tag": "script",
+      "text": "self.__next_f.push([1,\"6:{}\\n7:\\\"$0:f:0:1:2:children:1:props:children:0:props:pa…"
+    },
+    {
+      "tag": "script",
+      "text": "self.__next_f.push([1,\"d:[[\\\"$\\\",\\\"meta\\\",\\\"0\\\",{\\\"charSet\\\":\\\"utf-8\\\"}],[\\\"$\\\",…"
+    },
+    {
+      "tag": "script",
+      "text": "self.__next_f.push([1,\"12:I[622,[],\\\"IconMark\\\"]\\nb:{\\\"metadata\\\":[[\\\"$\\\",\\\"titl…"
+    },
+    {
+      "tag": "script",
+      "text": "self.__next_f.push([1,\"10:\\\"$b:metadata\\\"\\n\"])"
+    },
+    {
+      "tag": "next-route-announcer"
+    }
+  ]
+}

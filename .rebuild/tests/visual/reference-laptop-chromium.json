@@ -1,0 +1,11 @@
+{
+  "target": "https://demo.reactvideoeditor.com",
+  "project": "laptop-chromium",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "shot": ".rebuild\\tests\\visual\\reference-laptop-chromium.png",
+  "fullShot": ".rebuild\\tests\\visual\\reference-laptop-chromium-full.png",
+  "timestamp": "2026-07-09T07:15:14.616Z"
+}

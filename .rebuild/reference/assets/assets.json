@@ -1,0 +1,50 @@
+[
+  {
+    "url": "https://demo.reactvideoeditor.com/_next/static/media/7d4881bb7e1bf84d-s.p.woff2",
+    "resourceType": "font",
+    "status": 200,
+    "contentType": "font/woff2"
+  },
+  {
+    "url": "https://demo.reactvideoeditor.com/_next/static/media/22a5144ee8d83bca-s.p.woff2",
+    "resourceType": "font",
+    "status": 200,
+    "contentType": "font/woff2"
+  },
+  {
+    "url": "https://videos.pexels.com/video-files/854261/854261-hd_1280_720_30fps.mp4",
+    "resourceType": "media",
+    "status": 206,
+    "contentType": "video/mp4"
+  },
+  {
+    "url": "https://videos.pexels.com/video-files/7722221/7722221-hd_1280_720_25fps.mp4",
+    "resourceType": "fetch",
+    "status": 200,
+    "contentType": "video/mp4"
+  },
+  {
+    "url": "https://videos.pexels.com/video-files/856142/856142-hd_1920_1080_30fps.mp4",
+    "resourceType": "fetch",
+    "status": 200,
+    "contentType": "video/mp4"
+  },
+  {
+    "url": "https://videos.pexels.com/video-files/7664770/7664770-hd_1280_720_25fps.mp4",
+    "resourceType": "fetch",
+    "status": 200,
+    "contentType": "video/mp4"
+  },
+  {
+    "url": "https://videos.pexels.com/video-files/7180708/7180708-hd_2048_1080_25fps.mp4",
+    "resourceType": "fetch",
+    "status": 200,
+    "contentType": "video/mp4"
+  },
+  {
+    "url": "https://rwxrdxvxndclnqvznxfj.supabase.co/storage/v1/object/public/sounds/sound-3.mp3?t=2024-11-04T03%3A52%3A35.101Z",
+    "resourceType": "fetch",
+    "status": 206,
+    "contentType": "audio/mpeg"
+  }
+]
