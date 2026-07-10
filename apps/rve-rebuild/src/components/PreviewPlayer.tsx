@@ -2,14 +2,26 @@
 'use client';
 
 import { useEditorStore, useMediaStore, usePlaybackStore } from '@/state/editor-store';
-import { useEffect, useRef } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import type { TimelineItem } from '@/types/editor';
+
+const FRAME_RATE = 30;
+
+function currentItemAt(tracks: ReturnType<typeof useEditorStore.getState>['tracks'], frame: number): TimelineItem | null {
+  for (const t of tracks) {
+    if (!t.visible) continue;
+    for (const it of t.items) {
+      if (frame >= it.from && frame < it.from + it.durationInFrames) return it;
+    }
+  }
+  return null;
+}
 
 export function PreviewPlayer() {
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const canvasRef = useRef<HTMLCanvasElement>(null);
-  const assets = useMediaStore((s) => s.assets);
   const tracks = useEditorStore((s) => s.tracks);
   const aspectRatio = useEditorStore((s) => s.aspectRatio);
+  const previewAssetId = useEditorStore((s) => s.previewAssetId);
+  const assets = useMediaStore((s) => s.assets);
   const isPlaying = usePlaybackStore((s) => s.isPlaying);
   const currentTimeSec = usePlaybackStore((s) => s.currentTimeSec);
   const durationSec = usePlaybackStore((s) => s.durationSec);
@@ -17,76 +29,154 @@ export function PreviewPlayer() {
   const setDuration = usePlaybackStore((s) => s.setDuration);
   const togglePlay = usePlaybackStore((s) => s.togglePlay);
 
-  // Pick the first imported video as the preview source.
-  const firstVideo = assets.find((a) => a.kind === 'video');
+  const currentFrame = Math.round(currentTimeSec * FRAME_RATE);
+  const activeItem = useMemo(() => currentItemAt(tracks, currentFrame), [tracks, currentFrame]);
 
-  // Animate a tiny thumbnail sprite on canvas as a stand-in for the
-  // reference's ThumbnailCache.
+  // Determine preview source: prefer selected uploaded media, then current
+  // timeline video item, then nothing.
+  const previewAsset = assets.find((a) => a.id === previewAssetId);
+  const previewSource = previewAsset?.objectUrl
+    ?? (activeItem && activeItem.type === 'video' ? activeItem.src : null);
+
+  const [error, setError] = useState<string | null>(null);
+
+  // Tick playback time
   useEffect(() => {
     if (!isPlaying) return;
     const id = setInterval(() => {
-      setTime(Math.min(durationSec, currentTimeSec + 0.1));
+      const next = currentTimeSec + 0.1;
+      const total = Math.max(durationSec, totalDuration(tracks));
+      if (next >= total) {
+        setTime(0);
+      } else {
+        setTime(next);
+      }
     }, 100);
     return () => clearInterval(id);
-  }, [isPlaying, currentTimeSec, durationSec, setTime]);
+  }, [isPlaying, currentTimeSec, durationSec, setTime, tracks]);
 
   useEffect(() => {
-    if (videoRef.current) {
-      if (isPlaying) videoRef.current.play().catch(() => {});
-      else videoRef.current.pause();
+    const el = videoRef.current;
+    if (!el) return;
+    if (previewSource) {
+      if (el.src !== previewSource) {
+        el.src = previewSource;
+        setError(null);
+      }
+    } else {
+      el.removeAttribute('src');
+      el.load();
     }
-  }, [isPlaying]);
+  }, [previewSource]);
+
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const v = videoRef.current;
+    if (!v) return;
+    if (isPlaying && previewSource) v.play().catch(() => {});
+    else v.pause();
+  }, [isPlaying, previewSource]);
+
+  const totalDur = Math.max(durationSec, totalDuration(tracks));
+  const textColor: string = activeItem?.styles?.color || '#ffffff';
+  const fontSize: string = activeItem?.styles?.fontSize || '4rem';
+  const fontWeight: string = activeItem?.styles?.fontWeight || '400';
+  const fontFamily: string = activeItem?.styles?.fontFamily || 'Inter, sans-serif';
+  const textAlign: React.CSSProperties['textAlign'] = (activeItem?.styles?.textAlign as React.CSSProperties['textAlign']) || 'center';
 
   return (
-    <div className="flex-1 flex flex-col p-3 min-h-0">
-      <div className="flex-1 min-h-0 flex items-center justify-center bg-black rounded" data-rve-preview>
-        <div
-          className="bg-white text-black flex items-center justify-center rounded"
-          style={{ aspectRatio: aspectRatio.replace(':', '/'), width: '90%', maxHeight: '100%' }}
-          data-rve-preview-frame
-        >
-          {firstVideo ? (
-            <video
-              ref={videoRef}
-              src={firstVideo.objectUrl}
-              className="w-full h-full"
-              data-rve-preview-video
-              onLoadedMetadata={(e) => {
-                const v = e.currentTarget;
-                setDuration(v.duration || 30);
-              }}
-              onTimeUpdate={(e) => setTime(e.currentTarget.currentTime)}
-            />
-          ) : (
-            <div className="text-sm text-gray-500" data-rve-preview-empty>
-              Preview
-            </div>
-          )}
-        </div>
+    <section
+      className="rve-preview"
+      data-rve-region="preview"
+      data-testid="preview-workspace"
+      aria-label="Preview workspace"
+    >
+      <div
+        className="rve-preview-frame"
+        style={{ aspectRatio: aspectRatio.replace(':', '/') }}
+        data-testid="preview-frame"
+      >
+        {previewSource ? (
+          <video
+            ref={videoRef}
+            className="absolute inset-0 w-full h-full object-contain"
+            data-testid="preview-video"
+            onLoadedMetadata={(e) => {
+              const v = e.currentTarget;
+              if (Number.isFinite(v.duration)) setDuration(v.duration);
+              setError(null);
+            }}
+            onError={() => setError('video-load-failed')}
+          />
+        ) : null}
+        {activeItem && activeItem.type === 'text' && previewSource ? null : (
+          <div
+            className="rve-preview-composition"
+            data-testid="preview-composition"
+            style={{
+              color: textColor,
+              fontFamily,
+              fontSize,
+              fontWeight,
+              textAlign,
+              padding: '24px',
+            }}
+          >
+            <div>{activeItem?.content || ' '}</div>
+          </div>
+        )}
+        {activeItem && activeItem.type === 'text' ? (
+          <div
+            className="rve-preview-composition"
+            data-testid="preview-text-overlay"
+            style={{
+              color: textColor,
+              fontFamily,
+              fontSize,
+              fontWeight,
+              textAlign,
+              padding: '24px',
+              whiteSpace: 'pre-wrap',
+            }}
+          >
+            <div>{activeItem.content}</div>
+          </div>
+        ) : null}
+        {error && (
+          <div className="rve-preview-error" data-testid="preview-error" role="alert">
+            <strong>Preview could not render</strong>
+            <span>{error}</span>
+          </div>
+        )}
       </div>
-      <div className="mt-2 flex items-center gap-2 text-xs text-rve-muted">
+      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 12, fontSize: 12, color: 'var(--rve-muted)' }}>
         <button
           type="button"
           onClick={togglePlay}
-          className="px-2 py-1 rounded bg-rve-border"
-          data-rve-button="play"
+          className="rve-button"
+          data-testid="preview-play-button"
+          data-rve-is-playing={isPlaying ? 'true' : 'false'}
         >
           {isPlaying ? 'Pause' : 'Play'}
         </button>
-        <span data-rve-time-display>
-          {currentTimeSec.toFixed(1)}s / {durationSec.toFixed(1)}s
+        <span data-testid="playback-time">
+          {currentTimeSec.toFixed(1)}s / {totalDur.toFixed(1)}s
         </span>
-        <span data-rve-aspect-ratio>{aspectRatio}</span>
-        <span data-rve-tracks-count>{tracks.length} tracks</span>
+        <span data-testid="preview-tracks">{tracks.length} tracks</span>
+        <span data-testid="preview-aspect">{aspectRatio}</span>
       </div>
-      {/* ThumbnailCache stub canvas - hidden, used as a regression target */}
-      <canvas
-        ref={canvasRef}
-        width={284}
-        height={120}
-        className="hidden"
-        data-rve-thumbnail-canvas
-      />
-    </div>
+    </section>
   );
+}
+
+function totalDuration(tracks: ReturnType<typeof useEditorStore.getState>['tracks']): number {
+  let max = 0;
+  for (const t of tracks) {
+    for (const it of t.items) {
+      const end = (it.from + it.durationInFrames) / 30;
+      if (end > max) max = end;
+    }
+  }
+  return max;
 }

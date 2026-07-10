@@ -13,6 +13,7 @@
 import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
 import type { EditorState, MediaAsset, PlaybackState, Track, TimelineItem, UiState } from '@/types/editor';
+import { buildDemoProject } from '@/data/demo-project';
 
 const uid = () => `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
 
@@ -34,13 +35,7 @@ function defaultTracks(): Track[] {
 }
 
 function defaultEditorState(): EditorState {
-  return {
-    tracks: defaultTracks(),
-    aspectRatio: '16:9',
-    backgroundColor: '#ffffff',
-    playbackRate: 1,
-    savedAt: Date.now(),
-  };
+  return buildDemoProject();
 }
 
 function writeIdbMigration() {
@@ -67,8 +62,13 @@ function writeRveTheme(dark: boolean) {
 }
 
 export const useEditorStore = create<EditorState & {
+  selectedItemId: string | null;
+  previewAssetId: string | null;
   replace: (s: EditorState) => void;
   addItemToTrack: (trackId: string, item: TimelineItem) => void;
+  removeItem: (clipId: string) => void;
+  selectItem: (clipId: string | null) => void;
+  setPreviewAssetId: (id: string | null) => void;
   setAspectRatio: (a: EditorState['aspectRatio']) => void;
   setBackgroundColor: (c: string) => void;
   setPlaybackRate: (n: number) => void;
@@ -76,14 +76,23 @@ export const useEditorStore = create<EditorState & {
   persist(
     (set) => ({
       ...defaultEditorState(),
+      selectedItemId: null,
+      previewAssetId: null,
       replace: (s) => set({ ...s, savedAt: Date.now() }),
       addItemToTrack: (trackId, item) =>
         set((state) => {
           const tracks = state.tracks.map((t) =>
             t.id === trackId ? { ...t, items: [...t.items, { ...item, trackId }] } : t
           );
-          return { tracks, savedAt: Date.now() };
+          return { tracks, savedAt: Date.now(), selectedItemId: item.id, previewAssetId: item.src ? item.id : state.previewAssetId };
         }),
+      removeItem: (clipId) =>
+        set((state) => ({
+          tracks: state.tracks.map((t) => ({ ...t, items: t.items.filter((it) => it.id !== clipId) })),
+          selectedItemId: state.selectedItemId === clipId ? null : state.selectedItemId,
+        })),
+      selectItem: (clipId) => set({ selectedItemId: clipId }),
+      setPreviewAssetId: (id) => set({ previewAssetId: id }),
       setAspectRatio: (aspectRatio) => set({ aspectRatio, savedAt: Date.now() }),
       setBackgroundColor: (backgroundColor) => set({ backgroundColor, savedAt: Date.now() }),
       setPlaybackRate: (playbackRate) => set({ playbackRate, savedAt: Date.now() }),
@@ -98,6 +107,8 @@ export const useEditorStore = create<EditorState & {
         playbackRate: state.playbackRate,
         tracks: state.tracks,
         savedAt: state.savedAt,
+        selectedItemId: state.selectedItemId,
+        previewAssetId: state.previewAssetId,
       }),
       onRehydrateStorage: () => (state) => {
         writeIdbMigration();
@@ -161,7 +172,7 @@ export const usePlaybackStore = create<PlaybackState & { togglePlay: () => void;
   )
 );
 
-export const useUiStore = create<UiState & { setLibraryTab: (t: UiState['activeLibraryTab']) => void; toggleDark: () => void; openExport: () => void; closeExport: () => void; setExportResolution: (r: UiState['exportResolution']) => void; toggleSidebar: () => void; setInspectorTab: (t: string) => void; toggleMagnetic: () => void; }>()(
+export const useUiStore = create<UiState & { setLibraryTab: (t: UiState['activeLibraryTab']) => void; toggleDark: () => void; openExport: () => void; closeExport: () => void; setExportResolution: (r: UiState['exportResolution']) => void; toggleSidebar: () => void; setInspectorTab: (t: string) => void; toggleMagnetic: () => void; closeInspector: () => void; openInspector: () => void; }>()(
   persist(
     (set) => ({
       activeLibraryTab: 'stock',
@@ -183,6 +194,8 @@ export const useUiStore = create<UiState & { setLibraryTab: (t: UiState['activeL
       toggleSidebar: () => set((s) => ({ sidebarCollapsed: !s.sidebarCollapsed })),
       setInspectorTab: (t) => set({ inspectorTab: t }),
       toggleMagnetic: () => set((s) => ({ magnetic: !s.magnetic })),
+      closeInspector: () => set({ sidebarCollapsed: true, inspectorTab: '' }),
+      openInspector: () => set({ sidebarCollapsed: false }),
     }),
     {
       name: 'rve-ui',

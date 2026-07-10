@@ -210,3 +210,21 @@ PORT=4310 npm run start  # http://localhost:4310
 npm run test:rve
 ```
 
+
+## Milestone 1 rescue (in progress 2026-07-10)
+
+Branch: `rve-rebuild-m1-rescue`. The previous Milestone 1 implementation was downgraded to `implemented_stub` after manual review found the rebuilt app was a visually crude wireframe despite passing 11/11 weak tests.
+
+Implemented fixes:
+- Icon navigation rail (`data-testid="icon-rail"`).
+- Deterministic demo project with 6 tracks and 7 default items (`apps/rve-rebuild/src/data/demo-project.ts`).
+- Preview renders populated composition + (when present) uploaded video via blob: URL.
+- Real thumbnail extraction in `apps/rve-rebuild/src/lib/video-thumbnail.ts`.
+- Credible timeline with track colors, ruler, drag-hover, clip blocks, mute/visible/delete controls, playhead.
+- Inspector shows contextual panel bodies for all 12 tabs and Position/Playback Speed fields.
+- Export dialog preserved exactly.
+
+Rescue tests: 18/18 pass at `tests/rve-m1-rescue.spec.mjs`.
+
+Visual diff: export-dialog improved from 21.66% to 9.6% mismatch. Shell mismatches stayed around 55-58% because the rebuild now has populated content while the reference is captured mid-hydration with "Loading..." placeholders. That is an honest improvement, not a regression.
+

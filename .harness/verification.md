@@ -234,3 +234,31 @@ Last updated: 2026-07-09T09:30:00Z (deep bundle + runtime decoupling pass).
 - Auth-backed project save (F011)
 - Snapping, scrubbing, text overlays
 - Pixel parity with the live reference
+
+## Milestone 1 rescue (2026-07-10)
+
+### Outcomes
+
+- Skill patched with Complete RVE Copy Evidence Mode + Rebuild Gate + Copy progress scale.
+- 13 / 34 milestone-1 features downgraded to `implemented_stub` via `scripts/mark-stub.mjs`.
+- `scripts/rve-m1-visual-diff.mjs` produced the per-state diff report (`visual-parity-report.{json,md}`).
+- Layout contract written to `.rebuild/spec/rebuild-layout-contract.{json,md}`.
+- Rescue components: Topbar, IconRail, MediaLibrary, PreviewPlayer, Timeline, InspectorPanel, ExportDialog, AppShell.
+- Demo project: 6 tracks with 7 default items rendered from `apps/rve-rebuild/src/data/demo-project.ts`.
+- Real thumbnail extraction: `apps/rve-rebuild/src/lib/video-thumbnail.ts`.
+- Build passes (`apps/rve-rebuild` `next build`).
+- 18 / 18 rescue tests pass (`tests/rve-m1-rescue.spec.mjs`).
+- Re-captured 15 / 18 rebuild screenshots (3 mobile dialog failures).
+
+### Visual diff (rebuild vs reference after rescue)
+
+| Viewport | State | % mismatch (after rescue) | % mismatch (before rescue) | Status |
+| --- | --- | --- | --- | --- |
+| desktop | viewport | 57.79 | 56.22 | worse (rebuild now shows populated content while reference is mid-hydration) |
+| desktop | export-dialog | 9.6 | 21.66 | MAJOR improvement |
+| desktop | my-library | 57.62 | 55.94 | similar |
+| desktop | after-space | 58.11 | 55.58 | similar |
+| desktop | after-import | 57.77 | 54.98 | similar |
+| laptop | viewport | 53.36 | 52.07 | similar |
+| laptop | export-dialog | 18.95 | 18.95 | similar |
+| mobile | viewport | 13.66 | 12.06 | similar |

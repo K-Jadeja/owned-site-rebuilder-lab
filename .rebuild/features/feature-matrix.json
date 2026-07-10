@@ -17,8 +17,14 @@
     "copyProgressDashboard": true,
     "rebuildReadinessReport": true,
     "nextRebuildPrompt": true,
-    "featuresUpgradedToHardProof": ["F013", "F022"],
-    "featuresUpgradedToBehaviorObserved": ["F015", "F016"]
+    "featuresUpgradedToHardProof": [
+      "F013",
+      "F022"
+    ],
+    "featuresUpgradedToBehaviorObserved": [
+      "F015",
+      "F016"
+    ]
   },
   "action_stack_bundle_correlation_run": {
     "startedAt": "2026-07-09T10:10:00Z",
@@ -96,7 +102,9 @@
       "code_coverage_clues": [
         "boot coverage"
       ],
-      "next_action": "-"
+      "next_action": "-",
+      "implementation_level": "implemented_stub",
+      "rescue_status": "pending"
     },
     {
       "id": "F002",
@@ -119,7 +127,9 @@
       "code_coverage_clues": [
         "dark-toggle coverage"
       ],
-      "next_action": "add click handler assertions"
+      "next_action": "add click handler assertions",
+      "implementation_level": "implemented_stub",
+      "rescue_status": "pending"
     },
     {
       "id": "F003",
@@ -168,7 +178,9 @@
       "code_coverage_clues": [
         "boot coverage"
       ],
-      "next_action": "-"
+      "next_action": "-",
+      "implementation_level": "implemented_stub",
+      "rescue_status": "pending"
     },
     {
       "id": "F005",
@@ -241,7 +253,9 @@
       "code_coverage_clues": [
         "single-import coverage"
       ],
-      "next_action": "-"
+      "next_action": "-",
+      "implementation_level": "implemented_stub",
+      "rescue_status": "pending"
     },
     {
       "id": "F008",
@@ -265,7 +279,9 @@
       "code_coverage_clues": [
         "export-dialog coverage"
       ],
-      "next_action": "-"
+      "next_action": "-",
+      "implementation_level": "implemented_stub",
+      "rescue_status": "pending"
     },
     {
       "id": "F009",
@@ -311,7 +327,9 @@
       ],
       "network_clues": [],
       "code_coverage_clues": [],
-      "next_action": "-"
+      "next_action": "-",
+      "implementation_level": "implemented_stub",
+      "rescue_status": "pending"
     },
     {
       "id": "F011",
@@ -348,7 +366,9 @@
       "code_coverage_clues": [
         "my-library coverage"
       ],
-      "next_action": "assert tab activation"
+      "next_action": "assert tab activation",
+      "implementation_level": "implemented_stub",
+      "rescue_status": "pending"
     },
     {
       "id": "F013",
@@ -371,7 +391,9 @@
       "storage_clues": [],
       "network_clues": [],
       "code_coverage_clues": [],
-      "next_action": "refine clip selectors"
+      "next_action": "refine clip selectors",
+      "implementation_level": "implemented_stub",
+      "rescue_status": "pending"
     },
     {
       "id": "F014",
@@ -494,7 +516,9 @@
       "code_coverage_clues": [
         "zoom-in coverage"
       ],
-      "next_action": "-"
+      "next_action": "-",
+      "implementation_level": "implemented_stub",
+      "rescue_status": "pending"
     },
     {
       "id": "F020",
@@ -520,7 +544,9 @@
       "code_coverage_clues": [
         "playback-space coverage"
       ],
-      "next_action": "-"
+      "next_action": "-",
+      "implementation_level": "implemented_stub",
+      "rescue_status": "pending"
     },
     {
       "id": "F021",
@@ -557,7 +583,9 @@
       "storage_clues": [],
       "network_clues": [],
       "code_coverage_clues": [],
-      "next_action": "add per-property spec"
+      "next_action": "add per-property spec",
+      "implementation_level": "implemented_stub",
+      "rescue_status": "pending"
     },
     {
       "id": "F023",
@@ -664,7 +692,9 @@
       "code_coverage_clues": [
         "export-dialog coverage"
       ],
-      "next_action": "-"
+      "next_action": "-",
+      "implementation_level": "implemented_stub",
+      "rescue_status": "pending"
     },
     {
       "id": "F029",
@@ -730,7 +760,9 @@
       ],
       "network_clues": [],
       "code_coverage_clues": [],
-      "next_action": "-"
+      "next_action": "-",
+      "implementation_level": "implemented_stub",
+      "rescue_status": "pending"
     },
     {
       "id": "F032",
@@ -771,5 +803,9 @@
       "code_coverage_clues": [],
       "next_action": "inject unsupported mime"
     }
-  ]
+  ],
+  "rescue": {
+    "startedAt": "2026-07-10T02:50:09.271Z",
+    "branch": "rve-rebuild-m1-rescue"
+  }
 }

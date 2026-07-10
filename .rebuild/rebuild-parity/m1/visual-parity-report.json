@@ -1,0 +1,236 @@
+{
+  "generatedAt": "2026-07-10T03:30:35.860Z",
+  "results": [
+    {
+      "viewport": "desktop",
+      "state": "viewport",
+      "refPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-desktop-viewport.png",
+      "rebPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-desktop-viewport.png",
+      "outPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\diff\\desktop-viewport-diff.png",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "mismatched": 748916,
+      "percent": 57.79
+    },
+    {
+      "viewport": "desktop",
+      "state": "full",
+      "error": "resize: bitblt reading outside image",
+      "refPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-desktop-full.png",
+      "rebPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-desktop-full.png",
+      "dimensions": {
+        "width": 1760,
+        "height": 900
+      },
+      "mismatched": null,
+      "percent": null,
+      "outPath": null
+    },
+    {
+      "viewport": "desktop",
+      "state": "export-dialog",
+      "refPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-desktop-export-dialog.png",
+      "rebPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-desktop-export-dialog.png",
+      "outPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\diff\\desktop-export-dialog-diff.png",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "mismatched": 124392,
+      "percent": 9.6
+    },
+    {
+      "viewport": "desktop",
+      "state": "my-library",
+      "refPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-desktop-my-library.png",
+      "rebPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-desktop-my-library.png",
+      "outPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\diff\\desktop-my-library-diff.png",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "mismatched": 746744,
+      "percent": 57.62
+    },
+    {
+      "viewport": "desktop",
+      "state": "after-space",
+      "refPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-desktop-after-space.png",
+      "rebPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-desktop-after-space.png",
+      "outPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\diff\\desktop-after-space-diff.png",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "mismatched": 753061,
+      "percent": 58.11
+    },
+    {
+      "viewport": "desktop",
+      "state": "after-import",
+      "refPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-desktop-after-import.png",
+      "rebPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-desktop-after-import.png",
+      "outPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\diff\\desktop-after-import-diff.png",
+      "dimensions": {
+        "width": 1440,
+        "height": 900
+      },
+      "mismatched": 748655,
+      "percent": 57.77
+    },
+    {
+      "viewport": "laptop",
+      "state": "viewport",
+      "refPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-laptop-viewport.png",
+      "rebPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-laptop-viewport.png",
+      "outPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\diff\\laptop-viewport-diff.png",
+      "dimensions": {
+        "width": 1280,
+        "height": 800
+      },
+      "mismatched": 546438,
+      "percent": 53.36
+    },
+    {
+      "viewport": "laptop",
+      "state": "full",
+      "error": "resize: bitblt reading outside image",
+      "refPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-laptop-full.png",
+      "rebPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-laptop-full.png",
+      "dimensions": {
+        "width": 1600,
+        "height": 800
+      },
+      "mismatched": null,
+      "percent": null,
+      "outPath": null
+    },
+    {
+      "viewport": "laptop",
+      "state": "export-dialog",
+      "refPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-laptop-export-dialog.png",
+      "rebPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-laptop-export-dialog.png",
+      "outPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\diff\\laptop-export-dialog-diff.png",
+      "dimensions": {
+        "width": 1280,
+        "height": 800
+      },
+      "mismatched": 194002,
+      "percent": 18.95
+    },
+    {
+      "viewport": "laptop",
+      "state": "my-library",
+      "refPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-laptop-my-library.png",
+      "rebPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-laptop-my-library.png",
+      "outPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\diff\\laptop-my-library-diff.png",
+      "dimensions": {
+        "width": 1280,
+        "height": 800
+      },
+      "mismatched": 544466,
+      "percent": 53.17
+    },
+    {
+      "viewport": "laptop",
+      "state": "after-space",
+      "refPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-laptop-after-space.png",
+      "rebPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-laptop-after-space.png",
+      "outPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\diff\\laptop-after-space-diff.png",
+      "dimensions": {
+        "width": 1280,
+        "height": 800
+      },
+      "mismatched": 549162,
+      "percent": 53.63
+    },
+    {
+      "viewport": "laptop",
+      "state": "after-import",
+      "refPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-laptop-after-import.png",
+      "rebPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-laptop-after-import.png",
+      "outPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\diff\\laptop-after-import-diff.png",
+      "dimensions": {
+        "width": 1280,
+        "height": 800
+      },
+      "mismatched": 547318,
+      "percent": 53.45
+    },
+    {
+      "viewport": "mobile",
+      "state": "viewport",
+      "refPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-mobile-viewport.png",
+      "rebPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-mobile-viewport.png",
+      "outPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\diff\\mobile-viewport-diff.png",
+      "dimensions": {
+        "width": 390,
+        "height": 844
+      },
+      "mismatched": 44960,
+      "percent": 13.66
+    },
+    {
+      "viewport": "mobile",
+      "state": "full",
+      "error": "resize: bitblt reading outside image",
+      "refPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-mobile-full.png",
+      "rebPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-mobile-full.png",
+      "dimensions": {
+        "width": 575,
+        "height": 844
+      },
+      "mismatched": null,
+      "percent": null,
+      "outPath": null
+    },
+    {
+      "viewport": "mobile",
+      "state": "export-dialog",
+      "error": "ref-missing",
+      "refPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-mobile-export-dialog.png",
+      "rebPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-mobile-export-dialog.png",
+      "dimensions": null,
+      "mismatched": null,
+      "percent": null,
+      "outPath": null
+    },
+    {
+      "viewport": "mobile",
+      "state": "my-library",
+      "error": "ref-missing",
+      "refPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-mobile-my-library.png",
+      "rebPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-mobile-my-library.png",
+      "dimensions": null,
+      "mismatched": null,
+      "percent": null,
+      "outPath": null
+    },
+    {
+      "viewport": "mobile",
+      "state": "after-space",
+      "refPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-mobile-after-space.png",
+      "rebPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-mobile-after-space.png",
+      "outPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\diff\\mobile-after-space-diff.png",
+      "dimensions": {
+        "width": 390,
+        "height": 844
+      },
+      "mismatched": 43499,
+      "percent": 13.22
+    },
+    {
+      "viewport": "mobile",
+      "state": "after-import",
+      "error": "ref-missing",
+      "refPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\reference\\reference-mobile-after-import.png",
+      "rebPath": "D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\manual-check\\rebuild\\rebuild-mobile-after-import.png",
+      "dimensions": null,
+      "mismatched": null,
+      "percent": null,
+      "outPath": null
+    }
+  ]
+}

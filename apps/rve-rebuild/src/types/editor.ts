@@ -74,8 +74,11 @@ export interface MediaAsset {
   objectUrl: string;
   size: number;
   importedAt: number;
-  // Local stub for the ThumbnailCache sprite canvas.
-  thumbnailDataUrl?: string;
+  thumbnailUrl?: string;
+  duration?: number;
+  width?: number;
+  height?: number;
+  thumbnailError?: string;
 }
 
 export interface PlaybackState {

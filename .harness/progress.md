@@ -162,3 +162,44 @@ Branch: `rve-rebuild-milestone-1` (created from `deep-bundle-runtime-decoupling`
 - ✅ Phase 6: scripts/mark-milestone1-implemented.mjs — 13 features updated to score 5.
 - ✅ Phase 7: docs/{state-model,milestone-1,known-gaps}.md + README.md.
 - ✅ Phase 8: build OK, dev server starts, all 11 milestone tests pass, no regressions in 21 final-reverse tests.
+
+## Milestone 1 rescue (started 2026-07-10)
+
+Branch: `rve-rebuild-m1-rescue` (from `rve-rebuild-milestone-1`).
+
+> Milestone 1 rescue started after manual and automated screenshot review showed that the implementation passed weak tests but remained a visually crude wireframe.
+
+### Reported problems
+
+- Preview mostly black with white vertical blocks
+- Uploaded video appears as a crude blue placeholder card
+- Uploaded video not visibly rendered in preview
+- Nothing visibly appears in timeline after drag
+- Empty / generic tracks
+- Inspector permanently a plain-text tab list
+- No left icon navigation rail
+- Reference has populated colored labeled clips; rebuild has none
+- Reference inspector contextual; rebuild inspector always-open
+- Existing tests passed despite these obvious failures
+
+### Phases
+
+- ✅ Phase 0: branch + evidence reading
+- ⏳ Phase 1: downgrade to implemented_stub
+- ⏳ Phase 2: visual diff script
+- ⏳ Phase 3: layout contract
+- ⏳ Phase 4: rebuild shell with icon rail
+- ⏳ Phase 5: demo project
+- ⏳ Phase 6: fix preview
+- ⏳ Phase 7: real thumbnails
+- ⏳ Phase 8: upload to preview
+- ⏳ Phase 9: visible drag flow
+- ⏳ Phase 10: credible timeline
+- ⏳ Phase 11: inspector panels
+- ⏳ Phase 12: preserve export dialog
+- ⏳ Phase 13: harden tests
+- ⏳ Phase 14: iterate visuals
+- ⏳ Phase 15: update progress honestly
+- ⏳ Phase 16: run all commands
+- ⏳ Phase 17: commit + push
+- ⏳ Phase 18: 18-question answer

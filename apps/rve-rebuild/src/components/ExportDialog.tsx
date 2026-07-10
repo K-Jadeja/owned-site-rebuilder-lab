@@ -21,8 +21,18 @@ export function ExportDialog() {
       aria-label="Export settings"
       className="fixed inset-0 bg-black/70 flex items-center justify-center z-50"
       data-rve-export-dialog
+      data-testid="export-dialog"
     >
-      <div className="bg-rve-panel border border-rve-border rounded p-4 w-[480px]">
+      <div className="bg-rve-panel border border-rve-border rounded p-4 w-[480px] relative">
+        <button
+          type="button"
+          aria-label="Close"
+          onClick={close}
+          className="absolute top-2 right-2 text-xs"
+          data-testid="export-close"
+        >
+          ✕
+        </button>
         <h2 className="text-sm font-semibold mb-2">Export settings</h2>
         <p className="text-xs text-rve-muted mb-3">Choose a resolution</p>
         <ul className="space-y-2 mb-3" data-rve-export-resolutions>

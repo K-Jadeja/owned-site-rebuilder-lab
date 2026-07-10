@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "generatedAt": "2026-07-10",
+  "scope": "Milestone 1 rescue layout contract derived from screenshot inspection + DOM probes",
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "height": 900,
+      "layout": {
+        "iconRail": {
+          "width": 56,
+          "padding": 8,
+          "background": "#0a0a0a",
+          "buttonSize": 40,
+          "buttonGap": 4,
+          "borderRight": "1px solid #1f1f1f"
+        },
+        "mediaPanel": {
+          "width": 280,
+          "padding": 12,
+          "background": "#0a0a0a",
+          "borderRight": "1px solid #1f1f1f"
+        },
+        "previewWorkspace": {
+          "minWidth": 480,
+          "padding": 24,
+          "background": "#000000",
+          "aspectRatio": "16:9"
+        },
+        "inspectorPanel": {
+          "width": 320,
+          "padding": 12,
+          "background": "#0a0a0a",
+          "borderLeft": "1px solid #1f1f1f",
+          "collapsedWhenNoSelection": true
+        },
+        "timelinePanel": {
+          "topEdgeY": 620,
+          "headerHeight": 32,
+          "rulerHeight": 28,
+          "trackRowHeight": 56,
+          "background": "#0f0f0f",
+          "borderTop": "1px solid #1f1f1f",
+          "trackColors": ["#1f6feb", "#9333ea", "#ea580c", "#16a34a", "#db2777", "#0891b2"]
+        },
+        "topbar": {
+          "height": 48,
+          "background": "#0a0a0a",
+          "borderBottom": "1px solid #1f1f1f",
+          "buttons": ["Toggle Sidebar", "Dark", "Export Video", "Zoom in/out/reset"]
+        }
+      }
+    },
+    "laptop": {
+      "width": 1280,
+      "height": 800,
+      "layout": "same as desktop, downsized"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "layout": {
+        "iconRail": { "width": 48 },
+        "mediaPanel": { "collapsible": "drawer" },
+        "previewWorkspace": { "minWidth": 0 },
+        "inspectorPanel": { "collapsible": "drawer" },
+        "timelinePanel": { "horizontalScroll": true, "trackRowHeight": 44 }
+      }
+    }
+  },
+  "timeline": {
+    "rulerLabels": ["0s", "5s", "10s", "15s", "20s", "25s", "30s"],
+    "defaultTrackCount": 6,
+    "playheadColor": "#ef4444",
+    "selectedClipOutline": "2px solid #60a5fa",
+    "dragHoverBackground": "rgba(59,130,246,0.25)"
+  },
+  "preview": {
+    "background": "#000000",
+    "defaultTextColor": "#ffffff",
+    "defaultFontFamily": "Inter, sans-serif",
+    "errorCardBackground": "#7f1d1d",
+    "errorCardTextColor": "#fef2f2"
+  },
+  "inspector": {
+    "tabs": ["Change Video", "Settings", "Style", "AI", "Crop", "Position", "Volume", "Mute", "Playback Speed", "Enter Animations", "Exit Animations", "3D Layout"],
+    "defaultActiveTab": "Settings",
+    "tabHeight": 36,
+    "tabFontSize": 12
+  },
+  "colorTokens": {
+    "bg": "#0a0a0a",
+    "panel": "#161616",
+    "panelAlt": "#1f1f1f",
+    "border": "#262626",
+    "text": "#f5f5f5",
+    "muted": "#9ca3af",
+    "accent": "#3b82f6",
+    "accentAlt": "#60a5fa",
+    "danger": "#ef4444"
+  },
+  "typography": {
+    "base": "12px",
+    "title": "13px",
+    "large": "16px"
+  }
+}

@@ -12,63 +12,45 @@ export function Topbar() {
   const zoomOut = usePlaybackStore((s) => s.zoomOut);
   const zoomReset = usePlaybackStore((s) => s.zoomReset);
   const zoom = usePlaybackStore((s) => s.zoom);
+  const playbackRate = usePlaybackStore((s) => 1); // placeholder
+  const setPlaybackRate = usePlaybackStore((s) => () => {});
+  const aspectRatio = useUiStore((s) => ''); // placeholder
+  const backgroundColor = useUiStore((s) => ''); // placeholder
 
   return (
-    <header
-      className="h-12 border-b border-rve-border flex items-center gap-2 px-3 bg-rve-panel"
-      data-rve-region="topbar"
-    >
-      <button
-        type="button"
-        onClick={toggleSidebar}
-        className="text-xs px-2 py-1 rounded hover:bg-rve-border"
-        data-rve-button="toggle-sidebar"
-      >
+    <header className="rve-topbar" data-rve-region="topbar">
+      <span className="rve-topbar-title">React Video Editor</span>
+      <button type="button" className="rve-button" data-testid="rve-button-toggle-sidebar" onClick={toggleSidebar}>
         Toggle Sidebar
       </button>
-      <button
-        type="button"
-        onClick={toggleDark}
-        className="text-xs px-2 py-1 rounded hover:bg-rve-border"
-        data-rve-button="dark"
-        data-rve-dark={dark ? 'on' : 'off'}
-      >
+      <button type="button" className="rve-button" data-testid="rve-button-dark" onClick={toggleDark}>
         {dark ? 'Light' : 'Dark'}
       </button>
-      <div className="flex-1" />
-      <button
-        type="button"
-        onClick={zoomIn}
-        className="text-xs px-2 py-1 rounded hover:bg-rve-border"
-        data-rve-button="zoom-in"
+      <div style={{ flex: 1 }} />
+      <span style={{ color: 'var(--rve-muted)', fontSize: 11 }}>Aspect</span>
+      <select
+        style={{ background: 'var(--rve-panel)', color: 'var(--rve-text)', border: '1px solid var(--rve-border)', borderRadius: 4 }}
+        data-testid="rve-topbar-aspect"
+        defaultValue="16:9"
       >
+        <option>16:9</option>
+        <option>9:16</option>
+        <option>1:1</option>
+        <option>4:3</option>
+      </select>
+      <button type="button" className="rve-button" data-testid="rve-button-zoom-in" onClick={zoomIn}>
         Zoom in
       </button>
-      <button
-        type="button"
-        onClick={zoomOut}
-        className="text-xs px-2 py-1 rounded hover:bg-rve-border"
-        data-rve-button="zoom-out"
-      >
+      <button type="button" className="rve-button" data-testid="rve-button-zoom-out" onClick={zoomOut}>
         Zoom out
       </button>
-      <button
-        type="button"
-        onClick={zoomReset}
-        className="text-xs px-2 py-1 rounded hover:bg-rve-border"
-        data-rve-button="reset-zoom"
-        data-rve-zoom={String(zoom)}
-      >
+      <button type="button" className="rve-button" data-testid="rve-button-zoom-reset" onClick={zoomReset}>
         Reset zoom
       </button>
-      <span className="text-xs text-rve-muted" data-rve-zoom-display>{Math.round(zoom * 100)}%</span>
-      <div className="flex-1" />
-      <button
-        type="button"
-        onClick={openExport}
-        className="text-xs px-3 py-1 rounded bg-rve-accent text-white hover:opacity-90"
-        data-rve-button="export-video"
-      >
+      <span style={{ color: 'var(--rve-muted)', fontSize: 11 }} data-testid="rve-zoom-display">
+        {Math.round(zoom * 100)}%
+      </span>
+      <button type="button" className="rve-button-primary" data-testid="rve-button-export-video" onClick={openExport}>
         Export Video
       </button>
     </header>

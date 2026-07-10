@@ -1,55 +1,89 @@
 // apps/rve-rebuild/src/components/MediaLibrary.tsx
 'use client';
 
-import { useUiStore, useMediaStore } from '@/state/editor-store';
+import { useUiStore, useMediaStore, useEditorStore } from '@/state/editor-store';
 import { useRef, useState } from 'react';
+import { generateVideoThumbnail, formatDuration, formatSize } from '@/lib/video-thumbnail';
 
 export function MediaLibrary() {
   const tab = useUiStore((s) => s.activeLibraryTab);
   const setTab = useUiStore((s) => s.setLibraryTab);
   const assets = useMediaStore((s) => s.assets);
   const addAsset = useMediaStore((s) => s.addAsset);
+  const setPreviewAssetId = useEditorStore((s) => s.setPreviewAssetId);
+  const selectItem = useEditorStore((s) => s.selectItem);
+  const selectedAsset = useEditorStore((s) => s.previewAssetId);
   const fileInputRef = useRef<HTMLInputElement>(null);
-  const [search, setSearch] = useState('');
+  const [error, setError] = useState<string | null>(null);
+  const [working, setWorking] = useState(false);
 
   async function onImport(file: File) {
-    const objectUrl = URL.createObjectURL(file);
-    // Build a tiny placeholder thumbnail canvas (the reference uses a
-    // 40px-tile sprite; milestone 1 just paints a coloured rectangle).
-    const canvas = document.createElement('canvas');
-    canvas.width = 160;
-    canvas.height = 90;
-    const ctx = canvas.getContext('2d');
-    if (ctx) {
-      ctx.fillStyle = '#1f2937';
-      ctx.fillRect(0, 0, 160, 90);
-      ctx.fillStyle = '#60a5fa';
-      ctx.fillRect(8, 8, 144, 74);
-      ctx.fillStyle = '#0a0a0a';
-      ctx.font = 'bold 14px sans-serif';
-      ctx.fillText(file.name, 12, 50);
+    setWorking(true);
+    setError(null);
+    try {
+      const objectUrl = URL.createObjectURL(file);
+      let thumbnailUrl: string | undefined;
+      let duration = 0;
+      let width = 0;
+      let height = 0;
+      let thumbnailError: string | undefined;
+      if (file.type.startsWith('video/')) {
+        const res = await generateVideoThumbnail(file);
+        if (res.error) {
+          thumbnailError = res.error;
+        } else {
+          thumbnailUrl = res.thumbnailDataUrl;
+          duration = res.duration;
+          width = res.width;
+          height = res.height;
+        }
+      } else if (file.type.startsWith('image/')) {
+        const img = await new Promise<HTMLImageElement>((resolve, reject) => {
+          const i = new Image();
+          i.onload = () => resolve(i);
+          i.onerror = () => reject(new Error('image-load-failed'));
+          i.src = objectUrl;
+        });
+        width = img.naturalWidth;
+        height = img.naturalHeight;
+        duration = 0;
+        thumbnailUrl = objectUrl;
+      }
+      const id = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+      addAsset({
+        id,
+        name: file.name,
+        kind: file.type.startsWith('audio/') ? 'audio' : file.type.startsWith('image/') ? 'image' : 'video',
+        objectUrl,
+        size: file.size,
+        importedAt: Date.now(),
+        thumbnailUrl,
+        duration,
+        width,
+        height,
+        thumbnailError,
+      });
+      if (file.type.startsWith('video/')) {
+        setPreviewAssetId(id);
+        selectItem(null);
+      }
+    } catch (e) {
+      setError((e as Error).message || 'import-failed');
+    } finally {
+      setWorking(false);
     }
-    const thumbnailDataUrl = canvas.toDataURL('image/png');
-    addAsset({
-      id: `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
-      name: file.name,
-      kind: file.type.startsWith('audio/') ? 'audio' : file.type.startsWith('image/') ? 'image' : 'video',
-      objectUrl,
-      size: file.size,
-      importedAt: Date.now(),
-      thumbnailDataUrl,
-    });
   }
 
   return (
-    <div className="flex flex-col h-full">
-      <div role="tablist" className="flex border-b border-rve-border">
+    <div className="flex flex-col h-full" data-testid="media-panel">
+      <div className="rve-tabs" role="tablist">
         <button
           role="tab"
           aria-selected={tab === 'stock'}
           onClick={() => setTab('stock')}
-          className={`flex-1 text-xs py-2 ${tab === 'stock' ? 'bg-rve-border' : ''}`}
+          className="rve-tab"
           data-rve-tab="stock"
+          data-testid="media-tab-stock"
         >
           Stock
         </button>
@@ -57,76 +91,102 @@ export function MediaLibrary() {
           role="tab"
           aria-selected={tab === 'my-library'}
           onClick={() => setTab('my-library')}
-          className={`flex-1 text-xs py-2 ${tab === 'my-library' ? 'bg-rve-border' : ''}`}
+          className="rve-tab"
           data-rve-tab="my-library"
+          data-testid="media-tab-my-library"
         >
           My Library
         </button>
       </div>
-      <div className="p-2 border-b border-rve-border">
+      <div style={{ padding: 8, borderBottom: '1px solid var(--rve-border)' }}>
         <input
           type="search"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
           placeholder="Search videos..."
-          className="w-full text-xs px-2 py-1 rounded bg-rve-bg border border-rve-border"
-          data-rve-search-input
+          style={{ width: '100%', background: 'var(--rve-panel)', color: 'var(--rve-text)', border: '1px solid var(--rve-border)', borderRadius: 4, padding: '4px 6px' }}
+          data-testid="media-search-input"
         />
         <input
           ref={fileInputRef}
           type="file"
           accept="video/*"
           multiple={false}
-          className="hidden"
+          style={{ display: 'none' }}
           onChange={(e) => {
             const f = e.target.files?.[0];
             if (f) onImport(f);
           }}
           data-rve-file-input
+          data-testid="media-file-input"
         />
         <button
           type="button"
           onClick={() => fileInputRef.current?.click()}
-          className="mt-2 w-full text-xs py-1 rounded bg-rve-accent text-white"
+          className="rve-button-primary"
+          style={{ width: '100%', marginTop: 6 }}
+          disabled={working}
           data-rve-button="import-video"
+          data-testid="media-button-import"
         >
-          Import Video
+          {working ? 'Importing…' : 'Import Video'}
         </button>
+        {error && (
+          <div className="rve-empty" data-testid="media-import-error" role="alert" style={{ color: 'var(--rve-danger)' }}>
+            {error}
+          </div>
+        )}
       </div>
-      <div className="flex-1 overflow-y-auto p-2" data-rve-library-list>
+      <div className="flex-1 overflow-y-auto" style={{ padding: 8 }} data-testid="media-list">
         {tab === 'my-library' ? (
           assets.length === 0 ? (
-            <p className="text-xs text-rve-muted" data-rve-empty-library>
-              Use the search to find videos.
-            </p>
+            <div className="rve-empty" data-rve-empty-library>
+              No media yet. Import a video to begin.
+            </div>
           ) : (
-            <ul className="space-y-2">
+            <ul style={{ listStyle: 'none', padding: 0, margin: 0 }} data-testid="media-list-items">
               {assets.map((a) => (
                 <li
                   key={a.id}
-                  className="border border-rve-border rounded p-1 text-xs"
+                  className="rve-media-card"
+                  data-testid="media-card"
+                  data-asset-id={a.id}
+                  data-rve-selected={selectedAsset === a.id ? 'true' : 'false'}
                   draggable
-                  data-rve-asset-id={a.id}
                   data-rve-drag-handle
-                  data-rve-asset-name={a.name}
                   onDragStart={(e) => {
                     e.dataTransfer.setData('text/rve-asset', a.id);
                   }}
+                  onClick={() => {
+                    setPreviewAssetId(a.id);
+                    selectItem(null);
+                  }}
                 >
-                  {a.thumbnailDataUrl ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img src={a.thumbnailDataUrl} alt={a.name} className="w-full rounded" />
-                  ) : null}
-                  <div className="truncate mt-1">{a.name}</div>
-                  <div className="text-rve-muted">{Math.round(a.size / 1024)} KB</div>
+                  {a.thumbnailUrl ? (
+                    <img className="rve-media-card-thumb" data-testid="media-thumbnail" src={a.thumbnailUrl} alt={a.name} />
+                  ) : (
+                    <div className="rve-media-card-thumb" data-testid="media-thumbnail-fallback">
+                      <div className="rve-thumb-placeholder">No preview</div>
+                    </div>
+                  )}
+                  <div className="rve-media-card-meta">
+                    <div className="rve-media-card-name">{a.name}</div>
+                    <div className="rve-media-card-info">
+                      {a.duration ? formatDuration(a.duration) : '—'} · {formatSize(a.size)}
+                    </div>
+                    {a.width && a.height && (
+                      <div className="rve-media-card-info">{a.width}×{a.height}</div>
+                    )}
+                    {a.thumbnailError && (
+                      <div className="rve-media-card-info" style={{ color: 'var(--rve-danger)' }}>
+                        Thumbnail: {a.thumbnailError}
+                      </div>
+                    )}
+                  </div>
                 </li>
               ))}
             </ul>
           )
         ) : (
-          <p className="text-xs text-rve-muted" data-rve-empty-library>
-            Enter a search term above.
-          </p>
+          <div className="rve-empty">Stock placeholder — Milestone 2</div>
         )}
       </div>
     </div>

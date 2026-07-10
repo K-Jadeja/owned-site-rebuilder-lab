@@ -4,20 +4,24 @@
     {
       "id": "F001",
       "title": "F001",
-      "score": 5,
-      "proofLevel": "implemented_in_rebuild",
-      "canBuildNow": true,
-      "risk": "low",
-      "nextAction": "visual parity in milestone 2"
+      "score": 4,
+      "proofLevel": "implemented_stub",
+      "canBuildNow": false,
+      "risk": "high",
+      "nextAction": "await rescue pass",
+      "implementationLevel": "implemented_stub",
+      "reverseEvidenceLevel": false
     },
     {
       "id": "F002",
       "title": "F002",
-      "score": 5,
-      "proofLevel": "implemented_in_rebuild",
-      "canBuildNow": true,
-      "risk": "low",
-      "nextAction": "visual parity in milestone 2"
+      "score": 4,
+      "proofLevel": "implemented_stub",
+      "canBuildNow": false,
+      "risk": "high",
+      "nextAction": "await rescue pass",
+      "implementationLevel": "implemented_stub",
+      "reverseEvidenceLevel": false
     },
     {
       "id": "F003",
@@ -31,11 +35,13 @@
     {
       "id": "F004",
       "title": "F004",
-      "score": 5,
-      "proofLevel": "implemented_in_rebuild",
-      "canBuildNow": true,
-      "risk": "low",
-      "nextAction": "visual parity in milestone 2"
+      "score": 4,
+      "proofLevel": "implemented_stub",
+      "canBuildNow": false,
+      "risk": "high",
+      "nextAction": "await rescue pass",
+      "implementationLevel": "implemented_stub",
+      "reverseEvidenceLevel": false
     },
     {
       "id": "F005",
@@ -58,20 +64,24 @@
     {
       "id": "F007",
       "title": "F007",
-      "score": 5,
-      "proofLevel": "implemented_in_rebuild",
-      "canBuildNow": true,
-      "risk": "low",
-      "nextAction": "visual parity in milestone 2"
+      "score": 4,
+      "proofLevel": "implemented_stub",
+      "canBuildNow": false,
+      "risk": "high",
+      "nextAction": "await rescue pass",
+      "implementationLevel": "implemented_stub",
+      "reverseEvidenceLevel": false
     },
     {
       "id": "F008",
       "title": "F008",
-      "score": 5,
-      "proofLevel": "implemented_in_rebuild",
-      "canBuildNow": true,
-      "risk": "low",
-      "nextAction": "visual parity in milestone 2"
+      "score": 4,
+      "proofLevel": "implemented_stub",
+      "canBuildNow": false,
+      "risk": "high",
+      "nextAction": "await rescue pass",
+      "implementationLevel": "implemented_stub",
+      "reverseEvidenceLevel": false
     },
     {
       "id": "F009",
@@ -85,11 +95,13 @@
     {
       "id": "F010",
       "title": "F010",
-      "score": 5,
-      "proofLevel": "implemented_in_rebuild",
-      "canBuildNow": true,
-      "risk": "low",
-      "nextAction": "visual parity in milestone 2"
+      "score": 4,
+      "proofLevel": "implemented_stub",
+      "canBuildNow": false,
+      "risk": "high",
+      "nextAction": "await rescue pass",
+      "implementationLevel": "implemented_stub",
+      "reverseEvidenceLevel": false
     },
     {
       "id": "F011",
@@ -103,20 +115,24 @@
     {
       "id": "F012",
       "title": "F012",
-      "score": 5,
-      "proofLevel": "implemented_in_rebuild",
-      "canBuildNow": true,
-      "risk": "low",
-      "nextAction": "visual parity in milestone 2"
+      "score": 4,
+      "proofLevel": "implemented_stub",
+      "canBuildNow": false,
+      "risk": "high",
+      "nextAction": "await rescue pass",
+      "implementationLevel": "implemented_stub",
+      "reverseEvidenceLevel": false
     },
     {
       "id": "F013",
       "title": "F013",
-      "score": 5,
-      "proofLevel": "implemented_in_rebuild",
-      "canBuildNow": true,
-      "risk": "low",
-      "nextAction": "visual parity in milestone 2"
+      "score": 4,
+      "proofLevel": "implemented_stub",
+      "canBuildNow": false,
+      "risk": "high",
+      "nextAction": "await rescue pass",
+      "implementationLevel": "implemented_stub",
+      "reverseEvidenceLevel": false
     },
     {
       "id": "F014",
@@ -166,20 +182,24 @@
     {
       "id": "F019",
       "title": "F019",
-      "score": 5,
-      "proofLevel": "implemented_in_rebuild",
-      "canBuildNow": true,
-      "risk": "low",
-      "nextAction": "visual parity in milestone 2"
+      "score": 4,
+      "proofLevel": "implemented_stub",
+      "canBuildNow": false,
+      "risk": "high",
+      "nextAction": "await rescue pass",
+      "implementationLevel": "implemented_stub",
+      "reverseEvidenceLevel": false
     },
     {
       "id": "F020",
       "title": "F020",
-      "score": 5,
-      "proofLevel": "implemented_in_rebuild",
-      "canBuildNow": true,
-      "risk": "low",
-      "nextAction": "visual parity in milestone 2"
+      "score": 4,
+      "proofLevel": "implemented_stub",
+      "canBuildNow": false,
+      "risk": "high",
+      "nextAction": "await rescue pass",
+      "implementationLevel": "implemented_stub",
+      "reverseEvidenceLevel": false
     },
     {
       "id": "F021",
@@ -193,11 +213,13 @@
     {
       "id": "F022",
       "title": "F022",
-      "score": 5,
-      "proofLevel": "implemented_in_rebuild",
-      "canBuildNow": true,
-      "risk": "low",
-      "nextAction": "visual parity in milestone 2"
+      "score": 4,
+      "proofLevel": "implemented_stub",
+      "canBuildNow": false,
+      "risk": "high",
+      "nextAction": "await rescue pass",
+      "implementationLevel": "implemented_stub",
+      "reverseEvidenceLevel": false
     },
     {
       "id": "F023",
@@ -247,11 +269,13 @@
     {
       "id": "F028",
       "title": "F028",
-      "score": 5,
-      "proofLevel": "implemented_in_rebuild",
-      "canBuildNow": true,
-      "risk": "low",
-      "nextAction": "visual parity in milestone 2"
+      "score": 4,
+      "proofLevel": "implemented_stub",
+      "canBuildNow": false,
+      "risk": "high",
+      "nextAction": "await rescue pass",
+      "implementationLevel": "implemented_stub",
+      "reverseEvidenceLevel": false
     },
     {
       "id": "F029",
@@ -274,11 +298,13 @@
     {
       "id": "F031",
       "title": "F031",
-      "score": 5,
-      "proofLevel": "implemented_in_rebuild",
-      "canBuildNow": true,
-      "risk": "low",
-      "nextAction": "visual parity in milestone 2"
+      "score": 4,
+      "proofLevel": "implemented_stub",
+      "canBuildNow": false,
+      "risk": "high",
+      "nextAction": "await rescue pass",
+      "implementationLevel": "implemented_stub",
+      "reverseEvidenceLevel": false
     },
     {
       "id": "F032",
@@ -330,5 +356,6 @@
     "F022",
     "F028",
     "F031"
-  ]
+  ],
+  "milestone1RescueStartedAt": "2026-07-10T02:50:09.269Z"
 }
