@@ -13,7 +13,7 @@
 import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
 import type { EditorState, MediaAsset, PlaybackState, Track, TimelineItem, UiState } from '@/types/editor';
-import { buildDemoProject } from '@/data/demo-project';
+import { buildReferenceDemoProject } from '@/data/reference-demo-project';
 
 const uid = () => `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
 
@@ -35,7 +35,7 @@ function defaultTracks(): Track[] {
 }
 
 function defaultEditorState(): EditorState {
-  return buildDemoProject();
+  return buildReferenceDemoProject();
 }
 
 function writeIdbMigration() {

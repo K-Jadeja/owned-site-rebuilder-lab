@@ -203,3 +203,33 @@ Branch: `rve-rebuild-m1-rescue` (from `rve-rebuild-milestone-1`).
 - ⏳ Phase 16: run all commands
 - ⏳ Phase 17: commit + push
 - ⏳ Phase 18: 18-question answer
+
+## M1 Rescue 2 (started 2026-07-10) — Normalized reference + region diff
+
+Branch: `rve-rebuild-m1-rescue` (continued).
+
+> Rescue 2 started because the previous pixel comparison used partially non-equivalent states — the reference was sometimes captured mid-hydration with `Loading...` placeholders, while the rebuild was captured with populated deterministic content. Numeric diffs were therefore inflated and uninformative.
+
+### Goals
+1. Capture reference and rebuild in equivalent deterministic states.
+2. Replicate the reference's extracted default project.
+3. Extract exact design tokens from the reference.
+4. Region-by-region diff + fix loop (≥ 2 cycles).
+5. Reduce whole-desktop viewport mismatch below the interim 40% target.
+6. Keep features as `implemented_stub` until they pass hard proof.
+
+### Phases
+- ✅ Phase 0: branch + evidence read.
+- ⏳ Phase 1: normalized capture scripts.
+- ⏳ Phase 2: reference demo project.
+- ⏳ Phase 3: design tokens.
+- ⏳ Phase 4: region diff script + report.
+- ⏳ Phase 5: shell geometry lock.
+- ⏳ Phase 6: timeline parity.
+- ⏳ Phase 7: preview parity.
+- ⏳ Phase 8: media + inspector parity.
+- ⏳ Phase 9: parity gates spec.
+- ⏳ Phase 10: ≥2 capture/diff/fix cycles.
+- ⏳ Phase 11: update progress.
+- ⏳ Phase 12-13: run + commit + push.
+- ⏳ Phase 14: 14-question answer.

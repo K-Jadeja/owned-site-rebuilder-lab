@@ -1,0 +1,291 @@
+[
+  {
+    "state": "initial",
+    "viewport": "desktop",
+    "whole_percent": 57.72,
+    "regions": [
+      {
+        "region": "topbar",
+        "label": "initial-topbar",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "icon-rail",
+        "label": "initial-icon-rail",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "media-panel",
+        "label": "initial-media-panel",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "preview",
+        "label": "initial-preview",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "inspector",
+        "label": "initial-inspector",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "timeline-header",
+        "label": "initial-timeline-header",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "timeline-ruler",
+        "label": "initial-timeline-ruler",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "timeline-tracks",
+        "label": "initial-timeline-tracks",
+        "error": "Image sizes do not match."
+      }
+    ]
+  },
+  {
+    "state": "my-library",
+    "viewport": "desktop",
+    "whole_percent": 57.42,
+    "regions": [
+      {
+        "region": "topbar",
+        "label": "my-library-topbar",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "icon-rail",
+        "label": "my-library-icon-rail",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "media-panel",
+        "label": "my-library-media-panel",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "preview",
+        "label": "my-library-preview",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "inspector",
+        "label": "my-library-inspector",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "timeline-header",
+        "label": "my-library-timeline-header",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "timeline-ruler",
+        "label": "my-library-timeline-ruler",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "timeline-tracks",
+        "label": "my-library-timeline-tracks",
+        "error": "Image sizes do not match."
+      }
+    ]
+  },
+  {
+    "state": "selected-default-video-clip",
+    "viewport": "desktop",
+    "whole_percent": 56.56,
+    "regions": [
+      {
+        "region": "topbar",
+        "label": "selected-default-video-clip-topbar",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "icon-rail",
+        "label": "selected-default-video-clip-icon-rail",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "media-panel",
+        "label": "selected-default-video-clip-media-panel",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "preview",
+        "label": "selected-default-video-clip-preview",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "inspector",
+        "label": "selected-default-video-clip-inspector",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "timeline-header",
+        "label": "selected-default-video-clip-timeline-header",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "timeline-ruler",
+        "label": "selected-default-video-clip-timeline-ruler",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "timeline-tracks",
+        "label": "selected-default-video-clip-timeline-tracks",
+        "error": "Image sizes do not match."
+      }
+    ]
+  },
+  {
+    "state": "selected-default-text-clip",
+    "viewport": "desktop",
+    "whole_percent": 56.56,
+    "regions": [
+      {
+        "region": "topbar",
+        "label": "selected-default-text-clip-topbar",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "icon-rail",
+        "label": "selected-default-text-clip-icon-rail",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "media-panel",
+        "label": "selected-default-text-clip-media-panel",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "preview",
+        "label": "selected-default-text-clip-preview",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "inspector",
+        "label": "selected-default-text-clip-inspector",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "timeline-header",
+        "label": "selected-default-text-clip-timeline-header",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "timeline-ruler",
+        "label": "selected-default-text-clip-timeline-ruler",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "timeline-tracks",
+        "label": "selected-default-text-clip-timeline-tracks",
+        "error": "Image sizes do not match."
+      }
+    ]
+  },
+  {
+    "state": "export-dialog",
+    "viewport": "desktop",
+    "whole_percent": null,
+    "regions": [],
+    "error": "ENOENT: no such file or directory, open 'D:\\Workspace\\Github-Projects\\reverse engineering\\.rebuild\\rebuild-parity\\m1\\normalized\\rebuild\\desktop-export-dialog.png'"
+  },
+  {
+    "state": "after-single-file-import",
+    "viewport": "desktop",
+    "whole_percent": 57.16,
+    "regions": [
+      {
+        "region": "topbar",
+        "label": "after-single-file-import-topbar",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "icon-rail",
+        "label": "after-single-file-import-icon-rail",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "media-panel",
+        "label": "after-single-file-import-media-panel",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "preview",
+        "label": "after-single-file-import-preview",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "inspector",
+        "label": "after-single-file-import-inspector",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "timeline-header",
+        "label": "after-single-file-import-timeline-header",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "timeline-ruler",
+        "label": "after-single-file-import-timeline-ruler",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "timeline-tracks",
+        "label": "after-single-file-import-timeline-tracks",
+        "error": "Image sizes do not match."
+      }
+    ]
+  },
+  {
+    "state": "after-imported-video-on-timeline",
+    "viewport": "desktop",
+    "whole_percent": 55.73,
+    "regions": [
+      {
+        "region": "topbar",
+        "label": "after-imported-video-on-timeline-topbar",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "icon-rail",
+        "label": "after-imported-video-on-timeline-icon-rail",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "media-panel",
+        "label": "after-imported-video-on-timeline-media-panel",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "preview",
+        "label": "after-imported-video-on-timeline-preview",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "inspector",
+        "label": "after-imported-video-on-timeline-inspector",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "timeline-header",
+        "label": "after-imported-video-on-timeline-timeline-header",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "timeline-ruler",
+        "label": "after-imported-video-on-timeline-timeline-ruler",
+        "error": "Image sizes do not match."
+      },
+      {
+        "region": "timeline-tracks",
+        "label": "after-imported-video-on-timeline-timeline-tracks",
+        "error": "Image sizes do not match."
+      }
+    ]
+  }
+]

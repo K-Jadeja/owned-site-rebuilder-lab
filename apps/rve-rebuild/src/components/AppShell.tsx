@@ -43,6 +43,10 @@ export function AppShell() {
       data-testid="rve-shell"
       data-rve-shell="root"
       data-rve-no-selection={selectedItemId ? 'false' : 'true'}
+      style={{
+        gridTemplateColumns: `var(--rve-iconrail-w) var(--rve-mediapanel-w) 1fr ${selectedItemId ? 'var(--rve-inspector-w)' : '0px'}`,
+        gridTemplateRows: 'var(--rve-topbar-h) 1fr var(--rve-timeline-h)',
+      }}
     >
       <Topbar />
       <IconRail />

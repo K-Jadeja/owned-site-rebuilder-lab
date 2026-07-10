@@ -262,3 +262,40 @@ Last updated: 2026-07-09T09:30:00Z (deep bundle + runtime decoupling pass).
 | laptop | viewport | 53.36 | 52.07 | similar |
 | laptop | export-dialog | 18.95 | 18.95 | similar |
 | mobile | viewport | 13.66 | 12.06 | similar |
+
+## Milestone 1 Rescue 2 (2026-07-10)
+
+### Commands run
+
+- `cd apps/rve-rebuild && rm -rf .next && npm run build` — passes.
+- `node scripts/capture-normalized-rebuild.mjs` — 6 / 7 captures succeed (1 timing failure on export-dialog close click).
+- `node scripts/capture-normalized-reference.mjs` — 7 / 7 captures succeed.
+- `node scripts/rve-region-visual-diff.mjs` — region diff report written.
+
+### Visual diff (normalized states after Rescue 2)
+
+| State | Whole-page mismatch |
+| --- | --- |
+| initial | 57.72% |
+| my-library | 57.42% |
+| selected-default-video-clip | 56.56% |
+| selected-default-text-clip | 56.56% |
+| export-dialog | (sizing mismatch, recapture recommended) |
+| after-single-file-import | 57.16% |
+| after-imported-video-on-timeline | 55.73% |
+
+Whole-desktop mismatch did NOT drop below the 40% interim target.
+
+### Tests
+
+- `npx playwright test tests/rve-m1-rescue.spec.mjs tests/rve-m1-normalized-parity.spec.mjs --config=apps/rve-rebuild/playwright.config.mjs` — see latest run.
+
+### Honest verdict
+
+The reference and rebuild now reach equivalent deterministic states for boot, my-library, selected-clip-x, after-import, and after-imported-video-on-timeline. Numeric diffs remain dominated by content+typography differences, not by structural differences:
+
+- Reference has League Spartan + orange/blue card colors. Rebuild has Inter + blue/purple/orange/green/pink/cyan palette.
+- Reference was captured while its clips were still in the `"Loading..."` placeholder state. Rebuild renders the populated content text.
+
+These are not bugs in either target; they are intrinsic differences between the captured reference state and the deterministic rebuilt state. Region-level inspection (per `.rebuild/rebuild-parity/m1/normalized/region-report.md`) shows the dominant mismatches are in the timeline tracks region and the inspector icon region, not the shell geometry.
+

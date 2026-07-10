@@ -15,7 +15,7 @@ const REBUILD_BASE = process.env.RVE_BASE_URL || 'http://localhost:4310';
 
 export default defineConfig({
   testDir: path.resolve(ROOT, 'tests'),
-  testMatch: /(rve-rebuild|rve-m1)-.*\.spec\.mjs$/,
+  testMatch: /(rve-rebuild|rve-m1|rve-normalized)-.*\.spec\.mjs$/,
   fullyParallel: false,
   forbidOnly: !!process.env.CI,
   retries: 0,

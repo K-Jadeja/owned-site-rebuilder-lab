@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --rve-bg: #0a0a0a;
-  --rve-panel: #161616;
-  --rve-panel-alt: #1f1f1f;
-  --rve-border: #262626;
+  --rve-bg: #0b0b0c;
+  --rve-panel: #0b0b0c;
+  --rve-panel-alt: #131316;
+  --rve-border: rgba(255, 255, 255, 0.08);
   --rve-text: #f5f5f5;
   --rve-muted: #9ca3af;
   --rve-accent: #3b82f6;
@@ -18,7 +18,19 @@
   --rve-track-4: #16a34a;
   --rve-track-5: #db2777;
   --rve-track-6: #0891b2;
+  --rve-font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --rve-font-hero: 'League Spartan', 'Inter', system-ui, sans-serif;
+  --rve-topbar-h: 56px;
+  --rve-iconrail-w: 56px;
+  --rve-mediapanel-w: 320px;
+  --rve-inspector-w: 320px;
+  --rve-timeline-h: 300px;
+  --rve-track-h: 56px;
+  --rve-ruler-h: 28px;
+  --rve-header-h: 32px;
 }
+
+html, body, button, input { font-family: var(--rve-font-body); }
 
 html, body {
   height: 100%;
@@ -39,8 +51,8 @@ input { font-family: inherit; }
 
 .rve-shell {
   display: grid;
-  grid-template-columns: 56px 280px 1fr auto;
-  grid-template-rows: 48px 1fr 300px;
+  grid-template-columns: var(--rve-iconrail-w) var(--rve-mediapanel-w) 1fr var(--rve-inspector-w);
+  grid-template-rows: var(--rve-topbar-h) 1fr var(--rve-timeline-h);
   grid-template-areas:
     "topbar topbar topbar topbar"
     "icon-rail media-panel preview inspector"
@@ -69,8 +81,10 @@ input { font-family: inherit; }
   align-items: center;
   gap: 8px;
   padding: 0 12px;
+  height: var(--rve-topbar-h);
   background: var(--rve-panel);
   border-bottom: 1px solid var(--rve-border);
+  font-family: var(--rve-font-body);
 }
 
 .rve-topbar-title {
@@ -163,7 +177,7 @@ input { font-family: inherit; }
   border-left: 1px solid var(--rve-border);
   display: flex;
   flex-direction: column;
-  width: 320px;
+  width: var(--rve-inspector-w);
   overflow: hidden;
   transition: width 200ms ease;
 }
@@ -208,7 +222,7 @@ input { font-family: inherit; }
 
 .rve-timeline-track {
   display: flex;
-  height: 56px;
+  height: var(--rve-track-h);
   border-bottom: 1px solid var(--rve-border);
 }
 
